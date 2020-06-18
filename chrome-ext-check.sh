@@ -7,7 +7,7 @@
 ####################################
 
 # This is a simple script to check for compromised Google Chrome Extensions.
-# I've put together a meta list of all the compromised extension IDs up on Github.  I update the 
+# I've put together a meta list of all the compromised extension IDs I could find up on Github.  I update the 
 # list on new reports of compromised extensions when the ID is present.
 
 # Please see https://github.com/mallorybowes/chrome-mal-ids for the current source list of the malicious IDs.
