@@ -3,7 +3,7 @@ Listing of known malicious Google Chrome Extension IDs
 
 This is something I personally use to keep up with compromised extensions.  I've done my best to find all publicly available malicious extension IDs out there but please feel free to let me know if I missed some and I'll be happy to update the list.  <b>*** This should be used at your own risk.  If there's a malicious extension I've missed and you have it, I'm sorry about that but I'm not responsible for the miss.  There are no warranties / guarantees included with this effort.  YMMV. ***</b>
 
-I've also included a simple bash script to check the user's current extension directory and compared to the known compromised list. 
+I've also included a simple bash script to check the user's current extension directory and compare to the known compromised list. 
 
 Sources of the compromised list: 
 
