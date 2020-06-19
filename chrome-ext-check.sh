@@ -1,19 +1,19 @@
 #!/bin/bash
 #
 ####################################
-# Malicious Chrome Extension Check #
-# Mallory Bowes-Brown              #
+# Chrome Malicious Extension Check #
+# KB: @Malsware                    #
 # mallory@acceptablyparanoid.me    #
 ####################################
 
-# This is a simple script to check for compromised Google Chrome Extensions.
-# I've put together a meta list of all the compromised extension IDs I could find up on Github.  I update the 
-# list on new reports of compromised extensions when the ID is present.
+# This is a simple script to check for known compromised Google Chrome Extensions.
+# I've put together a meta-list of all the compromised extension IDs I could find on Github.  Updates to the 
+# list happen on new reports of compromised extensions and when the ID is present or can be derived.
 
 # Please see https://github.com/mallorybowes/chrome-mal-ids for the current source list of the malicious IDs.
 
 # This script is licensed under the CC Attribution License if included in any commercial endeavor.  Please see https://creativecommons.org/licenses/by/4.0/ for terms.
-# Prerequisites: mktemp, wget, tidy, awk, wc, ls, tr, grep, trap, bash, internet connection 
+# Prereqs: mktemp, wget, tidy, awk, wc, ls, tr, grep, trap, bash, internet connection 
 
 ## --Script starts here-- ##
 
@@ -38,21 +38,24 @@ wget --quiet -O $COMPROMISEDEXTENSIONS $SOURCEURL
 num=`wc -l $COMPROMISEDEXTENSIONS | awk ' { print $1 } '`
 echo "Going to check for $num currently known malicious extensions.  Please see my Github page for extension list details."
 
-# search function
+# Search function
 for extension in `cat $COMPROMISEDEXTENSIONS` 
 do
- hit=`cat $EXTENSIONLIST | grep -ic $extension`
- if test $hit -eq 1
- then
-   name=`wget --quiet -O /dev/stdout https://chrome.google.com/webstore/detail/$extension | tidy -q --show-warnings false | grep e-f-w | grep ^\<h1 | awk -F\> ' { print $2 } ' | tr "\<\/h1" " "`
- echo "Compromised extension: Name: $name  ID:$extension"
- ((i=i+1))
- fi
+   hit=`cat $EXTENSIONLIST | grep -ic $extension`
+   if test $hit -eq 1
+     then
+     # Scrape the user friendly name from the Chrome Web Store
+     name=`wget --quiet -O /dev/stdout https://chrome.google.com/webstore/detail/$extension | tidy -q --show-warnings false | grep e-f-w | grep ^\<h1 | awk -F\> ' { print $2 } ' | tr "\<\/h1" " "`
+     echo "Compromised extension: Name: $name  ID:$extension"
+     # Increment # of malicious extensions found 
+     ((i=i+1))
+   fi
 done
 
+# Put up some summary information
 if test $i -eq 0 
 then
   echo "No malicious extensions found."
 else
-  echo "Extensions without names were removed from the Chrome Store but there are legitimate extentions whose names do not resolve from the Chrome Web Store.  These extensions can be found at https://www.jamieweb.net/info/chrome-extension-ids/"
+  echo "Extensions without names were removed from the Chrome Store but there are legitimate extensions whose names do not resolve from the Chrome Web Store.  Most of these extensions can be found at https://www.jamieweb.net/info/chrome-extension-ids/"
 fi
