@@ -5,7 +5,7 @@ This is something I personally use to keep up with malicious extensions.  I did 
 
 <b>*** This should be used at your own risk.  If there's a malicious extension I've missed and you have it installed, I'm sorry about that but I'm not responsible for the miss.  There are no warranties / guarantees included with this effort.  It's just my best effort to keep up with the times.  YMMV. ***</b>
 
-I've also included a simple bash script to check the user's current extension directory and compare what's in there to the known compromised list. 
+There's currently 250+ known malicious extension IDs in the aggregate.  I've also included a simple bash script to check the user's current extension directory and compare what's in there to the known compromised list. 
 
 <b>Sources of the compromised list:</b> 
 
