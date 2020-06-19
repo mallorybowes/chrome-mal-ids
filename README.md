@@ -9,6 +9,9 @@ There's currently 250+ known malicious extension IDs in the aggregate.  I've als
 
 <b>Sources of the compromised list:</b> 
 
+Jun 19, 2020<br>
+Found a extension that contains malware (2 extensions added) https://www.reddit.com/r/chrome/comments/hbpi7z/found_a_extension_that_contains_malware/
+
 Jun 18, 2020<br>
 Google removes 106 Chrome extensions for collecting sensitive user data https://www.zdnet.com/article/google-removes-106-chrome-extensions-for-collecting-sensitive-user-data/ https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
 
