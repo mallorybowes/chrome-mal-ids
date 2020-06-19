@@ -1,13 +1,15 @@
 # chrome-mal-ids
 Listing of known malicious Google Chrome Extension IDs
 
-This is something I personally use to keep up with compromised extensions.  I've done my best to find all publicly available malicious extension IDs out there but please feel free to let me know if I missed some and I'll be happy to update the list.  <b>*** This should be used at your own risk.  If there's a malicious extension I've missed and you have it, I'm sorry about that but I'm not responsible for the miss.  There are no warranties / guarantees included with this effort.  YMMV. ***</b>
+This is something I personally use to keep up with malicious extensions.  I did a bit of research and I found there doesn't seem to be an easy way to keep up with the *installed* extensions after they've been pulled from the Chrome Web Store.  There seems to be a gap between when Google / vendors identify the malicious extension and the users actually removing those extensions from their local installations.  So I've done my best to find all publicly available malicious extension IDs out there and aggregate them into a single downloadable text file.  But please feel free to let me know if I missed some out there and I'll be happy to update the list.  
 
-I've also included a simple bash script to check the user's current extension directory and compare to the known compromised list. 
+<b>*** This should be used at your own risk.  If there's a malicious extension I've missed and you have it installed, I'm sorry about that but I'm not responsible for the miss.  There are no warranties / guarantees included with this effort.  It's just my best effort to keep up with the times.  YMMV. ***</b>
 
-Sources of the compromised list: 
+I've also included a simple bash script to check the user's current extension directory and compare what's in there to the known compromised list. 
 
-Jue 18, 2020<br>
+<b>Sources of the compromised list:</b> 
+
+Jun 18, 2020<br>
 Google removes 106 Chrome extensions for collecting sensitive user data https://www.zdnet.com/article/google-removes-106-chrome-extensions-for-collecting-sensitive-user-data/ https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
 
 Apr 16, 2020<br>
