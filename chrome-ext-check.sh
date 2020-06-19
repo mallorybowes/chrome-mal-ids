@@ -36,7 +36,7 @@ wget --quiet -O $COMPROMISEDEXTENSIONS $SOURCEURL
 
 # How many malicious extensions did we get?
 num=`wc -l $COMPROMISEDEXTENSIONS | awk ' { print $1 } '`
-echo "Going to check for $num currently known malicious extensions.  Please see my Github page for extension list details."
+echo -e "Going to check for $num currently known malicious extensions. \nPlease see my Github page for extension list details."
 
 # Search function
 for extension in `cat $COMPROMISEDEXTENSIONS` 
