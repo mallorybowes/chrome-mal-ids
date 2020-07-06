@@ -22,17 +22,30 @@
 EXTENSIONPATH=~/.config/google-chrome/Default/Extensions
 EXTENSIONLIST=$(mktemp) || exit 1
 COMPROMISEDEXTENSIONS=$(mktemp) || exit 1
-SOURCEURL=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv
+CHKSUM_FILE=$(mktemp) || exit 1
+SOURCEURL_EXTS=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv
+SOURCEURL_CHKSUM=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-sha256.txt
 i=0
 
 # Remove temp files on script completion
-trap 'rm -f "$COMPROMISEDEXTENSIONS" "$EXTENSIONLIST" ' EXIT
+trap 'rm -f "$COMPROMISEDEXTENSIONS" "$EXTENSIONLIST" $CHKSUM_FILE' EXIT
 
 # Populate the current user's extension list
 ls $EXTENSIONPATH > $EXTENSIONLIST
 
 # Grab the current list off Github
-wget --quiet -O $COMPROMISEDEXTENSIONS $SOURCEURL 
+wget --quiet -O $COMPROMISEDEXTENSIONS $SOURCEURL_EXTS 
+wget --quiet -O $CHKSUM_FILE $SOURCEURL_CHKSUM 
+
+# Verify file
+valid=`sha256sum $COMPROMISEDEXTENSIONS | awk ' { print $1 } '| grep -c - $CHKSUM_FILE`
+if test $valid -eq 0
+then
+  echo "Something went wrong in the download so try running the script again.  Cleaning old files and bailing."
+  exit 1
+else
+  echo "Checksum passed.  Continuing extension check...""
+fi
 
 # How many malicious extensions did we get?
 num=`wc -l $COMPROMISEDEXTENSIONS | awk ' { print $1 } '`
