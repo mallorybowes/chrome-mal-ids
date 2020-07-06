@@ -19,38 +19,32 @@
 
 # Change the below paths for your own machine
 # The current path is the default for Ubuntu / Debian repository Chrome installations
-EXTENSIONPATH=~/.config/google-chrome/Default/Extensions
-EXTENSIONLIST=$(mktemp) || exit 1
-COMPROMISEDEXTENSIONS=$(mktemp) || exit 1
-CHKSUM_FILE=$(mktemp) || exit 1
-SOURCEURL_EXTS=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv
-SOURCEURL_CHKSUM=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-chksum.txt
+EXTENSIONPATH=${EXTENSIONPATH="${HOME}/.config/google-chrome/Default/Extensions"}
+SOURCEURL_EXTS="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv"
+SOURCEURL_CHKSUM="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-chksum.txt"
 i=0
 
-# Remove temp files on script completion
-trap 'rm -f "$COMPROMISEDEXTENSIONS" "$EXTENSIONLIST" $CHKSUM_FILE' EXIT
-
 # Rudimentary "progress script" (just echo the debug...)
-if test "$1" = "-v"
+if [[ "${1}" == "-v" ]]
 then
   set -x
-elif test -n "$1"
+elif [[ -n "${1}" ]]
 then
-  echo "Only one arg to pass:  -v:  turn on debug for a "progress bar" of sorts..."
+  echo 'Only one arg to pass:  -v:  turn on debug for a "progress bar" of sorts...'
   exit 1
 fi 
 
 # Populate the current user's extension list
-ls $EXTENSIONPATH > $EXTENSIONLIST
+EXTENSIONLIST="$( ls ${EXTENSIONPATH} )"
 
 # Grab the current list off Github
-echo "Downloading latest extensions file..."; wget --quiet -O $COMPROMISEDEXTENSIONS $SOURCEURL_EXTS 
-echo "Downloading latest checksum file..." ; wget --quiet -O $CHKSUM_FILE $SOURCEURL_CHKSUM 
+echo "Downloading latest extensions file..."
+COMPROMISEDEXTENSIONS=$( curl -s "${SOURCEURL_EXTS}" )
+echo "Downloading latest checksum file..."
+CHKSUM=$( curl -s "${SOURCEURL_CHKSUM}" )
 
-# Verify file
-valid=`cat $COMPROMISEDEXTENSIONS | sha256sum | awk ' { print $1 } '| grep -c - $CHKSUM_FILE`
-
-if test $valid -eq 0
+# on mac: ${"$(echo $COMPROMISEDEXTENSIONS| shasum -a 256 -p )"%% *}
+if [[ "${CHKSUM}" =~ ${"$(echo $COMPROMISEDEXTENSIONS | sha256sum )"%% *} ]]
 then
   echo "Something went wrong in the download so try running the script again.  Cleaning old files and bailing."
   exit 1
@@ -59,14 +53,13 @@ else
 fi
 
 # How many malicious extensions did we get?
-num=`wc -l $COMPROMISEDEXTENSIONS | awk ' { print $1 } '`
-echo -e "Going to check for $num currently known malicious extensions. \nPlease see my Github page (https://github.com/mallorybowes/chrome-mal-ids) for extension list details."
+num=${"$( echo $COMPROMISEDEXTENSIONS | wc -l )"## * }
+echo -e "Going to check for ${num} currently known malicious extensions. \nPlease see my Github page (https://github.com/mallorybowes/chrome-mal-ids) for extension list details."
 
 # Search function
-for extension in `cat $COMPROMISEDEXTENSIONS` 
+for extension in "$COMPROMISEDEXTENSIONS" 
 do
-   hit=`cat $EXTENSIONLIST | grep -ic $extension`
-   if test $hit -eq 1
+   if [[ "${EXTENSIONLIST}" =~ "${extension}" ]]
      then
      # Scrape the user friendly name from the Chrome Web Store
      name=`wget --quiet -O /dev/stdout https://chrome.google.com/webstore/detail/$extension | tidy -q --show-warnings false | grep e-f-w | grep ^\<h1 | awk -F\> ' { print $2 } ' | tr "\<\/h1" " "`
@@ -77,7 +70,7 @@ do
 done
 
 # Put up some summary information
-if test $i -eq 0 
+if [[ $i == 0 ]]
 then
   echo "No malicious extensions found."
 else
