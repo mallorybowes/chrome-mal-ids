@@ -30,6 +30,16 @@ i=0
 # Remove temp files on script completion
 trap 'rm -f "$COMPROMISEDEXTENSIONS" "$EXTENSIONLIST" $CHKSUM_FILE' EXIT
 
+# Rudimentary "progress script" (just echo the debug...)
+if test "$1" = "-v"
+then
+  set -x
+elif test -n "$1"
+then
+  echo "Only one arg to pass:  -v:  turn on debug for a "progress bar" of sorts..."
+  exit 1
+fi 
+
 # Populate the current user's extension list
 ls $EXTENSIONPATH > $EXTENSIONLIST
 
