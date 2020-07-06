@@ -2,8 +2,6 @@
 #
 ####################################
 # Chrome Malicious Extension Check #
-# KB: @Malsware                    #
-# mallory@acceptablyparanoid.me    #
 ####################################
 
 # This is a simple script to check for known compromised Google Chrome Extensions.
@@ -13,7 +11,7 @@
 # Please see https://github.com/mallorybowes/chrome-mal-ids for the current source list of the malicious IDs.
 
 # This script is licensed under the CC Attribution License if included in any commercial endeavor.  Please see https://creativecommons.org/licenses/by/4.0/ for terms.
-# Prereqs: mktemp, wget, tidy, awk, wc, ls, tr, grep, trap, bash, internet connection 
+# Prereqs: mktemp, wget, tidy, awk, sha256sum, wc, ls, tr, grep, trap, bash, internet connection 
 
 ## --Script starts here-- ##
 
