@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+set -x
 ####################################
 # Chrome Malicious Extension Check #
 # KB: @Malsware                    #
@@ -24,7 +25,7 @@ EXTENSIONLIST=$(mktemp) || exit 1
 COMPROMISEDEXTENSIONS=$(mktemp) || exit 1
 CHKSUM_FILE=$(mktemp) || exit 1
 SOURCEURL_EXTS=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv
-SOURCEURL_CHKSUM=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-chksum.txt
+SOURCEURL_CHKSUM=https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-sha256.txt
 i=0
 
 # Remove temp files on script completion
@@ -39,12 +40,13 @@ echo "Downloading latest checksum file..." ; wget --quiet -O $CHKSUM_FILE $SOURC
 
 # Verify file
 valid=`cat $COMPROMISEDEXTENSIONS | sha256sum | awk ' { print $1 } '| grep -c - $CHKSUM_FILE`
-
 if test $valid -eq 0
 then
+  echo $valid
   echo "Something went wrong in the download so try running the script again.  Cleaning old files and bailing."
   exit 1
 else
+  echo $valid
   echo "Checksum passed.  Continuing extension check..."
 fi
 
