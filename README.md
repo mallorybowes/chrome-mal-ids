@@ -9,6 +9,9 @@ There's currently 250+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Aug 4, 2020<br>
+Cluster of 295 Chrome extensions caught hijacking Google and Bing search results  https://www.zdnet.com/article/cluster-of-295-chrome-extensions-caught-hijacking-google-and-bing-search-results/
+
 Jun 19, 2020<br>
 Found a extension that contains malware (2 extensions added) https://www.reddit.com/r/chrome/comments/hbpi7z/found_a_extension_that_contains_malware/
 
