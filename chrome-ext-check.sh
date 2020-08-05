@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 #
 ####################################
 # Chrome Malicious Extension Check #
