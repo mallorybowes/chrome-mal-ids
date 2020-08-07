@@ -11,13 +11,10 @@
 # Please see https://github.com/mallorybowes/chrome-mal-ids for the current source list of the malicious IDs.
 
 # This script is licensed under the CC Attribution License if included in any commercial endeavor.  Please see https://creativecommons.org/licenses/by/4.0/ for terms.
-# Prereqs: mktemp, wget, tidy, awk, sha256sum, wc, ls, tr, grep, trap, bash, internet connection 
+# Prereqs: awk, sha256sum, wc, ls, bash, curl, uname, internet connection 
 
 ## --Script starts here-- ##
 
-# Change the below paths for your own machine
-# The current path is the default for Ubuntu / Debian repository Chrome installations
-EXTENSIONPATH=${EXTENSIONPATH="${HOME}/.config/google-chrome/Default/Extensions"}
 SOURCEURL_EXTS="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv"
 SOURCEURL_CHKSUM="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-chksum.txt"
 i=0
@@ -32,17 +29,38 @@ then
   exit 1
 fi 
 
+# Which OS are we running on?
+_hostos=$( uname )
+
 # Populate the current user's extension list
-EXTENSIONLIST="$( ls ${EXTENSIONPATH} )"
+if [[ $_hostos =~ "Darwin" ]]
+then
+	# On Mac extensions are found in:
+	# /Library/Application Support/Google/Chrome/External Extensions
+	# ${HOME}/Library/Application Support/Google/Chrome/*/Extensions
+	EXTENSIONPATH=${EXTENSIONPATH="${HOME}/Library/Application Support/Google/Chrome/Default/Extensions"}
+	extensionlist=$( ls "${EXTENSIONPATH}" )
+else
+	# Change the below paths for your own machine
+	# The current path is the default for Ubuntu / Debian repository Chrome installations
+	EXTENSIONPATH=${EXTENSIONPATH="${HOME}/.config/google-chrome/Default/Extensions"}
+	extensionlist=$( ls "${EXTENSIONPATH}" )
+fi
 
 # Grab the current list off Github
 echo "Downloading latest extensions file..."
-COMPROMISEDEXTENSIONS=$( curl -s "${SOURCEURL_EXTS}" )
+compromisedextensions=$( curl -s "${SOURCEURL_EXTS}" )
 echo "Downloading latest checksum file..."
-CHKSUM=$( curl -s "${SOURCEURL_CHKSUM}" )
+chksum=$( curl -s "${SOURCEURL_CHKSUM}" )
 
-# on mac: ${"$(echo $COMPROMISEDEXTENSIONS| shasum -a 256 -p )"%% *}
-if [[ "${CHKSUM}" =~ ${"$(echo $COMPROMISEDEXTENSIONS | sha256sum )"%% *} ]]
+if [[ $_hostos =~ "Darwin" ]]
+then
+	_chksum=$(echo "${compromisedextensions}" | shasum -a 256 -p )
+else
+	_chksum=$(echo "${compromisedextensions}" | sha256sum )
+fi
+
+if [[ "${chksum}" =~ ${_chksum%% * } ]]
 then
   echo "Something went wrong in the download so try running the script again.  Cleaning old files and bailing."
   exit 1
@@ -51,17 +69,18 @@ else
 fi
 
 # How many malicious extensions did we get?
-num=${"$( echo $COMPROMISEDEXTENSIONS | wc -l )"## * }
-echo -e "Going to check for ${num} currently known malicious extensions. \nPlease see my Github page (https://github.com/mallorybowes/chrome-mal-ids) for extension list details."
+_numext=$( echo "${compromisedextensions}" | wc -l )
+_numext=${_numext## * }
+echo -e "Going to check for ${_numext} currently known malicious extensions. \nPlease see my Github page (https://github.com/mallorybowes/chrome-mal-ids) for extension list details."
 
 # Search function
-for extension in "$COMPROMISEDEXTENSIONS" 
+for _extensionid in ${compromisedextensions}
 do
-   if [[ "${EXTENSIONLIST}" =~ "${extension}" ]]
+   if [[ "${extensionlist}" =~ ${_extensionid} ]]
      then
      # Scrape the user friendly name from the Chrome Web Store
-     name=`wget --quiet -O /dev/stdout https://chrome.google.com/webstore/detail/$extension | tidy -q --show-warnings false | grep e-f-w | grep ^\<h1 | awk -F\> ' { print $2 } ' | tr "\<\/h1" " "`
-     echo "Compromised extension: Name: $name  ID:$extension"
+     _extname=$( curl -sL https://chrome.google.com/webstore/detail/"${_extensionid}" | awk '/h1 class="e-f-w"/{match($0,/<h1 class="e-f-w">[^<]*</); s = substr($0, RSTART, RLENGTH); gsub(/<h1 class="e-f-w">/, "", s); gsub(/</, "", s); print s}' )
+     echo "Compromised extension: Name: ${_extname}  ID:${_extensionid}"
      # Increment # of malicious extensions found 
      ((i=i+1))
    fi
