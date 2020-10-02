@@ -9,6 +9,9 @@ There's currently 250+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Oct 2, 2020<br>
+Facebook sues two Chrome extension makers for scraping user data (2 extensions added) https://www.zdnet.com/article/facebook-sues-two-chrome-extension-makers-for-scraping-user-data/
+
 Aug 4, 2020<br>
 Cluster of 295 Chrome extensions caught hijacking Google and Bing search results  https://www.zdnet.com/article/cluster-of-295-chrome-extensions-caught-hijacking-google-and-bing-search-results/
 
