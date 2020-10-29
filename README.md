@@ -9,6 +9,9 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Oct 28, 2020<br>
+Just fyi, the extensions used in the Kimsuky / Hidden Cobra <a href=https://us-cert.cisa.gov/ncas/alerts/aa20-301a>CISA alert</a> are already listed in current extension list.
+
 Oct 21, 2020<br>
 Adblockers installed 300,000 times are malicious and should be removed now  https://arstechnica.com/information-technology/2020/10/popular-chromium-ad-blockers-caught-stealing-user-data-and-accessing-accounts/
 
