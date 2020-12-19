@@ -15,7 +15,7 @@ Three million users installed 28 malicious Chrome or Edge extensions https://www
 Because it took me awhile to find the exact extension IDs for this, I decided to post the IDs here for a bit to help other researchers get an easy text listing of the IoCs.
 
 Extension IDs:
-<ul>
+<blockquote>
 mdpgppkombninhkfhaggckdmencplhmg
 fgaapohcdolaiaijobecfleiohcfhdfb
 iibnodnghffmdcebaglfgnfkgemcbchf
@@ -44,7 +44,7 @@ njdkgjbjmdceaibhngelkkloceihelle
 phoehhafolaebdpimmbmlofmeibdkckp
 pccfaccnfkjmdlkollpiaialndbieibj
 fbhbpnjkpcdmcgcpfilooccjgemlkinn
-</ul>
+</blockquote>
 
 Oct 28, 2020<br>
 Just fyi, the extensions used in the Kimsuky / Hidden Cobra <a href=https://us-cert.cisa.gov/ncas/alerts/aa20-301a>CISA alert AA20-302A</a> are already listed in current extension list.
