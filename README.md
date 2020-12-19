@@ -10,11 +10,12 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 <b>Sources of the compromised list:</b> 
 
 Dec 19, 2020<br>
-Three million users installed 28 malicious Chrome or Edge extensions <a href=https://www.zdnet.com/article/three-million-users-installed-28-malicious-chrome-or-edge-extensions/</a> (Shouts to <a href=https://github.com/nycnewman>nycnewman</a> for messaging me about the breaking story!  Thank you!)
+Three million users installed 28 malicious Chrome or Edge extensions https://www.zdnet.com/article/three-million-users-installed-28-malicious-chrome-or-edge-extensions/ (Shouts to <a href=https://github.com/nycnewman>nycnewman</a> for messaging me about the breaking story!  Thank you!)
 
 Because it took me awhile to find the exact extension IDs for this, I decided to post the IDs here for a bit to help other researchers get an easy text listing of the IoCs.
 
 Extension IDs:
+<ul>
 mdpgppkombninhkfhaggckdmencplhmg
 fgaapohcdolaiaijobecfleiohcfhdfb
 iibnodnghffmdcebaglfgnfkgemcbchf
@@ -43,6 +44,7 @@ njdkgjbjmdceaibhngelkkloceihelle
 phoehhafolaebdpimmbmlofmeibdkckp
 pccfaccnfkjmdlkollpiaialndbieibj
 fbhbpnjkpcdmcgcpfilooccjgemlkinn
+</ul>
 
 Oct 28, 2020<br>
 Just fyi, the extensions used in the Kimsuky / Hidden Cobra <a href=https://us-cert.cisa.gov/ncas/alerts/aa20-301a>CISA alert AA20-302A</a> are already listed in current extension list.
