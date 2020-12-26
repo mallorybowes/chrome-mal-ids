@@ -9,6 +9,39 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Dec 26, 2020<br>
+Dangerous Chrome extensions https://www.kaspersky.com/blog/chrome-plugins-alert/38242/ 
+
+I'm not going to officially add these extensions to the overall list just yet since I've only been able to find one source on a Russian blog site. (And since I had geo-ip blocking turned on my router for where those sites resided, I pulled down the following list from the linked page (https://habr.com/en/company/yandex/blog/534586/) on a live-cd VM and pasted the list to pastebin to prevent any kind of cross-infection to my production machine.  The situation just felt sketch because what would make for a more perfect watering hole?)  Anyway, I'll publish the list of extensions listed in the blog post below and will wait on additional confirmation before adding to the overall archive list.
+
+<pre>
+acdfdofofabmipgcolilkfhnpoclgpdd
+oobppndjaabcidladjeehddkgkccfcpn
+aonedlchkbicmhepimiahfalheedjgbh
+aoeacblfmdamdejeiaepojbhohhkmkjh
+eoeoincjhpflnpdaiemgbboknhkblome
+onbkopaoemachfglhlpomhbpofepfpom
+inlgdellfblpplcogjfedlhjnpgafnia
+ejfajpmpabphhkcacijnhggimhelopfg
+pgjndpcilbcanlnhhjmhjalilcmoicjc
+napifgkjbjeodgmfjmgncljmnmdefpbf
+glgemekgfjppocilabhlcbngobillcgf
+klmjcelobglnhnbfpmlbgnoeippfhhil
+ldbfffpdfgghehkkckifnjhoncdgjkib
+mbacbcfdfaapbcnlnbmciiaakomhkbkb
+mdnmhbnbebabimcjggckeoibchhckemm
+lfedlgnabjompjngkpddclhgcmeklana
+mdpljndcmbeikfnlflcggaipgnhiedbl
+npdpplbicnmpoigidfdjadamgfkilaak
+ibehiiilehaakkhkigckfjfknboalpbe
+lalpacfpfnobgdkbbpggecolckiffhoi
+hdbipekpdpggjaipompnomhccfemaljm
+gfjocjagfinihkkaahliainflifnlnfc
+ickfamnaffmfjgecbbnhecdnmjknblic
+bmcnncbmipphlkdmgfbipbanmmfdamkd
+miejmllodobdobgjbeonandkjhnhpjbn
+</pre>
+
 Dec 19, 2020<br>
 Three million users installed 28 malicious Chrome or Edge extensions https://www.zdnet.com/article/three-million-users-installed-28-malicious-chrome-or-edge-extensions/ (Shouts to <a href=https://github.com/nycnewman>nycnewman</a> for messaging me about the breaking story!  Thank you!)
 
