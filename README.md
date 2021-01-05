@@ -9,11 +9,22 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Jan 5, 2021<br>
+Ditch 'The Great Suspender' Before It Becomes a Security Risk  https://lifehacker.com/ditch-the-great-suspender-before-it-becomes-a-security-1845989664
+
+Ugh.  This one hit close to home and on the plus side, I may have finally installed a malicious extension. :-/  I haven't seen an article that *confirms* it's suspicious yet so I'm holding off putting in the list until further confirmation.  (Please let me know if there's confirmation of malicious behavior but I hate there's a possibility that "The Great Suspender" may now be malicious.)
+
+Extension ID:
+<pre>
+klbibkeccnjlkjkiokjodocebajanakg
+</pre>
+
 Dec 26, 2020<br>
 Dangerous Chrome extensions https://www.kaspersky.com/blog/chrome-plugins-alert/38242/ 
 
-I'm not going to officially add these extensions to the overall list just yet since I've only been able to find one source on a Russian blog site. (And since I had geo-ip blocking turned on my router for where those sites resided, I pulled down the following list from the linked page (https://habr.com/en/company/yandex/blog/534586/) on a live-cd VM and pasted the list to pastebin to prevent any kind of cross-infection to my production machine.  The situation just felt sketch because what would make for a more perfect watering hole?)  Anyway, I'll publish the list of extensions listed in the blog post below and will wait on additional confirmation before adding to the overall archive list.
+I'm not going to officially add these extensions to the overall list just yet since I've only been able to find one source on a Russian blog site. (https://habr.com/en/company/yandex/blog/534586/) Anyway, I'll publish the list of extensions listed in the blog post below and will wait on additional confirmation before adding to the overall archive list.
 
+Extension IDs:
 <pre>
 acdfdofofabmipgcolilkfhnpoclgpdd
 oobppndjaabcidladjeehddkgkccfcpn
