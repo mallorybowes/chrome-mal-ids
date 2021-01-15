@@ -9,6 +9,16 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Jan 15, 2021<br>
+Facebook sues makers of malicious Chrome extensions for scraping data https://www.bleepingcomputer.com/news/security/facebook-sues-makers-of-malicious-chrome-extensions-for-scraping-data/
+
+<pre>
+dppilebghcniomddkpphiminideiajff
+ojmbbkdflpfjdceflikpkbbmmbfagglg
+chmaijbnjdnkjknoigffoohjhpejjppd
+jhcfnojahmdghhebdaoijngclknfkbjn
+</pre>
+
 Jan 5, 2021<br>
 Ditch 'The Great Suspender' Before It Becomes a Security Risk  https://lifehacker.com/ditch-the-great-suspender-before-it-becomes-a-security-1845989664
 
