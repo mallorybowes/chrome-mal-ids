@@ -9,6 +9,11 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Feb 4, 2021</br>
+Google just booted The Great Suspender off the Chrome Web Store for being malware https://www.xda-developers.com/google-chrome-the-great-suspender-malware/
+
+Looks like it's official now so moved the Great Suspender to the malicious column...
+
 Feb 3, 2021<br>
 Backdoored Browser Extensions Hid Malicious Traffic in Analytics Requests https://decoded.avast.io/janvojtesek/backdoored-browser-extensions-hid-malicious-traffic-in-analytics-requests/
 
