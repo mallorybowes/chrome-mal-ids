@@ -9,6 +9,17 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Feb 3, 2021<br>
+Backdoored Browser Extensions Hid Malicious Traffic in Analytics Requests https://decoded.avast.io/janvojtesek/backdoored-browser-extensions-hid-malicious-traffic-in-analytics-requests/
+
+Most of these extensions were already in the current list except for the following three that were added:
+
+<pre>
+akdbogfpgohikflhccclloneidjkogog
+lgjogljbnbfjcaigalbhiagkboajmkk
+aemaecahdckfllfldhgimjhdgiaahean
+</pre>
+
 Jan 15, 2021<br>
 Facebook sues makers of malicious Chrome extensions for scraping data https://www.bleepingcomputer.com/news/security/facebook-sues-makers-of-malicious-chrome-extensions-for-scraping-data/
 
