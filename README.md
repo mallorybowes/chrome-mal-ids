@@ -9,6 +9,15 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Feb 5, 2021<br>
+Malicious extension abuses Chrome sync to steal users’ data https://www.bleepingcomputer.com/news/security/malicious-extension-abuses-chrome-sync-to-steal-users-data/
+
+Since this one seems to center around syncing, I'm just going to add to the list immediately and watch for any qualifying reasons to remove it.  Since it wasn't in the Chrome Store, I was left with looking at the graphic in the article to get the extension ID.  
+
+<pre>
+fmfjhicbjecfchfmpelfnifijeigelme
+</pre>
+
 Feb 4, 2021</br>
 Google just booted The Great Suspender off the Chrome Web Store for being malware https://www.xda-developers.com/google-chrome-the-great-suspender-malware/
 
