@@ -58,6 +58,8 @@ Dangerous Chrome extensions https://www.kaspersky.com/blog/chrome-plugins-alert/
 
 I'm not going to officially add these extensions to the overall list just yet since I've only been able to find one source on a Russian blog site. (https://habr.com/en/company/yandex/blog/534586/) Anyway, I'll publish the list of extensions listed in the blog post below and will wait on additional confirmation before adding to the overall archive list.
 
+<b>Update Feb 21, 2021:</b>  I moved these extensions to the main list as I found a sandbox site that listed some of the extensions as malicious.
+
 Extension IDs:
 <pre>
 acdfdofofabmipgcolilkfhnpoclgpdd
