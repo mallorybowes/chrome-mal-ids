@@ -8,6 +8,11 @@ There's currently 600+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Mar 24, 2021
+Researchers Discover Two Dozen Malicious Chrome Extensions https://www.darkreading.com/vulnerabilities---threats/researchers-discover-two-dozen-malicious-chrome-extensions/d/d-id/1340482
+
+This article was published a few days ago but the report is still not released.  I'm watching for it and as soon as it's published, they'll be added to the list.
+
 Feb 5, 2021<br>
 Malicious extension abuses Chrome sync to steal users’ data https://www.bleepingcomputer.com/news/security/malicious-extension-abuses-chrome-sync-to-steal-users-data/
 
