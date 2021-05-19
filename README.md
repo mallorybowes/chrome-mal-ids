@@ -1,17 +1,16 @@
-# Chrome Malicious Extension ID Listing
+# chrome-mal-ids
+Listing of known malicious Google Chrome Extension IDs
 
-This is something I personally use to try and keep up with malicious extensions reported publicly.  I did a bit of research and found there doesn't seem to be an easy way to keep up with the *installed* extensions after they've been pulled from the Chrome Web Store other than manually checking your extensions settings periodically.  To be honest, I've been lucky and have never installed a malicious extension so I'm not sure if the built-in security scans actually notify you automatically when an extension has been flagged or if you have to manually kick off the security scan.  (For me, it's manually run.)  So, there may be people like me that don't want to send all of their web browsing to Google which takes out the in-built "Enhanced Protection" from the local browser toolbox.  So I figured I'd setup an effort to try and find as many publicly available malicious extension IDs out there and aggregate them into a single downloadable text file so I could run a daily extension scan in the background.  I know how Herculean this effort is but, best I can tell, this type of information doesn't exist in a centralized, public repository. 
+This is something I personally use to try and keep up with malicious extensions reported publicly.  I did a bit of research and found there doesn't seem to be an easy way to keep up with the *installed* extensions after they've been pulled from the Chrome Web Store other than manually checking your extensions settings periodically.  To be honest, I've been lucky and have never installed a malicious extension so I'm not sure if the built-in security scans actually notify you automatically when an extension has been flagged or if you have to manually kick off the security scan.  (For me, it's manually run.)  So, there may be people like me that don't want to send all of their web browsing to Google which takes out the in-built "Enhanced Protection" from the local browser toolbox.  So I figured I'd setup an effort to try and find as many publicly available malicious extension IDs out there and aggregate them into a single downloadable text file so I could run a daily extension scan in the background.  I know how Herculean this effort is but, best I can tell, this type of information doesn't exist in a centralized format.  (I would think that VirusTotal might have these malicious extensions somewhere but haven't seen a way to get that info out yet...)  So this is def a work-in-progress and ultimately a fool's folly but I'm bored during this lockdown...
 
 <b>*** This stuff should be used at your own risk.  If there's a malicious extension I've missed and you have it installed, I'm sorry about that but I'm not responsible for the miss.  There are no warranties / guarantees included with this effort.  It's just my best effort to keep up with the times.  YMMV. ***</b>
 
-There's currently 600+ known malicious extension IDs in the aggregate.  A small bash script for Ubuntu / Debian distros has been provided to check the user's current Chrome extension directory and compare what's in there to the known compromised list. 
+There's currently 550+ known malicious extension IDs in the aggregate.  A small bash script for Ubuntu / Debian distros has been provided to check the user's current Chrome extension directory and compare what's in there to the known compromised list. 
 
 <b>Sources of the compromised list:</b> 
 
-Mar 24, 2021<br>
-Researchers Discover Two Dozen Malicious Chrome Extensions https://www.darkreading.com/vulnerabilities---threats/researchers-discover-two-dozen-malicious-chrome-extensions/d/d-id/1340482
-
-This article was published a few days ago but the report is still not released.  I'm watching for it and as soon as it's published, they'll be added to the list.
+May 18, 2021<br>
+Don't download this Microsoft Authenticator extension for Chrome: it is fake https://www.ghacks.net/2021/05/18/dont-download-this-microsoft-authenticator-extension-for-chrome-it-is-fake/#snhb-snhb_ghacks_bottom-0
 
 Feb 5, 2021<br>
 Malicious extension abuses Chrome sync to steal users’ data https://www.bleepingcomputer.com/news/security/malicious-extension-abuses-chrome-sync-to-steal-users-data/
@@ -62,8 +61,6 @@ Dec 26, 2020<br>
 Dangerous Chrome extensions https://www.kaspersky.com/blog/chrome-plugins-alert/38242/ 
 
 I'm not going to officially add these extensions to the overall list just yet since I've only been able to find one source on a Russian blog site. (https://habr.com/en/company/yandex/blog/534586/) Anyway, I'll publish the list of extensions listed in the blog post below and will wait on additional confirmation before adding to the overall archive list.
-
-<b>Update Feb 21, 2021:</b>  I moved these extensions to the main list as I found a sandbox site that listed some of the extensions as malicious.
 
 Extension IDs:
 <pre>
