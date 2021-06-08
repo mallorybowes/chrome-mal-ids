@@ -11,12 +11,11 @@
 # Please see https://github.com/mallorybowes/chrome-mal-ids for the current source list of the malicious IDs.
 
 # This script is licensed under the CC Attribution License if included in any commercial endeavor.  Please see https://creativecommons.org/licenses/by/4.0/ for terms.
-# Prereqs: awk, sha256sum, wc, ls, bash, curl, uname, internet connection 
+# Prereqs: awk, wc, ls, bash, curl, uname, internet connection 
 
 ## --Script starts here-- ##
 
-SOURCEURL_EXTS="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.csv"
-SOURCEURL_CHKSUM="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-chksum.txt"
+SOURCEURL_EXTS="https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv"
 i=0
 
 # Rudimentary "progress script" (just echo the debug...)
@@ -29,61 +28,55 @@ then
   exit 1
 fi 
 
-# Which OS are we running on?
-_hostos=$( uname )
-
 # Populate the current user's extension list
-if [[ $_hostos =~ "Darwin" ]]
-then
-	# On Mac extensions are found in:
-	# /Library/Application Support/Google/Chrome/External Extensions
-	# ${HOME}/Library/Application Support/Google/Chrome/*/Extensions
-	EXTENSIONPATH=${EXTENSIONPATH="${HOME}/Library/Application Support/Google/Chrome/Default/Extensions"}
-	extensionlist=$( ls "${EXTENSIONPATH}" )
-else
-	# Change the below paths for your own machine
-	# The current path is the default for Ubuntu / Debian repository Chrome installations
-	EXTENSIONPATH=${EXTENSIONPATH="${HOME}/.config/google-chrome/Default/Extensions"}
-	extensionlist=$( ls "${EXTENSIONPATH}" )
-fi
+EXTENSIONPATHS=( 
+  "${HOME}/.config/google-chrome/Default/Extensions/"
+  "${HOME}/snap/brave/current/.config/BraveSoftware/Brave-Browser/Default/Extensions/" 
+  "${HOME}/Library/Application Support/Google/Chrome/Default/Extensions/"
+  "${HOME}/Library/Application Support/BraveSoftware/Brave-Browser-Beta/Default/Extensions/" 
+)
 
-# Grab the current list off Github
-echo "Downloading latest extensions file..."
-compromisedextensions=$( curl -s "${SOURCEURL_EXTS}" )
-echo "Downloading latest checksum file..."
-chksum=$( curl -s "${SOURCEURL_CHKSUM}" )
+EXISTINGPATHS=()
+for path in "${EXTENSIONPATHS[@]}"; do
+  if [ -e "${path}" ]; then
+    EXISTINGPATHS+=("${path}")
+  fi
+done
 
-if [[ $_hostos =~ "Darwin" ]]
-then
-	_chksum=$(echo "${compromisedextensions}" | shasum -a 256 -p )
-else
-	_chksum=$(echo "${compromisedextensions}" | sha256sum )
-fi
+# Grab the current list off Github if it's newer than the temporary one we have (curl -z)
+curl -s -z /tmp/bad.csv "${SOURCEURL_EXTS}" -o /tmp/bad-chrome-extensions.csv
+# read them in to an array , split on \n
+IFS=$'\n' read -d '' -r -a compromisedextensions < /tmp/bad-chrome-extensions.csv
 
-if [[ "${chksum}" =~ ${_chksum%% * } ]]
+# check that we got the "right" file by checking the first line
+if [[ "${compromisedextensions[0]}" != "EXTID,EXTID-NAME,DATE-DIS,DATE-ADD,SOURCE,ARTICLE,ADD-SOURCES,CONTRIB,CONTRIB-METHOD,CONFIRM-MAL,REPORTED-MAL,NOTES" ]]
 then
-  echo "Something went wrong in the download so try running the script again.  Cleaning old files and bailing."
+  echo "Something went wrong in the download (maybe a proxy?) so try running the script again."
   exit 1
-else
-  echo "Checksum passed.  Continuing extension check..."
 fi
 
 # How many malicious extensions did we get?
-_numext=$( echo "${compromisedextensions}" | wc -l )
-_numext=${_numext## * }
-echo -e "Going to check for ${_numext} currently known malicious extensions. \nPlease see my Github page (https://github.com/mallorybowes/chrome-mal-ids) for extension list details."
+echo -e "Going to check for ${#compromisedextensions[@]} currently known malicious extensions. \nPlease see my Github page (https://github.com/mallorybowes/chrome-mal-ids) for extension list details."
 
 # Search function
-for _extensionid in ${compromisedextensions}
+for _extensionline in "${compromisedextensions[@]}"}
 do
-   if [[ "${extensionlist}" =~ ${_extensionid} ]]
-     then
-     # Scrape the user friendly name from the Chrome Web Store
-     _extname=$( curl -sL https://chrome.google.com/webstore/detail/"${_extensionid}" | awk '/h1 class="e-f-w"/{match($0,/<h1 class="e-f-w">[^<]*</); s = substr($0, RSTART, RLENGTH); gsub(/<h1 class="e-f-w">/, "", s); gsub(/</, "", s); print s}' )
-     echo "Compromised extension: Name: ${_extname}  ID:${_extensionid}"
-     # Increment # of malicious extensions found 
-     ((i=i+1))
-   fi
+  # check each of the extesnions paths we have found
+  for _existingpath in "${EXISTINGPATHS[@]}"; do
+    # the {$variable%%,} is bash trickery to remove the longest matching suffix, so we just drop everything after the first , to get the ID
+    if [[ -e "${_existingpath}${_extensionline%%,*}" ]]; then
+      # if we find something, split the line on , into an array called found
+      IFS=',' read -r -a found <<< "$_extensionline"
+      echo 
+      echo "We found something suspicious at ${_existingpath}${_extensionline%%,*}"
+      echo "Name: ${found[1]}"
+      echo "Source: ${found[4]}"
+      echo "More info: ${found[5]}"
+      echo
+      # Increment # of malicious extensions found 
+      ((i=i+1))
+    fi
+  done
 done
 
 # Put up some summary information
@@ -91,5 +84,5 @@ if [[ $i == 0 ]]
 then
   echo "No malicious extensions found."
 else
-  echo "There were $i malicious extensions found.  Extensions without names were removed from the Chrome Store but there are legitimate extensions whose names do not resolve from the Chrome Web Store.  Most of these extensions can be found at https://www.jamieweb.net/info/chrome-extension-ids/"
+  echo "There were $i malicious extensions found."
 fi
