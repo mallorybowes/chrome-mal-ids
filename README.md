@@ -11,6 +11,17 @@ There's currently 550+ known malicious extension IDs in the aggregate.  A small 
 
 <b>Sources of the compromised list:</b> 
 
+Aug 30, 2022<br>
+Five more caught stealing data. https://www.bleepingcomputer.com/news/security/chrome-extensions-with-14-million-installs-steal-browsing-data/
+
+<pre>
+mmnbenehknklpbendgmgngeaignppnbe Netflix Party
+flijfnhifgdcbhglkneplegafminjnhn Netflix Party 2
+pojgkmkfincpdkdgjepkmdekcahmckjp Full Page Screenshot Capture – Screenshotting
+adikhbfjdbjkhelbdnffogkobkekkkej FlipShope – Price Tracker Extension
+gbnahglfafmhaehbdmjedfhdmimjcbed AutoBuy Flash Sales
+</pre>
+
 May 18, 2021<br>
 Don't download this Microsoft Authenticator extension for Chrome: it is fake https://www.ghacks.net/2021/05/18/dont-download-this-microsoft-authenticator-extension-for-chrome-it-is-fake/#snhb-snhb_ghacks_bottom-0
 
