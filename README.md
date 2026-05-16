@@ -1,28 +1,32 @@
 # Chrome Malicious Extension Listing
 Listing of known malicious Google Chrome Extension IDs
 
-Update — May 2026
+**Update — May 2026**
 
-After a ~5 year absence (life happened — retirement, loss of a parent, time on the road), this project is being actively updated again.
+After a ~5 year absence (life happened — early retirement, loss of a parent, time on the road), this project is being actively updated again.
 
 What seems to have changed while I was gone:
 
-The threat landscape got significantly worse — ownership-transfer attacks are now a major vector (legit extensions sold and weaponized)
-AI chat scrapers are a new category targeting ChatGPT, Claude, Gemini conversations
-The Chrome/Edge extension store is now shared — campaigns hit both simultaneously 2.3M+ users affected by 2025 campaigns alone
+<ul>
+<li>The threat landscape got significantly worse — ownership-transfer attacks are now a major vector (legit extensions sold and weaponized)
+<li>AI chat scrapers are a new category targeting ChatGPT, Claude, Gemini conversations
+<li>The Chrome/Edge extension store is now shared — campaigns hit both simultaneously 2.3M+ users affected by 2025 campaigns alone
+</ul>
 
 What's being updated:
 
-Schema updated to v2.0 (4 new fields — see SCHEMA.md)
-Catching up on 2021-2026 entries from major incident reports
-GitHub Action being added for automated weekly monitoring
-bash script being updated to use metadata file (per issue #14)
+<ul>
+<li>Schema updated to v2.0 (4 new fields — see SCHEMA.md)
+<li>Catching up on 2021-2026 entries from major incident reports
+<li>GitHub Action being added for automated weekly monitoring
+<li>bash script being updated to use metadata file (per issue #14)
+<li>Finally adding a script for Windows.  
+</ul>
 
 Thanks to everyone who kept using and forking this while I was away.
+
 — Mal
 
-
-**Quick Update from Mal**  I apologize for my abscence in this project but it's been a weird few months (well, nearly a year now).  I retired from my job, had a parent fall ill, and then went on the road after their passing.  I'm just getting back up-to-speed on what I missed and I'm going to start with this project since it seems there are still ppl who are using it.  Thx for y'all's patience and expect some updates to the repo in the next few days.  Thx!
 
 This is something I personally use to try and keep up with malicious extensions reported publicly.  I did a bit of research and found there doesn't seem to be an easy way to keep up with the *installed* extensions after they've been pulled from the Chrome Web Store other than manually checking your extensions settings periodically.  To be honest, I've been lucky and have never installed a malicious extension so I'm not sure if the built-in security scans actually notify you automatically when an extension has been flagged or if you have to manually kick off the security scan.  (For me, it's manually run.)  So, there may be people like me that don't want to send all of their web browsing to Google which takes out the in-built "Enhanced Protection" from the local browser toolbox.  So I figured I'd setup an effort to try and find as many publicly available malicious extension IDs out there and aggregate them into a single downloadable text file so I could run a daily extension scan in the background.  I know how Herculean this effort is but, best I can tell, this type of information doesn't exist in a centralized format.  (I would think that VirusTotal might have these malicious extensions somewhere but haven't seen a way to get that info out yet...)  So this is def a work-in-progress and ultimately a fool's folly but I'm bored during this lockdown...
 
