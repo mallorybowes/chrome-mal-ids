@@ -20,7 +20,6 @@ What's being updated:
 <li>Catching up on 2021-2026 entries from major incident reports
 <li>GitHub Action being added for automated weekly monitoring
 <li>bash script being updated to use metadata file (per issue #14)
-<li>Finally adding a script for Windows.  
 </ul>
 
 Thanks to everyone who kept using and forking this while I was away.
