@@ -2,6 +2,7 @@
 Listing of known malicious Google Chrome Extension IDs
 
 Update — May 2026
+
 After a ~5 year absence (life happened — retirement, loss of a parent, time on the road), this project is being actively updated again.
 
 What seems to have changed while I was gone:
