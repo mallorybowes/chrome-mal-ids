@@ -1,196 +1,200 @@
-# Chrome Malicious Extension Listing
-Listing of known malicious Google Chrome Extension IDs
+# chrome-mal-ids
 
-**Update — May 2026**
+**A community-maintained database of malicious Chrome and Edge browser extension indicators of compromise.**
 
-After a ~5 year absence (life happened — early retirement, loss of a parent, time on the road), this project is being actively updated again.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](LICENSE.md)
+[![STIX 2.1](https://img.shields.io/badge/STIX-2.1-blue?style=flat-square)](chrome-mal-ids-stix.json)
 
-What seems to have changed while I was gone:
+---
 
-<ul>
-<li>The threat landscape got significantly worse — ownership-transfer attacks are now a major vector (legit extensions sold and weaponized)
-<li>AI chat scrapers are a new category targeting ChatGPT, Claude, Gemini conversations
-<li>The Chrome/Edge extension store is now shared — campaigns hit both simultaneously 2.3M+ users affected by 2025 campaigns alone
-</ul>
+## 🔍 [Search the database →](https://mallorybowes.github.io/chrome-mal-ids)
 
-What's being updated:
+---
 
-<ul>
-<li>Schema updated to v2.0 (4 new fields — see SCHEMA.md)
-<li>Catching up on 2021-2026 entries from major incident reports
-<li>GitHub Action being added for automated weekly monitoring
-<li>bash script being updated to use metadata file (per issue #14)
-</ul>
+## What this is
 
-Thanks to everyone who kept using and forking this while I was away.
+Started in 2021 as a personal research project after noticing no single authoritative list
+of malicious Chrome extension IDs existed. Today it tracks **1,100+ confirmed malicious
+extensions** across **30+ campaigns** — from credential stealers and browser hijackers to
+supply chain compromises and ad fraud rings.
 
-— Mal
+Every entry is human-reviewed before publication. The list is used by security researchers,
+IT administrators, MDM operators, and threat intelligence platforms.
 
+---
 
-This is something I personally use to try and keep up with malicious extensions reported publicly.  I did a bit of research and found there doesn't seem to be an easy way to keep up with the *installed* extensions after they've been pulled from the Chrome Web Store other than manually checking your extensions settings periodically.  To be honest, I've been lucky and have never installed a malicious extension so I'm not sure if the built-in security scans actually notify you automatically when an extension has been flagged or if you have to manually kick off the security scan.  (For me, it's manually run.)  So, there may be people like me that don't want to send all of their web browsing to Google which takes out the in-built "Enhanced Protection" from the local browser toolbox.  So I figured I'd setup an effort to try and find as many publicly available malicious extension IDs out there and aggregate them into a single downloadable text file so I could run a daily extension scan in the background.  I know how Herculean this effort is but, best I can tell, this type of information doesn't exist in a centralized format.  (I would think that VirusTotal might have these malicious extensions somewhere but haven't seen a way to get that info out yet...)  So this is def a work-in-progress and ultimately a fool's folly but I'm bored during this lockdown...
+## The data
 
-<b>*** This stuff should be used at your own risk.  If there's a malicious extension I've missed and you have it installed, I'm sorry about that but I'm not responsible for the miss.  There are no warranties / guarantees included with this effort.  It's just my best effort to keep up with the times.  YMMV. ***</b>
+| File | Description |
+|------|-------------|
+| [`current-list-meta.csv`](current-list-meta.csv) | Full dataset with metadata |
+| [`current-list.csv`](current-list.csv) | ID-only list for lightweight consumption |
+| [`chrome-mal-ids-stix.json`](chrome-mal-ids-stix.json) | STIX 2.1 bundle for threat intel platforms |
+| [`STATS.md`](STATS.md) | Auto-generated statistics summary |
+| [`SCHEMA.md`](SCHEMA.md) | Full schema documentation |
 
-There's currently 550+ known malicious extension IDs in the aggregate.  A small bash script for Ubuntu / Debian distros has been provided to check the user's current Chrome extension directory and compare what's in there to the known compromised list. 
+### Schema overview
 
-<b>Sources of the compromised list:</b> 
+Each entry in `current-list-meta.csv` contains:
 
-May 18, 2021<br>
-Don't download this Microsoft Authenticator extension for Chrome: it is fake https://www.ghacks.net/2021/05/18/dont-download-this-microsoft-authenticator-extension-for-chrome-it-is-fake/#snhb-snhb_ghacks_bottom-0
+| Field | Description |
+|-------|-------------|
+| `EXTID` | 32-character Chrome/Edge extension ID |
+| `EXTID-NAME` | Extension display name |
+| `DATE-DIS` | Date the malicious behavior was first reported |
+| `THREAT-TYPE` | Type of threat (spyware, data-theft, browser-hijack, etc.) |
+| `BROWSER` | `chrome` or `edge` |
+| `STILL-ACTIVE` | `1` if still live in the browser store at time of reporting |
+| `OWNERSHIP-TRANSFER` | `1` if a legitimate extension was acquired and turned malicious |
+| `SOURCE` | Primary research source |
+| `ARTICLE` | News/blog article covering the campaign |
+| `NOTES` | Plain-English summary of the malicious behavior |
 
-Feb 5, 2021<br>
-Malicious extension abuses Chrome sync to steal users’ data https://www.bleepingcomputer.com/news/security/malicious-extension-abuses-chrome-sync-to-steal-users-data/
+Full schema: [SCHEMA.md](SCHEMA.md)
 
-Since this one seems to center around syncing, I'm just going to add to the list immediately and watch for any qualifying reasons to remove it.  Since it wasn't in the Chrome Store, I was left with looking at the graphic in the article to get the extension ID.  
+### Data quality
 
-<pre>
-fmfjhicbjecfchfmpelfnifijeigelme
-</pre>
+- **Human reviewed** — every entry is verified before commit. No automated additions.
+- **UNKNOWN stubs** — some entries have confirmed malicious IDs but incomplete metadata.
+  These are committed immediately (an ID is better than nothing) and enriched over time.
+  Find them with: `grep ",UNKNOWN," current-list-meta.csv`
+- **Still-active flag** — reflects status at time of reporting, not necessarily today.
+  Extensions are removed from stores irregularly.
 
-Feb 4, 2021</br>
-Google just booted The Great Suspender off the Chrome Web Store for being malware https://www.xda-developers.com/google-chrome-the-great-suspender-malware/
+---
 
-Looks like it's official now so moved the Great Suspender to the malicious column...
+## How to use it
 
-Feb 3, 2021<br>
-Backdoored Browser Extensions Hid Malicious Traffic in Analytics Requests https://decoded.avast.io/janvojtesek/backdoored-browser-extensions-hid-malicious-traffic-in-analytics-requests/
+### 🌐 Search UI
 
-Most of these extensions were already in the current list except for the following three that were added:
+Browse and search the full database at:
+**https://mallorybowes.github.io/chrome-mal-ids**
 
-<pre>
-akdbogfpgohikflhccclloneidjkogog
-lgjogljbnbfjcaigalbhiagkboajmkkj
-aemaecahdckfllfldhgimjhdgiaahean
-</pre>
+Filter by campaign, threat type, browser, date, and active status. Click any entry
+for full details including research article links.
 
-Jan 15, 2021<br>
-Facebook sues makers of malicious Chrome extensions for scraping data https://www.bleepingcomputer.com/news/security/facebook-sues-makers-of-malicious-chrome-extensions-for-scraping-data/
+### 📥 Raw data
 
-<pre>
-dppilebghcniomddkpphiminideiajff
-ojmbbkdflpfjdceflikpkbbmmbfagglg
-chmaijbnjdnkjknoigffoohjhpejjppd
-jhcfnojahmdghhebdaoijngclknfkbjn
-</pre>
+```bash
+# Download the full metadata CSV
+curl -O https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv
 
-Jan 5, 2021<br>
-Ditch 'The Great Suspender' Before It Becomes a Security Risk  https://lifehacker.com/ditch-the-great-suspender-before-it-becomes-a-security-1845989664
+# Check if a specific extension ID is malicious
+grep "YOUR_EXTENSION_ID" current-list-meta.csv
+```
 
-Ugh.  This one hit close to home and on the plus side, I may have finally installed a malicious extension. :-/  I haven't seen an article that *confirms* it's suspicious yet so I'm holding off putting in the list until further confirmation.  (Please let me know if there's confirmation of malicious behavior but I hate there's a possibility that "The Great Suspender" may now be malicious.)
+### 🛡️ System scan scripts
 
-Extension ID:
-<pre>
-klbibkeccnjlkjkiokjodocebajanakg
-</pre>
+**Linux / macOS:**
+```bash
+curl -O https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/contrib/scripts/linux_mac/chrome-ext-check.sh
+chmod +x chrome-ext-check.sh
+./chrome-ext-check.sh
+```
 
-Dec 26, 2020<br>
-Dangerous Chrome extensions https://www.kaspersky.com/blog/chrome-plugins-alert/38242/ 
+**Windows (PowerShell):**
+```powershell
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/contrib/scripts/windows/Scan-ChromeExtensions.ps1 -OutFile Scan-ChromeExtensions.ps1
+.\Scan-ChromeExtensions.ps1
+```
 
-I'm not going to officially add these extensions to the overall list just yet since I've only been able to find one source on a Russian blog site. (https://habr.com/en/company/yandex/blog/534586/) Anyway, I'll publish the list of extensions listed in the blog post below and will wait on additional confirmation before adding to the overall archive list.
+### 🧩 STIX 2.1 / Threat Intel Platforms
 
-Extension IDs:
-<pre>
-acdfdofofabmipgcolilkfhnpoclgpdd
-oobppndjaabcidladjeehddkgkccfcpn
-aonedlchkbicmhepimiahfalheedjgbh
-aoeacblfmdamdejeiaepojbhohhkmkjh
-eoeoincjhpflnpdaiemgbboknhkblome
-onbkopaoemachfglhlpomhbpofepfpom
-inlgdellfblpplcogjfedlhjnpgafnia
-ejfajpmpabphhkcacijnhggimhelopfg
-pgjndpcilbcanlnhhjmhjalilcmoicjc
-napifgkjbjeodgmfjmgncljmnmdefpbf
-glgemekgfjppocilabhlcbngobillcgf
-klmjcelobglnhnbfpmlbgnoeippfhhil
-ldbfffpdfgghehkkckifnjhoncdgjkib
-mbacbcfdfaapbcnlnbmciiaakomhkbkb
-mdnmhbnbebabimcjggckeoibchhckemm
-lfedlgnabjompjngkpddclhgcmeklana
-mdpljndcmbeikfnlflcggaipgnhiedbl
-npdpplbicnmpoigidfdjadamgfkilaak
-ibehiiilehaakkhkigckfjfknboalpbe
-lalpacfpfnobgdkbbpggecolckiffhoi
-hdbipekpdpggjaipompnomhccfemaljm
-gfjocjagfinihkkaahliainflifnlnfc
-ickfamnaffmfjgecbbnhecdnmjknblic
-bmcnncbmipphlkdmgfbipbanmmfdamkd
-miejmllodobdobgjbeonandkjhnhpjbn
-</pre>
+The STIX 2.1 bundle is auto-generated on every update and available at:
+```
+https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/chrome-mal-ids-stix.json
+```
 
-Dec 19, 2020<br>
-Three million users installed 28 malicious Chrome or Edge extensions https://www.zdnet.com/article/three-million-users-installed-28-malicious-chrome-or-edge-extensions/ (Shouts to <a href=https://github.com/nycnewman>nycnewman</a> for messaging me about the breaking story!  Thank you!)
+**MISP** — scheduled pull:
+```
+Events → Feeds → Add Feed → STIX 2.1 → paste URL above
+```
 
-Because it took me awhile to find the exact extension IDs for this, I decided to post the IDs here for a bit to help other researchers get an easy text listing of the IoCs.
+**OpenCTI** — remote ingestion:
+```
+Data → Ingestion → Remote STIX2 Feeds → paste URL above
+```
 
-Extension IDs:
-<pre>
-mdpgppkombninhkfhaggckdmencplhmg
-fgaapohcdolaiaijobecfleiohcfhdfb
-iibnodnghffmdcebaglfgnfkgemcbchf
-olkpikmlhoaojbbmmpejnimiglejmboe
-bhfoemlllidnfefgkeaeocnageepbael
-nilbfjdbacfdodpbdondbbkmoigehodg
-eikbfklcjampfnmclhjeifbmfkpkfpbn
-pfnmibjifkhhblmdmaocfohebdpfppkf
-cgpbghdbejagejmciefmekcklikpoeel
-klejifgmmnkgejbhgmpgajemhlnijlib
-ceoldlgkhdbnnmojajjgfapagjccblib
-mnafnfdagggclnaggnjajohakfbppaih
-oknpgmaeedlbdichgaghebhiknmghffa
-pcaaejaejpolbbchlmbdjfiggojefllp
-lmcajpniijhhhpcnhleibgiehhicjlnk
-lnocaphbapmclliacmbbggnfnjojbjgf
-bhcpgfhiobcpokfpdahijhnipenkplji
-dambkkeeabmnhelekdekfmabnckghdih
-dgjmdlifhbljhmgkjbojeejmeeplapej
-emechknidkghbpiodihlodkhnljplpjm
-hajlccgbgjdcjaommiffaphjdndpjcio
-dljdbmkffjijepjnkonndbdiakjfdcic
-cjmpdadldchjmljhkigoeejegmghaabp
-jlkfgpiicpnlbmmmpkpdjkkdolgomhmb
-njdkgjbjmdceaibhngelkkloceihelle
-phoehhafolaebdpimmbmlofmeibdkckp
-pccfaccnfkjmdlkollpiaialndbieibj
-fbhbpnjkpcdmcgcpfilooccjgemlkinn
-</pre>
+**Subscribe to updates** via the releases RSS feed:
+```
+https://github.com/mallorybowes/chrome-mal-ids/releases.atom
+```
 
-Oct 28, 2020<br>
-Just fyi, the extensions used in the Kimsuky / Hidden Cobra <a href=https://us-cert.cisa.gov/ncas/alerts/aa20-301a>CISA alert AA20-302A</a> are already listed in current extension list.
+### 🐍 Python / programmatic
 
-Oct 21, 2020<br>
-Adblockers installed 300,000 times are malicious and should be removed now  https://arstechnica.com/information-technology/2020/10/popular-chromium-ad-blockers-caught-stealing-user-data-and-accessing-accounts/
+```python
+import csv, urllib.request
 
-Oct 2, 2020<br>
-Facebook sues two Chrome extension makers for scraping user data (2 extensions added) https://www.zdnet.com/article/facebook-sues-two-chrome-extension-makers-for-scraping-user-data/
+url = "https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv"
+with urllib.request.urlopen(url) as r:
+    rows = list(csv.DictReader(line.decode() for line in r))
 
-Aug 4, 2020<br>
-Cluster of 295 Chrome extensions caught hijacking Google and Bing search results  https://www.zdnet.com/article/cluster-of-295-chrome-extensions-caught-hijacking-google-and-bing-search-results/
+# Check a specific ID
+target = "your_extension_id_here"
+match  = next((r for r in rows if r["EXTID"] == target), None)
+if match:
+    print(f"MALICIOUS: {match['EXTID-NAME']} — {match['THREAT-TYPE']}")
+```
 
-Jun 19, 2020<br>
-Found a extension that contains malware (2 extensions added) https://www.reddit.com/r/chrome/comments/hbpi7z/found_a_extension_that_contains_malware/
+---
 
-Jun 18, 2020<br>
-Google removes 106 Chrome extensions for collecting sensitive user data https://www.zdnet.com/article/google-removes-106-chrome-extensions-for-collecting-sensitive-user-data/ https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
+## Statistics
 
-Apr 16, 2020<br>
-49 malicious Chrome extensions caught pickpocketing crypto wallets  https://medium.com/mycrypto/discovering-fake-browser-extensions-that-target-users-of-ledger-trezor-mew-metamask-and-more-e281a2b80ff9
+> See [STATS.md](STATS.md) for the full auto-generated breakdown.
 
-Feb 13, 2020<br>
-Security Researchers Partner With Chrome To Take Down Browser Extension Fraud Network Affecting Millions of Users https://duo.com/labs/research/crxcavator-malvertising-2020
+- **1,100+ extensions** tracked
+- **30+ campaigns** covered
+- **Chrome and Edge** extensions
+- **2021 – present** date range
+- Threat types include: spyware, data-theft, browser-hijack, credential-theft,
+  click-fraud, session-hijack, cryptojacking, adware
 
-Jan 1, 2020<br>
-Chrome extension caught stealing crypto-wallet private keys https://www.zdnet.com/article/chrome-extension-caught-stealing-crypto-wallet-private-keys/
+---
 
-Jul 22, 2019<br>
-Malicious browser extensions are stealing personal information https://www.salon.com/2019/07/22/malicious-browser-extensions-are-stealing-personal-information/  https://dataspii.com/
+## Contributing
 
-May 10, 2018<br>
-Nigelthorn Malware Abuses Chrome Extensions to Cryptomine and Steal Data https://blog.radware.com/security/2018/05/nigelthorn-malware-abuses-chrome-extensions/
+### Reporting a new malicious extension
 
-Jan 18, 2018<br>
-Malicious Chrome Extensions Enable Criminals to Impact Half a Million Users and Global Businesses https://atr-blog.gigamon.com/2018/01/18/malicious-chrome-extensions-enable-criminals-to-impact-half-a-million-users-and-global-businesses/
+[Open an issue](https://github.com/mallorybowes/chrome-mal-ids/issues) with:
+- Extension ID (32-char string from the Chrome Web Store URL)
+- Extension name
+- Source article or research post
+- Brief description of the malicious behavior
 
-Aug 16, 2017<br>
-Bank-fraud malware not detected by any AV hosted in Chrome Web Store. Twice https://arstechnica.com/information-technology/2017/08/bank-fraud-malware-not-detected-by-any-av-hosted-in-chrome-web-store-twice/
+### Data format
 
- 
+See [SCHEMA.md](SCHEMA.md) for the full field specification before submitting a PR.
+
+---
+
+## Coverage highlights
+
+Some notable campaigns tracked in this list:
+
+- **Cyberhaven Dec 2024** — supply chain attack on a legitimate security extension
+- **DarkSpectre / ShadyPanda** — 36+ extensions, 7.8M infected browsers
+- **Phoenix Invicta / Netflix Party** — 60+ extensions circumventing Manifest V3 restrictions
+- **unknow.com spyware** — 57 extensions, 6M users, cookie theft and remote control
+- **adindex ad fraud cluster** — RCE via Firebase, session replay for ad fraud
+- **Koi RedDirection** — browser hijack campaign across Chrome and Edge
+- **BIScience clickstream** — browsing history collection under false pretenses
+- And many more — [browse the full list →](https://mallorybowes.github.io/chrome-mal-ids)
+
+---
+
+## License
+
+This dataset is licensed under **[CC BY 4.0](LICENSE.md)**.
+
+You are free to use, share, and adapt this data for any purpose including commercially,
+provided you give appropriate credit:
+
+> Extension IOC data sourced from **chrome-mal-ids** by Mallory Bowes
+> https://github.com/mallorybowes/chrome-mal-ids
+
+See [LICENSE.md](LICENSE.md) for full terms.
+
+---
+
+*Maintained by [@mallorybowes](https://github.com/mallorybowes)*
+*Pipeline tooling built with [Claude](https://claude.ai) (Anthropic)*
