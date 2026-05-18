@@ -1,6 +1,6 @@
 # chrome-mal-ids — Statistics
 
-> Auto-generated 2026-05-18 01:56 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
+> Auto-generated 2026-05-18 03:37 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
 
 ---
 
@@ -85,6 +85,37 @@ A total of **31** distinct campaigns are tracked.
 | “The extension was ‘Offered by:  Extensions’ in the Chrome W | 1 |
 | Dormant Colors campaign | 1 |
 | VK Styles campaign | 1 |
+
+---
+
+## Monitoring Sources
+
+The following sources are monitored daily for new malicious extension reports:
+
+### RSS Feeds
+
+| Source | Filter Keywords |
+|--------|----------------|
+| [Koi / Palo Alto Research](https://www.koi.ai/blog/rss.xml) | `chrome extension, browser extension, malicious extension, chrome web store, edge extension, web store` |
+| [Bleeping Computer](https://www.bleepingcomputer.com/feed/) | `chrome extension, browser extension, malicious extension` |
+| [The Hacker News](https://feeds.feedburner.com/TheHackersNews) | `chrome extension, browser extension, malicious extension` |
+| [Krebs on Security](https://krebsonsecurity.com/feed/) | `extension, chrome web store` |
+| [Sekoia Blog](https://blog.sekoia.io/feed/) | `chrome, extension` |
+| [Palant's Blog](https://palant.info/rss.xml) | `chrome extension, browser extension, malicious extension, chrome web store` |
+| [Secure Annex](https://secureannex.com/blog/rss.xml) | `*all posts*` |
+| [Trustwave SpiderLabs](https://www.trustwave.com/en-us/rss/spiderlabs-blog.rss) | `chrome, extension, browser` |
+| [The Record (Recorded Future)](https://therecord.media/feed) | `chrome extension, browser extension` |
+| [SecurityWeek](https://feeds.feedburner.com/securityweek) | `chrome extension, browser extension, malicious extension` |
+
+### GitHub Repositories
+
+| Repository | Type |
+|-----------|------|
+| [palant/malicious-extensions-list commits](https://api.github.com/repos/palant/malicious-extensions-list) | commits |
+| [chartingshow/crypto-firewall new issues](https://api.github.com/repos/chartingshow/crypto-firewall) | issues |
+| [axon-git/rapid-response commits](https://api.github.com/repos/axon-git/rapid-response) | commits |
+
+*10 RSS feeds · 3 GitHub repos · edit via the review UI Sources tab*
 
 ---
 
