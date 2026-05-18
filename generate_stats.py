@@ -20,6 +20,19 @@ DEFAULT_OUT = SCRIPT_DIR / "STATS.md"
 PROJECT_URL = "https://github.com/mallorybowes/chrome-mal-ids"
 
 
+def find_sources_file() -> Path | None:
+    """Find monitor_sources.json — check server path then local monitor dir."""
+    candidates = [
+        Path("/opt/chrome-mal-ids/monitor_sources.json"),          # server
+        SCRIPT_DIR.parent / "monitor" / "monitor_sources.json",    # local laptop
+        SCRIPT_DIR / "monitor_sources.json",                       # repo root fallback
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    return None
+
+
 def load_csv(path: Path) -> list[dict]:
     rows = []
     with open(path, newline="", encoding="utf-8") as f:
@@ -159,6 +172,56 @@ def main():
 
     if len(top_campaigns) > 50:
         lines.append(f"| *(+ {len(top_campaigns) - 50} more)* | |")
+
+    lines += [
+        "",
+        "---",
+        "",
+        "## Monitoring Sources",
+        "",
+        "The following sources are monitored daily for new malicious extension reports:",
+        "",
+    ]
+
+    # Load sources from monitor_sources.json if available
+    sources_file = find_sources_file()
+    if sources_file and sources_file.exists():
+        import json
+        with open(sources_file, encoding="utf-8") as f:
+            sources = json.load(f)
+
+        rss     = [s for s in sources.get("rss_feeds",    []) if s.get("enabled", True)]
+        github  = [s for s in sources.get("github_repos", []) if s.get("enabled", True)]
+
+        lines += [
+            "### RSS Feeds",
+            "",
+            "| Source | Filter Keywords |",
+            "|--------|----------------|",
+        ]
+        for s in rss:
+            filters = ", ".join(s.get("filter") or []) or "*all posts*"
+            url     = s.get("url", "")
+            name    = s.get("name", "")
+            lines.append(f"| [{name}]({url}) | `{filters}` |")
+
+        lines += [
+            "",
+            "### GitHub Repositories",
+            "",
+            "| Repository | Type |",
+            "|-----------|------|",
+        ]
+        for s in github:
+            url  = s.get("url", "").replace("/commits?per_page=5","").replace("/issues?state=open&per_page=10","")
+            name = s.get("name", "")
+            kind = s.get("type", "commits")
+            lines.append(f"| [{name}]({url}) | {kind} |")
+
+        lines.append("")
+        lines.append(f"*{len(rss)} RSS feeds · {len(github)} GitHub repos · edit via the review UI Sources tab*")
+    else:
+        lines.append("*Source list not available — `monitor_sources.json` not found*")
 
     lines += [
         "",
