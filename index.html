@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chrome-mal-ids · malicious extension search</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #080b08;
+    --bg2:       #0d120d;
+    --bg3:       #111811;
+    --border:    #1a2e1a;
+    --border2:   #243d24;
+    --green:     #00ff41;
+    --green2:    #00cc33;
+    --green3:    #008822;
+    --green4:    #004411;
+    --dim:       #3a6e3a;
+    --dimmer:    #1e3c1e;
+    --text:      #c8e6c8;
+    --text2:     #6b9e6b;
+    --text3:     #3a5e3a;
+    --red:       #ff4444;
+    --yellow:    #ffcc00;
+    --cyan:      #00ffff;
+    --mono:      'Share Tech Mono', monospace;
+    --sans:      'Syne', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── Scanlines effect ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.08) 2px,
+      rgba(0,0,0,0.08) 4px
+    );
+    pointer-events: none;
+    z-index: 999;
+  }
+
+  /* ── Header ── */
+  .header {
+    border-bottom: 1px solid var(--border2);
+    padding: 24px 32px 20px;
+    background: var(--bg2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--green3), transparent);
+  }
+
+  .header-top {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 6px;
+  }
+
+  .logo {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--green);
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 20px rgba(0,255,65,0.4);
+  }
+
+  .logo-sub {
+    font-size: 12px;
+    color: var(--text3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .header-meta {
+    font-size: 11px;
+    color: var(--text3);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .header-meta span { color: var(--green2); }
+
+  .header-links {
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .header-links a {
+    color: var(--text3);
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    transition: color 0.15s;
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    border-radius: 2px;
+  }
+  .header-links a:hover { color: var(--green); border-color: var(--green3); }
+
+  /* ── Layout ── */
+  .shell {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: calc(100vh - 90px);
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    border-right: 1px solid var(--border);
+    padding: 20px 16px;
+    background: var(--bg2);
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+  }
+
+  .filter-section {
+    margin-bottom: 20px;
+  }
+
+  .filter-label {
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: var(--text3);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.1s;
+    font-size: 12px;
+    color: var(--text2);
+  }
+  .filter-option:hover { background: var(--bg3); color: var(--text); }
+  .filter-option input[type=checkbox] { accent-color: var(--green); }
+
+  .filter-count {
+    margin-left: auto;
+    font-size: 10px;
+    color: var(--text3);
+  }
+
+  /* ── Main ── */
+  .main { padding: 20px 24px; }
+
+  /* ── Search bar ── */
+  .search-wrap {
+    position: relative;
+    margin-bottom: 16px;
+  }
+
+  .search-prompt {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--green3);
+    font-size: 14px;
+    pointer-events: none;
+    font-family: var(--mono);
+  }
+
+  .search-input {
+    width: 100%;
+    background: var(--bg2);
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    color: var(--green);
+    font-family: var(--mono);
+    font-size: 14px;
+    padding: 12px 14px 12px 30px;
+    outline: none;
+    caret-color: var(--green);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .search-input::placeholder { color: var(--text3); }
+  .search-input:focus {
+    border-color: var(--green3);
+    box-shadow: 0 0 0 1px var(--green4), 0 0 20px rgba(0,255,65,0.05);
+  }
+
+  .search-hint {
+    font-size: 10px;
+    color: var(--text3);
+    margin-bottom: 16px;
+    padding-left: 2px;
+  }
+  .search-hint kbd {
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    border-radius: 2px;
+    padding: 1px 5px;
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--text2);
+  }
+
+  /* ── Results header ── */
+  .results-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 11px;
+    color: var(--text3);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .results-count { color: var(--green2); font-weight: 700; }
+
+  .sort-btn {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text3);
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 3px 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+  }
+  .sort-btn:hover { border-color: var(--green3); color: var(--green); }
+  .sort-btn.active { border-color: var(--green3); color: var(--green2); }
+
+  /* ── Result cards ── */
+  .result-card {
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    margin-bottom: 8px;
+    background: var(--bg2);
+    overflow: hidden;
+    transition: border-color 0.15s;
+    cursor: pointer;
+  }
+  .result-card:hover { border-color: var(--border2); }
+  .result-card.expanded { border-color: var(--green3); }
+  .result-card.active-threat { border-left: 3px solid var(--red); }
+
+  .card-row {
+    display: grid;
+    grid-template-columns: 220px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 14px;
+  }
+
+  .ext-id {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--green2);
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ext-name {
+    font-size: 13px;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ext-name.unknown { color: var(--text3); font-style: italic; }
+
+  .card-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+
+  .tag {
+    font-size: 9px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+  .tag-threat  { color: var(--red);    border-color: rgba(255,68,68,0.4); background: rgba(255,68,68,0.08); }
+  .tag-browser { color: var(--text3);  border-color: var(--border); }
+  .tag-active  { color: var(--yellow); border-color: rgba(255,204,0,0.4); background: rgba(255,204,0,0.08); }
+  .tag-xfer    { color: var(--cyan);   border-color: rgba(0,255,255,0.3); background: rgba(0,255,255,0.05); }
+  .tag-date    { color: var(--text3);  border-color: var(--border); }
+
+  /* ── Expanded card ── */
+  .card-detail {
+    display: none;
+    padding: 14px 16px;
+    border-top: 1px solid var(--border);
+    background: var(--bg3);
+    font-size: 12px;
+  }
+  .card-detail.open { display: block; }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 4px 12px;
+    margin-bottom: 12px;
+  }
+
+  .detail-key { color: var(--text3); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; padding-top: 2px; }
+  .detail-val { color: var(--text); }
+  .detail-val a { color: var(--green2); text-decoration: none; }
+  .detail-val a:hover { text-decoration: underline; }
+  .detail-val.notes { color: var(--text2); font-size: 11px; line-height: 1.6; grid-column: 1 / -1; padding: 8px 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: 2px; margin-top: 4px; }
+
+  .detail-actions {
+    display: flex;
+    gap: 8px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+  }
+
+  .detail-btn {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 5px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .btn-store  { color: var(--green2); border-color: var(--green3); background: var(--green4); }
+  .btn-store:hover { background: var(--green3); color: var(--bg); }
+  .btn-source { color: var(--text2); border-color: var(--border2); background: transparent; }
+  .btn-source:hover { border-color: var(--text2); color: var(--text); }
+
+  /* ── Empty / loading states ── */
+  .state-msg {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text3);
+  }
+  .state-msg .icon { font-size: 28px; margin-bottom: 12px; opacity: 0.4; }
+  .state-msg .title { font-family: var(--sans); font-size: 16px; color: var(--text2); margin-bottom: 6px; }
+  .state-msg .sub { font-size: 11px; }
+
+  /* Blinking cursor */
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+  .cursor { display: inline-block; width: 8px; height: 14px; background: var(--green); animation: blink 1s step-end infinite; vertical-align: middle; margin-left: 2px; }
+
+  /* ── Stats bar ── */
+  .stats-bar {
+    display: flex;
+    gap: 0;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .stat-cell {
+    flex: 1;
+    padding: 10px 14px;
+    border-right: 1px solid var(--border);
+    background: var(--bg2);
+  }
+  .stat-cell:last-child { border-right: none; }
+
+  .stat-val {
+    font-family: var(--sans);
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--green);
+    text-shadow: 0 0 12px rgba(0,255,65,0.3);
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+  .stat-label { font-size: 9px; letter-spacing: 0.1em; color: var(--text3); text-transform: uppercase; }
+  .stat-cell.warn .stat-val { color: var(--red); text-shadow: 0 0 12px rgba(255,68,68,0.3); }
+  .stat-cell.caution .stat-val { color: var(--yellow); }
+
+  /* ── Highlight ── */
+  mark { background: rgba(0,255,65,0.2); color: var(--green); border-radius: 1px; padding: 0 1px; }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+  /* ── Footer ── */
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 12px 32px;
+    font-size: 10px;
+    color: var(--text3);
+    display: flex;
+    gap: 20px;
+    background: var(--bg2);
+  }
+  .footer a { color: var(--green3); text-decoration: none; }
+  .footer a:hover { color: var(--green2); }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-top">
+    <div class="logo">chrome-mal-ids</div>
+    <div class="logo-sub">malicious extension database</div>
+    <div class="header-links">
+      <a href="chrome-mal-ids-stix.json" download>↓ STIX 2.1</a>
+      <a href="current-list-meta.csv" download>↓ CSV</a>
+      <a href="https://github.com/mallorybowes/chrome-mal-ids" target="_blank">GitHub ↗</a>
+    </div>
+  </div>
+  <div class="header-meta">
+    <div>Extensions: <span id="hdr-total">—</span></div>
+    <div>Campaigns: <span id="hdr-campaigns">—</span></div>
+    <div>Still active: <span id="hdr-active">—</span></div>
+    <div>Updated: <span id="hdr-updated">—</span></div>
+  </div>
+</header>
+
+<div class="shell">
+
+  <!-- Sidebar filters -->
+  <aside class="sidebar">
+
+    <div class="filter-section">
+      <div class="filter-label">Browser</div>
+      <label class="filter-option">
+        <input type="checkbox" class="filter-browser" value="chrome" checked> Chrome
+        <span class="filter-count" id="cnt-chrome">—</span>
+      </label>
+      <label class="filter-option">
+        <input type="checkbox" class="filter-browser" value="edge" checked> Edge
+        <span class="filter-count" id="cnt-edge">—</span>
+      </label>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Threat Type</div>
+      <div id="threat-filters"></div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Status</div>
+      <label class="filter-option">
+        <input type="checkbox" id="filter-active"> Still active in store
+      </label>
+      <label class="filter-option">
+        <input type="checkbox" id="filter-xfer"> Ownership transfer
+      </label>
+      <label class="filter-option">
+        <input type="checkbox" id="filter-stubs"> Include stubs (UNKNOWN name)
+        <input type="checkbox" id="filter-stubs" checked>
+      </label>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Date Discovered</div>
+      <div style="display:flex;gap:6px;flex-direction:column;padding:0 6px">
+        <input type="text" id="filter-date-from" placeholder="From: YYYY-MM-DD"
+               class="search-input" style="font-size:11px;padding:6px 8px">
+        <input type="text" id="filter-date-to" placeholder="To: YYYY-MM-DD"
+               class="search-input" style="font-size:11px;padding:6px 8px">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Campaign</div>
+      <div id="campaign-filters" style="max-height:300px;overflow-y:auto"></div>
+    </div>
+
+  </aside>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- Search -->
+    <div class="search-wrap">
+      <span class="search-prompt">›</span>
+      <input type="text" class="search-input" id="search"
+             placeholder="Search by extension ID, name, campaign, or threat type..."
+             autofocus autocomplete="off" spellcheck="false">
+    </div>
+    <div class="search-hint">
+      Search across all fields · <kbd>Esc</kbd> to clear · <kbd>↑↓</kbd> to navigate results
+    </div>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <div class="stat-cell">
+        <div class="stat-val" id="stat-total">—</div>
+        <div class="stat-label">Total Extensions</div>
+      </div>
+      <div class="stat-cell warn">
+        <div class="stat-val" id="stat-active">—</div>
+        <div class="stat-label">Still Active</div>
+      </div>
+      <div class="stat-cell caution">
+        <div class="stat-val" id="stat-xfer">—</div>
+        <div class="stat-label">Ownership Transfer</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val" id="stat-campaigns">—</div>
+        <div class="stat-label">Campaigns</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val" id="stat-results">—</div>
+        <div class="stat-label">Matching</div>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="results-header">
+      <span id="results-label">Loading<span class="cursor"></span></span>
+      <button class="sort-btn active" id="sort-date" onclick="setSort('date')">date ↓</button>
+      <button class="sort-btn" id="sort-name" onclick="setSort('name')">name</button>
+      <button class="sort-btn" id="sort-threat" onclick="setSort('threat')">threat</button>
+    </div>
+
+    <div id="results"></div>
+
+  </main>
+</div>
+
+<footer class="footer">
+  <span>chrome-mal-ids · community malicious extension IOC list</span>
+  <a href="https://github.com/mallorybowes/chrome-mal-ids">github.com/mallorybowes/chrome-mal-ids</a>
+  <span style="margin-left:auto">Licensed CC-BY 4.0</span>
+</footer>
+
+<script>
+// ── Data ───────────────────────────────────────────────────────────────────────
+const CSV_URL = 'https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv';
+const STORE_URL = id => `https://chromewebstore.google.com/detail/${id}`;
+const EDGE_URL  = id => `https://microsoftedge.microsoft.com/addons/detail/${id}`;
+
+let allRows    = [];
+let filtered   = [];
+let sortKey    = 'date';
+let expandedId = null;
+
+// ── CSV parser ─────────────────────────────────────────────────────────────────
+function parseCSV(text) {
+  const lines  = text.split('\n');
+  const header = lines[0].split(',');
+  const rows   = [];
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) continue;
+    // Handle quoted fields
+    const fields = [];
+    let cur = '', inQ = false;
+    for (let c of line) {
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { fields.push(cur); cur = ''; }
+      else cur += c;
+    }
+    fields.push(cur);
+    const row = {};
+    header.forEach((h, idx) => row[h.trim()] = (fields[idx] || '').trim());
+    if (row.EXTID && row.EXTID.toLowerCase() !== 'unknown') rows.push(row);
+  }
+  return rows;
+}
+
+// ── Campaign extraction ────────────────────────────────────────────────────────
+function extractCampaign(notes) {
+  if (!notes || notes.toUpperCase() === 'UNKNOWN') return 'Unknown';
+  const m2 = notes.match(/(?:campaign|cluster|group)s?:\s*([A-Z][^,.(]{3,50}?)(?:\s*(?:extensions?|and\s|,|\.))/i);
+  if (m2) return m2[1].trim();
+  const m1 = notes.match(/^([A-Z][^.(]{3,60}?)(?:\s*[\.(])/);
+  if (m1 && m1[1].split(' ').length <= 8) return m1[1].trim();
+  return (notes.split('.')[0] || 'Unknown').trim().slice(0, 60);
+}
+
+// ── Load data ─────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const resp = await fetch(CSV_URL);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const text = await resp.text();
+    allRows = parseCSV(text);
+
+    // Enrich with derived fields
+    allRows.forEach(r => {
+      r._campaign    = extractCampaign(r.NOTES);
+      r._threats     = (r['THREAT-TYPE'] || '').split(',').map(t => t.trim()).filter(Boolean);
+      r._active      = r['STILL-ACTIVE'] === '1';
+      r._xfer        = r['OWNERSHIP-TRANSFER'] === '1';
+      r._stub        = r['EXTID-NAME'].toUpperCase() === 'UNKNOWN';
+      r._date        = r['DATE-DIS'] || '';
+      r._searchBlob  = [
+        r.EXTID, r['EXTID-NAME'], r._campaign,
+        r['THREAT-TYPE'], r.NOTES, r.BROWSER,
+        r.SOURCE, r.ARTICLE
+      ].join(' ').toLowerCase();
+    });
+
+    buildFilters();
+    updateStats();
+    applyFilters();
+    updateHeader();
+
+  } catch(e) {
+    document.getElementById('results').innerHTML = `
+      <div class="state-msg">
+        <div class="icon">⚠</div>
+        <div class="title">Failed to load data</div>
+        <div class="sub">${e.message}<br><br>
+        If running locally, serve with: <code>python3 -m http.server</code></div>
+      </div>`;
+    document.getElementById('results-label').textContent = 'Error loading data';
+  }
+}
+
+// ── Filter builders ────────────────────────────────────────────────────────────
+function buildFilters() {
+  // Threat type filters
+  const threatCounts = {};
+  allRows.forEach(r => r._threats.forEach(t => {
+    if (t && t.toUpperCase() !== 'UNKNOWN') threatCounts[t] = (threatCounts[t]||0) + 1;
+  }));
+  const threatEl = document.getElementById('threat-filters');
+  threatEl.innerHTML = Object.entries(threatCounts)
+    .sort((a,b) => b[1]-a[1])
+    .map(([t, count]) => `
+      <label class="filter-option">
+        <input type="checkbox" class="filter-threat" value="${t}" checked>
+        ${t}
+        <span class="filter-count">${count}</span>
+      </label>`).join('');
+
+  // Campaign filters
+  const campCounts = {};
+  allRows.forEach(r => campCounts[r._campaign] = (campCounts[r._campaign]||0)+1);
+  const campEl = document.getElementById('campaign-filters');
+  campEl.innerHTML = Object.entries(campCounts)
+    .sort((a,b) => b[1]-a[1])
+    .map(([c, count]) => `
+      <label class="filter-option">
+        <input type="checkbox" class="filter-campaign" value="${escAttr(c)}" checked>
+        <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1"
+              title="${escAttr(c)}">${esc(c)}</span>
+        <span class="filter-count">${count}</span>
+      </label>`).join('');
+
+  // Browser counts
+  document.getElementById('cnt-chrome').textContent =
+    allRows.filter(r => (r.BROWSER||'chrome').toLowerCase() === 'chrome').length;
+  document.getElementById('cnt-edge').textContent =
+    allRows.filter(r => (r.BROWSER||'').toLowerCase() === 'edge').length;
+
+  // Wire up all filter changes
+  document.querySelectorAll('.filter-browser,.filter-threat,.filter-campaign').forEach(el => {
+    el.addEventListener('change', applyFilters);
+  });
+  document.getElementById('filter-active').addEventListener('change', applyFilters);
+  document.getElementById('filter-xfer').addEventListener('change', applyFilters);
+  document.getElementById('filter-date-from').addEventListener('input', applyFilters);
+  document.getElementById('filter-date-to').addEventListener('input', applyFilters);
+}
+
+// ── Filtering ──────────────────────────────────────────────────────────────────
+function applyFilters() {
+  const query     = document.getElementById('search').value.trim().toLowerCase();
+  const browsers  = [...document.querySelectorAll('.filter-browser:checked')].map(e => e.value);
+  const threats   = new Set([...document.querySelectorAll('.filter-threat:checked')].map(e => e.value));
+  const campaigns = new Set([...document.querySelectorAll('.filter-campaign:checked')].map(e => e.value));
+  const activeOnly = document.getElementById('filter-active').checked;
+  const xferOnly   = document.getElementById('filter-xfer').checked;
+  const dateFrom   = document.getElementById('filter-date-from').value.trim();
+  const dateTo     = document.getElementById('filter-date-to').value.trim();
+
+  filtered = allRows.filter(r => {
+    const browser = (r.BROWSER || 'chrome').toLowerCase();
+    if (!browsers.includes(browser)) return false;
+    if (activeOnly && !r._active) return false;
+    if (xferOnly && !r._xfer) return false;
+    if (dateFrom && r._date && r._date < dateFrom) return false;
+    if (dateTo   && r._date && r._date > dateTo)   return false;
+
+    // Threat filter — pass if ANY of the row's threats are checked, or if unknown
+    if (r._threats.length > 0) {
+      if (!r._threats.some(t => threats.has(t))) return false;
+    }
+
+    // Campaign filter
+    if (!campaigns.has(r._campaign)) return false;
+
+    // Text search
+    if (query && !r._searchBlob.includes(query)) return false;
+
+    return true;
+  });
+
+  sortResults();
+  renderResults(query);
+  document.getElementById('stat-results').textContent = filtered.length.toLocaleString();
+}
+
+// ── Sorting ────────────────────────────────────────────────────────────────────
+function setSort(key) {
+  sortKey = key;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(`sort-${key}`).classList.add('active');
+  sortResults();
+  renderResults(document.getElementById('search').value.trim().toLowerCase());
+}
+
+function sortResults() {
+  filtered.sort((a, b) => {
+    if (sortKey === 'date') return (b._date || '').localeCompare(a._date || '');
+    if (sortKey === 'name') return (a['EXTID-NAME'] || '').localeCompare(b['EXTID-NAME'] || '');
+    if (sortKey === 'threat') return (a['THREAT-TYPE'] || '').localeCompare(b['THREAT-TYPE'] || '');
+    return 0;
+  });
+}
+
+// ── Rendering ──────────────────────────────────────────────────────────────────
+function highlight(text, query) {
+  if (!query || !text) return esc(text || '');
+  const re = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+  return esc(text).replace(re, '<mark>$1</mark>');
+}
+
+function renderResults(query = '') {
+  const container = document.getElementById('results');
+  const label     = document.getElementById('results-label');
+
+  if (!filtered.length) {
+    container.innerHTML = `
+      <div class="state-msg">
+        <div class="icon">○</div>
+        <div class="title">No matches found</div>
+        <div class="sub">Try broadening your search or adjusting filters</div>
+      </div>`;
+    label.textContent = '0 results';
+    return;
+  }
+
+  // Render up to 200 at a time for performance
+  const visible = filtered.slice(0, 200);
+  label.innerHTML = `<span class="results-count">${filtered.length.toLocaleString()}</span> results${filtered.length > 200 ? ' (showing first 200)' : ''}`;
+
+  container.innerHTML = visible.map(row => {
+    const id      = row.EXTID;
+    const name    = row['EXTID-NAME'];
+    const browser = (row.BROWSER || 'chrome').toLowerCase();
+    const isExp   = expandedId === id;
+    const storeUrl = browser === 'edge' ? EDGE_URL(id) : STORE_URL(id);
+
+    const tags = [
+      row['THREAT-TYPE'] && row['THREAT-TYPE'].toUpperCase() !== 'UNKNOWN'
+        ? `<span class="tag tag-threat">${esc(row['THREAT-TYPE'].split(',')[0])}</span>` : '',
+      row._active ? `<span class="tag tag-active">⚡ active</span>` : '',
+      row._xfer   ? `<span class="tag tag-xfer">ownership ⟳</span>` : '',
+      `<span class="tag tag-browser">${browser}</span>`,
+      row._date   ? `<span class="tag tag-date">${row._date}</span>` : '',
+    ].filter(Boolean).join('');
+
+    const detail = isExp ? `
+      <div class="card-detail open">
+        <div class="detail-grid">
+          <span class="detail-key">Extension ID</span>
+          <span class="detail-val" style="color:var(--green2)">${esc(id)}</span>
+          <span class="detail-key">Name</span>
+          <span class="detail-val">${esc(name)}</span>
+          <span class="detail-key">Campaign</span>
+          <span class="detail-val">${esc(row._campaign)}</span>
+          <span class="detail-key">Threat Type</span>
+          <span class="detail-val">${esc(row['THREAT-TYPE'] || '—')}</span>
+          <span class="detail-key">Browser</span>
+          <span class="detail-val">${esc(browser)}</span>
+          <span class="detail-key">Discovered</span>
+          <span class="detail-val">${esc(row['DATE-DIS'] || '—')}</span>
+          <span class="detail-key">Still Active</span>
+          <span class="detail-val">${row._active ? '⚡ Yes — still in store' : 'No'}</span>
+          <span class="detail-key">Ownership ⟳</span>
+          <span class="detail-val">${row._xfer ? 'Yes — transferred before malicious update' : 'No'}</span>
+          ${row.SOURCE ? `<span class="detail-key">Source</span>
+          <span class="detail-val"><a href="${escAttr(row.SOURCE)}" target="_blank" rel="noopener">${esc(row.SOURCE)}</a></span>` : ''}
+          ${row.ARTICLE && row.ARTICLE !== row.SOURCE ? `<span class="detail-key">Article</span>
+          <span class="detail-val"><a href="${escAttr(row.ARTICLE)}" target="_blank" rel="noopener">${esc(row.ARTICLE)}</a></span>` : ''}
+        </div>
+        ${row.NOTES && row.NOTES.toUpperCase() !== 'UNKNOWN'
+          ? `<div class="detail-val notes">${esc(row.NOTES)}</div>` : ''}
+        <div class="detail-actions">
+          <a class="detail-btn btn-store" href="${storeUrl}" target="_blank" rel="noopener">
+            ↗ ${browser === 'edge' ? 'Edge Add-ons' : 'Chrome Web Store'}
+          </a>
+          ${row.SOURCE ? `<a class="detail-btn btn-source" href="${escAttr(row.SOURCE)}" target="_blank" rel="noopener">↗ Research article</a>` : ''}
+          <button class="detail-btn btn-source" onclick="copyId('${id}')">⎘ Copy ID</button>
+        </div>
+      </div>` : `<div class="card-detail"></div>`;
+
+    return `
+    <div class="result-card ${isExp ? 'expanded' : ''} ${row._active ? 'active-threat' : ''}"
+         onclick="toggleCard('${id}')">
+      <div class="card-row">
+        <span class="ext-id">${highlight(id, query)}</span>
+        <span class="ext-name ${name.toUpperCase() === 'UNKNOWN' ? 'unknown' : ''}">${highlight(name, query)}</span>
+        <div class="card-tags">${tags}</div>
+      </div>
+      ${detail}
+    </div>`;
+  }).join('');
+}
+
+// ── Interactions ───────────────────────────────────────────────────────────────
+function toggleCard(id) {
+  expandedId = expandedId === id ? null : id;
+  renderResults(document.getElementById('search').value.trim().toLowerCase());
+}
+
+function copyId(id) {
+  navigator.clipboard.writeText(id).then(() => {
+    // Brief visual feedback
+    const btns = document.querySelectorAll('.detail-btn');
+    btns.forEach(b => { if (b.textContent.includes('Copy')) { b.textContent = '✓ Copied!'; setTimeout(() => b.textContent = '⎘ Copy ID', 1500); }});
+  });
+}
+
+// ── Stats ──────────────────────────────────────────────────────────────────────
+function updateStats() {
+  const total    = allRows.length;
+  const active   = allRows.filter(r => r._active).length;
+  const xfer     = allRows.filter(r => r._xfer).length;
+  const campaigns = new Set(allRows.map(r => r._campaign)).size;
+
+  document.getElementById('stat-total').textContent     = total.toLocaleString();
+  document.getElementById('stat-active').textContent    = active.toLocaleString();
+  document.getElementById('stat-xfer').textContent      = xfer.toLocaleString();
+  document.getElementById('stat-campaigns').textContent = campaigns.toLocaleString();
+  document.getElementById('stat-results').textContent   = total.toLocaleString();
+}
+
+function updateHeader() {
+  const total     = allRows.length;
+  const active    = allRows.filter(r => r._active).length;
+  const campaigns = new Set(allRows.map(r => r._campaign)).size;
+  const newest    = allRows.map(r => r._date).filter(Boolean).sort().pop() || '—';
+
+  document.getElementById('hdr-total').textContent    = total.toLocaleString();
+  document.getElementById('hdr-campaigns').textContent = campaigns.toLocaleString();
+  document.getElementById('hdr-active').textContent   = active.toLocaleString();
+  document.getElementById('hdr-updated').textContent  = newest;
+}
+
+// ── Keyboard shortcuts ─────────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  const search = document.getElementById('search');
+  if (e.key === 'Escape') { search.value = ''; applyFilters(); search.focus(); }
+  if (e.key === '/' && document.activeElement !== search) { e.preventDefault(); search.focus(); }
+});
+
+// Search debounce
+let searchTimer;
+document.getElementById('search').addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(applyFilters, 150);
+});
+
+// ── Helpers ────────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function escAttr(s) { return esc(s); }
+
+// ── Init ───────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
