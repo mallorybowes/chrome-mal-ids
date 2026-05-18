@@ -144,6 +144,115 @@
     overflow-y: auto;
   }
 
+  /* ── Mobile filter toggle button (hidden on desktop) ── */
+  .filter-toggle {
+    display: none;
+  }
+
+  /* ── Mobile breakpoint ── */
+  @media (max-width: 700px) {
+    body { font-size: 12px; }
+
+    /* Header */
+    .header { padding: 12px 14px 10px; }
+    .header-top { flex-wrap: wrap; gap: 8px; }
+    .logo { font-size: 17px; }
+    .header-links { margin-left: 0; gap: 8px; width: 100%; }
+    .header-links a { font-size: 10px; padding: 4px 8px; flex: 1; text-align: center; }
+    .header-meta { gap: 10px; font-size: 10px; }
+
+    /* Stack sidebar above main */
+    .shell {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+    }
+
+    /* Sidebar collapses behind toggle */
+    .sidebar {
+      position: static;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+    .sidebar.open {
+      max-height: 600px;
+      padding: 14px 14px 4px;
+      overflow-y: auto;
+    }
+
+    /* Filter toggle button */
+    .filter-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      padding: 10px 14px;
+      background: var(--bg2);
+      border: none;
+      border-bottom: 1px solid var(--border);
+      color: var(--text2);
+      font-family: var(--mono);
+      font-size: 12px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .filter-toggle:hover { color: var(--green); }
+    .filter-toggle .arrow { margin-left: auto; transition: transform 0.2s; }
+    .filter-toggle.open .arrow { transform: rotate(180deg); }
+
+    /* Main content */
+    .main { padding: 12px 12px; }
+
+    /* Search */
+    .search-input { font-size: 13px; padding: 10px 10px 10px 26px; }
+    .search-hint { display: none; }
+
+    /* Stats bar — 2x2 grid on mobile */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .stat-cell {
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat-cell:nth-child(2n) { border-right: none; }
+    .stat-cell:nth-last-child(-n+2) { border-bottom: none; }
+    .stat-val { font-size: 18px; }
+    .stat-label { font-size: 8px; }
+
+    /* Cards — simpler layout on mobile */
+    .card-row {
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+    }
+    .ext-id {
+      font-size: 10px;
+      grid-column: 1 / -1;
+      color: var(--green3);
+    }
+    .ext-name { font-size: 12px; }
+    .card-tags { flex-wrap: wrap; justify-content: flex-start; gap: 4px; }
+
+    /* Detail grid on mobile */
+    .detail-grid { grid-template-columns: 90px 1fr; font-size: 11px; }
+    .detail-actions { flex-wrap: wrap; }
+    .detail-btn { font-size: 9px; padding: 4px 8px; }
+
+    /* Results header */
+    .results-header { flex-wrap: wrap; gap: 6px; }
+    .sort-btn { font-size: 9px; padding: 2px 6px; }
+
+    /* Footer */
+    .footer { flex-direction: column; gap: 6px; padding: 10px 14px; }
+    .footer span:last-child { margin-left: 0; }
+  }
+
   .filter-section {
     margin-bottom: 20px;
   }
@@ -461,8 +570,14 @@
 
 <div class="shell">
 
+  <!-- Mobile filter toggle -->
+  <button class="filter-toggle" id="filter-toggle" onclick="toggleFilters()">
+    ⚙ Filters
+    <span class="arrow">▾</span>
+  </button>
+
   <!-- Sidebar filters -->
-  <aside class="sidebar">
+  <aside class="sidebar" id="sidebar">
 
     <div class="filter-section">
       <div class="filter-label">Browser</div>
@@ -570,6 +685,13 @@
 </footer>
 
 <script>
+function toggleFilters() {
+  const sidebar = document.getElementById('sidebar');
+  const btn     = document.getElementById('filter-toggle');
+  sidebar.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+
 // ── Data ───────────────────────────────────────────────────────────────────────
 const CSV_URL = 'https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv';
 const STORE_URL = id => `https://chromewebstore.google.com/detail/${id}`;
@@ -843,8 +965,7 @@ function renderResults(query = '') {
         <div class="card-tags">${tags}</div>
       </div>
       ${detail}
-    </div>`;
-  }).join('');
+    </div>`;  }).join('');
 }
 
 // ── Interactions ───────────────────────────────────────────────────────────────
