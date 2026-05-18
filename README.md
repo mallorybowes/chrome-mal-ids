@@ -1,6 +1,8 @@
-# chrome-mal-ids
+# Malicious Chrome Extension IOC Database
 
-**A community-maintained database of malicious Chrome and Edge browser extension indicators of compromise.**
+**A community-maintained database of malicious Chrome and Edge browser extension indicators of compromise (IOCs).**
+
+*Repository: [chrome-mal-ids](https://github.com/mallorybowes/chrome-mal-ids)*
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](LICENSE.md)
 [![STIX 2.1](https://img.shields.io/badge/STIX-2.1-blue?style=flat-square)](chrome-mal-ids-stix.json)
@@ -151,7 +153,17 @@ if match:
 
 ---
 
-## Contributing
+## Monitoring Sources
+
+The database is updated by monitoring security research RSS feeds and GitHub repositories daily.
+
+> **Current source list:** See [STATS.md](STATS.md#monitoring-sources) for the full auto-generated list — it stays in sync with the monitoring pipeline automatically.
+
+Sources include blogs and publications from: Koi Security / Palo Alto, Bleeping Computer, The Hacker News, Krebs on Security, Sekoia, Palant's Blog, Secure Annex, Trustwave SpiderLabs, The Record, SecurityWeek, and several GitHub IOC aggregation repositories.
+
+To suggest a new source, [open an issue](https://github.com/mallorybowes/chrome-mal-ids/issues).
+
+---
 
 ### Reporting a new malicious extension
 

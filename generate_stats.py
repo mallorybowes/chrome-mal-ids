@@ -114,7 +114,7 @@ def main():
 
     # ── Write STATS.md ─────────────────────────────────────────────────────────
     lines = [
-        "# chrome-mal-ids — Statistics",
+        "# Malicious Chrome Extension IOC Database — Statistics",
         "",
         f"> Auto-generated {generated} · [Full list]({PROJECT_URL})",
         "",

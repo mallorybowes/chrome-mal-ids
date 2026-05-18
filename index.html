@@ -3,31 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>chrome-mal-ids · malicious extension search</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23080b08'/><path d='M16 4 L26 8 L26 18 C26 23 21 27 16 29 C11 27 6 23 6 18 L6 8 Z' fill='none' stroke='%2300ff41' stroke-width='2'/><text x='16' y='22' font-family='monospace' font-size='13' font-weight='bold' fill='%2300ff41' text-anchor='middle'>✕</text></svg>">
+<title>Malicious Chrome Extension IOC Database</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230d1117'/><path d='M16 4 L26 8 L26 18 C26 23 21 27 16 29 C11 27 6 23 6 18 L6 8 Z' fill='none' stroke='%234285f4' stroke-width='1.5'/><circle cx='16' cy='14' r='4' fill='none' stroke='%234285f4' stroke-width='1.5'/><line x1='19' y1='17' x2='23' y2='21' stroke='%2334a853' stroke-width='2' stroke-linecap='round'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:        #080b08;
-    --bg2:       #0d120d;
-    --bg3:       #111811;
-    --border:    #1a2e1a;
-    --border2:   #243d24;
-    --green:     #00ff41;
-    --green2:    #00cc33;
-    --green3:    #008822;
-    --green4:    #004411;
+    --bg:        #0d1117;
+    --bg2:       #161b22;
+    --bg3:       #1c2128;
+    --border:    #21262d;
+    --border2:   #30363d;
+    --green:     #34a853;
+    --green2:    #2d9144;
+    --green3:    #1e6b30;
+    --green4:    #0d3318;
     --dim:       #3a6e3a;
     --dimmer:    #1e3c1e;
-    --text:      #c8e6c8;
-    --text2:     #6b9e6b;
-    --text3:     #3a5e3a;
-    --red:       #ff4444;
-    --yellow:    #ffcc00;
-    --cyan:      #00ffff;
+    --text:      #e6edf3;
+    --text2:     #8b949e;
+    --text3:     #484f58;
+    --red:       #ea4335;
+    --red2:      #b5352a;
+    --yellow:    #fbbc05;
+    --yellow2:   #c99a04;
+    --cyan:      #4285f4;
     --mono:      'Share Tech Mono', monospace;
     --sans:      'Syne', sans-serif;
+    --g-blue:    #4285f4;
+    --g-red:     #ea4335;
+    --g-yellow:  #fbbc05;
+    --g-green:   #34a853;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -50,8 +56,8 @@
       0deg,
       transparent,
       transparent 2px,
-      rgba(0,0,0,0.08) 2px,
-      rgba(0,0,0,0.08) 4px
+      rgba(0,0,0,0.06) 2px,
+      rgba(0,0,0,0.06) 4px
     );
     pointer-events: none;
     z-index: 999;
@@ -70,8 +76,13 @@
     content: '';
     position: absolute;
     bottom: 0; left: 0; right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--green3), transparent);
+    height: 2px;
+    background: linear-gradient(90deg,
+      var(--g-blue)   0%,
+      var(--g-red)    25%,
+      var(--g-yellow) 50%,
+      var(--g-green)  75%,
+      var(--g-blue)   100%);
   }
 
   .header-top {
@@ -85,9 +96,16 @@
     font-family: var(--sans);
     font-weight: 800;
     font-size: 22px;
-    color: var(--green);
     letter-spacing: -0.02em;
-    text-shadow: 0 0 20px rgba(0,255,65,0.4);
+    background: linear-gradient(90deg,
+      var(--g-blue)   0%,   var(--g-blue)   18%,
+      var(--g-red)    18%,  var(--g-red)    36%,
+      var(--g-yellow) 36%,  var(--g-yellow) 54%,
+      var(--g-green)  54%,  var(--g-green)  72%,
+      var(--g-blue)   72%,  var(--g-blue)   100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .logo-sub {
@@ -124,7 +142,7 @@
     padding: 3px 10px;
     border-radius: 2px;
   }
-  .header-links a:hover { color: var(--green); border-color: var(--green3); }
+  .header-links a:hover { color: var(--green); border-color: var(--g-blue); }
 
   /* ── Layout ── */
   .shell {
@@ -240,7 +258,7 @@
     }
     .ext-id {
       font-size: 10px;
-      color: var(--green3);
+      color: var(--g-blue);
       letter-spacing: 0.02em;
     }
     .ext-name {
@@ -343,13 +361,13 @@
     font-size: 14px;
     padding: 12px 14px 12px 30px;
     outline: none;
-    caret-color: var(--green);
+    caret-color: var(--g-blue);
     transition: border-color 0.15s, box-shadow 0.15s;
   }
   .search-input::placeholder { color: var(--text3); }
   .search-input:focus {
     border-color: var(--green3);
-    box-shadow: 0 0 0 1px var(--green4), 0 0 20px rgba(0,255,65,0.05);
+    box-shadow: 0 0 0 1px rgba(66,133,244,0.3), 0 0 20px rgba(66,133,244,0.05);
   }
 
   .search-hint {
@@ -422,7 +440,7 @@
   .ext-id {
     font-family: var(--mono);
     font-size: 11px;
-    color: var(--green2);
+    color: var(--g-blue);
     letter-spacing: 0.03em;
     white-space: nowrap;
     overflow: hidden;
@@ -544,12 +562,12 @@
     font-size: 22px;
     font-weight: 800;
     color: var(--green);
-    text-shadow: 0 0 12px rgba(0,255,65,0.3);
+    text-shadow: none;
     line-height: 1;
     margin-bottom: 3px;
   }
   .stat-label { font-size: 9px; letter-spacing: 0.1em; color: var(--text3); text-transform: uppercase; }
-  .stat-cell.warn .stat-val { color: var(--red); text-shadow: 0 0 12px rgba(255,68,68,0.3); }
+  .stat-cell.warn .stat-val { color: var(--red); text-shadow: none; }
   .stat-cell.caution .stat-val { color: var(--yellow); }
 
   /* ── Highlight ── */
@@ -579,7 +597,7 @@
 <header class="header">
   <div class="header-top">
     <div class="logo">chrome-mal-ids</div>
-    <div class="logo-sub">malicious extension database</div>
+    <div class="logo-sub">Malicious Chrome Extension IOC Database</div>
     <div class="header-links">
       <a href="chrome-mal-ids-stix.json" download>↓ STIX 2.1</a>
       <a href="current-list-meta.csv" download>↓ CSV</a>

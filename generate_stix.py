@@ -124,11 +124,11 @@ def load_csv(csv_path: Path) -> list[dict]:
 
 def build_identity() -> stix2.Identity:
     return stix2.Identity(
-        name="chrome-mal-ids",
+        name="Malicious Chrome Extension IOC Database",
         identity_class="organization",
         description=(
-            "Community-maintained list of malicious Chrome and Edge browser "
-            "extension indicators of compromise. "
+            "Community-maintained database of malicious Chrome and Edge browser "
+            "extension indicators of compromise (IOCs). "
             f"See {PROJECT_URL} for details."
         ),
         contact_information=PROJECT_URL,
@@ -146,7 +146,7 @@ def build_malware(campaign: str, threat_types: list[str],
         created_by_ref=identity_id,
         external_references=[
             stix2.ExternalReference(
-                source_name="chrome-mal-ids",
+                source_name="Malicious Chrome Extension IOC Database",
                 url=PROJECT_URL,
             )
         ],
@@ -308,7 +308,7 @@ def main():
 
     # Build Report object
     report = stix2.Report(
-        name="chrome-mal-ids Malicious Browser Extension IOCs",
+        name="Malicious Chrome Extension IOC Database",
         description=(
             f"Community-maintained list of {len(indicators)} malicious Chrome and Edge "
             f"browser extension indicators of compromise across {len(campaign_map)} "
@@ -319,7 +319,7 @@ def main():
         object_refs=[obj.id for obj in all_objects],
         external_references=[
             stix2.ExternalReference(
-                source_name="chrome-mal-ids",
+                source_name="Malicious Chrome Extension IOC Database",
                 url=PROJECT_URL,
             )
         ],
