@@ -616,7 +616,7 @@
     <div class="search-wrap">
       <span class="search-prompt">›</span>
       <input type="text" class="search-input" id="search"
-             placeholder="Search by extension ID, name, campaign, or threat type..."
+             placeholder="Search all fields — ID, name, campaign, source, notes, date..."
              autofocus autocomplete="off" spellcheck="false">
     </div>
     <div class="search-hint">
@@ -747,7 +747,9 @@ async function loadData() {
       r._searchBlob  = [
         r.EXTID, r['EXTID-NAME'], r._campaign,
         r['THREAT-TYPE'], r.NOTES, r.BROWSER,
-        r.SOURCE, r.ARTICLE
+        r.SOURCE, r.ARTICLE, r['ADD-SOURCES'],
+        r.CONTRIB, r['CONTRIB-METHOD'], r['CONTRIB-HANDLE'],
+        r['DATE-DIS'], r['DATE-ADD']
       ].join(' ').toLowerCase();
     });
 
@@ -840,13 +842,13 @@ function applyFilters() {
     if (dateFrom && r._date && r._date < dateFrom) return false;
     if (dateTo   && r._date && r._date > dateTo)   return false;
 
-    // Threat filter — skip if stubs-only (stubs have UNKNOWN threat type)
-    if (!stubsOnly && r._threats.length > 0) {
+    // Campaign filter — skip if stubs-only or active search query
+    if (!stubsOnly && !query && !campaigns.has(r._campaign)) return false;
+
+    // Threat filter — skip if stubs-only or active search query
+    if (!stubsOnly && !query && r._threats.length > 0) {
       if (!r._threats.some(t => threats.has(t))) return false;
     }
-
-    // Campaign filter — skip if stubs-only (stubs have no meaningful campaign)
-    if (!stubsOnly && !campaigns.has(r._campaign)) return false;
 
     // Text search
     if (query && !r._searchBlob.includes(query)) return false;
