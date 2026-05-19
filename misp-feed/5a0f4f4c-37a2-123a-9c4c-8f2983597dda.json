@@ -1,0 +1,399 @@
+{
+  "Event": {
+    "uuid": "5a0f4f4c-37a2-123a-9c4c-8f2983597dda",
+    "info": "[chrome-mal-ids] Stub entry imported from gnyman/chromium-mal-ids — 16 malicious extension(s)",
+    "date": "2026-05-19",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779152542",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "8e49b2dd-7e8e-e74e-fe7f-0bd7d6660560",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/abgpfcaflplbnjkpeoimjchehdhakped",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9c551c48-c3c0-3fc9-2ea3-4bbdfa18426e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "abgpfcaflplbnjkpeoimjchehdhakped",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2979925a-c8e1-e969-56ee-0cc34805c26d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bnkfndcaablkaikpghncjfpfpohlebhl",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b7e3caa9-2fe6-fcd7-7508-af25a6f8246b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bnkfndcaablkaikpghncjfpfpohlebhl",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c27a961c-b2b9-928b-2ad6-f952c92614dd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cadamhedkeaockcdjhgnhganjplekkae",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1cb963b4-897e-a152-8150-a055012ecd49",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cadamhedkeaockcdjhgnhganjplekkae",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ca9cd948-cab1-6f8d-ba2a-708896e37a0e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cbeheemkdnigelpcgdjabhhfleabpnci",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8f96eabb-bfd5-3a3f-740c-93f1cad95d73",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cbeheemkdnigelpcgdjabhhfleabpnci",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9bd5e2c2-52e0-4e46-c1f2-939a3083868e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/demiaanijbajdmkfpenjgamcgfklgjge",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ccb84b1e-f8e7-928f-47b1-5babd7e58e06",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "demiaanijbajdmkfpenjgamcgfklgjge",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cdd7b2f7-a196-bada-0188-c90e2eebed15",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/djeijcgibnkebbldabhecmkmdaojdbpk",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "44373216-160d-d918-4bda-b2c9a8e7b38e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "djeijcgibnkebbldabhecmkmdaojdbpk",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "89c50542-e604-9cca-809d-4853131cf0b1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ekmkkpnadnbahjkmmmhkehalpeolknmn",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fe3a94b0-401c-ff7b-eada-5a69fc792f7e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ekmkkpnadnbahjkmmmhkehalpeolknmn",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d12f1066-0717-79f9-4860-19320dbfed3c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hpaeihbjeijdabhoobkledihgofjlbkp",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8a6364b8-8761-a156-7a7b-68d333054843",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hpaeihbjeijdabhoobkledihgofjlbkp",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d68be9df-c606-be7b-a20f-c9073f8a5ddf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/iamobjmjhdlfkmikacnhbjmiblndiani",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "df4a9a97-c435-9101-46b4-b129cc8f2964",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "iamobjmjhdlfkmikacnhbjmiblndiani",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6a3ccf68-f427-2ad1-eedf-0ed1f6ff5334",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ihbjeplpkbnmeenljajhckggleinidcd",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b925bf33-faa4-3072-0c65-66699908dbbe",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ihbjeplpkbnmeenljajhckggleinidcd",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a9453676-e6bb-13c7-b5ff-bb4cfd842a0b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ijgahedgacnhnbdakolhnhkbjbhjgfao",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "21a888fa-66a0-8df4-12cd-3f8fe10990a8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ijgahedgacnhnbdakolhnhkbjbhjgfao",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a6c8d42b-3dea-53b1-de57-66cdc4ca7b35",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/incoejagnokjhlkjkgpbdbooagggckdg",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0316880c-c7a1-dd4d-dee5-64d689797fe8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "incoejagnokjhlkjkgpbdbooagggckdg",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b2cc7198-ccfd-dcb3-825e-c9287b49b464",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jafjlcbocjfijiholjkppjeaolblpbam",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1a131ae8-dfa7-bb89-cb12-078d184a5aca",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jafjlcbocjfijiholjkppjeaolblpbam",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bba67ff3-3629-565a-f650-df5c2b1b7be3",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kiohalpdgogknjljjemlbpidjpaedlji",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ac9aaee6-d996-424b-9eeb-f42c505ba326",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kiohalpdgogknjljjemlbpidjpaedlji",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "754ef709-3947-10ee-d37e-dc88b3e33d86",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/opmdomafhdphidaghneljdkdiimpcopj",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e8709767-a250-1082-3aa9-d09720b590fb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "opmdomafhdphidaghneljdkdiimpcopj",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "728b7d68-863c-ce30-6b6d-795e5c45a7dd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pgeleiggmfnpbanhagnpajcfilnkaghj",
+        "comment": "Stub entry imported from gnyman/chromium-mal-ids. Name and campaign pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a9dbd4d8-bb2f-9a81-d275-c3d676284a67",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pgeleiggmfnpbanhagnpajcfilnkaghj",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f854eaf1-c79e-656a-06a5-b1dc70b96c56",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/gnyman/chromium-mal-ids",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

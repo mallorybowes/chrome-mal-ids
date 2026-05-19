@@ -1,0 +1,80 @@
+{
+  "Event": {
+    "uuid": "a0e947ef-a28c-7b18-ced5-8993d191a950",
+    "info": "[chrome-mal-ids] VK Styles campaign — 1 malicious extension(s)",
+    "date": "2026-05-19",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779152543",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "9674c29e-a3fd-0f76-bd7d-8236a1adb4d2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ceibjdigmfbbgcpkkdpmjokkokklodmc",
+        "comment": "Name: VK Styles - Themes for vk.com | Threat: session-hijack,data-theft,click-fraud | VK Styles campaign (threat actor 2vk). 5 Chrome extensions targeting VKontakte users. Lead extension VK Styles - Themes for vk.com had 400,000 installs. Used VK profile metadata as dead-drop C2. Auto-",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152543",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0a6ad48e-bdf3-ab92-cbb5-c67ea502733f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ceibjdigmfbbgcpkkdpmjokkokklodmc",
+        "comment": "Chrome/Edge extension ID — VK Styles - Themes for vk.com",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152543",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e538f9c3-d47f-579f-18bb-b2825cb0a196",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://therecord.media/500000-vkontakte-accounts-hijacked-chrome-extensions",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152543",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3a250fc0-22df-ca0a-1a89-7e67d56e2676",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.koi.ai/blog/vk-styles-500k-users-infected-by-chrome-extensions-that-hijack-vkontakte-accounts",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152543",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

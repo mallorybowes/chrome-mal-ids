@@ -1,0 +1,91 @@
+{
+  "Event": {
+    "uuid": "10249741-d8df-30ba-a8c8-c36c16d921e8",
+    "info": "[chrome-mal-ids] SearchBlox Roblox backdoor — 2 malicious extension(s)",
+    "date": "2026-05-19",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779152542",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "b31c86c7-3f0c-7e2d-20cd-3f76e10fbed6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/blddohgncmehcepnokognejaaahehncd",
+        "comment": "Name: SearchBlox | Threat: credential-theft,session-hijack | SearchBlox Roblox backdoor. Stole Roblox credentials and in-game assets via account API calls. Developer (UnstoppableLucent) intentionally backdoored own extension with malicious JS. 200,000 installs.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5989e564-be4a-12bf-51c0-5f482e93f734",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "blddohgncmehcepnokognejaaahehncd",
+        "comment": "Chrome/Edge extension ID — SearchBlox",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "61ad1a01-123e-e687-2e05-ac98203dd230",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ccjalhebkdogpobnbdhfpincfeohonni",
+        "comment": "Name: SearchBlox (secondary) | Threat: credential-theft,session-hijack | SearchBlox Roblox backdoor. Stole Roblox credentials and in-game assets via account API calls. Developer (UnstoppableLucent) intentionally backdoored own extension with malicious JS. 959 installs. Aut",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3fd231bc-90d7-3f58-03f0-daf84273054a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ccjalhebkdogpobnbdhfpincfeohonni",
+        "comment": "Chrome/Edge extension ID — SearchBlox (secondary)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "82bb2817-6cc6-e215-1ca9-948a1f804fe0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/backdoored-chrome-extension-installed-by-200-000-roblox-players/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

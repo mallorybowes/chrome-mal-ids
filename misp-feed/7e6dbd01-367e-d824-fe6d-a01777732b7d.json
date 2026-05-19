@@ -1,0 +1,124 @@
+{
+  "Event": {
+    "uuid": "7e6dbd01-367e-d824-fe6d-a01777732b7d",
+    "info": "[chrome-mal-ids] Cyberhaven Dec 2024 OAuth phishing supply chain attack — 3 malicious extension(s)",
+    "date": "2026-05-19",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779152542",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "acc39be2-eeb9-f6b4-946d-0646c17f1437",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/emedckhdnioeieppmeojgegjfkhdlaeo",
+        "comment": "Name: Where is Cookie? | Threat: data-theft,session-hijack,credential-theft | Cyberhaven Dec 2024 OAuth phishing supply chain attack. Developer credentials compromised via fake 'Privacy Policy Extension' OAuth app. Malicious code exfiltrated Facebook access tokens, cookies, ses",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "14d7178c-5e37-e933-e75f-dd39eba666f4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "emedckhdnioeieppmeojgegjfkhdlaeo",
+        "comment": "Chrome/Edge extension ID — Where is Cookie?",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e5e8c040-b846-8c52-f519-bdd63e57583e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pdkmmfdfggfpibdjbbghggcllhhainjo",
+        "comment": "Name: Web3Password Manager | Threat: data-theft,session-hijack,credential-theft | Cyberhaven Dec 2024 OAuth phishing supply chain attack. Developer credentials compromised via fake 'Privacy Policy Extension' OAuth app. Malicious code exfiltrated Facebook access tokens, cookies, ses",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "463992e2-9f46-7eb6-f311-b84ecc52585a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pdkmmfdfggfpibdjbbghggcllhhainjo",
+        "comment": "Chrome/Edge extension ID — Web3Password Manager",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fc332b30-c9a1-a31a-2c5d-9bc0e384d9b7",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fbmlcbhdmilaggedifpihjgkkmdgeljh",
+        "comment": "Name: GPT 4 Summary with OpenAI | Threat: data-theft,session-hijack,credential-theft | Cyberhaven Dec 2024 OAuth phishing supply chain attack. Developer credentials compromised via fake 'Privacy Policy Extension' OAuth app. Malicious code exfiltrated Facebook access tokens, cookies, ses",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e4e3d5d7-db0a-ad0c-0cd7-52411f3cfafe",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fbmlcbhdmilaggedifpihjgkkmdgeljh",
+        "comment": "Chrome/Edge extension ID — GPT 4 Summary with OpenAI",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a28a5b80-66c7-ea76-3bc0-73c5a5184dcc",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://rhisac.org/threat-intelligence/cyberhaven-extension-compromise-part-of-broader-campaign-affecting-multiple-chrome-extensions/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "44821d68-566f-d751-19d3-ee051df0f442",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://thehackernews.com/2024/12/16-chrome-extensions-hacked-exposing.html",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

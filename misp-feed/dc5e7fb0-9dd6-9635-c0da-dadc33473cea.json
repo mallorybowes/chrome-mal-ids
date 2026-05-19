@@ -1,0 +1,740 @@
+{
+  "Event": {
+    "uuid": "dc5e7fb0-9dd6-9635-c0da-dadc33473cea",
+    "info": "[chrome-mal-ids] Part of Dec 2024 Cyberhaven supply chain campaign — 31 malicious extension(s)",
+    "date": "2026-05-19",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779152542",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "eebe3802-a519-0d3a-47ec-c1e38b0cc0ad",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nnpnnpemnckcfdebeekibpiijlicmpom",
+        "comment": "Name: Cyberhaven Security Extension | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-25.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3f23112e-315e-7713-7814-9dd62f8c7ea1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nnpnnpemnckcfdebeekibpiijlicmpom",
+        "comment": "Chrome/Edge extension ID — Cyberhaven Security Extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2ae086ed-a730-d86f-9311-ba9c928a5bbd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kkodiihpgodmdankclfibbiphjkfdenh",
+        "comment": "Name: VPNCity | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-12.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "328a5f5d-5012-b0d8-7dcc-6493737ce577",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kkodiihpgodmdankclfibbiphjkfdenh",
+        "comment": "Chrome/Edge extension ID — VPNCity",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "64294a0d-89a1-d4cd-8a4d-036c5b379ebf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/oaikpkmjciadfpddlpjjdapglcihgdle",
+        "comment": "Name: Uvoice | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c0ce6b5b-4c98-1314-0e61-6a973c0a6ada",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "oaikpkmjciadfpddlpjjdapglcihgdle",
+        "comment": "Chrome/Edge extension ID — Uvoice",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "86fb70cd-365c-44b4-dd88-2b82632cdcd4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/dpggmcodlahmljkhlmpgpdcffdaoccni",
+        "comment": "Name: Internxt VPN | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "74cde283-ba5d-4e4a-3ee3-4ac830ae8434",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dpggmcodlahmljkhlmpgpdcffdaoccni",
+        "comment": "Chrome/Edge extension ID — Internxt VPN",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "59a65910-3a97-7107-a9c1-c5b025eb6164",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/acmfnomgphggonodopogfbmkneepfgnh",
+        "comment": "Name: Wayin AI | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bdd3096f-7a73-816d-2f5f-d669f5559bbe",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "acmfnomgphggonodopogfbmkneepfgnh",
+        "comment": "Chrome/Edge extension ID — Wayin AI",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dffc4bf7-9c92-afa0-5d4e-ecaeceefcab6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mnhffkhmpnefgklngfmlndmkimimbphc",
+        "comment": "Name: Search Copilot AI Assistant for Chrome | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-07-17.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9734e15e-7551-afb8-5f27-bcd2bae9366d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mnhffkhmpnefgklngfmlndmkimimbphc",
+        "comment": "Chrome/Edge extension ID — Search Copilot AI Assistant for Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "711525cb-d709-71a3-d125-126a85afe570",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cedgndijpacnfbdggppddacngjfdkaca",
+        "comment": "Name: Reader Mode | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-18.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7081188a-474f-5514-e707-945a78c80b14",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cedgndijpacnfbdggppddacngjfdkaca",
+        "comment": "Chrome/Edge extension ID — Reader Mode",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3e4da2c9-72a8-abe6-c132-e0d32df881ae",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bbdnohkpnbkdkmnkddobeafboooinpla",
+        "comment": "Name: Bard AI chat | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-10-22.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b3c55e2e-1cb0-1fb3-1388-46a980ea85a0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bbdnohkpnbkdkmnkddobeafboooinpla",
+        "comment": "Chrome/Edge extension ID — Bard AI chat",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7de0ecc8-9401-56d5-f389-27e9c2dce2b6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/egmennebgadmncfjafcemlecimkepcle",
+        "comment": "Name: TinaMind | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-15.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b021c86f-8d6a-0877-3f86-e5bed680546c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "egmennebgadmncfjafcemlecimkepcle",
+        "comment": "Chrome/Edge extension ID — TinaMind",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7e38cd89-7a0e-3a3d-9fff-82e70c6891bf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bibjgkidgpfbblifamdlkdlhgihmfohh",
+        "comment": "Name: YesCaptcha assistant | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-29.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "88c17e65-ec80-2767-291a-2f140b7f82a2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bibjgkidgpfbblifamdlkdlhgihmfohh",
+        "comment": "Chrome/Edge extension ID — YesCaptcha assistant",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1d29124c-167d-67cd-a8fd-84e6a8b7aa5c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/befflofjcniongenjmbkgkoljhgliihe",
+        "comment": "Name: GraphQL Network Inspector | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-29.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "52d0b00d-f62e-59ae-d756-9ccf97004844",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "befflofjcniongenjmbkgkoljhgliihe",
+        "comment": "Chrome/Edge extension ID — GraphQL Network Inspector",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6cb30bc1-e117-d27a-8edb-f2e847e6802b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pkgciiiancapdlpcbppfkmeaieppikkk",
+        "comment": "Name: Primus (prev. PADO) | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-18.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bbad9ddc-7035-fb40-139e-05cc2483f5b4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pkgciiiancapdlpcbppfkmeaieppikkk",
+        "comment": "Chrome/Edge extension ID — Primus (prev. PADO)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a8386fb4-7d25-d9a1-702c-85cbb6ed2fc1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/llimhhconnjiflfimocjggfjdlmlhblm",
+        "comment": "Name: Tackker - online keylogger tool | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-25.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6d9cdbe3-02a1-6c67-1660-1a64fba302b2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "llimhhconnjiflfimocjggfjdlmlhblm",
+        "comment": "Chrome/Edge extension ID — Tackker - online keylogger tool",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d99fb391-1c78-debe-e176-7f2560bf4de2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/oeiomhmbaapihbilkfkhmlajkeegnjhe",
+        "comment": "Name: AI Shop Buddy | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-04-30.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "94673298-6566-c7a5-1b1b-85b74572e4e0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "oeiomhmbaapihbilkfkhmlajkeegnjhe",
+        "comment": "Chrome/Edge extension ID — AI Shop Buddy",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c946ec76-ce90-3da9-9246-c11cc127533d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ndlbedplllcgconngcnfmkadhokfaaln",
+        "comment": "Name: Sort by Oldest | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-01-11.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5ad756e1-e668-ea7c-7167-d8f2846e9be8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ndlbedplllcgconngcnfmkadhokfaaln",
+        "comment": "Chrome/Edge extension ID — Sort by Oldest",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "038940b2-9a26-b4df-5388-6648598967ad",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/epdjhgbipjpbbhoccdeipghoihibnfja",
+        "comment": "Name: Rewards Search Automator | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-05-04.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5747badb-254a-d770-75e5-75cddcb81a7b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "epdjhgbipjpbbhoccdeipghoihibnfja",
+        "comment": "Chrome/Edge extension ID — Rewards Search Automator",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cc6b0bf9-ec2a-c794-1468-ad406968cd1d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cplhlgabfijoiabgkigdafklbhhdkahj",
+        "comment": "Name: Earny - Up to 20% Cash Back | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2023-04-05.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "92bef1d6-c8d1-2b35-8840-33d08af79680",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cplhlgabfijoiabgkigdafklbhhdkahj",
+        "comment": "Chrome/Edge extension ID — Earny - Up to 20% Cash Back",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3ed28a36-2401-5026-618d-2adc353f0a61",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jiofmdifioeejeilfkpegipdjiopiekl",
+        "comment": "Name: ChatGPT Assistant - Smart Search | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-02-12.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3cc0db12-1908-b60c-622c-eb04f33678eb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jiofmdifioeejeilfkpegipdjiopiekl",
+        "comment": "Chrome/Edge extension ID — ChatGPT Assistant - Smart Search",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a1a4cba1-5239-b991-07aa-ac147b50d48f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hihblcmlaaademjlakdpicchbjnnnkbo",
+        "comment": "Name: Proxy SwitchyOmega (V3) | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-30.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "39aff08b-6b2c-edc9-423a-ea6153ecc0a0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hihblcmlaaademjlakdpicchbjnnnkbo",
+        "comment": "Chrome/Edge extension ID — Proxy SwitchyOmega (V3)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6f68dcb7-2cbb-575e-4d4b-c4102679ab76",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ekpkdmohpdnebfedjjfklhpefgpgaaji",
+        "comment": "Name: Visual Effects for Google Meet | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-26.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fd3ec4d8-5369-1eed-125e-73485bf2eb2b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ekpkdmohpdnebfedjjfklhpefgpgaaji",
+        "comment": "Chrome/Edge extension ID — Visual Effects for Google Meet",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cb3f3240-2635-99a1-eca2-d0a3b986c738",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/epikoohpebngmakjinphfiagogjcnddm",
+        "comment": "Name: CastorUS | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d74f3658-f65d-4a44-3300-f6b7b3c6c7ca",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "epikoohpebngmakjinphfiagogjcnddm",
+        "comment": "Chrome/Edge extension ID — CastorUS",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2a62aa3a-9d30-0966-86fc-95f09dfea19b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/miglaibdlgminlepgeifekifakochlka",
+        "comment": "Name: Wistia Video Downloader | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bba24dd6-93f1-2413-4102-b0e30f210454",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "miglaibdlgminlepgeifekifakochlka",
+        "comment": "Chrome/Edge extension ID — Wistia Video Downloader",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e9d51844-b705-6d80-5fb8-7a39def546b4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eanofdhdfbcalhflpbdipkjjkoimeeod",
+        "comment": "Name: Email Hunter | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "62b97dbc-1dcc-1f56-0788-ca109c15a210",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eanofdhdfbcalhflpbdipkjjkoimeeod",
+        "comment": "Chrome/Edge extension ID — Email Hunter",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a1843177-625f-2105-868b-9651502cc95a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ogbhbgkiojdollpjbhbamafmedkeockb",
+        "comment": "Name: Moonsift | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-10.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e9eb65fb-9e13-83d8-a99b-765d76c08d5a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ogbhbgkiojdollpjbhbamafmedkeockb",
+        "comment": "Chrome/Edge extension ID — Moonsift",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fb7257e7-151c-72f8-8450-2a4b2dd516d5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bgejafhieobnfpjlpcjjggoboebonfcg",
+        "comment": "Name: Bookmark FC | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9db438db-379f-4725-69f9-24ce81e9b526",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bgejafhieobnfpjlpcjjggoboebonfcg",
+        "comment": "Chrome/Edge extension ID — Bookmark FC",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b7d855a8-c1d4-4e7a-97af-a590f29bef59",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/igbodamhgjohafcenbcljfegbipdfjpk",
+        "comment": "Name: Parrot Talks | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6b12454c-b18b-412d-90b7-d40b93e878a4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "igbodamhgjohafcenbcljfegbipdfjpk",
+        "comment": "Chrome/Edge extension ID — Parrot Talks",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "825e06e2-b99b-c4e8-2080-5320fb3c80e3",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mbindhfolmpijhodmgkloeeppmkhpmhc",
+        "comment": "Name: Censor Tracker | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1b22e4ba-653f-ecd8-ea00-aef005add703",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mbindhfolmpijhodmgkloeeppmkhpmhc",
+        "comment": "Chrome/Edge extension ID — Censor Tracker",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5626224f-20ac-ebf4-8669-afc3e59c019c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hodiladlefdpcbemnbbcpclbmknkiaem",
+        "comment": "Name: Wakey | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "811e607b-f6b9-c64e-7294-39023970f510",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hodiladlefdpcbemnbbcpclbmknkiaem",
+        "comment": "Chrome/Edge extension ID — Wakey",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fc291e4e-61e2-ae91-0d28-4517b6d4ea6a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lbneaaedflankmgmfbmaplggbmjjmbae",
+        "comment": "Name: Internxt Video Downloader | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "65f48556-9f07-89b9-cdb9-84f90c06115b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lbneaaedflankmgmfbmaplggbmjjmbae",
+        "comment": "Chrome/Edge extension ID — Internxt Video Downloader",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "16a1418f-38ed-ad25-f9e7-1fe23fa9f08f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eaijffijbobmnonfhilihbejadplhddo",
+        "comment": "Name: Pado Extension | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9a840837-23c3-bc8d-b71d-752a9ee0c00a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eaijffijbobmnonfhilihbejadplhddo",
+        "comment": "Chrome/Edge extension ID — Pado Extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "499536a3-efc5-4c07-c316-76070463b01d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hmiaoahjllhfgebflooeeefeiafpkfde",
+        "comment": "Name: Linewize Connect | Threat: data-theft,session-hijack,credential-theft | Part of Dec 2024 Cyberhaven supply chain campaign. Devs phished via fake Google OAuth. Targeted Facebook Ads credentials. Compromised version active 2024-12-19.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c3615c00-74f6-a32a-5d0f-49745a37d454",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hmiaoahjllhfgebflooeeefeiafpkfde",
+        "comment": "Chrome/Edge extension ID — Linewize Connect",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "69bb4b95-883e-827a-0fa7-1b5affa55206",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://secureannex.com/blog/cyberhaven-extension-compromise/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "23047db5-a2ce-772a-a886-e7c6cf0f1261",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://thehackernews.com/2024/12/16-chrome-extensions-hacked-exposing.html",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

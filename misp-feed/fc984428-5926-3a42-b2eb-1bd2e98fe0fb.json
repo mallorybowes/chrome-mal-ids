@@ -1,0 +1,80 @@
+{
+  "Event": {
+    "uuid": "fc984428-5926-3a42-b2eb-1bd2e98fe0fb",
+    "info": "[chrome-mal-ids] Unit 42 Feb 2026 AI-accelerated malicious extension campaign — 1 malicious extension(s)",
+    "date": "2026-05-19",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779152542",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "5f00a17c-0e78-f2f4-4bd8-ff70acbe6aa8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/dkhpgbbhlnmjbkihoeniojpkggkabbbl",
+        "comment": "Unit 42 Feb 2026 AI-accelerated malicious extension campaign. Name and specific behavior pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a3361a05-81a9-283e-cb38-7842f5e620c3",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dkhpgbbhlnmjbkihoeniojpkggkabbbl",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "de93d714-b12f-3df0-cbb7-41ef2e3e00fa",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-02-20-%20AI-Accelerated%20Malicious%20Chrome%20Extension%20Campaigns.txt",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8093f016-058d-9c18-f713-8323bf3472bd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779152542",
+        "disable_correlation": false
+      }
+    ]
+  }
+}
