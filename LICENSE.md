@@ -2,7 +2,7 @@
 
 ## Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright © 2021–2026 Mallory Bowes and contributors
+Copyright © 2021–2026 Mallory Bowes Brown and contributors
 
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 
@@ -23,7 +23,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 
 When using this dataset in a project, product, or publication, please include:
 
-> Extension IOC data sourced from **chrome-mal-ids** by Mallory Bowes
+> Extension IOC data sourced from **chrome-mal-ids** by Mallory Bowes Brown
 > https://github.com/mallorybowes/chrome-mal-ids
 > Licensed under CC BY 4.0
 
