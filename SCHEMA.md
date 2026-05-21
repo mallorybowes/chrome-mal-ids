@@ -1,143 +1,151 @@
-# Schema Documentation — current-list-meta.csv
+# chrome-mal-ids Schema
 
-**Schema version:** 2.0  
-**Last updated:** 2026-05-16  
-**Fields:** 18 (12 original + 6 new)
+Full field documentation for `current-list-meta.csv`.
 
 ---
 
 ## Fields
 
-| # | Field | Type | Description |
-|---|-------|------|-------------|
-| 1 | `EXTID` | string | Chrome Extension ID — 32-character alphanumeric string |
-| 2 | `EXTID-NAME` | string | Extension display name at time of discovery |
-| 3 | `DATE-DIS` | YYYY-MM-DD | Date the extension was publicly disclosed as malicious |
-| 4 | `DATE-ADD` | YYYY-MM-DD | Date this row was added to this list |
-| 5 | `SOURCE` | URL | Primary source document (security report, raw IoC list, appendix) |
-| 6 | `ARTICLE` | URL | Primary news article or blog post about the discovery |
-| 7 | `ADD-SOURCES` | URL(s) | Additional sources, pipe-separated if multiple |
-| 8 | `CONTRIB` | string | Legacy contributor field — see CONTRIB-HANDLE (retained for backward compat) |
-| 9 | `CONTRIB-METHOD` | string | How it was found — e.g. Google_Search, PR, Issue, Automated |
-| 10 | `CONFIRM-MAL` | 0/1 | 1=confirmed malicious by researcher or Google, 0=unconfirmed |
-| 11 | `REPORTED-MAL` | 0/1 | 1=reported to Google/Microsoft, 0=not reported or unknown |
-| 12 | `NOTES` | string | Free-text — disambiguation, caveats, open questions |
-| 13 | `THREAT-TYPE` | vocab | Attack category. Comma-separated if multiple. See vocabulary below. NEW |
-| 14 | `OWNERSHIP-TRANSFER` | 0/1 | 1=was legitimate before being sold/taken over and weaponized NEW |
-| 15 | `BROWSER` | vocab | Target browser(s): chrome, edge, both, chromium, firefox NEW |
-| 16 | `STILL-ACTIVE` | vocab | 0=removed from store, 1=still live, unknown=not checked NEW |
-| 17 | `CONTRIB-TYPE` | vocab | human, automated, hybrid (automated discovery + human review) NEW |
-| 18 | `CONTRIB-HANDLE` | string | GitHub username, Twitter/X handle, or researcher/org name NEW |
+| Field | Type | Description |
+|-------|------|-------------|
+| `EXTID` | string | 32-character Chrome/Edge extension ID (lowercase a-p) |
+| `EXTID-NAME` | string | Extension display name. `UNKNOWN` = stub pending enrichment |
+| `DATE-DIS` | date | Date malicious behavior first reported (YYYY-MM-DD). `UNKNOWN` if not established |
+| `DATE-ADD` | date | Date entry was added to this database (YYYY-MM-DD) |
+| `SOURCE` | url | Primary research source URL |
+| `ARTICLE` | url | News/blog article covering the campaign |
+| `ADD-SOURCES` | string | Space-separated additional source URLs (archive snapshots, CRX API confirmations, etc.) |
+| `CONTRIB` | string | Contributor handle or project name |
+| `CONTRIB-METHOD` | string | How the entry was added (see below) |
+| `CONFIRM-MAL` | integer | Malicious confirmation level (see below) |
+| `REPORTED-MAL` | integer | `1` if reported as malicious by a researcher or publication, `0` otherwise |
+| `NOTES` | string | Plain-English summary of malicious behavior. Leads with campaign name where known |
+| `THREAT-TYPE` | string | Comma-separated threat type(s) (see below) |
+| `OWNERSHIP-TRANSFER` | integer | `1` if a legitimate extension was acquired then weaponized, `0` otherwise |
+| `BROWSER` | string | `chrome` or `edge` |
+| `STILL-ACTIVE` | string | `1` active in store, `0` removed, `unknown` unverified |
+| `CONTRIB-TYPE` | string | `human` or `automated` |
+| `CONTRIB-HANDLE` | string | GitHub handle or tool name of contributor |
 
 ---
 
-## THREAT-TYPE Vocabulary
+## CONFIRM-MAL Values
+
+| Value | Meaning |
+|-------|---------|
+| `0` | Not confirmed — under investigation |
+| `1` | Researcher confirmed — reported by a security researcher or publication |
+| `2` | Google confirmed — CRX API returned `_malware="true"` |
+| `3` | Dual confirmed — both researcher AND Google confirmed |
+
+**On value `2`:** Google's CRX update API (`clients2.google.com/service/update2/crx`)
+returns `_malware="true"` when an extension is flagged in Google's malware database.
+This is authoritative confirmation from the Chrome Web Store operator, independent
+of any researcher reporting.
+
+---
+
+## CONTRIB-METHOD Values
+
+| Value | Meaning |
+|-------|---------|
+| `Manual` | Manually researched and entered |
+| `AI_Enrichment` | Metadata extracted by Claude from a research article |
+| `Delta_Import` | Bulk imported from another IOC source (with attribution) |
+| `Delta_Import+AI_Enrichment` | Delta imported then enriched by Claude |
+| `Delta_Import+Store_Enrichment` | Delta imported then enriched via CRX API / archives |
+
+---
+
+## THREAT-TYPE Values
 
 | Value | Description |
 |-------|-------------|
-| data-theft | Generic data exfiltration — browsing history, cookies, personal data |
-| adware | Injects ads, modifies search results, affiliate fraud |
-| cryptominer | Uses browser resources to mine cryptocurrency |
-| session-hijack | Steals session cookies or tokens to take over accounts |
-| credential-theft | Steals usernames, passwords, or auth tokens directly |
-| ai-chat-scraper | Exfiltrates AI chatbot conversations (ChatGPT, Claude, Gemini, DeepSeek, etc.) — emerged 2024 |
-| click-fraud | Generates fraudulent ad clicks or affiliate referrals |
-| spyware | Screenshots, keylogging, webcam/mic access |
-| fake-extension | Impersonates a legitimate extension or brand |
-| ownership-transfer | Legitimate extension weaponized after developer account sale/takeover |
-| malvertising | Injects or redirects to malicious ads |
-| phishing | Redirects to phishing pages or injects credential-harvesting forms |
-| ddos | Uses browser as part of a DDoS botnet |
-| unknown | Malicious but specific type not yet confirmed — default for unreviewed entries |
-
-Use comma-separated values when multiple types apply:
-e.g. data-theft,session-hijack or fake-extension,credential-theft
+| `spyware` | Monitors and exfiltrates user activity |
+| `data-theft` | Steals user data |
+| `credential-theft` | Targets login credentials |
+| `session-hijack` | Hijacks authenticated sessions |
+| `browser-hijack` | Redirects searches, injects content |
+| `adware` | Injects ads or monetizes traffic |
+| `click-fraud` | Generates fraudulent ad clicks |
+| `cryptojacking` | Mines cryptocurrency via browser |
+| `ransomware` | Encrypts or holds data hostage |
+| `backdoor` | Provides persistent remote access |
+| `trojan` | Disguises malicious functionality |
 
 ---
 
-## CONTRIB-TYPE Vocabulary
+## STILL-ACTIVE Values
 
-| Value | Description |
-|-------|-------------|
-| human | Manually researched and added by a person |
-| automated | Added by a script or GitHub Action with no human review before commit |
-| hybrid | Automated discovery, human-verified before commit |
-
----
-
-## CONTRIB-HANDLE
-
-GitHub usernames, Twitter/X handles, or researcher/organization names.
-Format: @username for individuals, plain name for organizations.
-
-Examples: @mallorybowes, @gnyman, @nycnewman, Unit42, KoiSecurity, github-actions[bot]
-
-For automated entries use the action/bot name: github-actions[bot]
-
-This field is the source of truth for contributor attribution and any future
-contributors page or hall-of-fame listing.
+| Value | Meaning |
+|-------|---------|
+| `1` | Confirmed active in store at last check |
+| `0` | Confirmed removed from store |
+| `unknown` | Status not yet verified |
 
 ---
 
-## Notes on v2.0 Changes
+## Stub Entries
 
-### THREAT-TYPE
-The ai-chat-scraper type is entirely new — this attack category did not exist
-when the list was started in 2020. Extensions targeting ChatGPT, Claude, Gemini,
-and DeepSeek conversations emerged as a distinct threat category in 2024.
+Entries with `EXTID-NAME = UNKNOWN` are stubs — the ID is confirmed malicious
+but metadata is pending enrichment. Find all stubs:
 
-### OWNERSHIP-TRANSFER
-A new attack vector from 2024-2025: legitimate extensions with established user
-bases are sold on marketplaces (ExtensionHub, etc.) then weaponized via malicious
-updates. Fundamentally different from extensions malicious from inception —
-bypasses years of user trust built by the original developer.
-
-### BROWSER
-The Chrome and Edge extension ecosystems are now effectively shared. Many 2024-2025
-campaigns targeted both stores simultaneously with the same extension ID.
-
-### CONTRIB-TYPE + CONTRIB-HANDLE
-Attribution encourages community contribution and signals trust level. A human
-researcher with a known reputation carries more weight than an automated scraper.
-Separating type from handle allows filtering: show only human-verified entries,
-or find all entries from a specific researcher.
+```bash
+grep ",UNKNOWN," current-list-meta.csv
+```
 
 ---
 
-## Migration from v1.0
-
-Run migrate-schema.py from the repo root:
-
-    python3 migrate-schema.py
-
-Defaults applied to existing rows:
-
-| Field | Default | Rationale |
-|-------|---------|-----------|
-| THREAT-TYPE | unknown | Requires per-row review |
-| OWNERSHIP-TRANSFER | 0 | Conservative — most pre-2024 entries were malicious from inception |
-| BROWSER | chrome | List was Chrome-focused pre-2022 |
-| STILL-ACTIVE | unknown | Requires checking Web Store |
-| CONTRIB-TYPE | human | All original entries were manually researched |
-| CONTRIB-HANDLE | mapped from CONTRIB where possible | Falls back to empty |
+*See [README.md](README.md) for usage and import instructions.*
 
 ---
 
-## Updating Checksums
+## TPCI-VERIFY Values
 
-After any changes to the CSV files:
+The `TPCI-VERIFY` field records verification performed by The Privacy Commons Institute combining Chrome CRX API and headless browser (Playwright) store page verification.
 
-    sha256sum current-list-meta.csv > current-list-meta-chksum.txt
-    sha256sum current-list.csv > current-chksum.txt
+| Value | Meaning |
+|-------|---------|
+| `0` | Not yet verified by TPCI |
+| `1` | TPCI verified: extension confirmed malicious **and active** in store |
+| `2` | TPCI verified: extension confirmed **removed** from store |
+| `3` | TPCI verified: indeterminate — CRX infrastructure recognizes the ID but public listing status is unclear |
+
+`TPCI-VERIFY-DATE` records the ISO date (YYYY-MM-DD) when verification was last performed. Store status can change — always check the date.
 
 ---
 
-## Contributing
+## Schema Changelog
 
-To add a new entry:
-1. Open a PR with new rows added to current-list-meta.csv
-2. Open an issue with the extension ID, evidence, and source article
+### May 2026 — v2 additions
 
-For PRs: set CONTRIB-TYPE to human and CONTRIB-HANDLE to your GitHub username.
-Automated submissions via the weekly GitHub Action use CONTRIB-TYPE: automated
-and CONTRIB-HANDLE: github-actions[bot].
+The following fields were added. Existing entries have empty values for these fields; consumers should handle missing/empty gracefully.
+
+| Field | Added | Notes |
+|-------|-------|-------|
+| `TPCI-VERIFY` | May 2026 | Privacy Commons Institute store verification result |
+| `TPCI-VERIFY-DATE` | May 2026 | Date of last TPCI verification |
+
+### Prior additions (also May 2026)
+The following fields were added earlier in May 2026 as part of the initial pipeline build. If your tooling was built before May 2026 these may also be new:
+
+| Field | Notes |
+|-------|-------|
+| `ADD-SOURCES` | Space-separated archive/reference URLs (Wayback, archive.ph, CRX API) |
+| `CONTRIB-METHOD` | How the entry was added (Manual, AI_Enrichment, Delta_Import, etc.) |
+| `CONTRIB-TYPE` | `human` or `automated` |
+| `CONTRIB-HANDLE` | GitHub handle or tool name |
+
+### Migration guidance
+
+**If your scripts use positional column indexing** — update to use named headers. The CSV is always written with a header row; use `csv.DictReader` in Python or equivalent.
+
+**If your scripts use `csv.DictReader` or named columns** — no changes needed. New fields will simply be present; old entries will have empty strings for new fields.
+
+**Checking for new fields:**
+```python
+import csv
+with open('current-list-meta.csv') as f:
+    headers = next(csv.reader(f))
+    print(headers)  # verify field names
+```

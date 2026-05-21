@@ -7,6 +7,8 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](LICENSE.md)
 [![STIX 2.1](https://img.shields.io/badge/STIX-2.1-blue?style=flat-square)](chrome-mal-ids-stix.json)
 
+> **⚠ Schema updated May 2026** — Two new fields added (`TPCI-VERIFY`, `TPCI-VERIFY-DATE`) plus four earlier additions (`ADD-SOURCES`, `CONTRIB-METHOD`, `CONTRIB-TYPE`, `CONTRIB-HANDLE`). Scripts using positional column indexing will need updating. Scripts using named headers (`csv.DictReader` or equivalent) require no changes — new fields will simply appear. See [SCHEMA.md](SCHEMA.md) for full details and migration guidance.
+
 ---
 
 ## 🔍 [Search the database →](https://mallorybowes.github.io/chrome-mal-ids)
@@ -16,7 +18,7 @@
 ## What this is
 
 Started in 2021 as a personal research project after noticing no single authoritative list
-of malicious Chrome extension IDs existed. Today it tracks **2,500+ confirmed malicious
+of malicious Chrome extension IDs existed. Today it tracks **1,100+ confirmed malicious
 extensions** across **30+ campaigns** — from credential stealers and browser hijackers to
 supply chain compromises and ad fraud rings.
 
@@ -31,7 +33,12 @@ IT administrators, MDM operators, and threat intelligence platforms.
 |------|-------------|
 | [`current-list-meta.csv`](current-list-meta.csv) | Full dataset with metadata |
 | [`current-list.csv`](current-list.csv) | ID-only list for lightweight consumption |
+| [`current-list.txt`](current-list.txt) | Plain text blocklist, one ID per line |
+| [`current-list.json`](current-list.json) | JSON array with full metadata |
+| [`current-list-sigma.yml`](current-list-sigma.yml) | Sigma detection rule for SIEMs |
 | [`chrome-mal-ids-stix.json`](chrome-mal-ids-stix.json) | STIX 2.1 bundle for threat intel platforms |
+| [`misp-export.json`](misp-export.json) | MISP event JSON for manual import |
+| [`misp-feed/`](misp-feed/) | MISP feed directory for automatic polling |
 | [`STATS.md`](STATS.md) | Auto-generated statistics summary |
 | [`SCHEMA.md`](SCHEMA.md) | Full schema documentation |
 
@@ -75,7 +82,56 @@ Browse and search the full database at:
 Filter by campaign, threat type, browser, date, and active status. Click any entry
 for full details including research article links.
 
-### 📥 Raw data
+### 📄 Plain text blocklist
+
+One ID per line — works with grep, MDM tools, custom scripts:
+
+```bash
+# Download
+curl -O https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.txt
+
+# Check a specific ID
+grep "YOUR_EXTENSION_ID" current-list.txt
+
+# Scan all installed Chrome extensions (Linux/macOS)
+comm -12 \
+  <(ls ~/.config/google-chrome/Default/Extensions/ | sort) \
+  <(grep -v '^#' current-list.txt | awk '{print $1}' | sort)
+```
+
+### 🔷 JSON
+
+Full metadata as a JSON array — ideal for developers and custom tooling:
+
+```
+https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.json
+```
+
+```python
+import urllib.request, json
+url  = "https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.json"
+data = json.loads(urllib.request.urlopen(url).read())
+exts = {e["ext_id"]: e for e in data["extensions"]}
+# Check an ID
+if "your_extension_id" in exts:
+    print(exts["your_extension_id"])
+```
+
+### 🔍 Sigma rule (SIEM detection)
+
+Sigma rule covering all known malicious IDs — compatible with Splunk, Elastic, Microsoft Sentinel, and any Sigma-capable SIEM:
+
+```
+https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-sigma.yml
+```
+
+Convert to your SIEM's native format with [sigma-cli](https://github.com/SigmaHQ/sigma-cli):
+
+```bash
+sigma convert -t splunk current-list-sigma.yml
+sigma convert -t elastic-dsl current-list-sigma.yml
+sigma convert -t sentinel current-list-sigma.yml
+```
 
 ```bash
 # Download the full metadata CSV
@@ -100,7 +156,28 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/mallorybowes/chrome-mal
 .\Scan-ChromeExtensions.ps1
 ```
 
-### 🧩 STIX 2.1 / Threat Intel Platforms
+### 🔵 MISP
+
+Two MISP formats are available — manual import or automated feed:
+
+**Manual import** (`misp-export.json`):
+```
+MISP → Events → Import → MISP JSON → select misp-export.json
+```
+
+**Automated feed** (recommended — MISP polls automatically on a schedule):
+```
+MISP → Feeds → Add Feed:
+  Name:         Malicious Chrome Extension IOC Database
+  Type:         MISP Feed
+  URL:          https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/misp-feed/
+  Input source: Network
+  Distribution: Your organisation only
+```
+
+The feed creates one MISP event per campaign (30+ events) with full attribute metadata, TLP:WHITE tags, and source references. Updates automatically with every new database commit.
+
+### 🧩 STIX 2.1 / OpenCTI
 
 The STIX 2.1 bundle is auto-generated on every update and available at:
 ```
@@ -144,7 +221,7 @@ if match:
 
 > See [STATS.md](STATS.md) for the full auto-generated breakdown.
 
-- **2,500+ extensions** tracked
+- **1,100+ extensions** tracked
 - **30+ campaigns** covered
 - **Chrome and Edge** extensions
 - **2021 – present** date range
