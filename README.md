@@ -18,7 +18,7 @@
 ## What this is
 
 Started in 2021 as a personal research project after noticing no single authoritative list
-of malicious Chrome extension IDs existed. Today it tracks **1,100+ confirmed malicious
+of malicious Chrome extension IDs existed. Today it tracks **2,500+ confirmed malicious
 extensions** across **30+ campaigns** — from credential stealers and browser hijackers to
 supply chain compromises and ad fraud rings.
 
@@ -221,7 +221,7 @@ if match:
 
 > See [STATS.md](STATS.md) for the full auto-generated breakdown.
 
-- **1,100+ extensions** tracked
+- **2,500+ extensions** tracked
 - **30+ campaigns** covered
 - **Chrome and Edge** extensions
 - **2021 – present** date range
