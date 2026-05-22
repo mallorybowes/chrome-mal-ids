@@ -1,0 +1,267 @@
+{
+  "Event": {
+    "uuid": "4e19ecf2-d4b5-d7f3-e895-e0200ed64eed",
+    "info": "[chrome-mal-ids] adindex ad fraud campaign (Palant Feb 2025) — 10 malicious extension(s)",
+    "date": "2026-05-22",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779484333",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "82faecba-3b1e-fa01-8fa8-f9f2b3d6f55c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bibmocmlcdhadgblaekimealfcnafgfn",
+        "comment": "Name: Freemybrowser | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 10,000 users. Part of cluster sharing malicious remote code execution functionality. Downloads JS payload from Firebase/internetdownloadmanager.top, disabl",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6adb5d3c-5232-fe30-e9b8-af733e5a8b6d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bibmocmlcdhadgblaekimealfcnafgfn",
+        "comment": "Chrome/Edge extension ID — Freemybrowser",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6c02a4b7-596e-9b76-fc44-27d3a4c768bc",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/didbenpmfaidkhohcliedfmgbepkakam",
+        "comment": "Name: AutoHD for Twitch™ | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 195 users. Part of cluster sharing malicious remote code execution functionality. Downloads JS payload from Firebase/internetdownloadmanager.top, disables ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f195329e-1f30-222c-f2f3-d37658e67b4e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "didbenpmfaidkhohcliedfmgbepkakam",
+        "comment": "Chrome/Edge extension ID — AutoHD for Twitch™",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0b52d3ae-ae20-6fee-105b-f5976081feb5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fgfoepffhjiinifbddlalpiamnfkdnim",
+        "comment": "Name: Free simple Adult Blocker with password | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 1,000 users. Part of cluster sharing malicious remote code execution functionality. Downloads JS payload from Firebase/internetdownloadmanager.top, disable",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bf70e0b3-d0e4-ffcb-405e-c93fde7996b9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fgfoepffhjiinifbddlalpiamnfkdnim",
+        "comment": "Chrome/Edge extension ID — Free simple Adult Blocker with password",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a1d21ca2-fc78-281c-fc90-2103e9941b57",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fkbmahbmakfabmbbjepgldgodbphahgc",
+        "comment": "Name: Convert PDF to JPEG/PNG | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 20,000 users. Ownership transfer 2024 followed by privilege expansion Sep 2024. Part of cluster sharing malicious remote code execution functionality. Down",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b85ebbd6-a9ad-ae2e-68c4-244883e7f1d7",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fkbmahbmakfabmbbjepgldgodbphahgc",
+        "comment": "Chrome/Edge extension ID — Convert PDF to JPEG/PNG",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3657fb88-3ac6-3664-f2c0-f8a7e194ea89",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ghkcpcihdonjljjddkmjccibagkjohpi",
+        "comment": "Name: Download Manager Integration Checklist | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 70,000 users. Featured. Primary subject of analysis. Ownership transfer 2024. Downloads JS payload from Firebase/internetdownloadmanager.top, disables CSP ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7a6a8f63-2c1b-dfe7-898d-10ad7ec98b1c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ghkcpcihdonjljjddkmjccibagkjohpi",
+        "comment": "Chrome/Edge extension ID — Download Manager Integration Checklist",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a6d0018e-341a-646c-0631-fac76ca0d0fe",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hdangknebhddccoocjodjkbgbbedeaam",
+        "comment": "Name: Auto Resolution Quality for YouTube™ | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 223 users. Appears non-malicious at time of report but shares code traits with malicious cluster. Developed by eokoko GmbH whose director is same adindex d",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1bb8ddb5-96d0-3551-46c3-900ddeb9dfa1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hdangknebhddccoocjodjkbgbbedeaam",
+        "comment": "Chrome/Edge extension ID — Auto Resolution Quality for YouTube™",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0970e770-64a5-8851-3826-e4e8b7c546bd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hmaeodbfmgikoddffcfoedogkkiifhfe",
+        "comment": "Name: Adblock.mx - Adblock for Chrome | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 1,000 users. Featured. Part of cluster sharing malicious remote code execution functionality. Downloads JS payload from Firebase/internetdownloadmanager.to",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ce60e925-43db-04be-73da-d18caf761e89",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hmaeodbfmgikoddffcfoedogkkiifhfe",
+        "comment": "Chrome/Edge extension ID — Adblock.mx - Adblock for Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b9dc7f59-7c6c-7761-884a-bc6e8b4c50d1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/iaddfgegjgjelgkanamleadckkpnjpjc",
+        "comment": "Name: Auto Quality for YouTube™ | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 100,000 users. Largest in cluster. Associated with MegaXT website whose owner is adindex developer. Running remote code since at least 2021. Part of cluste",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b851dedd-e1a4-c4c3-a7e3-1b81f9f87723",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "iaddfgegjgjelgkanamleadckkpnjpjc",
+        "comment": "Chrome/Edge extension ID — Auto Quality for YouTube™",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9f031390-a4d5-5d60-e46f-05f4d0e66fe4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jkokgpghakemlglpcdajghjjgliaamgc",
+        "comment": "Name: Anti phising safer browsing for chrome | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 7,000 users. Featured. Part of cluster sharing malicious remote code execution functionality. Downloads JS payload from Firebase/internetdownloadmanager.to",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "830eafd3-cd7a-0693-e815-7900049b3811",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jkokgpghakemlglpcdajghjjgliaamgc",
+        "comment": "Chrome/Edge extension ID — Anti phising safer browsing for chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7031962f-8818-e420-9025-069aa4331b39",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nmcamjpjiefpjagnjmkedchjkmedadhc",
+        "comment": "Name: Darktheme for google translate | Threat: click-fraud | adindex ad fraud campaign (Palant Feb 2025). 40,000 users. Featured. Ownership transfer 2024. Part of cluster sharing malicious remote code execution functionality. Downloads JS payload from Firebase/",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f9d8e487-687d-e19c-5c68-6bfc315b4372",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nmcamjpjiefpjagnjmkedchjkmedadhc",
+        "comment": "Chrome/Edge extension ID — Darktheme for google translate",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "098a1e08-edda-5717-bbe7-1ddd3e403e66",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://palant.info/2025/02/03/analysis-of-an-advanced-malicious-chrome-extension/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

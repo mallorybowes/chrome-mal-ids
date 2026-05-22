@@ -1,0 +1,542 @@
+{
+  "Event": {
+    "uuid": "7f548b1b-8137-6db8-80f1-ca5bc16626c3",
+    "info": "[chrome-mal-ids] ShadyPanda Phase 1/2 affiliate fraud + search hijacking — 22 malicious extension(s)",
+    "date": "2026-05-22",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779484333",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "41d509ad-2c86-94e4-41f7-34321599b448",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gipnpcencdgljnaecpekokmpgnhgpela",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "68ff7524-2c63-42df-4808-7438edf1e33b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gipnpcencdgljnaecpekokmpgnhgpela",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "187df4fc-3bca-10ce-979d-4bec782d10c9",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bpgaffohfacaamplbbojgbiicfgedmoi",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9c753546-aeb6-9f93-a006-3aaa734ceeb0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bpgaffohfacaamplbbojgbiicfgedmoi",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3c0ab0d0-fe7d-6bc4-bc10-e62c0650e7a4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ineempkjpmbdejmdgienaphomigjjiej",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cf7ae24b-9db2-051e-886b-93b7b98cd066",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ineempkjpmbdejmdgienaphomigjjiej",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f6920921-472b-544f-e735-ea272d38c22a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nnnklgkfdfbdijeeglhjfleaoagiagig",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e857c393-7259-41b3-6cf1-c0c2d0e0b2f3",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nnnklgkfdfbdijeeglhjfleaoagiagig",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "34d6e6c1-e3a1-bbfb-b613-c4b423184596",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mljmfnkjmcdmongjnnnbbnajjdbojoci",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "afe0939a-ff9c-5642-0c9c-e0665775d001",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mljmfnkjmcdmongjnnnbbnajjdbojoci",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "46863f89-1cda-0ddf-6e51-ff5c9f51af13",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/llkncpcdceadgibhbedecmkencokjajg",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "020b3fcf-8133-ef4c-b02a-58a36effaf41",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "llkncpcdceadgibhbedecmkencokjajg",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d7b6ad69-b75d-ea6d-387d-9144a93ad398",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nmfbniajnpceakchicdhfofoejhgjefb",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0200cc26-002b-8d07-6bb1-b33ffeabf4c5",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nmfbniajnpceakchicdhfofoejhgjefb",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3e4ad2d9-1bc5-f12a-9ab1-51986e79e85a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ijcpbhmpbaafndchbjdjchogaogelnjl",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d4da2ceb-0046-630c-3100-c03f720e0cea",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ijcpbhmpbaafndchbjdjchogaogelnjl",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c567e4dc-2e47-0a7d-bb8d-0df0f9cdb720",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/olaahjgjlhoehkpemnfognpgmkbedodk",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "30a721e1-8039-3501-9492-4986fd7b3b57",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "olaahjgjlhoehkpemnfognpgmkbedodk",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "de06357a-8521-2758-d91f-7fd5fd18e305",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gnhgdhlkojnlgljamagoigaabdmfhfeg",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "924f7f23-41c3-15e2-1267-c61816311a45",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gnhgdhlkojnlgljamagoigaabdmfhfeg",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1ab256ab-8081-9e11-34ee-78d2b2b6ec6a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cihbmmokhmieaidfgamioabhhkggnehm",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9ce669c7-9863-3297-fcc2-3dbb266ee899",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cihbmmokhmieaidfgamioabhhkggnehm",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "256c2dbe-1297-1223-da73-b6b65fe2641b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lehjnmndiohfaphecnjhopgookigekdk",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f92b484d-6f71-2071-4660-b13aff017c67",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lehjnmndiohfaphecnjhopgookigekdk",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "addd71ec-a41b-7d04-82f9-493804aefcd5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hlcjkaoneihodfmonjnlnnfpdcopgfjk",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1e954075-66a7-8fde-283c-3bbfd9fb24c9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hlcjkaoneihodfmonjnlnnfpdcopgfjk",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0b601645-6a40-6967-ce04-5ba1419c877a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hmhifpbclhgklaaepgbabgcpfgidkoei",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c8c20ad9-835a-e07e-4122-4e127b74f83c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hmhifpbclhgklaaepgbabgcpfgidkoei",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d085a1a4-06d2-c5be-9cef-0c73931e39a6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lnlononncfdnhdfmgpkdfoibmfdehfoj",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cb7e6851-a662-fadc-060d-ff81fbff915c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lnlononncfdnhdfmgpkdfoibmfdehfoj",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "79134eab-9aa9-86f6-8113-4cf0f93eec37",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nagbiboibhbjbclhcigklajjdefaiidc",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dc7abc0b-23b0-d4c9-3030-1e46dd72336f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nagbiboibhbjbclhcigklajjdefaiidc",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "029ad232-d9b5-0d8f-acec-9d7f61ad68da",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ofkopmlicnffaiiabnmnaajaimmenkjn",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "455dee38-93b5-594a-7976-095f9ef8446b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ofkopmlicnffaiiabnmnaajaimmenkjn",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cba8dac9-33fa-b965-689a-23505fcc1371",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ocffbdeldlbilgegmifiakciiicnoaeo",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fe1f4e9d-95f6-8451-91f8-1d13bfd18708",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ocffbdeldlbilgegmifiakciiicnoaeo",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e8969945-949c-3b26-10d8-e560d1c950b2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eaokmbopbenbmgegkmoiogmpejlaikea",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "92138837-1bb1-60e7-328a-e610aa1eeba0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eaokmbopbenbmgegkmoiogmpejlaikea",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2743ef03-b068-c8c3-e0c8-e32a3f8005bd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lhiehjmkpbhhkfapacaiheolgejcifgd",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b69f4d9f-a59a-2561-aed3-a731de9b3453",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lhiehjmkpbhhkfapacaiheolgejcifgd",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cfd6c4c4-a04e-3734-14e9-cedc38484f5a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ondhgmkgppbdnogfiglikgpdkmkaiggk",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f44880b6-5caa-aabe-c332-2efa8215f56d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ondhgmkgppbdnogfiglikgpdkmkaiggk",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "16bd53ec-f208-b8de-6d9f-e2e5a7cd8693",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/imdgpklnabbkghcbhmkbjbhcomnfdige",
+        "comment": "Name: ShadyPanda affiliate fraud extension | Threat: adware,click-fraud,data-theft | ShadyPanda Phase 1/2 affiliate fraud + search hijacking. Injected affiliate codes on eBay/Amazon/Booking.com clicks. Phase 2 extensions hijacked searches via trovi.com, exfiltrated cookies/search quer",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "deb3b7c4-0d4a-55dd-b896-eabc48ff95a3",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "imdgpklnabbkghcbhmkbjbhcomnfdige",
+        "comment": "Chrome/Edge extension ID — ShadyPanda affiliate fraud extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d4e728db-3151-8942-1933-48a3e8b17f93",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2b2b7cba-2343-1326-ba54-36a8d6fff8f8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.malwarebytes.com/blog/news/2025/12/sleeper-browser-extensions-woke-up-as-spyware-on-4-million-devices",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "Event": {
+    "uuid": "0d826780-a8a5-34b6-6f73-2384840131e9",
+    "info": "[chrome-mal-ids] ShadyPanda Phase 3 RCE backdoor — 5 malicious extension(s)",
+    "date": "2026-05-22",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779484333",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "7211b285-4cf5-bd47-7398-ea35c0ed3fa2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eagiakjmjnblliacokhcalebgnhellfi",
+        "comment": "Name: Clean Master (ShadyPanda Phase 3 RCE) | Threat: spyware,data-theft,session-hijack | ShadyPanda Phase 3 RCE backdoor. Extensions operated cleanly 2018-2019 through mid-2024, then weaponized via silent update. Hourly RCE: checks api.extensionplay[.]com, executes arbitrary JS with full ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2ff48954-1c0d-ba3f-a111-8cd0e2fa8369",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eagiakjmjnblliacokhcalebgnhellfi",
+        "comment": "Chrome/Edge extension ID — Clean Master (ShadyPanda Phase 3 RCE)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bf47adb9-0dd8-8577-0298-771d1551e3ac",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ibiejjpajlfljcgjndbonclhcbdcamai",
+        "comment": "Name: ShadyPanda Phase 3 RCE extension | Threat: spyware,data-theft,session-hijack | ShadyPanda Phase 3 RCE backdoor. Extensions operated cleanly 2018-2019 through mid-2024, then weaponized via silent update. Hourly RCE: checks api.extensionplay[.]com, executes arbitrary JS with full ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fbd535f8-4833-2085-51d9-0a27f704544e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ibiejjpajlfljcgjndbonclhcbdcamai",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 3 RCE extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "10473072-efdb-ca24-7c56-456f51685e75",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ogjneoecnllmjcegcfpaamfpbiaaiekh",
+        "comment": "Name: ShadyPanda Phase 3 RCE extension | Threat: spyware,data-theft,session-hijack | ShadyPanda Phase 3 RCE backdoor. Extensions operated cleanly 2018-2019 through mid-2024, then weaponized via silent update. Hourly RCE: checks api.extensionplay[.]com, executes arbitrary JS with full ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "610dff70-a4c0-64a3-0a1d-cfe5475357a6",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ogjneoecnllmjcegcfpaamfpbiaaiekh",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 3 RCE extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ed62f8d2-df30-4e86-08d8-9ec33845e9db",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jbnopeoocgbmnochaadfnhiiimfpbpmf",
+        "comment": "Name: ShadyPanda Phase 3 RCE extension | Threat: spyware,data-theft,session-hijack | ShadyPanda Phase 3 RCE backdoor. Extensions operated cleanly 2018-2019 through mid-2024, then weaponized via silent update. Hourly RCE: checks api.extensionplay[.]com, executes arbitrary JS with full ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bae46658-b35d-bbcd-5a70-264b32ac27c4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jbnopeoocgbmnochaadfnhiiimfpbpmf",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 3 RCE extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2c58a753-003b-6f28-bb04-2d75c9a7c48a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cdgonefipacceedbkflolomdegncceid",
+        "comment": "Name: ShadyPanda Phase 3 RCE extension | Threat: spyware,data-theft,session-hijack | ShadyPanda Phase 3 RCE backdoor. Extensions operated cleanly 2018-2019 through mid-2024, then weaponized via silent update. Hourly RCE: checks api.extensionplay[.]com, executes arbitrary JS with full ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "eb1f24cc-b253-587d-622b-b3981a098bf9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cdgonefipacceedbkflolomdegncceid",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 3 RCE extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "33b85f97-c057-1d28-c71a-ea2352ffef6b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6062ec1d-2675-85db-1603-a91ca0f352a1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.malwarebytes.com/blog/news/2025/12/sleeper-browser-extensions-woke-up-as-spyware-on-4-million-devices",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

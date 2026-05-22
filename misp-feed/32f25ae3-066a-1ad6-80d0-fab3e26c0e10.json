@@ -1,0 +1,146 @@
+{
+  "Event": {
+    "uuid": "32f25ae3-066a-1ad6-80d0-fab3e26c0e10",
+    "info": "[chrome-mal-ids] McAfee affiliate fraud campaign — 4 malicious extension(s)",
+    "date": "2026-05-22",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779484333",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "8b9aa6a7-f969-0e81-e7ca-f6e48957de5e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mmnbenehknklpbendgmgngeaignppnbe",
+        "comment": "Name: Netflix Party | Threat: adware,click-fraud,data-theft | McAfee affiliate fraud campaign (langhort[.]com). Modified cookies on e-commerce sites to inject affiliate IDs without user knowledge. 15-day delay before activation to evade detection. 800,000 instal",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "77ed8b9d-9faa-ec09-134f-439d63003c2b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mmnbenehknklpbendgmgngeaignppnbe",
+        "comment": "Chrome/Edge extension ID — Netflix Party",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "369951d6-bf4a-3bb1-e557-44e73463322f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/flijfnhifgdcbhglkneplegafminjnhn",
+        "comment": "Name: Netflix Party 2 | Threat: adware,click-fraud,data-theft | McAfee affiliate fraud campaign (langhort[.]com). Modified cookies on e-commerce sites to inject affiliate IDs without user knowledge. 15-day delay before activation to evade detection. 300,000 instal",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "55408fca-f91b-bcba-292e-83ba51d3577d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "flijfnhifgdcbhglkneplegafminjnhn",
+        "comment": "Chrome/Edge extension ID — Netflix Party 2",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cb3184ea-567f-58e4-933f-ef4049f28f16",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pojgkmkfincpdkdgjepkmdekcahmckjp",
+        "comment": "Name: Full Page Screenshot Capture - Screenshotting | Threat: adware,click-fraud,data-theft | McAfee affiliate fraud campaign (langhort[.]com). Modified cookies on e-commerce sites to inject affiliate IDs without user knowledge. 15-day delay before activation to evade detection. 200,000 instal",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "23a84d9e-6a52-3fd1-a6ac-aaea59784cd1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pojgkmkfincpdkdgjepkmdekcahmckjp",
+        "comment": "Chrome/Edge extension ID — Full Page Screenshot Capture - Screenshotting",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0aaa83f9-cb58-127c-dd0e-6b6b230bfcac",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gbnahglfafmhaehbdmjedfhdmimjcbed",
+        "comment": "Name: AutoBuy Flash Sales | Threat: adware,click-fraud,data-theft | McAfee affiliate fraud campaign (langhort[.]com). Modified cookies on e-commerce sites to inject affiliate IDs without user knowledge. 15-day delay before activation to evade detection. 20,000 install",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a974fff6-b3b1-6a3b-b0ae-3ba0f8419d1d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gbnahglfafmhaehbdmjedfhdmimjcbed",
+        "comment": "Chrome/Edge extension ID — AutoBuy Flash Sales",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "40147cf8-de06-d8cd-808d-b45bc5147b17",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-14-million-installs-steal-browsing-data/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "36668d96-94ee-b96c-7d38-66cf2aeb0e8f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.mcafee.com/blogs/internet-security/malicious-cookie-stuffing-chrome-extensions-with-1-4-million-users/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

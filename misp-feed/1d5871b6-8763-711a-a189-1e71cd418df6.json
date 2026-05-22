@@ -1,0 +1,113 @@
+{
+  "Event": {
+    "uuid": "1d5871b6-8763-711a-a189-1e71cd418df6",
+    "info": "[chrome-mal-ids] Pixatab new tab hijacking cluster — 3 malicious extension(s)",
+    "date": "2026-05-22",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1779484333",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "7a7606d6-8ce3-9ee5-924a-00530302e4ce",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/anjoapnmcdcndaagonoiindlklkpmnmh",
+        "comment": "Threat: adware,browser-hijack | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "900843ee-197f-e90e-4355-3f40af47e9de",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "anjoapnmcdcndaagonoiindlklkpmnmh",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "48f7c5d6-538b-e243-9b30-3ea0c1c021c8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kfnphajojmcoapplfnocpegelkfjndom",
+        "comment": "Threat: adware,browser-hijack | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "af68f94c-3071-789f-1865-2dfb77cf5abb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kfnphajojmcoapplfnocpegelkfjndom",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b45bec75-033c-7213-ae4e-175f57417c52",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mopjnoodlnbnkocfefcgnmnlbcmgekof",
+        "comment": "Threat: adware,browser-hijack | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dc8d1cdf-a671-acf8-9b17-54049d96098c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mopjnoodlnbnkocfefcgnmnlbcmgekof",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7ba82d56-1c2a-eeae-13b5-80bd05b01232",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/toborrm9/malicious_extension_sentry",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1779484333",
+        "disable_correlation": false
+      }
+    ]
+  }
+}
