@@ -9,7 +9,9 @@
 
 > **⚠ Schema updated May 2026** — Six new TPCI-V verification fields added (`TPCI-VERIFY`, `TPCI-VERIFY-DATE`, `TPCI-STORE-NAME`, `TPCI-STORE-DEV`, `TPCI-STORE-DATE`, `TPCI-IDENTITY`) plus four earlier additions (`ADD-SOURCES`, `CONTRIB-METHOD`, `CONTRIB-TYPE`, `CONTRIB-HANDLE`). Scripts using positional column indexing will need updating. Scripts using named headers (`csv.DictReader` or equivalent) require no changes. See [SCHEMA.md](SCHEMA.md) for full details and migration guidance.
 
-> **⚠ Delta import source quality notice** — 1,535 entries sourced from a third-party delta import (`CONTRIB-METHOD=Delta_Import`) are undergoing independent verification. These entries should be treated as **unverified leads**, not confirmed IOCs, until TPCI verification is complete. See [Data Quality](#data-quality) below.
+> **⚠ Delta import verification in progress** — 1,535 entries sourced from a third-party delta import (`CONTRIB-METHOD=Delta_Import`) have undergone Stage 5A static analysis. 300 entries have been upgraded with campaign attribution and `TPCI-VERIFY=1` following confirmed behavioral evidence. 32 entries were found to be likely false positives and are excluded from distribution outputs. Verification is ongoing. See [Data Quality](#data-quality) and [CHANGELOG.md](CHANGELOG.md).
+
+> **🔬 Research forthcoming** — The Privacy Commons Institute is conducting original research on this dataset examining malicious extension persistence, removal rates following public disclosure, IOC database quality, and supply chain attack remediation patterns. Entries are being updated as research progresses. A paper documenting full methodology and findings is forthcoming at [tpc.institute](https://tpc.institute). Changes are tracked in [CHANGELOG.md](CHANGELOG.md). Consumers of this database may notice attribution, threat type, and verification fields being updated between releases — this reflects active research, not data instability.
 
 ---
 
@@ -24,9 +26,14 @@ of malicious Chrome extension IDs existed. Today it tracks **2,500+ documented m
 extension IOCs** across **30+ campaigns** — from credential stealers and browser hijackers to
 supply chain compromises and ad fraud rings.
 
+The database is maintained by [The Privacy Commons Institute](https://tpc.institute) (TPCI)
+and is an active research platform. TPCI conducts original research on browser extension
+threats including persistence measurement, removal rate analysis, IOC feed quality assessment,
+and behavioral verification. Entries are updated as research progresses. All changes are
+documented in [CHANGELOG.md](CHANGELOG.md).
+
 All entries sourced from original research are human-reviewed before publication.
-The database is maintained by The Privacy Commons Institute.
-and uses the TPCI-V multi-stage verification protocol to assess current store status.
+Distribution outputs (STIX, MISP, Sigma, blocklist) contain only TPCI-verified entries.
 
 ---
 
@@ -270,7 +277,7 @@ if match:
 
 All entries in this database are subject to ongoing verification using the
 **TPCI-V multi-stage verification protocol** developed by
-The Privacy Commons Institute.
+[The Privacy Commons Institute](https://tpc.institute).
 
 | Stage | Method | Field |
 |-------|--------|-------|
@@ -285,7 +292,7 @@ The Privacy Commons Institute.
 - 99.6% of ambiguous CRX API responses resolved as removed by Stage 3
 - Several extensions confirmed as remediated supply chain victims (`TPCI-IDENTITY=remediated`)
 
-Full methodology: [tpci.institute](https://tpci.institute)
+Full methodology: [tpc.institute](https://tpc.institute)
 
 ---
 
@@ -345,6 +352,6 @@ See [LICENSE.md](LICENSE.md) for full terms.
 ---
 
 *Maintained by [@mallorybowes](https://github.com/mallorybowes) /
-The Privacy Commons Institute*  
+[The Privacy Commons Institute](https://tpc.institute)*  
 *Pipeline tooling built with [Claude](https://claude.ai) (Anthropic)*  
-*Verification protocol: [TPCI-V](https://tpci.institute)*
+*Verification protocol: [TPCI-V](https://tpc.institute)*
