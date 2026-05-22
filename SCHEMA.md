@@ -26,6 +26,12 @@ Full field documentation for `current-list-meta.csv`.
 | `STILL-ACTIVE` | string | `1` active in store, `0` removed, `unknown` unverified |
 | `CONTRIB-TYPE` | string | `human` or `automated` |
 | `CONTRIB-HANDLE` | string | GitHub handle or tool name of contributor |
+| `TPCI-VERIFY` | integer | TPCI verification level achieved (see below) |
+| `TPCI-VERIFY-DATE` | date | Date of last TPCI verification (YYYY-MM-DD) |
+| `TPCI-STORE-NAME` | string | Extension name as shown in store at time of TPCI verification |
+| `TPCI-STORE-DEV` | string | Developer name as shown in store at time of TPCI verification |
+| `TPCI-STORE-DATE` | date | Date store name and developer were recorded (YYYY-MM-DD) |
+| `TPCI-IDENTITY` | string | Identity continuity result (see below) |
 
 ---
 
@@ -42,6 +48,48 @@ Full field documentation for `current-list-meta.csv`.
 returns `_malware="true"` when an extension is flagged in Google's malware database.
 This is authoritative confirmation from the Chrome Web Store operator, independent
 of any researcher reporting.
+
+---
+
+## TPCI-VERIFY Values
+
+The `TPCI-VERIFY` field records the highest verification stage completed by
+The Privacy Commons Institute (TPCI) using the TPCI-V protocol.
+
+| Value | Stage | Meaning |
+|-------|-------|---------|
+| `0` | — | Not yet verified by TPCI |
+| `1` | Stage 2+3 | TPCI verified: confirmed malicious **and active** in store |
+| `2` | Stage 2+3 | TPCI verified: confirmed malicious **and removed** from store |
+| `3` | Stage 2+3 | TPCI verified: indeterminate — CRX infrastructure recognizes ID, store listing status unclear |
+| `4` | Stage 4 | TPCI verified: formerly malicious, **developer-confirmed remediated** (supply chain victim) |
+| `5` | Stage 5 | TPCI verified: full behavioral analysis completed |
+
+`TPCI-VERIFY-DATE` records the ISO date (YYYY-MM-DD) when verification was
+last performed. Store status changes over time — always check the date.
+
+---
+
+## TPCI-IDENTITY Values
+
+The `TPCI-IDENTITY` field records the result of Stage 4 identity continuity
+verification — whether the current store listing is the same extension we
+documented as malicious.
+
+| Value | Meaning |
+|-------|---------|
+| `match` | Current store name matches our record — same extension confirmed persistent |
+| `rebrand` | Different name, same developer key — product renamed by original developer |
+| `transfer` | Different developer account — signing key or account transferred |
+| `remediated` | Was victim of supply chain attack; developer patched and relaunched |
+| `unknown` | Could not determine — store not accessible or name unavailable |
+
+**Technical note on identity:** Chrome extension IDs are derived
+cryptographically from the developer's RSA public key. It is computationally
+infeasible for a different developer to obtain the same ID without the original
+developer's private key. Therefore any extension sharing an ID with a
+documented malicious extension is operated by the original developer or
+someone who obtained their signing key.
 
 ---
 
@@ -72,6 +120,9 @@ of any researcher reporting.
 | `ransomware` | Encrypts or holds data hostage |
 | `backdoor` | Provides persistent remote access |
 | `trojan` | Disguises malicious functionality |
+| `ai-chat-scraper` | Harvests AI conversation data |
+| `fake-extension` | Impersonates a legitimate extension |
+| `ownership-transfer` | Legitimate extension acquired and weaponized |
 
 ---
 
@@ -82,6 +133,31 @@ of any researcher reporting.
 | `1` | Confirmed active in store at last check |
 | `0` | Confirmed removed from store |
 | `unknown` | Status not yet verified |
+
+**Note:** Status reflects the last check date. The `TPCI-VERIFY-DATE` field
+indicates when TPCI last verified status. Extensions can be re-listed after
+removal — always check both fields together.
+
+---
+
+## CRX API Removal States
+
+The Chrome CRX update API (`clients2.google.com/service/update2/crx`) returns
+three distinct states for removed extensions, distinguished only at the API
+level — the public Chrome Web Store shows identical "Item not available" pages
+for all removal states.
+
+| CRX API Response | State | STILL-ACTIVE |
+|-----------------|-------|--------------|
+| `codebase=` URL present | Active — Chrome serving updates | `1` |
+| `_malware="true"` + `noupdate` | Malware-flagged — record retained | `0` |
+| `error-unknownApplication` | Hard-purged — completely removed | `0` |
+| `noupdate`, no malware flag | Indeterminate — requires Stage 3 | `unknown` |
+
+**Key finding:** 99.6% of indeterminate CRX API responses correspond to
+hard-removed extensions when verified by headless browser (Stage 3).
+The CRX infrastructure retains records for removed extensions indefinitely,
+making it an unreliable liveness indicator without corroboration.
 
 ---
 
@@ -96,56 +172,52 @@ grep ",UNKNOWN," current-list-meta.csv
 
 ---
 
-*See [README.md](README.md) for usage and import instructions.*
-
----
-
-## TPCI-VERIFY Values
-
-The `TPCI-VERIFY` field records verification performed by The Privacy Commons Institute combining Chrome CRX API and headless browser (Playwright) store page verification.
-
-| Value | Meaning |
-|-------|---------|
-| `0` | Not yet verified by TPCI |
-| `1` | TPCI verified: extension confirmed malicious **and active** in store |
-| `2` | TPCI verified: extension confirmed **removed** from store |
-| `3` | TPCI verified: indeterminate — CRX infrastructure recognizes the ID but public listing status is unclear |
-
-`TPCI-VERIFY-DATE` records the ISO date (YYYY-MM-DD) when verification was last performed. Store status can change — always check the date.
-
----
-
 ## Schema Changelog
 
-### May 2026 — v2 additions
-
-The following fields were added. Existing entries have empty values for these fields; consumers should handle missing/empty gracefully.
-
-| Field | Added | Notes |
-|-------|-------|-------|
-| `TPCI-VERIFY` | May 2026 | Privacy Commons Institute store verification result |
-| `TPCI-VERIFY-DATE` | May 2026 | Date of last TPCI verification |
-
-### Prior additions (also May 2026)
-The following fields were added earlier in May 2026 as part of the initial pipeline build. If your tooling was built before May 2026 these may also be new:
+### May 2026 — v3 additions (TPCI-V protocol)
 
 | Field | Notes |
 |-------|-------|
-| `ADD-SOURCES` | Space-separated archive/reference URLs (Wayback, archive.ph, CRX API) |
-| `CONTRIB-METHOD` | How the entry was added (Manual, AI_Enrichment, Delta_Import, etc.) |
+| `TPCI-VERIFY` | Extended to include value `4` (remediated) |
+| `TPCI-VERIFY-DATE` | Date of last TPCI verification |
+| `TPCI-STORE-NAME` | Extension name at time of TPCI check |
+| `TPCI-STORE-DEV` | Developer name at time of TPCI check |
+| `TPCI-STORE-DATE` | Date store snapshot was recorded |
+| `TPCI-IDENTITY` | Identity continuity result |
+
+### May 2026 — v2 additions
+
+| Field | Notes |
+|-------|-------|
+| `TPCI-VERIFY` | Initial values 0-3 |
+| `TPCI-VERIFY-DATE` | Initial implementation |
+
+### May 2026 — v1 additions
+
+| Field | Notes |
+|-------|-------|
+| `ADD-SOURCES` | Space-separated archive/reference URLs |
+| `CONTRIB-METHOD` | How entry was added |
 | `CONTRIB-TYPE` | `human` or `automated` |
 | `CONTRIB-HANDLE` | GitHub handle or tool name |
 
 ### Migration guidance
 
-**If your scripts use positional column indexing** — update to use named headers. The CSV is always written with a header row; use `csv.DictReader` in Python or equivalent.
+**Scripts using positional column indexing** — update to named headers.
+The CSV always has a header row; use `csv.DictReader` in Python or equivalent.
 
-**If your scripts use `csv.DictReader` or named columns** — no changes needed. New fields will simply be present; old entries will have empty strings for new fields.
+**Scripts using named columns** — no changes needed for existing fields.
+New fields will simply be present; existing entries will have empty strings.
 
-**Checking for new fields:**
+**Checking current fields:**
 ```python
 import csv
 with open('current-list-meta.csv') as f:
     headers = next(csv.reader(f))
-    print(headers)  # verify field names
+    print(headers)
 ```
+
+---
+
+*See [README.md](README.md) for usage and import instructions.*
+*See [TPCI-V protocol](https://tpci.institute) for verification methodology.*

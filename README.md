@@ -7,7 +7,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](LICENSE.md)
 [![STIX 2.1](https://img.shields.io/badge/STIX-2.1-blue?style=flat-square)](chrome-mal-ids-stix.json)
 
-> **⚠ Schema updated May 2026** — Two new fields added (`TPCI-VERIFY`, `TPCI-VERIFY-DATE`) plus four earlier additions (`ADD-SOURCES`, `CONTRIB-METHOD`, `CONTRIB-TYPE`, `CONTRIB-HANDLE`). Scripts using positional column indexing will need updating. Scripts using named headers (`csv.DictReader` or equivalent) require no changes — new fields will simply appear. See [SCHEMA.md](SCHEMA.md) for full details and migration guidance.
+> **⚠ Schema updated May 2026** — Six new TPCI-V verification fields added (`TPCI-VERIFY`, `TPCI-VERIFY-DATE`, `TPCI-STORE-NAME`, `TPCI-STORE-DEV`, `TPCI-STORE-DATE`, `TPCI-IDENTITY`) plus four earlier additions (`ADD-SOURCES`, `CONTRIB-METHOD`, `CONTRIB-TYPE`, `CONTRIB-HANDLE`). Scripts using positional column indexing will need updating. Scripts using named headers (`csv.DictReader` or equivalent) require no changes. See [SCHEMA.md](SCHEMA.md) for full details and migration guidance.
+
+> **⚠ Delta import source quality notice** — 1,535 entries sourced from a third-party delta import (`CONTRIB-METHOD=Delta_Import`) are undergoing independent verification. These entries should be treated as **unverified leads**, not confirmed IOCs, until TPCI verification is complete. See [Data Quality](#data-quality) below.
 
 ---
 
@@ -18,12 +20,13 @@
 ## What this is
 
 Started in 2021 as a personal research project after noticing no single authoritative list
-of malicious Chrome extension IDs existed. Today it tracks **2,500+ confirmed malicious
-extensions** across **30+ campaigns** — from credential stealers and browser hijackers to
+of malicious Chrome extension IDs existed. Today it tracks **2,500+ documented malicious
+extension IOCs** across **30+ campaigns** — from credential stealers and browser hijackers to
 supply chain compromises and ad fraud rings.
 
-Every entry is human-reviewed before publication. The list is used by security researchers,
-IT administrators, MDM operators, and threat intelligence platforms.
+All entries sourced from original research are human-reviewed before publication.
+The database is maintained by [The Privacy Commons Institute](https://tpci.institute)
+and uses the TPCI-V multi-stage verification protocol to assess current store status.
 
 ---
 
@@ -63,12 +66,42 @@ Full schema: [SCHEMA.md](SCHEMA.md)
 
 ### Data quality
 
-- **Human reviewed** — every entry is verified before commit. No automated additions.
-- **UNKNOWN stubs** — some entries have confirmed malicious IDs but incomplete metadata.
-  These are committed immediately (an ID is better than nothing) and enriched over time.
+Entries in this database fall into two categories with different confidence levels:
+
+**Independently verified entries** (`CONTRIB-METHOD` ≠ `Delta_Import`) — 990 entries  
+Sourced from published security research, individually reviewed by a human before
+commit, with source citations and campaign attribution. These are confirmed malicious
+extensions backed by original research.
+
+**Delta import entries** (`CONTRIB-METHOD=Delta_Import`) — 1,535 entries  
+Bulk-imported from third-party IOC aggregation sources. These entries have **not**
+been individually verified by this project. They represent leads for investigation,
+not independently confirmed malicious extensions. TPCI Stage 4 verification is
+in progress — check the `TPCI-VERIFY` and `TPCI-IDENTITY` fields for current
+verification status.
+
+**Filtering by confidence level:**
+```bash
+# High confidence — independently verified entries only
+grep -v "Delta_Import" current-list-meta.csv
+
+# Check verification status
+awk -F',' '$19 != "0" && $19 != ""' current-list-meta.csv   # TPCI verified entries
+
+# Unverified delta imports
+grep "Delta_Import" current-list-meta.csv | grep -v "Store_Enrichment"
+```
+
+**Additional quality notes:**
+- **UNKNOWN stubs** — entries with confirmed malicious IDs but incomplete metadata.
+  Committed immediately (an ID is better than nothing) and enriched over time.
   Find them with: `grep ",UNKNOWN," current-list-meta.csv`
 - **Still-active flag** — reflects status at time of reporting, not necessarily today.
-  Extensions are removed from stores irregularly.
+  Use `TPCI-VERIFY` and `TPCI-VERIFY-DATE` for current verified status.
+- **Supply chain victims** — some entries marked `TPCI-IDENTITY=remediated` were
+  legitimate extensions compromised by supply chain attacks. The developers have
+  patched the malicious code. These IDs are retained for historical accuracy but
+  should not be treated as currently malicious.
 
 ---
 
@@ -221,12 +254,38 @@ if match:
 
 > See [STATS.md](STATS.md) for the full auto-generated breakdown.
 
-- **2,500+ extensions** tracked
+- **2,525 extension IOCs** tracked
+- **990 independently verified** entries (from original security research)
+- **1,535 delta import** entries (third-party sources, verification in progress)
 - **30+ campaigns** covered
 - **Chrome and Edge** extensions
-- **2021 – present** date range
+- **2020 – present** date range
+- **~21%** confirmed still active in Chrome Web Store (TPCI-V verified, May 2026)
 - Threat types include: spyware, data-theft, browser-hijack, credential-theft,
-  click-fraud, session-hijack, cryptojacking, adware
+  click-fraud, session-hijack, cryptojacking, adware, ai-chat-scraper
+
+---
+
+## TPCI-V Verification
+
+All entries in this database are subject to ongoing verification using the
+**TPCI-V multi-stage verification protocol** developed by
+[The Privacy Commons Institute](https://tpci.institute).
+
+| Stage | Method | Field |
+|-------|--------|-------|
+| Stage 2 | Chrome CRX update API | `TPCI-VERIFY`, `STILL-ACTIVE` |
+| Stage 3 | Headless browser store verification | `TPCI-VERIFY`, `STILL-ACTIVE` |
+| Stage 4 | Identity continuity check | `TPCI-IDENTITY`, `TPCI-STORE-NAME` |
+| Stage 5 | Behavioral analysis (planned) | `TPCI-BEHAVIORAL` (future) |
+
+**Key findings from May 2026 verification sweep (2,525 entries):**
+- ~21% confirmed active in Chrome Web Store (Chrome serving update packages)
+- ~79% confirmed removed from store
+- 99.6% of ambiguous CRX API responses resolved as removed by Stage 3
+- Several extensions confirmed as remediated supply chain victims (`TPCI-IDENTITY=remediated`)
+
+Full methodology: [tpci.institute](https://tpci.institute)
 
 ---
 
@@ -285,5 +344,7 @@ See [LICENSE.md](LICENSE.md) for full terms.
 
 ---
 
-*Maintained by [@mallorybowes](https://github.com/mallorybowes)*
-*Pipeline tooling built with [Claude](https://claude.ai) (Anthropic)*
+*Maintained by [@mallorybowes](https://github.com/mallorybowes) /
+[The Privacy Commons Institute](https://tpci.institute)*  
+*Pipeline tooling built with [Claude](https://claude.ai) (Anthropic)*  
+*Verification protocol: [TPCI-V](https://tpci.institute)*
