@@ -86,7 +86,7 @@ source feed for confirmed-live extensions.
 Stage 5A static analysis downloads CRX packages and analyzes manifest permissions,
 host permissions, content script scope, known C2 domain presence, JS behavioral
 patterns (obfuscation, form harvesting, credential access), and external URLs.
-Full methodology and results:  Still to be published.d
+Full methodology and results:  Still to be published.
 
 ---
 
