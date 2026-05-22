@@ -25,7 +25,7 @@ extension IOCs** across **30+ campaigns** — from credential stealers and brows
 supply chain compromises and ad fraud rings.
 
 All entries sourced from original research are human-reviewed before publication.
-The database is maintained by [The Privacy Commons Institute](https://tpci.institute)
+The database is maintained by The Privacy Commons Institute.
 and uses the TPCI-V multi-stage verification protocol to assess current store status.
 
 ---
@@ -270,7 +270,7 @@ if match:
 
 All entries in this database are subject to ongoing verification using the
 **TPCI-V multi-stage verification protocol** developed by
-[The Privacy Commons Institute](https://tpci.institute).
+The Privacy Commons Institute.
 
 | Stage | Method | Field |
 |-------|--------|-------|
@@ -345,6 +345,6 @@ See [LICENSE.md](LICENSE.md) for full terms.
 ---
 
 *Maintained by [@mallorybowes](https://github.com/mallorybowes) /
-[The Privacy Commons Institute](https://tpci.institute)*  
+The Privacy Commons Institute*  
 *Pipeline tooling built with [Claude](https://claude.ai) (Anthropic)*  
 *Verification protocol: [TPCI-V](https://tpci.institute)*
