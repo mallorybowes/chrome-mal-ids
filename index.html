@@ -535,8 +535,8 @@
     <div class="logo">chrome&#8209;<span>mal</span>&#8209;ids</div>
     <div class="logo-sub">Malicious Chrome Extension IOC Database</div>
     <div class="header-links">
-      <a href="chrome-mal-ids-stix.json" download>↓ STIX 2.1</a>
-      <a href="current-list-meta.csv" download>↓ CSV</a>
+      <a href="formats/chrome-mal-ids-stix.json" download>↓ STIX 2.1</a>
+      <a href="data/current-list-meta.csv" download>↓ CSV</a>
       <a href="https://github.com/mallorybowes/chrome-mal-ids" target="_blank">GitHub ↗</a>
     </div>
   </div>
@@ -685,7 +685,7 @@ function toggleFilters() {
 }
 
 // ── Data ───────────────────────────────────────────────────────────────────────
-const CSV_URL = 'https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv';
+const CSV_URL = 'https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/data/current-list-meta.csv';
 const STORE_URL = id => `https://chromewebstore.google.com/detail/${id}`;
 const EDGE_URL  = id => `https://microsoftedge.microsoft.com/addons/detail/${id}`;
 
