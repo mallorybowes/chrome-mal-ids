@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "d22a9d37-b82a-a263-2b7c-29e3dd0a6f04",
     "info": "[chrome-mal-ids] RedDirection campaign — 13 malicious extension(s)",
-    "date": "2026-05-22",
+    "date": "2026-05-23",
     "threat_level_id": "1",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779484333",
+    "timestamp": "1779507429",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Color Picker Eyedropper - Geco colorpick | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Color Picker Eyedropper - Geco colorpick",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Emoji keyboard online - copy and paste emoji | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Emoji keyboard online - copy and paste emoji",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Free Weather Forecast | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Free Weather Forecast",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Name: Video Speed Controller - Video manager | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Chrome/Edge extension ID — Video Speed Controller - Video manager",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -127,7 +127,7 @@
         "comment": "Name: Unlock Discord - VPN Proxy to Unblock Discord Anywhere | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -138,7 +138,7 @@
         "comment": "Chrome/Edge extension ID — Unlock Discord - VPN Proxy to Unblock Discord Anywhere",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -149,7 +149,7 @@
         "comment": "Name: Dark Theme - Dark Reader for Chrome | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -160,7 +160,7 @@
         "comment": "Chrome/Edge extension ID — Dark Theme - Dark Reader for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -171,7 +171,7 @@
         "comment": "Name: Volume Max - Ultimate Sound Booster | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -182,7 +182,7 @@
         "comment": "Chrome/Edge extension ID — Volume Max - Ultimate Sound Booster",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -193,7 +193,7 @@
         "comment": "Name: Unblock TikTok - Seamless Access with One-Click Proxy | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -204,7 +204,7 @@
         "comment": "Chrome/Edge extension ID — Unblock TikTok - Seamless Access with One-Click Proxy",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -215,7 +215,7 @@
         "comment": "Name: Unlock YouTube VPN | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -226,7 +226,7 @@
         "comment": "Chrome/Edge extension ID — Unlock YouTube VPN",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -237,7 +237,7 @@
         "comment": "Name: Weather | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -248,7 +248,7 @@
         "comment": "Chrome/Edge extension ID — Weather",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -259,7 +259,7 @@
         "comment": "Name: RedDirection extension (name unconfirmed) | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -270,7 +270,7 @@
         "comment": "Chrome/Edge extension ID — RedDirection extension (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -281,7 +281,7 @@
         "comment": "Name: RedDirection extension (name unconfirmed) | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -292,7 +292,7 @@
         "comment": "Chrome/Edge extension ID — RedDirection extension (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -303,7 +303,7 @@
         "comment": "Name: RedDirection extension (name unconfirmed) | Threat: data-theft,click-fraud,ownership-transfer | RedDirection campaign (Koi Security, Jul 2025). Extensions stayed clean for years then received silent malicious updates. C2 backdoor tracked every URL visited. OWNERSHIP-TRANSFER=1: extensions acquir",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -314,7 +314,7 @@
         "comment": "Chrome/Edge extension ID — RedDirection extension (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -325,7 +325,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -336,7 +336,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       }
     ]

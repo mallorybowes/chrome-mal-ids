@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "fc984428-5926-3a42-b2eb-1bd2e98fe0fb",
     "info": "[chrome-mal-ids] Unit 42 Feb 2026 AI-accelerated malicious extension campaign — 1 malicious extension(s)",
-    "date": "2026-05-22",
+    "date": "2026-05-23",
     "threat_level_id": "3",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779484333",
+    "timestamp": "1779507429",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Unit 42 Feb 2026 AI-accelerated malicious extension campaign. Name and specific behavior pending enrichment.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — name unknown",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779484333",
+        "timestamp": "1779507429",
         "disable_correlation": false
       }
     ]
