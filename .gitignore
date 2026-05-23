@@ -1,0 +1,74 @@
+# chrome-mal-ids .gitignore
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Private research data — never in public repo
+crx-packages/
+stage5a-findings.json
+stage5a-named-campaigns.json
+stage5a-progress.json
+stage5a-named-progress.json
+playwright-findings.json
+crx-findings.json
+stage4-findings.json
+paper-evidence/
+screenshots/
+*.crx
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+
+# Temporary
+*.tmp
+*.temp
+
+# Private research scripts — not for public distribution
+backfill_stage4.py
+backfill_stage5a.py
+crx_verify.py
+crx_playwright_verify.py
+crx_static_analyze.py
+capture_screenshots.py
+capture_paper_evidence.py
+analyze_live.py
+enrich_stubs.py
+
+# Paper draft — published separately at tpc.institute
+paper-still-there-*.md
+paper-still-there-*.pdf
+paper-still-there-*.html
+paper.css
+Makefile
+research-note-id-rebrand.md
+tpci-v-protocol-spec.md
+
+# Build artifacts
+chrome-mal-ids_*.deb
+
+# CSV backup from migration scripts
+current-list-meta.csv.bak

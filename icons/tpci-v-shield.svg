@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>TPCI-V — The Privacy Commons Institute Verification Mark</title>
+  <desc>Shield mark for the TPCI-V multi-stage browser extension verification protocol</desc>
+
+  <!-- Shield body -->
+  <path d="M64 4 L124 24 L124 76 Q124 112 64 126 Q4 112 4 76 L4 24 Z"
+        fill="#04342C" stroke="#1D9E75" stroke-width="2.5"/>
+
+  <!-- Shield inner highlight -->
+  <path d="M64 14 L114 30 L114 76 Q114 106 64 118 Q14 106 14 76 L14 30 Z"
+        fill="none" stroke="#085041" stroke-width="1"/>
+
+  <!-- V mark -->
+  <text x="64" y="82"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-size="56"
+        font-weight="500"
+        text-anchor="middle"
+        fill="#5DCAA5">V</text>
+
+  <!-- TPCI label -->
+  <text x="64" y="108"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-size="14"
+        font-weight="500"
+        text-anchor="middle"
+        fill="#1D9E75"
+        letter-spacing="4">TPCI</text>
+
+</svg>
