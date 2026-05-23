@@ -2,10 +2,10 @@
 
 **A community-maintained database of malicious Chrome and Edge browser extension indicators of compromise (IOCs).**
 
-*Repository: [chrome-mal-ids](https://github.com/mallorybowes/chrome-mal-ids)*
+*Repository: [chrome-mal-ids](https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids)*
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](LICENSE.md)
-[![STIX 2.1](https://img.shields.io/badge/STIX-2.1-blue?style=flat-square)](chrome-mal-ids-stix.json)
+[![STIX 2.1](https://img.shields.io/badge/STIX-2.1-blue?style=flat-square)](formats/chrome-mal-ids-stix.json)
 
 > **⚠ Schema updated May 2026** — Six new TPCI-V verification fields added (`TPCI-VERIFY`, `TPCI-VERIFY-DATE`, `TPCI-STORE-NAME`, `TPCI-STORE-DEV`, `TPCI-STORE-DATE`, `TPCI-IDENTITY`) plus four earlier additions (`ADD-SOURCES`, `CONTRIB-METHOD`, `CONTRIB-TYPE`, `CONTRIB-HANDLE`). Scripts using positional column indexing will need updating. Scripts using named headers (`csv.DictReader` or equivalent) require no changes. See [SCHEMA.md](SCHEMA.md) for full details and migration guidance.
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔍 [Search the database →](https://mallorybowes.github.io/chrome-mal-ids)
+## 🔍 [Search the database →](https://the-privacy-commons-institute.github.io/chrome-mal-ids)
 
 ---
 
@@ -41,14 +41,14 @@ Distribution outputs (STIX, MISP, Sigma, blocklist) contain only TPCI-verified e
 
 | File | Description |
 |------|-------------|
-| [`current-list-meta.csv`](current-list-meta.csv) | Full dataset with metadata |
-| [`current-list.csv`](current-list.csv) | ID-only list for lightweight consumption |
-| [`current-list.txt`](current-list.txt) | Plain text blocklist, one ID per line |
-| [`current-list.json`](current-list.json) | JSON array with full metadata |
-| [`current-list-sigma.yml`](current-list-sigma.yml) | Sigma detection rule for SIEMs |
-| [`chrome-mal-ids-stix.json`](chrome-mal-ids-stix.json) | STIX 2.1 bundle for threat intel platforms |
-| [`misp-export.json`](misp-export.json) | MISP event JSON for manual import |
-| [`misp-feed/`](misp-feed/) | MISP feed directory for automatic polling |
+| [`data/current-list-meta.csv`](data/current-list-meta.csv) | Full dataset with metadata |
+| [`data/current-list.csv`](data/current-list.csv) | ID-only list for lightweight consumption |
+| [`data/current-list.txt`](data/current-list.txt) | Plain text blocklist, one ID per line |
+| [`data/current-list.json`](data/current-list.json) | JSON array with full metadata |
+| [`data/current-list-sigma.yml`](data/current-list-sigma.yml) | Sigma detection rule for SIEMs |
+| [`formats/chrome-mal-ids-stix.json`](formats/chrome-mal-ids-stix.json) | STIX 2.1 bundle for threat intel platforms |
+| [`formats/misp-export.json`](formats/misp-export.json) | MISP event JSON for manual import |
+| [`formats/misp-feed/`](formats/misp-feed/) | MISP feed directory for automatic polling |
 | [`STATS.md`](STATS.md) | Auto-generated statistics summary |
 | [`SCHEMA.md`](SCHEMA.md) | Full schema documentation |
 
@@ -90,19 +90,19 @@ verification status.
 **Filtering by confidence level:**
 ```bash
 # High confidence — independently verified entries only
-grep -v "Delta_Import" current-list-meta.csv
+grep -v "Delta_Import" data/current-list-meta.csv
 
 # Check verification status
-awk -F',' '$19 != "0" && $19 != ""' current-list-meta.csv   # TPCI verified entries
+awk -F',' '$19 != "" '} data/current-list-meta.csv   # TPCI verified entries
 
 # Unverified delta imports
-grep "Delta_Import" current-list-meta.csv | grep -v "Store_Enrichment"
+grep "Delta_Import" data/current-list-meta.csv | grep -v "Store_Enrichment"
 ```
 
 **Additional quality notes:**
 - **UNKNOWN stubs** — entries with confirmed malicious IDs but incomplete metadata.
   Committed immediately (an ID is better than nothing) and enriched over time.
-  Find them with: `grep ",UNKNOWN," current-list-meta.csv`
+  Find them with: `grep ",UNKNOWN," data/current-list-meta.csv`
 - **Still-active flag** — reflects status at time of reporting, not necessarily today.
   Use `TPCI-VERIFY` and `TPCI-VERIFY-DATE` for current verified status.
 - **Supply chain victims** — some entries marked `TPCI-IDENTITY=remediated` were
@@ -117,7 +117,7 @@ grep "Delta_Import" current-list-meta.csv | grep -v "Store_Enrichment"
 ### 🌐 Search UI
 
 Browse and search the full database at:
-**https://mallorybowes.github.io/chrome-mal-ids**
+**https://the-privacy-commons-institute.github.io/chrome-mal-ids**
 
 Filter by campaign, threat type, browser, date, and active status. Click any entry
 for full details including research article links.
@@ -128,7 +128,7 @@ One ID per line — works with grep, MDM tools, custom scripts:
 
 ```bash
 # Download
-curl -O https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.txt
+curl -O https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/data/current-list.txt
 
 # Check a specific ID
 grep "YOUR_EXTENSION_ID" current-list.txt
@@ -144,12 +144,12 @@ comm -12 \
 Full metadata as a JSON array — ideal for developers and custom tooling:
 
 ```
-https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.json
+https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/data/current-list.json
 ```
 
 ```python
 import urllib.request, json
-url  = "https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list.json"
+url  = "https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/data/current-list.json"
 data = json.loads(urllib.request.urlopen(url).read())
 exts = {e["ext_id"]: e for e in data["extensions"]}
 # Check an ID
@@ -162,7 +162,7 @@ if "your_extension_id" in exts:
 Sigma rule covering all known malicious IDs — compatible with Splunk, Elastic, Microsoft Sentinel, and any Sigma-capable SIEM:
 
 ```
-https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-sigma.yml
+https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/data/current-list-sigma.yml
 ```
 
 Convert to your SIEM's native format with [sigma-cli](https://github.com/SigmaHQ/sigma-cli):
@@ -175,7 +175,7 @@ sigma convert -t sentinel current-list-sigma.yml
 
 ```bash
 # Download the full metadata CSV
-curl -O https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv
+curl -O https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/data/current-list-meta.csv
 
 # Check if a specific extension ID is malicious
 grep "YOUR_EXTENSION_ID" current-list-meta.csv
@@ -185,14 +185,14 @@ grep "YOUR_EXTENSION_ID" current-list-meta.csv
 
 **Linux / macOS:**
 ```bash
-curl -O https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/contrib/scripts/linux_mac/chrome-ext-check.sh
+curl -O https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/contrib/scripts/linux_mac/chrome-ext-check.sh
 chmod +x chrome-ext-check.sh
 ./chrome-ext-check.sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/contrib/scripts/windows/Scan-ChromeExtensions.ps1 -OutFile Scan-ChromeExtensions.ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/contrib/scripts/windows/Scan-ChromeExtensions.ps1 -OutFile Scan-ChromeExtensions.ps1
 .\Scan-ChromeExtensions.ps1
 ```
 
@@ -210,7 +210,7 @@ MISP → Events → Import → MISP JSON → select misp-export.json
 MISP → Feeds → Add Feed:
   Name:         Malicious Chrome Extension IOC Database
   Type:         MISP Feed
-  URL:          https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/misp-feed/
+  URL:          https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/formats/misp-feed/
   Input source: Network
   Distribution: Your organisation only
 ```
@@ -221,7 +221,7 @@ The feed creates one MISP event per campaign (30+ events) with full attribute me
 
 The STIX 2.1 bundle is auto-generated on every update and available at:
 ```
-https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/chrome-mal-ids-stix.json
+https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/formats/chrome-mal-ids-stix.json
 ```
 
 **MISP** — scheduled pull:
@@ -236,7 +236,7 @@ Data → Ingestion → Remote STIX2 Feeds → paste URL above
 
 **Subscribe to updates** via the releases RSS feed:
 ```
-https://github.com/mallorybowes/chrome-mal-ids/releases.atom
+https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids/releases.atom
 ```
 
 ### 🐍 Python / programmatic
@@ -244,7 +244,7 @@ https://github.com/mallorybowes/chrome-mal-ids/releases.atom
 ```python
 import csv, urllib.request
 
-url = "https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/current-list-meta.csv"
+url = "https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/data/current-list-meta.csv"
 with urllib.request.urlopen(url) as r:
     rows = list(csv.DictReader(line.decode() for line in r))
 
@@ -304,13 +304,13 @@ The database is updated by monitoring security research RSS feeds and GitHub rep
 
 Sources include blogs and publications from: Koi Security / Palo Alto, Bleeping Computer, The Hacker News, Krebs on Security, Sekoia, Palant's Blog, Secure Annex, Trustwave SpiderLabs, The Record, SecurityWeek, and several GitHub IOC aggregation repositories.
 
-To suggest a new source, [open an issue](https://github.com/mallorybowes/chrome-mal-ids/issues).
+To suggest a new source, [open an issue](https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids/issues).
 
 ---
 
 ### Reporting a new malicious extension
 
-[Open an issue](https://github.com/mallorybowes/chrome-mal-ids/issues) with:
+[Open an issue](https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids/issues) with:
 - Extension ID (32-char string from the Chrome Web Store URL)
 - Extension name
 - Source article or research post
@@ -333,7 +333,7 @@ Some notable campaigns tracked in this list:
 - **adindex ad fraud cluster** — RCE via Firebase, session replay for ad fraud
 - **Koi RedDirection** — browser hijack campaign across Chrome and Edge
 - **BIScience clickstream** — browsing history collection under false pretenses
-- And many more — [browse the full list →](https://mallorybowes.github.io/chrome-mal-ids)
+- And many more — [browse the full list →](https://the-privacy-commons-institute.github.io/chrome-mal-ids)
 
 ---
 
@@ -345,7 +345,7 @@ You are free to use, share, and adapt this data for any purpose including commer
 provided you give appropriate credit:
 
 > Extension IOC data sourced from **chrome-mal-ids** by Mallory Bowes Brown
-> https://github.com/mallorybowes/chrome-mal-ids
+> https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids
 
 See [LICENSE.md](LICENSE.md) for full terms.
 

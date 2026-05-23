@@ -86,7 +86,8 @@ source feed for confirmed-live extensions.
 Stage 5A static analysis downloads CRX packages and analyzes manifest permissions,
 host permissions, content script scope, known C2 domain presence, JS behavioral
 patterns (obfuscation, form harvesting, credential access), and external URLs.
-Full methodology and results:  Still to be published.
+Full methodology and results: see paper-still-there-draft-v0.1.md and
+~/.chrome-mal-ids-research/stage5a-findings.json
 
 ---
 
@@ -210,4 +211,4 @@ Full CRX API + Playwright verification sweep across all 2,525 entries.
 ## Prior history
 
 Changes prior to May 2026 are tracked via git commit history.
-See: https://github.com/mallorybowes/chrome-mal-ids/commits/master
+See: https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids/commits/master
