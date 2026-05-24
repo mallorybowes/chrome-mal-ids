@@ -15,8 +15,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR  = Path(__file__).parent
-DEFAULT_CSV = SCRIPT_DIR / "current-list-meta.csv"
-DEFAULT_OUT = SCRIPT_DIR / "STATS.md"
+REPO_ROOT   = SCRIPT_DIR.parent
+DEFAULT_CSV = SCRIPT_DIR.parent / "data" / "current-list-meta.csv"
+DEFAULT_OUT = SCRIPT_DIR.parent / "STATS.md"
 PROJECT_URL = "https://github.com/mallorybowes/chrome-mal-ids"
 
 
@@ -24,8 +25,9 @@ def find_sources_file() -> Path | None:
     """Find monitor_sources.json — check server path then local monitor dir."""
     candidates = [
         Path("/opt/chrome-mal-ids/monitor_sources.json"),          # server
+        REPO_ROOT / "monitor_sources.json",                        # repo root
         SCRIPT_DIR.parent / "monitor" / "monitor_sources.json",    # local laptop
-        SCRIPT_DIR / "monitor_sources.json",                       # repo root fallback
+        SCRIPT_DIR / "monitor_sources.json",                       # fallback
     ]
     for p in candidates:
         if p.exists():

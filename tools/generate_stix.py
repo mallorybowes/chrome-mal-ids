@@ -41,8 +41,8 @@ except ImportError:
 # ── Config ────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR   = Path(__file__).parent
-DEFAULT_CSV  = SCRIPT_DIR / "current-list-meta.csv"
-DEFAULT_OUT  = SCRIPT_DIR / "chrome-mal-ids-stix.json"
+DEFAULT_CSV  = SCRIPT_DIR.parent / "data" / "current-list-meta.csv"
+DEFAULT_OUT  = SCRIPT_DIR.parent / "formats" / "chrome-mal-ids-stix.json"
 
 PROJECT_URL  = "https://github.com/mallorybowes/chrome-mal-ids"
 STORE_URL    = "https://chromewebstore.google.com/detail/{ext_id}"

@@ -34,8 +34,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR   = Path(__file__).parent
-DEFAULT_CSV  = SCRIPT_DIR / "current-list-meta.csv"
-DEFAULT_OUT  = SCRIPT_DIR
+DEFAULT_CSV  = SCRIPT_DIR.parent / "data" / "current-list-meta.csv"
+DEFAULT_OUT  = SCRIPT_DIR.parent / "formats"
 PROJECT_URL  = "https://github.com/mallorybowes/chrome-mal-ids"
 PROJECT_NAME = "Malicious Chrome Extension IOC Database"
 ORG_NAME     = "chrome-mal-ids"
