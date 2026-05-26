@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "bbb28e00-a4f1-db42-4f3d-4817c338876b",
     "info": "[chrome-mal-ids] BiScience/Urban Cybersecurity AI chat harvesting — 2 malicious extension(s)",
-    "date": "2026-05-24",
+    "date": "2026-05-26",
     "threat_level_id": "1",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779657032",
+    "timestamp": "1779760318",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Urban VPN Proxy | Threat: ai-chat-scraper,data-theft | BiScience/Urban Cybersecurity AI chat harvesting. v5.5.0 (July 9 2025) silently introduced harvesting of ChatGPT, Claude, Gemini, Copilot, Perplexity, DeepSeek, Grok, Meta AI conversations. Data sold ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779657032",
+        "timestamp": "1779760318",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Urban VPN Proxy",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779657032",
+        "timestamp": "1779760318",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Urban Ad Blocker | Threat: ai-chat-scraper,data-theft | BiScience/Urban Cybersecurity AI chat harvesting. v5.5.0 (July 9 2025) silently introduced harvesting of ChatGPT, Claude, Gemini, Copilot, Perplexity, DeepSeek, Grok, Meta AI conversations. Data sold ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779657032",
+        "timestamp": "1779760318",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Urban Ad Blocker",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779657032",
+        "timestamp": "1779760318",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779657032",
+        "timestamp": "1779760318",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779657032",
+        "timestamp": "1779760318",
         "disable_correlation": false
       }
     ]
