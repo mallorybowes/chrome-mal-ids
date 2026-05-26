@@ -2,7 +2,7 @@
   "meta": {
     "name": "Malicious Chrome Extension IOC Database",
     "url": "https://github.com/mallorybowes/chrome-mal-ids",
-    "generated": "2026-05-26T01:51:47.406126+00:00",
+    "generated": "2026-05-26T21:39:09.268200+00:00",
     "total": 2525,
     "license": "CC BY 4.0",
     "attribution": "Data sourced from Malicious Chrome Extension IOC Database — https://github.com/mallorybowes/chrome-mal-ids"
