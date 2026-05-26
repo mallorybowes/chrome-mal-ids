@@ -1,6 +1,6 @@
 # Malicious Chrome Extension IOC Database — Statistics
 
-> Auto-generated 2026-05-18 21:02 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
+> Auto-generated 2026-05-24 21:10 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
 
 ---
 
@@ -8,11 +8,11 @@
 
 | Metric | Count |
 |--------|-------|
-| Total malicious extensions | **2,508** |
-| Unique campaigns | **32** |
-| Still active in store | **14** |
+| Total malicious extensions | **2,525** |
+| Unique campaigns | **40** |
+| Still active in store | **59** |
 | Ownership transfer cases | **34** |
-| Stubs (ID confirmed, metadata pending) | **1,506** |
+| Stubs (ID confirmed, metadata pending) | **1,478** |
 | Earliest discovery | **2017-08-17** |
 | Most recent discovery | **2026-04-13** |
 
@@ -22,7 +22,7 @@
 
 | Browser | Extensions |
 |---------|-----------|
-| Chrome | 2,473 (98.6%) |
+| Chrome | 2,490 (98.6%) |
 | Edge | 22 (0.9%) |
 | Both | 13 (0.5%) |
 
@@ -32,16 +32,16 @@
 
 | Threat Type | Extensions |
 |-------------|-----------|
-| unknown | 2,121 (84.6%) |
-| click-fraud | 233 (9.3%) |
-| adware | 227 (9.1%) |
-| data-theft | 202 (8.1%) |
-| credential-theft | 85 (3.4%) |
-| spyware | 79 (3.1%) |
-| session-hijack | 64 (2.6%) |
-| browser-hijack | 31 (1.2%) |
-| ownership-transfer | 29 (1.2%) |
-| fake-extension | 29 (1.2%) |
+| unknown | 1,896 (75.1%) |
+| adware | 424 (16.8%) |
+| data-theft | 372 (14.7%) |
+| spyware | 247 (9.8%) |
+| click-fraud | 233 (9.2%) |
+| credential-theft | 130 (5.1%) |
+| session-hijack | 109 (4.3%) |
+| browser-hijack | 60 (2.4%) |
+| ownership-transfer | 29 (1.1%) |
+| fake-extension | 29 (1.1%) |
 | phishing | 27 (1.1%) |
 | ai-chat-scraper | 4 (0.2%) |
 | malvertising | 1 (0.0%) |
@@ -50,23 +50,29 @@
 
 ## Campaigns
 
-A total of **32** distinct campaigns are tracked.
+A total of **40** distinct campaigns are tracked.
 
 | Campaign | Extensions |
 |----------|-----------|
-| Stub entry imported from malicious_extension_sentry | 1,404 |
+| Stub entry imported from malicious_extension_sentry | 1,149 |
 | Unknown | 361 |
 | “The reporter did not correlate the EXTID → EXTID-NAME | 231 |
-| Source: https://github | 108 |
+| DBX Tecnologia / Grupo OPT WhatsApp automation campaign | 125 |
 | Palant Jun 2023 affiliate fraud cluster | 103 |
+| Source: https://github | 63 |
+| Stage 5A static analysis confirmed malicious behavior | 58 |
+| Socket April 2026 MaaS campaign | 45 |
+| YowGames cursor farm | 43 |
 | DarkSpectre | 36 |
 | Palant serasearchtop | 34 |
 | Part of Dec 2024 Cyberhaven supply chain campaign | 31 |
+| TabPlugins cursor farm | 26 |
 | “These extensions have not all been confirmed to be maliciou | 22 |
 | ShadyPanda Phase 1/2 affiliate fraud + search hijacking | 22 |
 | Two overlapping malicious extension clusters: Phoenix Invict | 20 |
 | GitLab TamperedChef campaign | 16 |
 | Krebs/Nguyen fake brand extension network | 16 |
+| Stub entry imported from gnyman/chromium-mal-ids | 16 |
 | ShadyPanda Phase 4 Edge spyware | 14 |
 | RedDirection campaign | 13 |
 | Browser game extensions abusing broad host permissions | 13 |
@@ -80,12 +86,14 @@ A total of **32** distinct campaigns are tracked.
 | ReasonLabs cashback killer campaign | 3 |
 | Cyberhaven Dec 2024 OAuth phishing supply chain attack | 3 |
 | Secure Annex unknow | 3 |
+| Pixatab new tab hijacking cluster | 3 |
 | BiScience/Urban Cybersecurity AI chat harvesting | 2 |
 | AITOPIA impersonator campaign | 2 |
 | SearchBlox Roblox backdoor | 2 |
 | “The extension was ‘Offered by:  Extensions’ in the Chrome W | 1 |
 | Dormant Colors campaign | 1 |
 | VK Styles campaign | 1 |
+| Unit 42 Feb 2026 AI-accelerated malicious extension campaign | 1 |
 
 ---
 
@@ -107,7 +115,6 @@ The following sources are monitored daily for new malicious extension reports:
 | [Trustwave SpiderLabs](https://www.trustwave.com/en-us/rss/spiderlabs-blog.rss) | `chrome, extension, browser` |
 | [The Record (Recorded Future)](https://therecord.media/feed) | `chrome extension, browser extension` |
 | [SecurityWeek](https://feeds.feedburner.com/securityweek) | `chrome extension, browser extension, malicious extension` |
-| [Google alert](https://www.google.com/alerts/feeds/15622061899924815925/5002645263839538624) | `"Chrome malicious extension" chrome malicious extension` |
 
 ### GitHub Repositories
 
@@ -117,7 +124,7 @@ The following sources are monitored daily for new malicious extension reports:
 | [chartingshow/crypto-firewall new issues](https://api.github.com/repos/chartingshow/crypto-firewall) | issues |
 | [axon-git/rapid-response commits](https://api.github.com/repos/axon-git/rapid-response) | commits |
 
-*11 RSS feeds · 3 GitHub repos · edit via the review UI Sources tab*
+*10 RSS feeds · 3 GitHub repos · edit via the review UI Sources tab*
 
 ---
 

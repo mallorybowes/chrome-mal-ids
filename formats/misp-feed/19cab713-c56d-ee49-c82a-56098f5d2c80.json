@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "19cab713-c56d-ee49-c82a-56098f5d2c80",
     "info": "[chrome-mal-ids] Dormant Colors campaign — 1 malicious extension(s)",
-    "date": "2026-05-23",
+    "date": "2026-05-24",
     "threat_level_id": "2",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779507429",
+    "timestamp": "1779657032",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: styleflex (Dormant Colors campaign) | Threat: adware,click-fraud,malvertising | Dormant Colors campaign (Guardio Labs). 30 color-themed extensions side-loaded malicious code post-install. Hijacked search results, injected affiliate links to 10,000+ sites. 1M+ installs combined. T",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779507429",
+        "timestamp": "1779657032",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — styleflex (Dormant Colors campaign)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779507429",
+        "timestamp": "1779657032",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779507429",
+        "timestamp": "1779657032",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779507429",
+        "timestamp": "1779657032",
         "disable_correlation": false
       }
     ]
