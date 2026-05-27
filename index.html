@@ -712,7 +712,11 @@ function parseCSV(text) {
     }
     fields.push(cur);
     const row = {};
-    header.forEach((h, idx) => row[h.trim()] = (fields[idx] || '').trim());
+    header.forEach((h, idx) => {
+      let v = (fields[idx] || '').trim();
+      if (v.startsWith('"') && v.endsWith('"')) v = v.slice(1,-1).replace(/""/g,'"');
+      row[h.trim().replace(/^"|"$/g,'')] = v;
+    });
     if (row.EXTID && row.EXTID.toLowerCase() !== 'unknown') rows.push(row);
   }
   return rows;
