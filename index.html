@@ -544,7 +544,9 @@
     <div>Extensions: <span id="hdr-total">—</span></div>
     <div>Campaigns: <span id="hdr-campaigns">—</span></div>
     <div>Still active: <span id="hdr-active">—</span></div>
-    <div>Updated: <span id="hdr-updated">—</span></div>
+    <div>Last discovered: <span id="hdr-discovered">—</span></div>
+    <div>Last added: <span id="hdr-added">—</span></div>
+    <div>Last commit: <span id="hdr-commit">—</span></div>
   </div>
 </header>
 
@@ -1001,15 +1003,33 @@ function updateStats() {
 }
 
 function updateHeader() {
-  const total     = allRows.length;
-  const active    = allRows.filter(r => r._active).length;
-  const campaigns = new Set(allRows.map(r => r._campaign)).size;
-  const newest    = allRows.map(r => r._date).filter(d => d && d.toUpperCase() !== 'UNKNOWN').sort().pop() || '—';
+  const total      = allRows.length;
+  const active     = allRows.filter(r => r._active).length;
+  const campaigns  = new Set(allRows.map(r => r._campaign)).size;
+  const discovered = allRows.map(r => r._date)
+                       .filter(d => d && d.toUpperCase() !== 'UNKNOWN').sort().pop() || '—';
+  const added      = allRows.map(r => r['DATE-ADD'] || '')
+                       .filter(d => d && d.toUpperCase() !== 'UNKNOWN').sort().pop() || '—';
 
-  document.getElementById('hdr-total').textContent    = total.toLocaleString();
-  document.getElementById('hdr-campaigns').textContent = campaigns.toLocaleString();
-  document.getElementById('hdr-active').textContent   = active.toLocaleString();
-  document.getElementById('hdr-updated').textContent  = newest;
+  document.getElementById('hdr-total').textContent      = total.toLocaleString();
+  document.getElementById('hdr-campaigns').textContent  = campaigns.toLocaleString();
+  document.getElementById('hdr-active').textContent     = active.toLocaleString();
+  document.getElementById('hdr-discovered').textContent = discovered;
+  document.getElementById('hdr-added').textContent      = added;
+  document.getElementById('hdr-commit').textContent     = '…';
+
+  // Fetch last commit date from GitHub API
+  fetch('https://api.github.com/repos/The-Privacy-Commons-Institute/chrome-mal-ids/commits?per_page=1')
+    .then(r => r.json())
+    .then(data => {
+      if (data && data[0] && data[0].commit && data[0].commit.committer) {
+        const iso = data[0].commit.committer.date;
+        document.getElementById('hdr-commit').textContent = iso.slice(0, 10);
+      }
+    })
+    .catch(() => {
+      document.getElementById('hdr-commit').textContent = '—';
+    });
 }
 
 // ── Keyboard shortcuts ─────────────────────────────────────────────────────────
