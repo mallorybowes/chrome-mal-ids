@@ -1004,7 +1004,7 @@ function updateHeader() {
   const total     = allRows.length;
   const active    = allRows.filter(r => r._active).length;
   const campaigns = new Set(allRows.map(r => r._campaign)).size;
-  const newest    = allRows.map(r => r._date).filter(Boolean).sort().pop() || '—';
+  const newest    = allRows.map(r => r._date).filter(d => d && d.toUpperCase() !== 'UNKNOWN').sort().pop() || '—';
 
   document.getElementById('hdr-total').textContent    = total.toLocaleString();
   document.getElementById('hdr-campaigns').textContent = campaigns.toLocaleString();
