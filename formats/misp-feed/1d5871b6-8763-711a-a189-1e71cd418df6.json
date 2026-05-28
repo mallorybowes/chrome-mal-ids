@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779949742",
+    "timestamp": "1779952431",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Brawl Stars Cursor - Custom Game Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Brawl Stars Cursor - Custom Game Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Country Flags Cursor - Custom Flag Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Country Flags Cursor - Custom Flag Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Spiderman Cursor - Custom Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Spiderman Cursor - Custom Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       }
     ]

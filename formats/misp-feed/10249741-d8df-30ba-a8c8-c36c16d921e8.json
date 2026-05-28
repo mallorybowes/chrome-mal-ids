@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779949742",
+    "timestamp": "1779952431",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: SearchBlox | Threat: credential-theft,session-hijack | SearchBlox Roblox backdoor. Stole Roblox credentials and in-game assets via account API calls. Developer (UnstoppableLucent) intentionally backdoored own extension with malicious JS. 200,000 installs.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — SearchBlox",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: SearchBlox (secondary) | Threat: credential-theft,session-hijack | SearchBlox Roblox backdoor. Stole Roblox credentials and in-game assets via account API calls. Developer (UnstoppableLucent) intentionally backdoored own extension with malicious JS. 959 installs. Aut",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — SearchBlox (secondary)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779949742",
+        "timestamp": "1779952431",
         "disable_correlation": false
       }
     ]
