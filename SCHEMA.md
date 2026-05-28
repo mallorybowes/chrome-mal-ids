@@ -133,7 +133,7 @@ someone who obtained their signing key.
 ## ENRICH-STATUS Values
 
 The `ENRICH-STATUS` field tracks the enrichment pipeline state for stub entries
-(`EXTID-NAME=UNKNOWN`). Populated by `enrich_stubs.py`.
+(`EXTID-NAME=UNKNOWN`). Populated by the TPCI enrichment pipeline.
 
 | Value | Meaning |
 |-------|---------|
