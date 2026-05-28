@@ -2,7 +2,7 @@
   "meta": {
     "name": "Malicious Chrome Extension IOC Database",
     "url": "https://github.com/mallorybowes/chrome-mal-ids",
-    "generated": "2026-05-28T05:53:51.519916+00:00",
+    "generated": "2026-05-28T06:28:55.036787+00:00",
     "total": 2525,
     "license": "CC BY 4.0",
     "attribution": "Data sourced from Malicious Chrome Extension IOC Database — https://github.com/mallorybowes/chrome-mal-ids"
@@ -58,7 +58,6 @@
     },
     {
       "ext_id": "aaeohfpkhojgdhocdfpkdaffbehjbmmd",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -129,7 +128,6 @@
     },
     {
       "ext_id": "abghmipjfclfpgmmelbgolfgmhnigbma",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -160,7 +158,6 @@
     },
     {
       "ext_id": "abjbfhcehjndcpbiiagdnlfolkbfblpb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -373,7 +370,6 @@
     },
     {
       "ext_id": "acmnokigkgihogfbeooklgemindnbine",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -714,7 +710,6 @@
     },
     {
       "ext_id": "afephhbbcdlgdehhddfnehfndnkfbgnm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -813,7 +808,6 @@
     },
     {
       "ext_id": "agfjbfkpehcnceblmdahjaejpnnnkjdn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -939,7 +933,6 @@
     },
     {
       "ext_id": "ahikdohkiedoomaklnohgdnmfcmbabcn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -960,7 +953,6 @@
     },
     {
       "ext_id": "ahlfiinafajfmciaajgophipcfholmeh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -1337,7 +1329,6 @@
     },
     {
       "ext_id": "akglkgdiggmkilkhejagginkngocbpbj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -1535,7 +1526,6 @@
     },
     {
       "ext_id": "almfnpjmjpnknlgpipillhfmchjikkno",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -1720,7 +1710,6 @@
     },
     {
       "ext_id": "anihmmejabpaocacmeodiapbhpholaom",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -1932,7 +1921,6 @@
     },
     {
       "ext_id": "apgohnlmnmkblgfplgnlmkjcpocgfomp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -1944,7 +1932,6 @@
     },
     {
       "ext_id": "apjnadhmhgdobcdanndaphcpmnjbnfng",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -2030,7 +2017,6 @@
     },
     {
       "ext_id": "bahkljhhdeciiaodlkppoonappfnheoi",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -2119,7 +2105,6 @@
     },
     {
       "ext_id": "bannaglhmenocdjcmlkhkcciioaepfpj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -2285,7 +2270,6 @@
     },
     {
       "ext_id": "bbjilncoookdcjjnkcdaofiollndepla",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -2296,7 +2280,6 @@
     },
     {
       "ext_id": "bblkckhknhmalchbceidkmjalmcmnkfa",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -2660,7 +2643,6 @@
     },
     {
       "ext_id": "bgffinjklipdhacmidehoncomokcmjmh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -2829,7 +2811,6 @@
     },
     {
       "ext_id": "bhkcgfbaokmhglgipbppoobmoblcomhh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -2904,7 +2885,6 @@
     },
     {
       "ext_id": "bifdhahddjbdbjmiekcnmeiffabcfjgh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -3101,7 +3081,6 @@
     },
     {
       "ext_id": "bjpknhldlbknoidifkjnnkpginjgkgnm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -3113,7 +3092,6 @@
     },
     {
       "ext_id": "bkanfnnhokogflpnhnbfjdhbjdlgncdi",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -3208,7 +3186,6 @@
     },
     {
       "ext_id": "blcfpeooekoekehdpbikibeblpjlehlh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -3310,7 +3287,6 @@
     },
     {
       "ext_id": "blngdeeenccpfjbkolalandfmiinhkak",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -3617,7 +3593,6 @@
     },
     {
       "ext_id": "bpfdhglfmfepjhgnhnmclbfiknjnfblb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -3663,7 +3638,6 @@
     },
     {
       "ext_id": "bpklfenmjhcjlocdicfadpfppcgojfjp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -4051,7 +4025,6 @@
     },
     {
       "ext_id": "ccdfhjebekpopcelcfkpgagbehppkadi",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -4083,7 +4056,6 @@
     },
     {
       "ext_id": "cceejgojinihpakmciijfdgafhpchigo",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -4282,7 +4254,6 @@
     },
     {
       "ext_id": "cebjhmljaodmgmcaecenghhikkjdfabo",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -4726,7 +4697,6 @@
     },
     {
       "ext_id": "chbpnonhcgdbcpicacolalkgjlcjkbbd",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -4924,7 +4894,6 @@
     },
     {
       "ext_id": "cifafogcmckphmnbeipgkpfbjphmajbc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -5107,7 +5076,6 @@
     },
     {
       "ext_id": "ckelhijilmmlmnaljmjpigfopkmfkoeh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -5286,7 +5254,6 @@
     },
     {
       "ext_id": "clopbiaijcfolfmjebjinippgmdkkppj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -5612,7 +5579,6 @@
     },
     {
       "ext_id": "cpgoblgcfemdmaolmfhpoifikehgbjbf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -5780,7 +5746,6 @@
     },
     {
       "ext_id": "dajgdhiemoaecngkpliephmheifopmjb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -5888,7 +5853,6 @@
     },
     {
       "ext_id": "dbcfhcelmjepboabieglhjejeolaopdl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -5899,7 +5863,6 @@
     },
     {
       "ext_id": "dbcfokmgampdedgcefjahloodbgakkpl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -6022,7 +5985,6 @@
     },
     {
       "ext_id": "dcbfmglfdlgpnolgdjoioeocllioebpe",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -6112,7 +6074,6 @@
     },
     {
       "ext_id": "dcmjopnlojhkngkmagminjbiahokmfig",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -6144,7 +6105,6 @@
     },
     {
       "ext_id": "ddenjpheppdmfimooolgihimdgpilhfo",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -6186,7 +6146,6 @@
     },
     {
       "ext_id": "ddohdfnenhipnhnbbfifknnhaomihcip",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -6214,7 +6173,6 @@
     },
     {
       "ext_id": "dealfjgnmkibkcldkcpbikenmajlglmc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -6279,7 +6237,6 @@
     },
     {
       "ext_id": "dehhfjanlmglmabomenmpjnnopigplae",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -6290,7 +6247,6 @@
     },
     {
       "ext_id": "dehindejipifeaikcgbkdijgkbjliojc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -6301,7 +6257,6 @@
     },
     {
       "ext_id": "deiiiklocnibjflinkfmefpofgcfhdga",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -6663,7 +6618,6 @@
     },
     {
       "ext_id": "dibjpjiifnahccnokciamjlfgdlgimmn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -6765,7 +6719,6 @@
     },
     {
       "ext_id": "dipecofobdcjnpffbkmfkdbfmjfjfgmn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -7008,7 +6961,6 @@
     },
     {
       "ext_id": "dkhcmjfipgoapjamnngolidbcakpdhgf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -7549,7 +7501,6 @@
     },
     {
       "ext_id": "dopkmmcoegcjggfanajnindneifffpck",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -7561,7 +7512,6 @@
     },
     {
       "ext_id": "dopmojabcdlfbnppmjeaajclohofnbol",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -8161,7 +8111,6 @@
     },
     {
       "ext_id": "edcepmkpdojmciieeijebkodahjfliif",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -8293,7 +8242,6 @@
     },
     {
       "ext_id": "eeacchjlmkcleifpppcjbmahcnlihamj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -8314,7 +8262,6 @@
     },
     {
       "ext_id": "eebbihndkbkejmlgfoofigacgicamfha",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -8456,7 +8403,6 @@
     },
     {
       "ext_id": "effhjobodhmkbgfpgcdabfnjlnphakhb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -8575,7 +8521,6 @@
     },
     {
       "ext_id": "egpnofbhgafhbkapdhedimohmainbiio",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -8638,7 +8583,6 @@
     },
     {
       "ext_id": "ehibgcefkpbfkklbpahilhicidnhiboc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -8659,7 +8603,6 @@
     },
     {
       "ext_id": "ehlgimmlmmcocemjadeafmohiplmgmei",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -8940,7 +8883,6 @@
     },
     {
       "ext_id": "ekbecnhekcpbfgdchfjcfmnocdfpcanj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -8974,7 +8916,6 @@
     },
     {
       "ext_id": "ekijhekekfckmkmbemiijdkihdibnbgh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -9160,7 +9101,6 @@
     },
     {
       "ext_id": "elflophcopcglipligoibfejllmndhmp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -9371,7 +9311,6 @@
     },
     {
       "ext_id": "emkkigmmpfbjmikfadmfeebomholoikg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -9584,7 +9523,6 @@
     },
     {
       "ext_id": "eogfeijdemimhpfhlpjoifeckijeejkc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -9596,7 +9534,6 @@
     },
     {
       "ext_id": "eogoljjmndnjfikmcbmopmlhjnhbmdda",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -9618,7 +9555,6 @@
     },
     {
       "ext_id": "eohnfgagodblipmmalphhfepaonpnjgk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -9829,7 +9765,6 @@
     },
     {
       "ext_id": "epphnioigompfjaknnaokghgcncnjfbe",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -9901,7 +9836,6 @@
     },
     {
       "ext_id": "faopefnnleiebimhkldlplkgkjpbmcea",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -10163,7 +10097,6 @@
     },
     {
       "ext_id": "fcobokliblbalmjmahdebcdalglnieii",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -10206,7 +10139,6 @@
     },
     {
       "ext_id": "fdbmoflclpmkmeobidcgmfamkicinnlg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -10388,7 +10320,6 @@
     },
     {
       "ext_id": "fekjbjbbdopogpamkmdjpjicapclgamj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -10559,7 +10490,6 @@
     },
     {
       "ext_id": "fgafnjobnempajahhgebbbpkpegcdlbf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -10583,7 +10513,6 @@
     },
     {
       "ext_id": "fgcomdacecoimaejookmlcfogngmfmli",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -10627,7 +10556,6 @@
     },
     {
       "ext_id": "fgmeppijnhhafacemgoocgelcflipnfd",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -10656,7 +10584,6 @@
     },
     {
       "ext_id": "fhanjgcjamaagccdkanegeefdpdkeban",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -10685,7 +10612,6 @@
     },
     {
       "ext_id": "fhkmacopackahlbnpcfijgphgoimpggb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -10773,7 +10699,6 @@
     },
     {
       "ext_id": "fjclfmhapndgeabdcikbhemimpijpnah",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -10978,7 +10903,6 @@
     },
     {
       "ext_id": "fkllfgoempnigpogkgkgmghkchmjcjni",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -11068,7 +10992,6 @@
     },
     {
       "ext_id": "flfkimeelfnpapcgmobfgfifhackkend",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -11201,7 +11124,6 @@
     },
     {
       "ext_id": "fmahbaepkpdimfcjpopjklankbbhdobk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -11536,7 +11458,6 @@
     },
     {
       "ext_id": "foebfmkeamadbhjcdglihfijdaohomlm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -11711,7 +11632,6 @@
     },
     {
       "ext_id": "fpngnlpmkfkhodklbljnncdcmkiopide",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -11931,7 +11851,6 @@
     },
     {
       "ext_id": "gbbpilgcdcmfppjkdociebhmcnbfbmod",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -11991,7 +11910,6 @@
     },
     {
       "ext_id": "gbkmkgfjngebdcpklbkeccelcjaobblk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -12195,7 +12113,6 @@
     },
     {
       "ext_id": "gdifegeihkihjbkkgdijkcpkjekoicbl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -12243,7 +12160,6 @@
     },
     {
       "ext_id": "gdnkjjhpffldmfljpbfemliidkeeecdj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -12305,7 +12221,6 @@
     },
     {
       "ext_id": "gelcjfdfebnabkielednfoogpbhdeoai",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -12364,7 +12279,6 @@
     },
     {
       "ext_id": "gfcmbgjehfhemioddkpcipehdfnjmief",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -12388,7 +12302,6 @@
     },
     {
       "ext_id": "gfdefkjpjdbiiclhimebabkmclmiiegk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -12536,7 +12449,6 @@
     },
     {
       "ext_id": "ggijmaajgdkdijomfipnpdfijcnodpip",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -12633,7 +12545,6 @@
     },
     {
       "ext_id": "ghgjhnkjohlnmngbniijbkidigifekaa",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -12848,7 +12759,6 @@
     },
     {
       "ext_id": "gjammdgdlgmoidmdfoefkeklnhmllpjp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -13043,7 +12953,6 @@
     },
     {
       "ext_id": "gkemhapalomnipjhminflfhjcjehjhmp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -13179,7 +13088,6 @@
     },
     {
       "ext_id": "gllihgnfnbpdmnppfjdlkciijkddfohn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -13202,7 +13110,6 @@
     },
     {
       "ext_id": "glmbceclkhkaebcadgmbcjihllcnpmjh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -13324,7 +13231,6 @@
     },
     {
       "ext_id": "gmljddfeipofcffbhhcpohkegndieeab",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -13347,7 +13253,6 @@
     },
     {
       "ext_id": "gmmohhcojdhgbjjahhpkfhbapgcfgfne",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -13449,7 +13354,6 @@
     },
     {
       "ext_id": "gofhadkfcffpjdbonbladicjdbkpickk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -13568,7 +13472,6 @@
     },
     {
       "ext_id": "gpaaalbnkccgmmbkendiciheljgpdhob",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -13622,7 +13525,6 @@
     },
     {
       "ext_id": "gpffceikmehgifkjjginoibpceadefih",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -13836,7 +13738,6 @@
     },
     {
       "ext_id": "hapicipmkalhnklammmfdblkngahelln",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -14472,7 +14373,6 @@
     },
     {
       "ext_id": "hijipblimhboccjcnnjnjelcdmceeafa",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -14862,7 +14762,6 @@
     },
     {
       "ext_id": "hmamdkecijcegebmhndhcihjjkndbjgk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -15122,7 +15021,6 @@
     },
     {
       "ext_id": "hodfejbmfdhcgolcglcojkpfdjjdepji",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -15263,7 +15161,6 @@
     },
     {
       "ext_id": "hpfijbjnmddglpmogpaeofdbehkpball",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -15350,7 +15247,6 @@
     },
     {
       "ext_id": "ianfonfnhjeidghdegbkbbjgliiciiic",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -15411,7 +15307,6 @@
     },
     {
       "ext_id": "ibfjiddieiljjjccjemgnoopkpmpniej",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -15604,7 +15499,6 @@
     },
     {
       "ext_id": "icolkoeolaodpjogekifcidcdbgbdobc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -15703,7 +15597,6 @@
     },
     {
       "ext_id": "idnelecdpebmbpnmambnpcjogingdfco",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -15835,7 +15728,6 @@
     },
     {
       "ext_id": "ifceimlckdanenfkfoomccpcpemphlbg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -15916,7 +15808,6 @@
     },
     {
       "ext_id": "ifmkfoeijeemajoodjfoagpbejmmnkhm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -15986,7 +15877,6 @@
     },
     {
       "ext_id": "iggmbfojpkfikoahlfghaalpbpkhfohc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -16024,7 +15914,6 @@
     },
     {
       "ext_id": "igkljanmhbnhedgkmgpkcgpjmociceim",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -16067,7 +15956,6 @@
     },
     {
       "ext_id": "igpcgjcdhmdjhdlgoncfnpkdipanlida",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -16377,7 +16265,6 @@
     },
     {
       "ext_id": "ijhakgidfnlallpobldpbhandllbeobg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -16398,7 +16285,6 @@
     },
     {
       "ext_id": "ijohicfhndicpnmkaldafhbecijhdikd",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -16513,7 +16399,6 @@
     },
     {
       "ext_id": "ilcbbngkolbclhlildojhgjdbkkehfia",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -16778,7 +16663,6 @@
     },
     {
       "ext_id": "inhdgbalcopmbpjfincjponejamhaeop",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -16959,7 +16843,6 @@
     },
     {
       "ext_id": "iondldgmpaoekbgabgconiajpbkebkin",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -16998,7 +16881,6 @@
     },
     {
       "ext_id": "ipagcbjbgailmjeaojmpiddflpbgjngl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -17171,7 +17053,6 @@
     },
     {
       "ext_id": "jaehldonmiabhfohkenmlimnceapgpnp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -17209,7 +17090,6 @@
     },
     {
       "ext_id": "jagbooldjnemiedoagckjomjegkopfno",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -17318,7 +17198,6 @@
     },
     {
       "ext_id": "jbfponbaiamgjmfpfghcjjhddjdjdpna",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -17526,7 +17405,6 @@
     },
     {
       "ext_id": "jdheollkkpfglhohnpgkonecdealeebn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -17593,7 +17471,6 @@
     },
     {
       "ext_id": "jdoaaldnifinadckcbfkbiekgaebkeif",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -17698,7 +17575,6 @@
     },
     {
       "ext_id": "jepocknhdcgdmbiodbpopcbjnlgecdhf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -17719,7 +17595,6 @@
     },
     {
       "ext_id": "jfamimfejiccpbnghhjfcibhkgblmiml",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -17730,7 +17605,6 @@
     },
     {
       "ext_id": "jfefcmidfkpncdkjkkghhmjkafanhiam",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -17742,7 +17616,6 @@
     },
     {
       "ext_id": "jfgkpeobcmjlocjpfgocelimhppdmigj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -17790,7 +17663,6 @@
     },
     {
       "ext_id": "jfnlkmaledafkdhdokgnhlcmeamakham",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -17843,7 +17715,6 @@
     },
     {
       "ext_id": "jghiljaagglmcdeopnjkfhcikjnddhhc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -17855,7 +17726,6 @@
     },
     {
       "ext_id": "jgjakaebbliafihodjhpkpankimhckdf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -18079,7 +17949,6 @@
     },
     {
       "ext_id": "jiiinmeiedloeiabcgkdcbbpfelmbaff",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -18238,7 +18107,6 @@
     },
     {
       "ext_id": "jkdngiblfdmfjhiahibnnhcjncehcgab",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -18319,7 +18187,6 @@
     },
     {
       "ext_id": "jkofpdjclecgjcfomkaajhhmmhnninia",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -18367,7 +18234,6 @@
     },
     {
       "ext_id": "jlaaidmjgpgfkhehcljmeckhlaibgaol",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -18549,7 +18415,6 @@
     },
     {
       "ext_id": "jmbmildjdmppofnohldicmnkojfhggmb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -18858,7 +18723,6 @@
     },
     {
       "ext_id": "jpnamljnefhpbpcofcbonjjjkmfjbhdp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -18967,7 +18831,6 @@
     },
     {
       "ext_id": "kbdbmddhlgckaggdapibpihadohhelao",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -19160,7 +19023,6 @@
     },
     {
       "ext_id": "kdkpllchojjkbgephbbeacaahecgfpga",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -19207,7 +19069,6 @@
     },
     {
       "ext_id": "keceijnpfmmlnebgnkhojinbkopolaom",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -19573,7 +19434,6 @@
     },
     {
       "ext_id": "khhemdcdllgomlbleegjdpbeflgbomcj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -19708,7 +19568,6 @@
     },
     {
       "ext_id": "kjdcopljcgiekkmjhinmcpioncofoclg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -19747,7 +19606,6 @@
     },
     {
       "ext_id": "kjgaljeofmfgjfipajjeeflbknekghma",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -19867,7 +19725,6 @@
     },
     {
       "ext_id": "kjnmimfgphmcppjhombdhhegpjphpiol",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -20484,7 +20341,6 @@
     },
     {
       "ext_id": "labpefoeghdmpbfijhnnejdmnjccgplc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -20560,7 +20416,6 @@
     },
     {
       "ext_id": "lameokaalbmnhgapanlloeichlbjloak",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -20583,7 +20438,6 @@
     },
     {
       "ext_id": "lbeekfefglldjjenkaekhnogoplpmfin",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -20595,7 +20449,6 @@
     },
     {
       "ext_id": "lbhddhdfbcdcfbbbmimncbakkjobaedh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -20842,7 +20695,6 @@
     },
     {
       "ext_id": "ldoiiiffclpggehajofeffljablcodif",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -20890,7 +20742,6 @@
     },
     {
       "ext_id": "lebmkjafnodbnhbahbgdollaaabcmpbh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -21024,7 +20875,6 @@
     },
     {
       "ext_id": "lfaahmcgahoalphllknbfcckggddoffj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -21220,7 +21070,6 @@
     },
     {
       "ext_id": "lgljionbhcfbnpjgfnhhoadpdngkmfnh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -21299,7 +21148,6 @@
     },
     {
       "ext_id": "lhfibgclamcffnddoicjmoopmgomknmb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -21328,7 +21176,6 @@
     },
     {
       "ext_id": "lhjdepbplpkgmghgiphdjpnagpmhijbg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -21350,7 +21197,6 @@
     },
     {
       "ext_id": "lidnmohoigekohfmdpopgcpigjkpemll",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -21449,7 +21295,6 @@
     },
     {
       "ext_id": "ljddilebjpmmomoppeemckhpilhmoaok",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -21528,7 +21373,6 @@
     },
     {
       "ext_id": "ljnfpiodfojmjfbiechgkbkhikfbknjc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22100,7 +21944,6 @@
     },
     {
       "ext_id": "lnedcnepmplnjmfdiclhbfhneconamoj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22133,7 +21976,6 @@
     },
     {
       "ext_id": "lnlkgfpceclfhomgocnnenmadlhanghf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22218,7 +22060,6 @@
     },
     {
       "ext_id": "loigeafmbglngofpkkddgobapkkcaena",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22242,7 +22083,6 @@
     },
     {
       "ext_id": "lojgkcienjoiogbfkbjiidpfnabhkckf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -22290,7 +22130,6 @@
     },
     {
       "ext_id": "looclnmoilplejheganiloofamfilbcd",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -22318,7 +22157,6 @@
     },
     {
       "ext_id": "lpajppfbbiafpmbeompbinpigbemekcg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22447,7 +22285,6 @@
     },
     {
       "ext_id": "majekhlfhmeeplofdolkddbecmgjgplm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22547,7 +22384,6 @@
     },
     {
       "ext_id": "mapafdeimlgplbahigmhneiibemhgcnc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22665,7 +22501,6 @@
     },
     {
       "ext_id": "mcbcknmlpfkbpogpnfcimfgdmchchmmg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -22696,7 +22531,6 @@
     },
     {
       "ext_id": "mcfeaailfhmpdphgnheboncfiikfkenn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -22720,7 +22554,6 @@
     },
     {
       "ext_id": "mciddpldhpdpibckghnaoidpolnmighk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -23109,7 +22942,6 @@
     },
     {
       "ext_id": "mgkjakldpclhkfadefnoncnjkiaffpkp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -23131,7 +22963,6 @@
     },
     {
       "ext_id": "mhinpnedhapjlbgnhcifjdkklbeefbpa",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -23271,7 +23102,6 @@
     },
     {
       "ext_id": "mihiainclhehjnklijgpokdpldjmjdap",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -23325,7 +23155,6 @@
     },
     {
       "ext_id": "mjbimaghobnkobfefccnnnjedoefbafl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -23369,7 +23198,6 @@
     },
     {
       "ext_id": "mjchijabihjkhmmaaihpgmhkklgakinl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -23760,7 +23588,6 @@
     },
     {
       "ext_id": "mmkakbkmcnchdopphcbphjioggaanmim",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -23855,7 +23682,6 @@
     },
     {
       "ext_id": "mnbhnjecaofgddbldmppbbdlokappkgk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -24079,7 +23905,6 @@
     },
     {
       "ext_id": "mopkkgobjofbkkgemcidkndbglkcfhjj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -24161,7 +23986,6 @@
     },
     {
       "ext_id": "mpifmhgignilkmeckejgamolchmgfdom",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -24233,7 +24057,6 @@
     },
     {
       "ext_id": "nabmpeienmkmicpjckkgihobgleppbkc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -24301,7 +24124,6 @@
     },
     {
       "ext_id": "nahhmpbckpgdidfnmfkfgiflpjijilce",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -24470,7 +24292,6 @@
     },
     {
       "ext_id": "ncepfbpjhkahgdemgmjmcgbgnfdinnhk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -24492,7 +24313,6 @@
     },
     {
       "ext_id": "nchdkdaknojhpimbfbejfcdnmjfbllhj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -24912,7 +24732,6 @@
     },
     {
       "ext_id": "nfhpojfdhcdmimokleagkdcbkmcgfjkh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -25183,7 +25002,6 @@
     },
     {
       "ext_id": "nicmhgecboifljcnbbjlajbpagmhcclp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -25349,7 +25167,6 @@
     },
     {
       "ext_id": "njhfmnfcoffkdjbgpannpgifnbgdihkl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -25610,7 +25427,6 @@
     },
     {
       "ext_id": "nlhocomjnfjedielocojomgfldbjmdjj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -26002,7 +25818,6 @@
     },
     {
       "ext_id": "noilkpnilphojpjaimfcnldblelgllaa",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -26073,7 +25888,6 @@
     },
     {
       "ext_id": "npaklgbiblcbpokaiddpmmbknncnbljb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -26123,7 +25937,7 @@
     },
     {
       "ext_id": "npdfkclmbnoklkdebjfodpendkepbjek",
-      "name": "“See SOURCE/NOTES Fields”",
+      "name": "Browsing Protector",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -26219,7 +26033,6 @@
     },
     {
       "ext_id": "nplenkhhmalidgamfdejkblbaihndkcm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -26366,7 +26179,6 @@
     },
     {
       "ext_id": "oalfdomffplbcimjikgaklfamodahpmi",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -26475,7 +26287,6 @@
     },
     {
       "ext_id": "obbfndpanmiplgfcbeonoocobbnjdmdc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -26486,7 +26297,6 @@
     },
     {
       "ext_id": "obcfkcpejehknjdollnafpebkcpkklbl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -26497,7 +26307,6 @@
     },
     {
       "ext_id": "obcfoaeoidokjbaokikamaljjlpebofe",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -26603,7 +26412,6 @@
     },
     {
       "ext_id": "obmbmalbahpfbckpcfbipooimkldgphm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -26718,7 +26526,6 @@
     },
     {
       "ext_id": "ocifcogajbgikalbpphmoedjlcfjkhgh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -26843,7 +26650,6 @@
     },
     {
       "ext_id": "odnakbaioopckimfnkllgijmkikhfhhf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -26909,7 +26715,6 @@
     },
     {
       "ext_id": "oehimkphpeeeneindfeekidpmkpffkgc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -26938,7 +26743,6 @@
     },
     {
       "ext_id": "oejafikjmfmejaafjjkoeejjpdfkdkpc",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -27030,7 +26834,6 @@
     },
     {
       "ext_id": "ofdfbeanbffehepagohhengmjnhlkich",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -27148,7 +26951,6 @@
     },
     {
       "ext_id": "ofpihhkeakgnnbkmcoifjkkhnllddbld",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -27176,7 +26978,6 @@
     },
     {
       "ext_id": "ogaclpidpghafcnbchgpbigfegdbdikj",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -27328,7 +27129,6 @@
     },
     {
       "ext_id": "ogjfhmgoalinegalajpmjoliipdibhdm",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -27642,7 +27442,6 @@
     },
     {
       "ext_id": "ojofdaokgfdlbeomlelkiiipkocneien",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -27812,7 +27611,6 @@
     },
     {
       "ext_id": "oklejhdbgggnfaggiidiaokelehcfjdp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28004,7 +27802,6 @@
     },
     {
       "ext_id": "omgeapkgiddakeoklcapboapbamdgmhp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28253,7 +28050,6 @@
     },
     {
       "ext_id": "oonbcpdabjcggcklopgbdagbfnkhbgbe",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28286,7 +28082,6 @@
     },
     {
       "ext_id": "opahibnipmkjincplepgjiiinbfmppmh",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28392,7 +28187,6 @@
     },
     {
       "ext_id": "opmelhjohnmenjibglddlpmbpbocohck",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -28423,7 +28217,6 @@
     },
     {
       "ext_id": "opooaebceonakifaacigffdhogdgfadg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -28545,7 +28338,6 @@
     },
     {
       "ext_id": "pamchlfnkebmjbfbknoclehcpfclbhpl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28641,7 +28433,6 @@
     },
     {
       "ext_id": "pbilbjpkfbfbackdcejdmhdfgeldakkn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -28747,7 +28538,6 @@
     },
     {
       "ext_id": "pcfapghfanllmbdfiipeiihpkojekckk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28770,7 +28560,6 @@
     },
     {
       "ext_id": "pchfjdkempbhcjdifpfphmgdmnmadgce",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -28864,7 +28653,6 @@
     },
     {
       "ext_id": "pcmdfnnipgpilomfclbnjpbdnmbcgjaf",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -29130,7 +28918,6 @@
     },
     {
       "ext_id": "pdpcpceofkopegffcdnffeenbfdldock",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -29160,7 +28947,6 @@
     },
     {
       "ext_id": "pedokobimilhjemibclahcelgedmkgei",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -29210,7 +28996,6 @@
     },
     {
       "ext_id": "peglehonblabfemopkgmfcpofbchegcl",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -29392,7 +29177,6 @@
     },
     {
       "ext_id": "pgahbiaijngfmbbijfgmchcnkipajgha",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -29725,7 +29509,6 @@
     },
     {
       "ext_id": "pidohlmjfgjbafgfleommlolmbjdcpal",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -29786,7 +29569,6 @@
     },
     {
       "ext_id": "pilplloabdedfmialnfchjomjmpjcoej",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -29902,7 +29684,6 @@
     },
     {
       "ext_id": "pjjghngpidphgicpgdebpmdgdicepege",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -29964,7 +29745,6 @@
     },
     {
       "ext_id": "pjpjefgijnjlhgegceegmpecklonpdjp",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -30082,7 +29862,6 @@
     },
     {
       "ext_id": "pklmnoldkkoholegljdkibjjhmegpjep",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -30104,7 +29883,6 @@
     },
     {
       "ext_id": "pknkncdfjlncijifekldbjmeaiakdbof",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -30200,7 +29978,6 @@
     },
     {
       "ext_id": "plmgefkiicjfchonlmnbabfebpnpckkk",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -30229,7 +30006,6 @@
     },
     {
       "ext_id": "plnlhldekkpgnngfdbdhocnjfplgnekg",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-04-14",
       "date_added": "2020-04-14",
@@ -30281,7 +30057,6 @@
     },
     {
       "ext_id": "pmhlkgkblgeeigiegkmacefjoflennbn",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -30485,7 +30260,6 @@
     },
     {
       "ext_id": "pnciakodcdnehobpfcjcnnlcpmjlpkac",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -30537,7 +30311,6 @@
     },
     {
       "ext_id": "pnhjnmacgahapmnnifmneapinilajfol",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",
@@ -30671,7 +30444,6 @@
     },
     {
       "ext_id": "ponodoigcmkglddlljanchegmkgkhmgb",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-06-18",
       "date_added": "2020-06-18",
@@ -30700,7 +30472,6 @@
     },
     {
       "ext_id": "poppendnaoonepbkmjejdfebihohaalo",
-      "name": "“See SOURCE/NOTES Fields”",
       "browser": "chrome",
       "date_discovered": "2020-13-02",
       "date_added": "2020-13-02",

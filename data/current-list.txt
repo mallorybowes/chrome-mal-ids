@@ -1,6 +1,6 @@
 # Malicious Chrome Extension IOC Database
 # https://github.com/mallorybowes/chrome-mal-ids
-# Generated: 2026-05-28 05:53 UTC
+# Generated: 2026-05-28 06:28 UTC
 # Total: 2525 extension IDs
 # License: CC BY 4.0 — attribution required for commercial use
 # Format: one Chrome/Edge extension ID per line (32 lowercase a-p chars)
@@ -13,16 +13,16 @@ aaakfiobbojanlacpbeejjimehmpoffh
 aacfibelemnkkbkelbhdbfhokeemfaho
 aadmpgppfacognoeobmheghfiibdplcf  # “Kawaii Wallpaper HD Custom New Tab”
 aadnmeanpbokjjahcnikajejglihibpd  # ShadyPanda Phase 4 spyware (Edge) [spyware]
-aaeohfpkhojgdhocdfpkdaffbehjbmmd  # “See SOURCE/NOTES Fields”
+aaeohfpkhojgdhocdfpkdaffbehjbmmd
 aafibkjcplagpjkhkeamkpaellnglepe
 aaiolimgbncdaldgbbjkidiijidchhjo
 aajdkangkldmljmoaoehmbnchdjkgojk  # WAME [adware]
 abbngaojehjekanfdipifimgmppiojpl  # Clothing Brand Name Generator
 abgfholnofpihncfdmombecmohpkojdb  # "Shadow Of The Tomb Raider Wallpaper New Tab"
-abghmipjfclfpgmmelbgolfgmhnigbma  # “See SOURCE/NOTES Fields”
+abghmipjfclfpgmmelbgolfgmhnigbma
 abgpfcaflplbnjkpeoimjchehdhakped
 abigbbblmfhbgbjjdolageghdkdibeap
-abjbfhcehjndcpbiiagdnlfolkbfblpb  # “See SOURCE/NOTES Fields”
+abjbfhcehjndcpbiiagdnlfolkbfblpb
 abkebhncjihnoblbkcmhogfdpdmdklhg
 abkolnpebgghiglkkdjcgjgbpnddmfmp  # WAVENDY [adware]
 abpcbpoghgmfjkkdoeknbldhkklpcmfn  # Eddye [adware]
@@ -38,7 +38,7 @@ aciloeifdphkogbpagikkpiecbjkmedn  # "Kpop SHINee Wallpapers HD New Tab"
 acmfnomgphggonodopogfbmkneepfgnh  # Wayin AI [data-theft]
 acmgemnaochmalgkipbamjddcplkdmjm  # "Tokyo Ghoul Wallpaper HD Custom New Tab"
 acmiibcdcmaghndcahglamnhnlmcmlng
-acmnokigkgihogfbeooklgemindnbine  # “See SOURCE/NOTES Fields”
+acmnokigkgihogfbeooklgemindnbine
 acncpfocelnijeegfclfigffjgancfod  # WhatSeller [adware]
 acogeoajdpgplfhidldckbjkkpgeebod
 acojldicjlifbkkfaijnomogffamiadi
@@ -65,7 +65,7 @@ aemaecahdckfllfldhgimjhdgiaahean  # “Downloader for Instagram”
 afdfpkhbdpioonfeknablodaejkklbdn  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 afdhcpnimkgccfjcelgkiipidhebddjh  # G5 Chat [adware]
 afefmfbcccnppcaiebpmbpmddhilkkdi
-afephhbbcdlgdehhddfnehfndnkfbgnm  # “See SOURCE/NOTES Fields”
+afephhbbcdlgdehhddfnehfndnkfbgnm
 afifalglopajkmdkgnphpfkmgpgdngfj  # "Kpop Red Velvet HD NewTab Themes"
 afiomadkjmmfgknhgkpbmbdffjippidf
 afipijkhaioeopfolgnagcicgpdlcink
@@ -74,7 +74,7 @@ aflgdgiaihhpkimnpjgeokkcpndllejm
 afooldonhjnhddgnfahlepchipjennab
 agdlpnhabjfcbeiempefhpgikapcapjb
 agepkkdokhlaoiaenedmjbfnblfdiboc  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
-agfjbfkpehcnceblmdahjaejpnnnkjdn  # “See SOURCE/NOTES Fields”
+agfjbfkpehcnceblmdahjaejpnnnkjdn
 aghafppaelpjbjajpgcogcojcbmappoi
 agldjlpmeladgadoikdbndmeljpmnajl  # "Tumblr Wallpapers Wallpaper HD Custom New Tab"
 agleiimpggapjekcdhdjbmegjbbkleie  # Ground News - Bias Checker
@@ -84,9 +84,9 @@ ahebpkbnckhgjmndfjejibjjahjdlhdb
 ahgccenjociolkbpgbfibmfclcfnlaei
 ahgellbcclklfinhliakcdgjnebickel  # What Vision [adware]
 ahiieliljkcgmghicbgidblclkbklmka  # Dental Chat - Gestão de leads e pacientes no Whatsapp para Clínicas [adware]
-ahikdohkiedoomaklnohgdnmfcmbabcn  # “See SOURCE/NOTES Fields”
+ahikdohkiedoomaklnohgdnmfcmbabcn
 ahlaffpjeohpmfhljdoedgccdegnnhga
-ahlfiinafajfmciaajgophipcfholmeh  # “See SOURCE/NOTES Fields”
+ahlfiinafajfmciaajgophipcfholmeh
 ahlnchhkedmjbdocaamkbmhppnligmoh  # Amazon Seller Assistant - 10Xprofit Amazon Seller Tools (FBA &amp; FBM)
 ahmmgfhcokekfofjdndgmkffifklogbo  # "season 6 fortnite HD Wallpapers NewTab"
 ahoephlgjcidmeimpjoikglacolnnoce
@@ -117,7 +117,7 @@ akdbogfpgohikflhccclloneidjkogog  # “Скачать фото и видео и�
 akdpobnbjepjbnjklkkbdafemhnbfldj  # "My Hero Academia Wallpaper HD Custom New Tab"
 akebbllmckjphjiojeioooidhnddnplj  # Formula Rush Racing Game
 akeliekmeaifanbdfknjoelhmmeblggh
-akglkgdiggmkilkhejagginkngocbpbj  # “See SOURCE/NOTES Fields”
+akglkgdiggmkilkhejagginkngocbpbj
 akhiflcfcbnheaofcaflofbmnkmjlnno  # "Cs Go Wallpaper HD Custom New Tab"
 akialmafcdmkelghnomeneinkcllnoih
 akifdnfipbeoonhoeabdicnlcdhghmpn
@@ -133,7 +133,7 @@ alknmfpopohfpdpafdmobclioihdkhjh
 allabgknbmoecnnnnkiddmpapchmhiii
 alllblhkgghelnejlggmmgjbkdabidie  # Black Beard Slot Machine [credential-theft]
 almalgbpmcfpdaopimbdchdliminoign  # Urban Browser Guard
-almfnpjmjpnknlgpipillhfmchjikkno  # “See SOURCE/NOTES Fields”
+almfnpjmjpnknlgpipillhfmchjikkno
 alogdolelipkojjgggejccalcbdioolg
 alpceejdpbhambbcjlhjclhgbkpkildc
 alplpnakfeabeiebipdmaenpmbgknjce  # Adblocker for Chrome - NoAds [adware]
@@ -148,7 +148,7 @@ amomkbhjghmegifhopipecfioeelecal  # Plants vs. Zombies Cursor ★ Custom Cursor 
 anbjdcdemclgpcafgdehfmmakkhnopen
 anbnajjakpmfdofijejenaclbceejlll  # “Alt-j”
 anflghppebdhjipndogapfagemgnlblh  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-anihmmejabpaocacmeodiapbhpholaom  # “See SOURCE/NOTES Fields”
+anihmmejabpaocacmeodiapbhpholaom
 anjoapnmcdcndaagonoiindlklkpmnmh  # Brawl Stars Cursor - Custom Game Cursor for Chrome [adware]
 anklpeamdnlccnkcopainlcdoonggdeo
 annaoohlkckgfpabedmnbleidfjabnho
@@ -166,8 +166,8 @@ aonedlchkbicmhepimiahfalheedjgbh
 apeadjelacokohnkfclnhjlihklpclmp  # EcoIndex.fr
 apejngmlbbanbmfaemoekpbobghbgmem
 apfijngnajkcaejadecbcjkgikabibln
-apgohnlmnmkblgfplgnlmkjcpocgfomp  # “See SOURCE/NOTES Fields”
-apjnadhmhgdobcdanndaphcpmnjbnfng  # “See SOURCE/NOTES Fields”
+apgohnlmnmkblgfplgnlmkjcpocgfomp
+apjnadhmhgdobcdanndaphcpmnjbnfng
 apkldlbgpmenoilgjldmbkipidboplae
 aplhgigkopkholapijailboandapfaim
 apoklfecapckgpbbcpaiebemaghmkncf
@@ -175,14 +175,14 @@ baaekoloipdmhgffglokngoonljoachp  # Super Mario Bros Classic Game
 baahncfnjojaofhdmdfkpeadigoemkif
 badbchbijjjadlpjkkhmefaghggjjeha  # "Lil Pump HD New Tab"
 bafbmfpfepdlgnfkgfbobplkkaoakjcl
-bahkljhhdeciiaodlkppoonappfnheoi  # “See SOURCE/NOTES Fields”
+bahkljhhdeciiaodlkppoonappfnheoi
 bahogceckgcanpcoabcdgmoidngedmfo  # PDF toolbox [adware]
 bajoeadpdidoahbhphmhejmbdmgnbdci  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 bakeonpbbnlejfcdgkkdhdagfadmplak
 bamfpcdkpoafmifcjlcdoehajoiabbbj
 bamkikhlhhnpdkehbjpepjkjgcdcdlfi  # Vieu Chrome Extension - Get introduced to your buyers
 bankpannefgoifckfjjllibjeaeifpbd
-bannaglhmenocdjcmlkhkcciioaepfpj  # “See SOURCE/NOTES Fields”
+bannaglhmenocdjcmlkhkcciioaepfpj
 baoiojchledkgjokogfbhlbjloofkadp
 baonbjckakcpgliaafcodddkoednpjgf
 bbaafnkdoccobnobbnolojjblgofofaa
@@ -196,8 +196,8 @@ bbdnohkpnbkdkmnkddobeafboooinpla  # Bard AI chat [data-theft]
 bbdpihagclfjiodkbebbheamdhifhcgl
 bbhaganppipihlhjgaaeeeefbaoihcgi
 bbjdlbemjklojnbifkgameepcafflmem  # Crazy Freekick [credential-theft]
-bbjilncoookdcjjnkcdaofiollndepla  # “See SOURCE/NOTES Fields”
-bblkckhknhmalchbceidkmjalmcmnkfa  # “See SOURCE/NOTES Fields”
+bbjilncoookdcjjnkcdaofiollndepla
+bblkckhknhmalchbceidkmjalmcmnkfa
 bboeoilakaofjkdmekpgeigieokkpgfn
 bcdjcbgogdomoebdcbniaifnacjbglil  # "Gucci Tab Themes HD Bape"
 bcepmajicjlaoleoljbpaemkfghohmib  # "Bulldogs Tab"
@@ -226,7 +226,7 @@ bgaaamckjapoiaiioklgmbknjegdkkhd  # CRM-PRO : Transforme seu whatsapp em um sist
 bgabcfjpeeepnhphhgdajhodpfdcnpab
 bgdkbjcdecedfoejdfgeafdodjgfohno  # Clear Cache Plus
 bgejafhieobnfpjlpcjjggoboebonfcg  # Bookmark FC [data-theft]
-bgffinjklipdhacmidehoncomokcmjmh  # “See SOURCE/NOTES Fields”
+bgffinjklipdhacmidehoncomokcmjmh
 bgkdocoihppjkdfaghndpjlfoehjcmka
 bgkijgmoikigljbbfokahemdnhilkkma
 bgnjnfoiglionjogebklhhhknbmlocpn
@@ -240,13 +240,13 @@ bhdaecfcjmipomgngjhacbfmjafjnicl  # Smart WA [adware]
 bhfoemlllidnfefgkeaeocnageepbael  # “App Phone for Instagram”
 bhhdblckjkgijhjajngmjdijpmhoeobp
 bhifimmocncplbnikchffepggmofkake  # "Bangtan Boys Wallpaper HD Custom New Tab"
-bhkcgfbaokmhglgipbppoobmoblcomhh  # “See SOURCE/NOTES Fields”
+bhkcgfbaokmhglgipbppoobmoblcomhh
 bhoebgegnjoehioianjnjakeeggajanb
 bhpghgoeaedhpmadepoadfbljmbhbikk
 bibjgkidgpfbblifamdlkdlhgihmfohh  # YesCaptcha assistant [data-theft]
 bibmocmlcdhadgblaekimealfcnafgfn  # Freemybrowser [click-fraud]
 bibpinjdgodiocbghmbclgjmdidlhebl
-bifdhahddjbdbjmiekcnmeiffabcfjgh  # “See SOURCE/NOTES Fields”
+bifdhahddjbdbjmiekcnmeiffabcfjgh
 bifmakhmlkpkfdinjhopnjggpgagolai
 bifpenlakfcdhjnagknbhdiangfadfkf
 bignmbfbfjbaelmcgkleelnkgnmfniba
@@ -262,8 +262,8 @@ bjehnpiidogpaocjjfhnopdjcahigggm  # DarkSpectre ShadyPanda expansion / Zoom Stea
 bjhbgbfapjofmjcoonncefneakppmkmo  # PRAXATECH SOLUÇÕES [adware]
 bjlcpoknpgaoaollojjdnbdojdclidkh  # Leap Video Downloader [adware]
 bjoddpbfndnpeohkmpbjfhcppkhgobcg
-bjpknhldlbknoidifkjnnkpginjgkgnm  # “See SOURCE/NOTES Fields”
-bkanfnnhokogflpnhnbfjdhbjdlgncdi  # “See SOURCE/NOTES Fields”
+bjpknhldlbknoidifkjnnkpginjgkgnm
+bkanfnnhokogflpnhnbfjdhbjdlgncdi
 bkijbedohmdhdgijneacdbfhcambfoni
 bkkcobflaheefjdhejdbogmhpojphhhf  # UATZAP CRM [adware]
 bkknccgnmpcnhppklomdjkphccmpblga
@@ -271,7 +271,7 @@ bkpdalonclochcahhipekbnedhklcdnp  # Epsilon Ad blocker [adware]
 bkpgbmjmifkbonccfmpejokfndolikcj
 blbojpnmaccebncdogamdagnmbpfjnfb
 blbpgfhhhnabbkdbakfibbgkpefpiapj
-blcfpeooekoekehdpbikibeblpjlehlh  # “See SOURCE/NOTES Fields”
+blcfpeooekoekehdpbikibeblpjlehlh
 blddohgncmehcepnokognejaaahehncd  # SearchBlox [credential-theft]
 bldelmcodcfhifpjpbpepkfcaignelbn
 bledopcgjbhnheppjbekbjnjnelmckdl  # Wa Elo IA [adware]
@@ -279,7 +279,7 @@ blfehknobghonbjigahfbmmjecooeeja
 blffnkdfaobeknbcahjppbifklofofhh
 blibecomdmpcndbgkinclhaokmaheild  # KPop Demon Hunters Cursor ★ Custom Cursor for Chrome™ [adware]
 blipiofdiknkllpajgepiiigfmfgnfep  # "Aquarium Live Wallpaper HD Custom New Tab"
-blngdeeenccpfjbkolalandfmiinhkak  # “See SOURCE/NOTES Fields”
+blngdeeenccpfjbkolalandfmiinhkak
 blnokeghbnokbibmohahmimdfknjcfnf  # Private MV3 322.373
 bmagbmnmkaknlnoohbmobfmlgndijecb  # "RM & Jin Tab Wallpapers"
 bmcnncbmipphlkdmgfbipbanmmfdamkd
@@ -306,10 +306,10 @@ bonhfflnjgdbnhcpjemkknlhimceckgb
 boolceociingmfoakiaiikpcnbcbajfm  # Blackpink Cursor ★ Custom Cursor for Chrome™ [adware]
 bpconcjcammlapcogcnnelfmaeghhagj  # Nimble Capture [adware]
 bpelnogcookhocnaokfpoeinibimbeff  # WeTab / ShadyPanda Phase 4 spyware (Edge) [spyware]
-bpfdhglfmfepjhgnhnmclbfiknjnfblb  # “See SOURCE/NOTES Fields”
+bpfdhglfmfepjhgnhnmclbfiknjnfblb
 bpgaffohfacaamplbbojgbiicfgedmoi  # ShadyPanda affiliate fraud extension [adware]
 bpgbjcgkegcecddlnlckjcoddhpmekdh  # waSuper [adware]
-bpklfenmjhcjlocdicfadpfppcgojfjp  # “See SOURCE/NOTES Fields”
+bpklfenmjhcjlocdicfadpfppcgojfjp
 bpljfbcejldmgeoodnogeefaihjdgbam  # Speed test for Chrome - wifi speed test [credential-theft]
 bpngofombcjloljkoafhmpcjclkekfbh
 bpnmalopmgpilaoikaeafokedkkonhea  # "Sports Cars"
@@ -338,10 +338,10 @@ cbkaaiiccepebadakpfoijbmdilphpop
 cbkogccidanmoaicgphipbdofakomlak
 cbncogjaakomibjcgdkpdjmlhfcjfojc  # "Moving Wallpapers Wallpapers"
 cbnekafldflkmngbgmbnfmchjaelnhem  # Game SkySpeedster [credential-theft]
-ccdfhjebekpopcelcfkpgagbehppkadi  # “See SOURCE/NOTES Fields”
+ccdfhjebekpopcelcfkpgagbehppkadi
 ccdimkoieijdbgdlkfjjfncmihmlpanj
 ccdjaehckkiajeegcccoacigphgleipb
-cceejgojinihpakmciijfdgafhpchigo  # “See SOURCE/NOTES Fields”
+cceejgojinihpakmciijfdgafhpchigo
 ccgmdfdcnpcfmpceggggmnhbolkhlffi  # "Christmas Tree Lights NewTab Emoji"
 ccjalhebkdogpobnbdhfpincfeohonni  # SearchBlox (secondary) [credential-theft]
 ccjlpblmgkncnnimcmbanbnhbggdpkie  # Palant affiliate fraud cluster (name unconfirmed) [adware]
@@ -356,7 +356,7 @@ cdgonefipacceedbkflolomdegncceid  # ShadyPanda Phase 3 RCE extension [spyware]
 cdiohdbijdajffgccjmbblbikpnnnkeg  # ZAP Wallet - AI-Powered Solana Wallet
 cdpiopekjeonfjeocbfebemgocjciepp  # Master Chess [credential-theft]
 cdpmhflbdaoifgkmlhpfkbfgcifchgpn  # "CS GO Themes NewTab"
-cebjhmljaodmgmcaecenghhikkjdfabo  # “See SOURCE/NOTES Fields”
+cebjhmljaodmgmcaecenghhikkjdfabo
 cedgndijpacnfbdggppddacngjfdkaca  # Reader Mode [data-theft]
 cehdkmmfadpplgchnbjgdngdcjmhlfcc  # Hockey Shootout
 cehifnkfcddaeppdajpfldbpommggaca
@@ -391,7 +391,7 @@ cgnbfcoeopaehocfdnkkjecibafichje
 cgnnmgjmhhmemkmdcckoofobpdejpjef
 cgodgjmdljiecnbcgdampafcmlgmfmid  # "Puppies Wallpaper HD Custom New Tab"
 cgpbghdbejagejmciefmekcklikpoeel  # “Vimeo Video Downloader”
-chbpnonhcgdbcpicacolalkgjlcjkbbd  # “See SOURCE/NOTES Fields”
+chbpnonhcgdbcpicacolalkgjlcjkbbd
 chdheiofhhmjhfmdefgjnbiakmfhpekh  # Screen Mirroring + for Roku (fake) [phishing]
 chibagmiddeeabiejppmcineoadfgbab
 chiiididmecdffakklhibjpjkbfiaeni  # netPlus (earlier variant) [adware]
@@ -406,7 +406,7 @@ cibigjhoekijbagpgcgpgimebaiocdgm  # "Gta V Wallpaper HD Custom New Tab"
 cicjlpmjmimeoempffghfglndokjihhn
 cicmfpphdicmiaphcmjpcapphlnooglp  # FocusLead [adware]
 cicnbbdlbjaoioilpbdioeeaockgbhfi  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
-cifafogcmckphmnbeipgkpfbjphmajbc  # “See SOURCE/NOTES Fields”
+cifafogcmckphmnbeipgkpfbjphmajbc
 cignjngpjdkbiekiblcjnfkmfnelpjnn
 cihbmmokhmieaidfgamioabhhkggnehm  # ShadyPanda affiliate fraud extension [adware]
 ciifcakemmcbbdpmljdohdmbodagmela  # Brisk VPN [adware]
@@ -421,7 +421,7 @@ cjobgkekcenldbaenikebmbhffhhffef
 cjpknfonjfjobbfpbhodmenghbpmcgpj
 ckcfkaikieiicfdeomgehmnjglnofhde
 ckdbfeccfocmhdclmmofmheljglmhhne
-ckelhijilmmlmnaljmjpigfopkmfkoeh  # “See SOURCE/NOTES Fields”
+ckelhijilmmlmnaljmjpigfopkmfkoeh
 ckfolfphmhnhimichgialimbohkfkmpp  # KFarias Inovação Tecnologica [adware]
 ckicoadchmmndbakbokhapncehanaeni
 ckiogjflpadnbjbdjgecdhncmemglmne
@@ -438,7 +438,7 @@ clglplmhjdibddcnnhdljjpnoaomjgnc
 cljengcehefhflhoahaambmkknjekjib
 cllehfhocaopfbkehdoiphpgehffmneh
 clndgmolhlkchkbiinamamnbibkakiml  # "Tokyo Ghoul Wallpaper HD Custom New Tab"
-clopbiaijcfolfmjebjinippgmdkkppj  # “See SOURCE/NOTES Fields”
+clopbiaijcfolfmjebjinippgmdkkppj
 clpgopiimdjcilllcjncdkoeikkkcfbi  # Billiards Pro [credential-theft]
 cmbfgkkjfkmmhalhebnhmanbenfghkcm  # "Galaxy Wallpaper HD Custom New Tab"
 cmckpheolajgbmhlfhgelajhhfgjbhpk
@@ -465,7 +465,7 @@ cpbbiepjnljbnngpepgeaojjeneacpld
 cpcdkmjddocikjdkbbeiaafnpdbdafmi
 cpcojeeblggnjjgnpiicndnahfhjdobd  # Amazon Image Downloader with Videos | 10X
 cpehflfpgdgofpocagbdeecjlfhjfjdh
-cpgoblgcfemdmaolmfhpoifikehgbjbf  # “See SOURCE/NOTES Fields”
+cpgoblgcfemdmaolmfhpoifikehgbjbf
 cphibdhgbdoekmkkcbbaoogedpfibeme  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 cpigbbjhchinhpamicodkkcpihjjjlia
 cplaeebopfpnoebkaimlibpdickcjofa  # BALTZ CRM [adware]
@@ -477,7 +477,7 @@ cpnfioldnmhaihohppoaebillnambcgn  # Rugby Rush
 cpopolncdlnofnhahmapebnmmgfibcdk
 dacliiapfipnlipdmifioaijepgmhdga
 dagelhckpadaagjpebgjfkccfnljcjmn  # Pangeia [adware]
-dajgdhiemoaecngkpliephmheifopmjb  # “See SOURCE/NOTES Fields”
+dajgdhiemoaecngkpliephmheifopmjb
 dakebdbeofhmlnmjlmhjdmmjmfohiicn  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 dakenmmdlklnjdpdfmdjccpeapmijaad  # "Galaxy Space Wallpaper HD Custom New Tab"
 dambkkeeabmnhelekdekfmabnckghdih  # “App Phone for Instagram”
@@ -486,8 +486,8 @@ dangpedgafjilhjmkkphgdloelmmgooj
 danplamegmfnfobbhkandimjpepjlcoc
 dapecdhpbakbfcoijjpdfoffnajhifej  # "Avengers Endgame"
 dbagndmcddecodlmnlcmhheicgkaglpk  # ShadyPanda Phase 4 spyware (Edge) [spyware]
-dbcfhcelmjepboabieglhjejeolaopdl  # “See SOURCE/NOTES Fields”
-dbcfokmgampdedgcefjahloodbgakkpl  # “See SOURCE/NOTES Fields”
+dbcfhcelmjepboabieglhjejeolaopdl
+dbcfokmgampdedgcefjahloodbgakkpl
 dbclhjpifdfkofnmjfpheiondafpkoed
 dbfmnekepjoapopniengjbcpnbljalfg  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 dbjpighofpljmoogjcbhghlnlnepmmie  # Back to School Cursor ★ Custom Cursor for Chrome™ [adware]
@@ -496,7 +496,7 @@ dbohcpohlgnhgjmfkakoniiplglpfhcb  # Bingo
 dcaffjpclkkjfacgfofgpjbmgjnjlpmh  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 dcamdpfclondppklabgkfaofjccpioil  # Web Client for game Cricket Batter Challenge [credential-theft]
 dcbcnpnaccfjoikaofjgcipcfbmfkpmj  # ChatGPT Extension
-dcbfmglfdlgpnolgdjoioeocllioebpe  # “See SOURCE/NOTES Fields”
+dcbfmglfdlgpnolgdjoioeocllioebpe
 dcbikjphkkgmgmjoohmbnhccbndgpmin
 dcemmencnfibpboogpedgcpfipbmphnd
 dcibfpikkfpaogplkmnocfepoliadbeh
@@ -504,23 +504,23 @@ dcjfbgppfdokmjgajnnkgdmkdeiloigh
 dckadbanpeemhkphnnllamgolhbbbebi  # "Spiderman HD NewTab Comics"
 dcllajlpjeaobemjcplencinnjdkefkc
 dclmmkinjdaochjinbhanlipdpmkdhfb  # Adobe Premiere Pro for Chrome (fake) [phishing]
-dcmjopnlojhkngkmagminjbiahokmfig  # “See SOURCE/NOTES Fields”
+dcmjopnlojhkngkmagminjbiahokmfig
 dcmpoiccnjppenlhbhhbbkacebmoegoc
 dcnjgfafcnopabhpgoekkgckgkkddpjg
-ddenjpheppdmfimooolgihimdgpilhfo  # “See SOURCE/NOTES Fields”
+ddenjpheppdmfimooolgihimdgpilhfo
 ddffafnebdedgiaghdjkaifbhaaemdco
 ddhodpjidkbpkeheeenjflfjbgljgapl
 ddodaoihhhohncjalnjgmgnlfhgckgdj  # "Glitter Wallpaper HD Custom New Tab"
-ddohdfnenhipnhnbbfifknnhaomihcip  # “See SOURCE/NOTES Fields”
+ddohdfnenhipnhnbbfifknnhaomihcip
 deaadbmkldfnondhdbbfoldamngpgahp  # CRM TURBINADO [adware]
-dealfjgnmkibkcldkcpbikenmajlglmc  # “See SOURCE/NOTES Fields”
+dealfjgnmkibkcldkcpbikenmajlglmc
 deciloopcooglpjhomblbbjeeenohbpg  # “Ads Feed”
 deebfeldnfhemlnidojiiidadkgnglpi  # Image download center [adware]
 deglljpibacfneponmjilaopemcdohle  # ZAPFY CRM [adware]
 dehblkalhcpijgblbakdkofmlfpklkjj
-dehhfjanlmglmabomenmpjnnopigplae  # “See SOURCE/NOTES Fields”
-dehindejipifeaikcgbkdijgkbjliojc  # “See SOURCE/NOTES Fields”
-deiiiklocnibjflinkfmefpofgcfhdga  # “See SOURCE/NOTES Fields”
+dehhfjanlmglmabomenmpjnnopigplae
+dehindejipifeaikcgbkdijgkbjliojc
+deiiiklocnibjflinkfmefpofgcfhdga
 dekjibpkbhgbnmnfibnibnjoccaphfog  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 deljjimclpnhngmikaiiodgggdniaooh  # Themes for Chrome and YouTube Picture in Picture [adware]
 demiaanijbajdmkfpenjgamcgfklgjge
@@ -551,7 +551,7 @@ dhjmmcjnajkpnbnbpagglbbfpbacoffm
 dhmoflfpggooodhaagcbfdkfkicebbdd
 dhnibdhcanplpdkcljgmfhbipehkgdkk
 dhpgneegbflgangnpfeoafgpabacholj  # WaListall | O Melhor CRM para WhatsApp Web – Teste Grátis [adware]
-dibjpjiifnahccnokciamjlfgdlgimmn  # “See SOURCE/NOTES Fields”
+dibjpjiifnahccnokciamjlfgdlgimmn
 didbenpmfaidkhohcliedfmgbepkakam  # AutoHD for Twitch™ [click-fraud]
 didhgeamncokiaegffipckhhcpnmlcbl
 dihekmadkkcgnffajefocfamnpimlhah  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
@@ -559,7 +559,7 @@ dijcdmefkmlhnbkcejcmepheakikgpdg  # DarkSpectre ShadyPanda expansion / Zoom Stea
 dikanomimblalpoibmbipnchapooecme
 dillgbmlildifnpdejibbbebbhnlhnhf
 dinlhhblgeikohhbfkcoeggglbjlanhg  # "Riverdale Tab Themes"
-dipecofobdcjnpffbkmfkdbfmjfjfgmn  # “See SOURCE/NOTES Fields”
+dipecofobdcjnpffbkmfkdbfmjfjfgmn
 dipempdapljcdgpmaaoopamccjnconki
 djblghckgfcjfmhhhfnjbiakmmmcmigf
 djeijcgibnkebbldabhecmkmdaojdbpk
@@ -579,7 +579,7 @@ dkcppkdodfegjkeefohjancleioblabi  # "Stephen Curry NewTab Wallpapers"
 dkdjiiihnadmgmmfobidmmegidmmjobi
 dkdnidbnjihhilbjndnnlfipmbnoaipn  # BirdTab - Bird Wallpapers and Nature Sounds for New Tab Page
 dkfbfgncahnfghoemhmmlfefhpolihom  # "Naruto Wallpaper HD Custom New Tab"
-dkhcmjfipgoapjamnngolidbcakpdhgf  # “See SOURCE/NOTES Fields”
+dkhcmjfipgoapjamnngolidbcakpdhgf
 dkhpgbbhlnmjbkihoeniojpkggkabbbl  # AI Compare - Multi-AI one-click compare &amp; copy results
 dkkpollfhjoiapcenojlmgempmjekcla
 dlanpgfginllefahhibhbeanopbhbkkh
@@ -622,8 +622,8 @@ doiiaejbgndnnnomcdhefcbfnbbjfbib  # Palant affiliate fraud cluster (name unconfi
 domdcfhmjfdchcegjmnjbioejdphmnio  # Cinnamoroll Cursor ★ Custom Cursor for Chrome™ [adware]
 domfmjgbmkckapepjahpedlpdedmckbj
 domokkifabiamikppmngfikdjjihldln
-dopkmmcoegcjggfanajnindneifffpck  # “See SOURCE/NOTES Fields”
-dopmojabcdlfbnppmjeaajclohofnbol  # “See SOURCE/NOTES Fields”
+dopkmmcoegcjggfanajnindneifffpck
+dopmojabcdlfbnppmjeaajclohofnbol
 dpahdbhekfclimkekdabboefohagelfp  # Cliente Flow [adware]
 dpdemambcedffmnkfmkephnhhnclmcio  # Slot The Gold Pot [credential-theft]
 dpdgjbnanmmlikideilnpfjjdbmneanf  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
@@ -668,7 +668,7 @@ ecmkkkimiiingcbkhohekhbifaefbmid
 ecocgofdjmiomgmgnchijbghkikolkkl  # Instagram Downloader
 edadmcnnkkkgmofibeehgaffppadbnbi  # Alfablocker ad blocker [adware]
 edbhdbhgdbanjhdnpjcianjgfmdkgbcf
-edcepmkpdojmciieeijebkodahjfliif  # “See SOURCE/NOTES Fields”
+edcepmkpdojmciieeijebkodahjfliif
 edfmeionipdoohiagoaefljjhififgnl  # "Nike Themes"
 edgbooeklapanaclbchdiaekalebmfgb  # "Jesus New Tab"
 edgdjpblkjhdmflbedgmpajminmjljdn
@@ -679,9 +679,9 @@ edohegfjelahakooigmnmkmjofcjgofe  # "Sword Art Online Wallpaper HD Custom New Ta
 edohfgmjmdnibeihfcajfclmhapjkooa
 edojphplonjclmfckdiolpahpgcanjnh  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 edpoobbacbcmfpnfpjoambjbihhobooi  # “keeprivate”
-eeacchjlmkcleifpppcjbmahcnlihamj  # “See SOURCE/NOTES Fields”
+eeacchjlmkcleifpppcjbmahcnlihamj
 eeagcbejnemppblnipdpdibnljlocecb
-eebbihndkbkejmlgfoofigacgicamfha  # “See SOURCE/NOTES Fields”
+eebbihndkbkejmlgfoofigacgicamfha
 eebdacbalehoojfbinomkiobfepmdkhi
 eebihieclccoidddmjcencomodomdoei
 eeeiekjkpbneogggaajnjldadjmclhlo  # "Bts Suga"
@@ -694,7 +694,7 @@ eenfkghojihnhnninifhndjilpibchki  # Peanuts Cursor ★ Custom Cursor for Chrome�
 eeobggeikihkgiggaekfbceghlcpemfm
 eeoonfhmbjlmienmmbgapfloddpmoalh
 efckalhlcogbdbfopffmbacghfoelaia  # "Anime Wallpaper HD Custom New Tab"
-effhjobodhmkbgfpgcdabfnjlnphakhb  # “See SOURCE/NOTES Fields”
+effhjobodhmkbgfpgcdabfnjlnphakhb
 efiandhebakfkcgmfjfhemaachelolll
 efnaoofiidefjeefpnheopknaciohldg  # "Zelda Wallpaper HD Custom New Tab"
 egdcgdpdnnbhfdlinhdfhnjbckmgcgbo
@@ -704,15 +704,15 @@ eggeoellnjnnglaibpcmggjnjifeebpi  # Palant affiliate fraud cluster (name unconfi
 egicjjdcjhfdnejimnhngogjmoajffpm  # "Video Downloader and MP3 converter Pro"
 egmennebgadmncfjafcemlecimkepcle  # TinaMind [data-theft]
 egmlbimojingfmchokcniklnhnecdecf
-egpnofbhgafhbkapdhedimohmainbiio  # “See SOURCE/NOTES Fields”
+egpnofbhgafhbkapdhedimohmainbiio
 ehaknaflbjaphddbdilagpodabmccfce
 ehcchdfibajdjlhaifolofbghgomloop
 ehdkeonoccndeaggbnolijnmmeohkbpf
 eheagnmidghfknkcaehacggccfiidhik  # Email checker - verify email address in 1-click
 ehfmpjdcdldhefieelihdobnjfpalhic
-ehibgcefkpbfkklbpahilhicidnhiboc  # “See SOURCE/NOTES Fields”
+ehibgcefkpbfkklbpahilhicidnhiboc
 ehjpinnpigaklfnffadlldnadchkaech
-ehlgimmlmmcocemjadeafmohiplmgmei  # “See SOURCE/NOTES Fields”
+ehlgimmlmmcocemjadeafmohiplmgmei
 ehmneimbopigfgchjglgngamiccjkijh  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ehmnkbambjnodfbjcebjffilahbfjdml
 eholblediahnodlgigdkdhkkpmbiafoj
@@ -734,10 +734,10 @@ ejlcbfmhjbkgohopdkijfgggbikgbacb  # American Roulette Royale
 ejllkedmklophclpgonojjkaliafeilj  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ejmfemchnobpkbmnidhbbledmajpehnp
 ekafoahfmdgaeefeeneiijbehnbocbij  # Dopni - Automatic Cashback Service [spyware]
-ekbecnhekcpbfgdchfjcfmnocdfpcanj  # “See SOURCE/NOTES Fields”
+ekbecnhekcpbfgdchfjcfmnocdfpcanj
 ekfbpedkallblckjgijmibabfcacgjhl  # YT Search Helper
 ekhmddbpfelhdicnhkomdopnnbkchddc
-ekijhekekfckmkmbemiijdkihdibnbgh  # “See SOURCE/NOTES Fields”
+ekijhekekfckmkmbemiijdkihdibnbgh
 ekjogkoigkhbgdgpolejnjfmhdcgaoof  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ekjpgaienpbcajanmlakjlblacmmagli  # PhotoMath (fake) [phishing]
 ekmdldnjhmffdbihkfannnmloccnmemn  # Talk Mais [adware]
@@ -751,7 +751,7 @@ elahghcenkbboillglflockiijbkejod  # Hchat [adware]
 elckfehnjdbghpoheamjffpdbbogjhie
 eldjnmdpkecnjjkmmgndpcibgkfpodfh
 elfcaiclmhkioadcpikkonlnanaakmem  # Solo Leveling Cursor ★ Custom Cursor for Chrome™ [adware]
-elflophcopcglipligoibfejllmndhmp  # “See SOURCE/NOTES Fields”
+elflophcopcglipligoibfejllmndhmp
 elicjcmfamohcfkpokcdhapngkadckpa  # Chat Boost [adware]
 elipckbifniceedgalakgnmgeimfdcdi
 eljclcigelmfnomncdefdkbgnbbilnel  # Hello Kitty Cursor ♥ Custom Cursor for Chrome™ [adware]
@@ -767,7 +767,7 @@ emeokgokialpjadjaoeiplmnkjoaegng  # Palant affiliate fraud cluster (name unconfi
 emhdpfcihdomnibaabdmdfaebebfkjdg
 emhembimlgjkalegifeijlilginlnano  # ClickZap [adware]
 emiocjgakibimbopobplmfldkldhhiad
-emkkigmmpfbjmikfadmfeebomholoikg  # “See SOURCE/NOTES Fields”
+emkkigmmpfbjmikfadmfeebomholoikg
 emnhnjiiloghpnekjifmoimflkdmjhgp  # SkipAds Plus [spyware]
 empdihaogaehghjmpimnmmjjfjmihcmg
 empoeejllbcgpkmghimibnapemegnihf  # "Cristiano Ronaldo Wallpapers"
@@ -784,10 +784,10 @@ eoalbaojjblgndkffciljmiddhgjdldh
 eobcealmgdjeoheieiobkedbgddicaba
 eoclijfghiglinncpceohgaigfgnlbim
 eoeoincjhpflnpdaiemgbboknhkblome  # “Savematik”
-eogfeijdemimhpfhlpjoifeckijeejkc  # “See SOURCE/NOTES Fields”
-eogoljjmndnjfikmcbmopmlhjnhbmdda  # “See SOURCE/NOTES Fields”
+eogfeijdemimhpfhlpjoifeckijeejkc
+eogoljjmndnjfikmcbmopmlhjnhbmdda
 eohabjkmhajbeaejogdikpgapkeigdki  # "Bangtan Boys Wallpaper HD Custom New Tab"
-eohnfgagodblipmmalphhfepaonpnjgk  # “See SOURCE/NOTES Fields”
+eohnfgagodblipmmalphhfepaonpnjgk
 eoijplcnfnjgofchhdkkhpfcjkcefgkb  # "Minecraft Wallpaper HD Custom New Tab"
 eoimljninkkepafoijpgbedkkieobfek
 eokjikchkppnkdipbiggnmlkahcdkikp  # Color Picker Eyedropper - Geco colorpick [data-theft]
@@ -802,13 +802,13 @@ epepbcdeelckgplpmmmnmjplbeipgllo  # DarkSpectre ShadyPanda expansion / Zoom Stea
 ephepidhbiabcalednafkdpllnnohnph  # DGUESTS [adware]
 epikoohpebngmakjinphfiagogjcnddm  # CastorUS [data-theft]
 eplfglplnlljjpeiccbgnijecmkeimed  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-epphnioigompfjaknnaokghgcncnjfbe  # “See SOURCE/NOTES Fields”
+epphnioigompfjaknnaokghgcncnjfbe
 eppiocemhmnlbhjplcgkofciiegomcon  # Urban VPN Proxy [ai-chat-scraper]
 facihnceaoboeoembnbmdlecmkpioacc  # "Ferrari Wallpaper HD Custom New Tab"
 fagaafjhdmoagacggplmbpganjfjjpcf  # "Detective Pikachu Wallpaper HD Custom New Tab"
 fanonokndfeibplocpeipgfbopkigcce  # "Sword Art Online Wallpaper HD Custom New Tab"
 faokbgedcfhnfecloigcihpplicdnann  # "Japan NewTab"
-faopefnnleiebimhkldlplkgkjpbmcea  # “See SOURCE/NOTES Fields”
+faopefnnleiebimhkldlplkgkjpbmcea
 fbakofpmbmcodpmbecdimecilceplfll  # AI Chat Turbo
 fbbjijdngocdplimineplmdllhjkaece  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 fbbmnieefocnacnecccgmedmcbhlkcpm
@@ -829,11 +829,11 @@ fcfmhlijjmckglejcgdclfneafoehafm
 fchgahponkgfomlgieipannlfanfbfak
 fcidgbgogbfdcgijkcfdjcagmhcelpbc
 fckphkcbpgmappcgnfieaacjbknhkhin
-fcobokliblbalmjmahdebcdalglnieii  # “See SOURCE/NOTES Fields”
+fcobokliblbalmjmahdebcdalglnieii
 fcoongackakfdmiincikmjgkedcgjkdp
 fdacngbbemokpkmdkdefkoodndakgejc  # "Neon Wolf NewTab"
 fdbiogldjjmedbkbjdnolcifiankgeeo
-fdbmoflclpmkmeobidcgmfamkicinnlg  # “See SOURCE/NOTES Fields”
+fdbmoflclpmkmeobidcgmfamkicinnlg
 fddajeklkkggbnppabbhkdmnkdjindlo  # Street Basketball [credential-theft]
 fdempkefdmgfcogieifmnadjhohaljcb
 fdfffeipjpofnkmdkadjcjohdfoeblhk  # "Zombies Wallpaper HD Custom New Tab"
@@ -847,7 +847,7 @@ feeonheemodpkdckaljcjogdncpiiban  # Switch to Chrome?
 fefgeijhenfppagifhlfkjjadijghoea  # Win7max - CRM no WhatsApp Web, Chatbot, Automação e Disparo em Massa [adware]
 feflcgofneboehfdeebcfglbodaceghj  # Urban Ad Blocker [ai-chat-scraper]
 fefodpegbocmidnfphgggnjcicipaibk
-fekjbjbbdopogpamkmdjpjicapclgamj  # “See SOURCE/NOTES Fields”
+fekjbjbbdopogpamkmdjpjicapclgamj
 felanaboghflckkajcjgoapdebklnmff
 femkdojbljfbenbennpmjmmikmjlgeco
 fempjaikchbnpfllfkcggplmbnpojbbl
@@ -862,16 +862,16 @@ ffngpoeegbhbhpbkhbnilghielofekpc  # App Vendas CRM [adware]
 ffocfibjgakneigiajpccfcdmomlbapo
 ffodnimfejbfabkkmloghfafjmahejep
 fgaapohcdolaiaijobecfleiohcfhdfb  # “DM for Instagram”
-fgafnjobnempajahhgebbbpkpegcdlbf  # “See SOURCE/NOTES Fields”
+fgafnjobnempajahhgebbbpkpegcdlbf
 fgbieegonkgdlkmeaapmkejdlfalonkb  # DeepSeek AI
-fgcomdacecoimaejookmlcfogngmfmli  # “See SOURCE/NOTES Fields”
+fgcomdacecoimaejookmlcfogngmfmli
 fgfoepffhjiinifbddlalpiamnfkdnim  # Free simple Adult Blocker with password [click-fraud]
 fghhbjaoopknmbecbghnhnfapabhjhhg  # Dragon Ball Cursor - Custom Anime Cursor for Chrome [adware]
-fgmeppijnhhafacemgoocgelcflipnfd  # “See SOURCE/NOTES Fields”
+fgmeppijnhhafacemgoocgelcflipnfd
 fhababnomjcnhmobbemagohkldaeicad  # ShadyPanda Phase 4 spyware (Edge) [spyware]
-fhanjgcjamaagccdkanegeefdpdkeban  # “See SOURCE/NOTES Fields”
+fhanjgcjamaagccdkanegeefdpdkeban
 fhgjdkfbeghkbgjjkkkldiemdcboimmi  # Primeira Classe [adware]
-fhkmacopackahlbnpcfijgphgoimpggb  # “See SOURCE/NOTES Fields”
+fhkmacopackahlbnpcfijgphgoimpggb
 fibemlnkopkeenmmgcfohhcdbkhgbolo
 fibgndhgobbaaekmnneapojgkcehaeac  # Tarot Side Panel [credential-theft]
 fidehgfkepdjggincehnanpcdeklgopd
@@ -879,7 +879,7 @@ fiekhkolnfbmffngblfnpmpbdajofpdm
 fihbjcbnakkkhapcefljgnhfocbmafol
 fiobgijambbbkgndmodakkpajghgnjbe
 fjamdmeidfoiimcdmakidnifokhjdpdc
-fjclfmhapndgeabdcikbhemimpijpnah  # “See SOURCE/NOTES Fields”
+fjclfmhapndgeabdcikbhemimpijpnah
 fjfclchnmkilojpjkfhngijlomhnendk
 fjfhejmbhpabkacpoddjbcfandjoacmb
 fjfphlkdahigapjlfcalofelglelbgpg
@@ -896,7 +896,7 @@ fkhpfgpmejefmjaeelgoopkcglgafedm  # Browser game extension (malicious, name unco
 fkjngjgmgbfelejhbjblhjkehchifpcj  # Smart Auto Refresh [spyware]
 fkkgaomifpmmikhigldibldaleglnpme
 fklkhoeemdncdhacelfjeaajhfhoenaa
-fkllfgoempnigpogkgkgmghkchmjcjni  # “See SOURCE/NOTES Fields”
+fkllfgoempnigpogkgkgmghkchmjcjni
 fkogigpebmhlbldifmjngmlooifljnif
 flagaiaajbikpfnnkodcphdcmgefmbcl  # "Aquarium Live Wallpaper HD Custom New Tab"
 flapondhpgmggemifmemcmicjodpmkjb
@@ -904,7 +904,7 @@ flbcjbhgomclbhlchggbmnpekhfeacim  # "ScreenShot & Screen Capture Elite"
 flddpiffdlibegmclipfcnmaibecaobi
 fldiebelpcgjgdlmkmbohiljpkdeillj
 flfjappofhfkljghalmpfnnhllokpami  # WORKZAP [adware]
-flfkimeelfnpapcgmobfgfifhackkend  # “See SOURCE/NOTES Fields”
+flfkimeelfnpapcgmobfgfifhackkend
 flgfngbiaanimkhjkojnmilfalidpign  # "Chicago Cubs Wallpapers Cubs World"
 flijfnhifgdcbhglkneplegafminjnhn  # Netflix Party 2 [adware]
 flkdjodmoefccepdihipjdlianmkmhgc
@@ -914,7 +914,7 @@ fllcifcfhgmmfpogmpedgbjccnjalpjo  # DarkSpectre ShadyPanda expansion / Zoom Stea
 flmihfcdcgigpfcfjpdcniidbfnffdcf  # Screence screen recorder [adware]
 flnecpdpbhdblkpnegekobahlijbmfok
 flpfhaclifodhjecdjjdnefcjfnflcpp  # Harry Potter Cursor ★ Custom Cursor for Chrome™ [adware]
-fmahbaepkpdimfcjpopjklankbbhdobk  # “See SOURCE/NOTES Fields”
+fmahbaepkpdimfcjpopjklankbbhdobk
 fmajpchoiahphjiligpmghnhmabolhoh
 fmchencccolmmgjmaahfhpglemdcjfll
 fmfjhicbjecfchfmpelfnifijeigelme  # “Forcepoint Endpoint for Windows”
@@ -940,7 +940,7 @@ fnnigcfbmghcefaboigkhfimeolhhbcp  # ShadyPanda Phase 4 spyware (Edge) [spyware]
 fnpejdoiggdgagmdfmkllgfpagjgjfoi
 fobaamfiblkoobhjpiigemmdegbmpohd  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 fodcokjckpkfpegbekkiallamhedahjd
-foebfmkeamadbhjcdglihfijdaohomlm  # “See SOURCE/NOTES Fields”
+foebfmkeamadbhjcdglihfijdaohomlm
 fohllhaekplgfcocgdbdaghdaphgekjl
 fojomppheellamdaddnbgommepnlkooh
 folibpljgmababjognjpcidiakiffhhj
@@ -956,7 +956,7 @@ fpieoaljohacioniphjfgjhdlgciekdj
 fpjbgjpkfcanmdgjpmnnmoekkaahmafg  # "Chevrolet Corvette Backgrounds"
 fplmpcijomgjmfbjcidbgpjdmhmamlkf  # "Thanos Marvel Wallpaper HD Custom New Tab"
 fpmkabpaklbhbhegegapfkenkmpipick
-fpngnlpmkfkhodklbljnncdcmkiopide  # “See SOURCE/NOTES Fields”
+fpngnlpmkfkhodklbljnncdcmkiopide
 fpokgjmlcemklhmilomcljolhnbaaajk
 fppbiomdkfbhgjjdmojlogeceejinadg
 fppchnhginnfabgenhihpncnphhafmac
@@ -974,12 +974,12 @@ ganbipgooebabahkemagcehplknpffgk
 gandigjpilmchbomlpmfogigbjapofnc  # netWin [adware]
 gaoflciahikhligngeccdecgfjngejlh  # Emojis - Emoji Keyboard [adware]
 gbaoddbbpompjhmilbgiaapkkakldlpc  # Dice King – Classic Craps And Roll Game [credential-theft]
-gbbpilgcdcmfppjkdociebhmcnbfbmod  # “See SOURCE/NOTES Fields”
+gbbpilgcdcmfppjkdociebhmcnbfbmod
 gbcgjnbccjojicobfimcnfjddhpphaod
 gbcjipmcpedgndgdnfofbhgnkmghoamm
 gbdjcgalliefpinpmggefbloehmmknca  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 gbhhgipmedccnankkjchgcidiigmioio  # Slot Ramses
-gbkmkgfjngebdcpklbkeccelcjaobblk  # “See SOURCE/NOTES Fields”
+gbkmkgfjngebdcpklbkeccelcjaobblk
 gbnahglfafmhaehbdmjedfhdmimjcbed  # AutoBuy Flash Sales [adware]
 gbnjejhgognmdkjeljbpecpnanakcooh
 gbplafaelmgboglkaebmbkjnilcpkklf
@@ -997,23 +997,23 @@ gcokaajpfngffiofmmgadkjhopjaklhj
 gdacidkmmbdpkedejaljplnfhjidomio  # "Tokyo Ghoul Wallpaper HD Custom New Tab"
 gddkghdkhhlihaabphhnjbhdoiifhcpa
 gdfjahfbaillhkeigeinoomhjnfajbon
-gdifegeihkihjbkkgdijkcpkjekoicbl  # “See SOURCE/NOTES Fields”
+gdifegeihkihjbkkgdijkcpkjekoicbl
 gdldfceehpabhcehoglbnfgkdpgnnelo
 gdnhbhfhnjcfhakagfdeeblhnpjcfjnn  # Winnie The Pooh Cursor ★ Custom Cursor for Chrome™ [adware]
 gdnhikbabcflemolpeaaknnieodgpiie
-gdnkjjhpffldmfljpbfemliidkeeecdj  # “See SOURCE/NOTES Fields”
+gdnkjjhpffldmfljpbfemliidkeeecdj
 gdocgbfmddcfnlnpmnghmjicjognhonm  # KProxy [adware]
 gdoomgeeelkgcmmoibloelbodkpggdle  # "Roblox Wallpaper HD Custom New Tab"
 gejgekoijpmoplecdpbbnldgcbhnfmpo  # İSGPratik Bot
 gekkidfpdpfnbdndcomgknkohnpihooh
-gelcjfdfebnabkielednfoogpbhdeoai  # “See SOURCE/NOTES Fields”
+gelcjfdfebnabkielednfoogpbhdeoai
 gengfhhkjekmlejbhmmopegofnoifnjp
 geoolholooeeblajdjffdmknpecbkmah  # "Pink Wallpaper HD Custom New Tab"
 gfbgiekofllpkpaoadjhbbfnljbcimoh  # Font Customizer [adware]
 gfcligffighgnnfljcamdhgppbgfjddb
-gfcmbgjehfhemioddkpcipehdfnjmief  # “See SOURCE/NOTES Fields”
+gfcmbgjehfhemioddkpcipehdfnjmief
 gfdbbmngalhmegpkejhidhgdpmehlmnd  # Amazon Keyword Cloud Generator
-gfdefkjpjdbiiclhimebabkmclmiiegk  # “See SOURCE/NOTES Fields”
+gfdefkjpjdbiiclhimebabkmclmiiegk
 gfechfioaanebemclajhfgkfaopcaibo
 gfgpciipppjpfjmjhcjmfnapfilhikdg
 gfhcdakcnpahfdealajmhcapnhhablbp  # Battleship War
@@ -1025,7 +1025,7 @@ ggacghlcchiiejclfdajbpkbjfgjhfol  # Palant affiliate fraud cluster (name unconfi
 ggfemjndlhnpnjinndhpkfnnhdchchde
 gghdfkafnhfpaooiolhncejnlgglhkhe
 ggijepplmdjopbidkeoeheohojgiclma
-ggijmaajgdkdijomfipnpdfijcnodpip  # “See SOURCE/NOTES Fields”
+ggijmaajgdkdijomfipnpdfijcnodpip
 ggjlkinaanncojaippgbndimlhcdlohf
 gglbjeoapomacolgaddjppmbdncglcio
 ggolfgbegefeeoocgjbmkembbncoadlb  # “nano Defender”
@@ -1033,7 +1033,7 @@ ghaggkcfafofhcfppignflhlocmcfimd
 ghajfmiecdhdkifpapbjngmcdbedjmgg  # WaBest [adware]
 ghfgeefhkkoajgmnopaldgcagohakhmg  # "Despicable Me 3 Wallpaper HD Custom New Tab"
 ghfhbalboihigmncnabikapdldfdikng  # FATURE MAIS [adware]
-ghgjhnkjohlnmngbniijbkidigifekaa  # “See SOURCE/NOTES Fields”
+ghgjhnkjohlnmngbniijbkidigifekaa
 ghhanhhegklhcoffmgkdbiekfhmbfbnc  # "Supercars Mustang-Lambo-Bugatti-Nissan Tab"
 ghhddclfklljabeodmcejjjlhoaaiban
 ghiknhfdbocjbinidgohlpaccgpjfolj
@@ -1051,7 +1051,7 @@ ginfoagmgomhccdaclfbbbhfjgmphkph  # “Nyoogle – Custom Logo for Google”
 giofhmdgihebfjkdadokickedgbbglcf
 gipmochingljoikdjakkdolfcbphmlom
 gipnpcencdgljnaecpekokmpgnhgpela  # ShadyPanda affiliate fraud extension [adware]
-gjammdgdlgmoidmdfoefkeklnhmllpjp  # “See SOURCE/NOTES Fields”
+gjammdgdlgmoidmdfoefkeklnhmllpjp
 gjbfdbkfhgdfiieppgdpbglhjhljhhmk  # WhaScale - Um passo à frente do seu concorrente [adware]
 gjdchlihfacnabnppldhmnimolipgnmj  # SutoflyCRM, WhatsApp Web organizado, automatizado e vendendo [adware]
 gjjbmfigjpgnehjioicaalopaikcnheo  # Palant affiliate fraud cluster (name unconfirmed) [adware]
@@ -1066,7 +1066,7 @@ gkbilebmkjlflcijbecemkmgkhnenakm  # Brawl Stars Cursor ★ Custom Cursor for Chr
 gkcamdgljboohmjlfmogjnbckhcbpdhi
 gkdefmghclmhookpgciggdhglejpghoc  # Whapro – Automação, CRM e Vendas no WhatsApp Web [adware]
 gkelkplbcgjpcalpjeogmceenfkndmoi
-gkemhapalomnipjhminflfhjcjehjhmp  # “See SOURCE/NOTES Fields”
+gkemhapalomnipjhminflfhjcjehjhmp
 gkhggnaplpjkghjjcmpmnmidjndojpcn
 gkjbbfabeojdbiabpjapkjnhpnjcckbf  # FNaF Cursor - Custom Horror Cursor for Chrome [adware]
 gkjkhpbembbjogoiejpkehohclfoljbp  # "Swag HD Tab Wallpapers"
@@ -1078,9 +1078,9 @@ glckmpfajbjppappjlnhhlofhdhlcgaj
 glfddenhiaacfmhoiebfeljnfkkkmbjb
 glgemekgfjppocilabhlcbngobillcgf
 glibnbcgclecomknccifdaglefljfoej  # "Nba Youngboy Wallpaper HD Custom New Tab"
-gllihgnfnbpdmnppfjdlkciijkddfohn  # “See SOURCE/NOTES Fields”
+gllihgnfnbpdmnppfjdlkciijkddfohn
 gllogphgdmclhfledlcgmdolngohamcl  # "Horse Wallpaper HD Custom New Tab"
-glmbceclkhkaebcadgmbcjihllcnpmjh  # “See SOURCE/NOTES Fields”
+glmbceclkhkaebcadgmbcjihllcnpmjh
 glofhphmolanicdaddgkmhfmjidjkaem  # Greyhound Racing – Dog Race Simulator [credential-theft]
 gmbebpcapalekeaoekfhpbioilghcfmp
 gmciomcaholgmklbfangdjkneihfkddd
@@ -1090,16 +1090,16 @@ gmidblfofjdiajmlnfiagijikmojkhia  # SevenSales [adware]
 gmigkpkjegnpmjpmnmgnkhmoinpgdnfc
 gmjibldihkpammmelmkiipjcgmhdcdmb  # Dogs Cursor - Custom Dog Cursor for Chrome [adware]
 gmjjkabeoioigljnanihcnbpmcplklli
-gmljddfeipofcffbhhcpohkegndieeab  # “See SOURCE/NOTES Fields”
+gmljddfeipofcffbhhcpohkegndieeab
 gmmhcbmmnclgmmjimiiefhiagmpamdlb  # Edit anything - Boost any page
-gmmohhcojdhgbjjahhpkfhbapgcfgfne  # “See SOURCE/NOTES Fields”
+gmmohhcojdhgbjjahhpkfhbapgcfgfne
 gnaekhndaddbimfllbgmecjijbbfpabc
 gnamdgilanlgeeljfnckhboobddoahbl  # “SuperZoom”
 gndlcpbcmhbcaadppjjekgbhfhceeikm  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 gnhgdhlkojnlgljamagoigaabdmfhfeg  # ShadyPanda affiliate fraud extension [adware]
 gnmmfdohfcohcflccikmlodaeignlkce  # Whats Expert [adware]
 goaebigflkhjjblmofhoggdhebgnielo  # Palant cluster C000003 (name unconfirmed) [adware]
-gofhadkfcffpjdbonbladicjdbkpickk  # “See SOURCE/NOTES Fields”
+gofhadkfcffpjdbonbladicjdbkpickk
 gogbiohkminacikoppmljeolgccpmlop
 gohgeedemmaohocbaccllpkabadoogpl
 gohlpddecngpmpoakfmnaegegjnapkla
@@ -1109,11 +1109,11 @@ gokcmhknbfbkchaljcbjloaebnoblcnd
 golbngjhpfdobdopaebpdofbmhghfkpm
 gollbfedpcfodjgfjddbkfnkkfdedknn  # Master Engage [adware]
 googojfbnbhbbnpfpdnffnklipgifngn
-gpaaalbnkccgmmbkendiciheljgpdhob  # “See SOURCE/NOTES Fields”
+gpaaalbnkccgmmbkendiciheljgpdhob
 gpacldldkpfobgbdabaollodfoilfela  # Pokemon Cursor ★ Custom Cursor for Chrome™ [adware]
 gpbnhdjoknjmghjfljgcankdldimokmk
 gpdfpljioapjogbnlpmganakfjcemifk  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-gpffceikmehgifkjjginoibpceadefih  # “See SOURCE/NOTES Fields”
+gpffceikmehgifkjjginoibpceadefih
 gpghckfoffcjppkochpddgpjhifpkfhl
 gpghebehjahceknfdcfifeifhdbongld
 gphjkkbkmaiccfnhcoiibpkfpmpnkfeb
@@ -1132,7 +1132,7 @@ hajlmbnnniemimmaehcefkamdadpjlfa  # ShadyPanda Phase 4 spyware (Edge) [spyware]
 hanfebikglcfkkeoelhdkpiamjmahjen
 haochenfmhglpholokliifmlpafilfdc
 hapemhaolkielighkknclgncbaocnclc
-hapicipmkalhnklammmfdblkngahelln  # “See SOURCE/NOTES Fields”
+hapicipmkalhnklammmfdblkngahelln
 hbaamilhgknggfanbiceijijemigbbah
 hbalpgnomjolafhoomdmangogcmggdni  # Ring (fake) [phishing]
 hbdodmeapnhejpalnjemjceipcanjdjk
@@ -1188,7 +1188,7 @@ hhngeobomadcaamnncdaafhnankmmcic
 hihblcmlaaademjlakdpicchbjnnnkbo  # Proxy SwitchyOmega (V3) [data-theft]
 hiiahmfpljemgmnhlaepofeldnnhphmi
 hiiildgldbpfbegcfgemoliikibfhaeh
-hijipblimhboccjcnnjnjelcdmceeafa  # “See SOURCE/NOTES Fields”
+hijipblimhboccjcnnjnjelcdmceeafa
 hilgkhepkfjdkkdigphhcgmghefdledg
 himipdblnokdafogmdlmajgokiopcbjk  # Словарёк
 hinhmojdkodmficpockledafoeodokmc  # HyperVolume [adware]
@@ -1218,7 +1218,7 @@ hlglicejgohbanllnmnjllajhmnhjjel
 hljdedgemmmkdalbnmnpoimdedckdkhm
 hlmdnedepbbihmbddepemmbkenbnoegd  # Car Rush [credential-theft]
 hmaeodbfmgikoddffcfoedogkkiifhfe  # Adblock.mx - Adblock for Chrome [click-fraud]
-hmamdkecijcegebmhndhcihjjkndbjgk  # “See SOURCE/NOTES Fields”
+hmamdkecijcegebmhndhcihjjkndbjgk
 hmbacpfgehmmoloinfmkgkpjoagiogai
 hmbnhhcgiecenbbkgdoaoafjpeaboine  # Autoskip for Youtube™ Ads [spyware]
 hmdhdelmoedfklkgbleddopfgacmhfik
@@ -1238,7 +1238,7 @@ hnhpnbajfmmopedidmiablkcdnlegkmd  # "Sports Cars - Super Cars Wallpaper HD New T
 hnpbijogiiaegambgpaenjbcbgaeimlf  # Slot Machine Ultimate Soccer
 hoclolhilhbecpefaignjficiaaclpop
 hodafefeincjlgijbiabbmaffambjeaa
-hodfejbmfdhcgolcglcojkpfdjjdepji  # “See SOURCE/NOTES Fields”
+hodfejbmfdhcgolcglcojkpfdjjdepji
 hodiladlefdpcbemnbbcpclbmknkiaem  # Wakey [data-theft]
 hofaaigdagglolgiefkbencchnekjejl
 hogoebkpcnajkkjdidfhojkljppfalip
@@ -1251,18 +1251,18 @@ hpaeihbjeijdabhoobkledihgofjlbkp
 hpamjldgeadmapkdklhndmcdankicnch
 hpcejjllhbalkcmdikecfngkepppoknd
 hpdpddnfjaacnbcnoohlcipfafkbmdja
-hpfijbjnmddglpmogpaeofdbehkpball  # “See SOURCE/NOTES Fields”
+hpfijbjnmddglpmogpaeofdbehkpball
 hpkfkbmcphnigepfjmapkdaedglohgjg  # flappy birdie (night farm mode)
 iabflonngmpkalkpbjonemaamlgdghea  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 iaccapfapbjahnhcmkgjjonlccbhdpjl
 iaddfgegjgjelgkanamleadckkpnjpjc  # Auto Quality for YouTube™ [click-fraud]
 iaemdpdnmdkaphnmcogmcgcmhhafcifd
 iamobjmjhdlfkmikacnhbjmiblndiani
-ianfonfnhjeidghdegbkbbjgliiciiic  # “See SOURCE/NOTES Fields”
+ianfonfnhjeidghdegbkbbjgliiciiic
 ibbkokjdcfjakihkpihlffljabiepdag  # Easy Dark Mode [spyware]
 ibehiiilehaakkhkigckfjfknboalpbe
 ibelidmkbnjmmpjgfibbdbkamgcbnjdm  # Christmas Eve - Slot Machine [credential-theft]
-ibfjiddieiljjjccjemgnoopkpmpniej  # “See SOURCE/NOTES Fields”
+ibfjiddieiljjjccjemgnoopkpmpniej
 ibfpbjfnpcgmiggfildbcngccoomddmj
 ibiejjpajlfljcgjndbonclhcbdcamai  # ShadyPanda Phase 3 RCE extension [spyware]
 ibmdocjlknaopfecmnojomdlbeadpdnb
@@ -1277,7 +1277,7 @@ ickfamnaffmfjgecbbnhecdnmjknblic
 iclckldkfemlnecocpphinnplnmijkol  # SQLite browser
 icliijcepcpkfcnhadpihncikapnlgck  # Web Video Cast Browser to TV (fake) [phishing]
 icnekagcncdgpdnpoecofjinkplbnocm  # Easyview Reader view [adware]
-icolkoeolaodpjogekifcidcdbgbdobc  # “See SOURCE/NOTES Fields”
+icolkoeolaodpjogekifcidcdbgbdobc
 idfccnbgfoopaopdddphpfamicdhpioe
 idgncaddojiejegdmkofblgplkgmeipk  # Volume Frenzy [adware]
 idhknpoceajhnjokpnbicildeoligdgh
@@ -1286,7 +1286,7 @@ idjhfmgaddmdojcfmhcjnnbhnhbmhipd
 idkdfocppofcdgahffjbehkjiilagofm
 idkllmolbaiailjfidkjcidapkddidbg  # "Marble Wallpaper HD Custom New Tab"
 idmmfeifgahenlbokojjpojclkflmdfm
-idnelecdpebmbpnmambnpcjogingdfco  # “See SOURCE/NOTES Fields”
+idnelecdpebmbpnmambnpcjogingdfco
 idngjfdlfbfgecemidnhbdcogggnjkpg
 iebajjiigkoboenolgbailggigojofmh
 iedbphhbpflhgpihkcceocomcdnemcbj  # AI Webcam Effects + Recorder: Google Meet, Zoom, Discord &amp; Other Meetings
@@ -1297,26 +1297,26 @@ ieihbaicbgpebhkfebnfkdhkpdemljfb  # Manuals Viewer [spyware]
 ielbkcjohpgmjhoiadncabphkglejgih
 ielooaepfhfcnmihgnabkldnpddnnldl  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ifbffcgakkboaffkidggpcjolehhhbfd  # "Naruto Wallpaper HD Custom New Tab"
-ifceimlckdanenfkfoomccpcpemphlbg  # “See SOURCE/NOTES Fields”
+ifceimlckdanenfkfoomccpcpemphlbg
 ifdebecchhapkfdbcbhpmjonmbpfpnck  # "Roblox Wallpaper HD Custom New Tab"
 ifdepgnnjpnbkcgempionjablajancjc  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ifdinimahpjflpflcgfbbcakpjkjllfo
 ifhigdhiifbnjanhacoedbadhmlkjgae  # Chat with AI
 ifjimhnbnbniiiaihphlclkpfikcdkab
 ifklcpoenaammhnoddgedlapnodfcjpn
-ifmkfoeijeemajoodjfoagpbejmmnkhm  # “See SOURCE/NOTES Fields”
+ifmkfoeijeemajoodjfoagpbejmmnkhm
 ifnhdcdnpkicmmellhmkafcjdgoijail
 igahhbkcppaollcjeaaoapkijbnphfhb
 igbcfkjflkgamnoikcpiljglnmjnkjac  # "Bts Wallpaper HD Custom New Tab"
 igbodamhgjohafcenbcljfegbipdfjpk  # Parrot Talks [data-theft]
 igcfeiobmdohnoihbbgcehmecnhgnmfe
-iggmbfojpkfikoahlfghaalpbpkhfohc  # “See SOURCE/NOTES Fields”
+iggmbfojpkfikoahlfghaalpbpkhfohc
 igiakpjhacibmaichhgbagdkjmjbnanl
 igkkmokkmlbkkgdnkkancbonkbbmkioc  # Palant cluster C000003 (name unconfirmed) [adware]
-igkljanmhbnhedgkmgpkcgpjmociceim  # “See SOURCE/NOTES Fields”
+igkljanmhbnhedgkmgpkcgpjmociceim
 iglgfjffffiknjajejaleginhanmejec  # Naruto Cursor ★ Custom Cursor for Chrome™ [adware]
 igmblpicjfppdloljoabpiafdlokogno  # Fallout Cursor - Custom Game Cursor for Chrome [adware]
-igpcgjcdhmdjhdlgoncfnpkdipanlida  # “See SOURCE/NOTES Fields”
+igpcgjcdhmdjhdlgoncfnpkdipanlida
 ihbiedpeaicgipncdnnkikeehnjiddck  # Weather [data-theft]
 ihbjeplpkbnmeenljajhckggleinidcd
 ihbkmfoadnfjgkpdmgcboiehapkiflme
@@ -1339,9 +1339,9 @@ ijdgdpgjggoehifckpmpdmfpnkdakkne  # Verk - Direto no whatsapp, Automações e IA
 ijejnggjjphlenbhmjhhgcdpehhacaal  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ijfmkphjcogaealhjgijjfjlkpdhhojk  # Goalkeeper Challenge [credential-theft]
 ijgahedgacnhnbdakolhnhkbjbhjgfao
-ijhakgidfnlallpobldpbhandllbeobg  # “See SOURCE/NOTES Fields”
+ijhakgidfnlallpobldpbhandllbeobg
 ijhbioflmfpgfmgapjnojopobfncdeif
-ijohicfhndicpnmkaldafhbecijhdikd  # “See SOURCE/NOTES Fields”
+ijohicfhndicpnmkaldafhbecijhdikd
 ijpgccpmogehkjhdmomckpkfcpbjlmnj
 ikajognfijokhbgjdhgpemljgcjclpmn
 ikfmaobmeapnkohnoaflbanhmfocgiob
@@ -1351,7 +1351,7 @@ ikkoanocgpdmmiamnkogipbpdpckcahn
 iklgljbighkgbjoecoddejooldolenbj  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ikliliinakofoiojghnipegfphmoljla  # Kentro [adware]
 ikojddbdekpboemgplhbloojlncbpmdd  # “Dark theme suite”
-ilcbbngkolbclhlildojhgjdbkkehfia  # “See SOURCE/NOTES Fields”
+ilcbbngkolbclhlildojhgjdbkkehfia
 ilcjgmjecbhpgpipmkfkibjopafpbcag
 ileojfedpkdbkcchpnghhaebfoimamop
 ilgbcnkedmncjlhpfconadpjnhlflejf
@@ -1372,7 +1372,7 @@ inbmcaiilhlpeepmlenjhnblgflmknme
 incoejagnokjhlkjkgpbdbooagggckdg  # Web.archive.org Auto-Archiver
 ineempkjpmbdejmdgienaphomigjjiej  # ShadyPanda affiliate fraud extension [adware]
 inhcgfpbfdjbjogdfjbclgolkmhnooop  # AI Sidebar with Deepseek ChatGPT Claude and more [ai-chat-scraper]
-inhdgbalcopmbpjfincjponejamhaeop  # “See SOURCE/NOTES Fields”
+inhdgbalcopmbpjfincjponejamhaeop
 inhiciabodleebpfchicllicbijcefhg
 inhliijakcoojghlfgbogapleildhghb
 inhmbedecadikokanjcblbdaijhpjjln
@@ -1388,10 +1388,10 @@ iofmialeiddolmdlkbheakaefefkjokp  # Palette Creator
 iojhbljpppeociniiemjfelmdcgikmep  # "BTS Members Themes NewTab"
 iojoiocmnkglehhfhfmhobpbikieodle
 iojpcjjdfhlcbgjnpngcmaojmlokmeii  # Smart Adblocker [spyware]
-iondldgmpaoekbgabgconiajpbkebkin  # “See SOURCE/NOTES Fields”
+iondldgmpaoekbgabgconiajpbkebkin
 ionpbgeeliajehajombdeflogfpgmmel  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ioofbfcjhabkdfhngedpocamlakdanlk
-ipagcbjbgailmjeaojmpiddflpbgjngl  # “See SOURCE/NOTES Fields”
+ipagcbjbgailmjeaojmpiddflpbgjngl
 ipanmolgobfbmpggfgpjjojjmbndafhn
 ipgnnndhgeaclopjgiihppbbfnmkmjcm  # "Neon Genesis Evangelion NewTab"
 iphacjobmeoknlhenjfiilbkddgaljad
@@ -1405,10 +1405,10 @@ ipokalojgdmhfpagmhnjokidnpjfnfik
 jacgfjfdnjamjbdkihblimkekfoiiafi  # WAFACIL [adware]
 jacilgchggenbmgbfnehcegalhlgpnhf
 jadgponjpllhepidoclncpogkhcnepac  # WaPROdy [adware]
-jaehldonmiabhfohkenmlimnceapgpnp  # “See SOURCE/NOTES Fields”
+jaehldonmiabhfohkenmlimnceapgpnp
 jaekigmcljkkalnicnjoafgfjoefkpeg  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 jafjlcbocjfijiholjkppjeaolblpbam
-jagbooldjnemiedoagckjomjegkopfno  # “See SOURCE/NOTES Fields”
+jagbooldjnemiedoagckjomjegkopfno
 jaioobipjdejpeckgojiojjahmkiaihp  # Care.Sale
 jajikjbellknnfcomfjjinfjokihcfoi
 jalaoplogcelljfhlodnagfepednmilm  # Dragon Ball Cursor ★ Custom Cursor for Chrome™ [adware]
@@ -1417,7 +1417,7 @@ jaonmiiccahaddjkdhaonhfhdiagfbdh  # Waat: CRM e Vendas no WhatsApp Web [adware]
 jbajdpebknffiaenkdhopebkolgdlfaf
 jbbanajdakjmholbhekdkcfekhibilhg
 jbdegnmcajkhjemebonejojlgkgcddhc
-jbfponbaiamgjmfpfghcjjhddjdjdpna  # “See SOURCE/NOTES Fields”
+jbfponbaiamgjmfpfghcjjhddjdjdpna
 jbkldgcpnklohmbllpghikjpbookjkfa
 jbnopeoocgbmnochaadfnhiiimfpbpmf  # ShadyPanda Phase 3 RCE extension [spyware]
 jcbjcocinigpbgfpnhlpagidbmlngnnn  # Adblock for Browser [spyware]
@@ -1433,12 +1433,12 @@ jddgindpdjdojhenigliipabmmckcofh  # Supercars Cursor ★ Custom Cursor for Chrom
 jddinhnhplibccfmniaakhffpjpnaglp
 jdehnhjckcbfdkgnlbfjokofagpbbdgl
 jdfhogfabmocclgjnkfhokhaoecbmijj
-jdheollkkpfglhohnpgkonecdealeebn  # “See SOURCE/NOTES Fields”
+jdheollkkpfglhohnpgkonecdealeebn
 jdhlmbbkcnblagpianmgafolcpmlmbfa
 jdjldbengpgdcfkljfdmakdgmfpneldd  # Video Effects for YouTube And Audio Enhancer [adware]
 jdlefhppknmjnjopnlhemlhofecafkhd
 jdlkkmamiaikhfampledjnhhkbeifokk  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-jdoaaldnifinadckcbfkbiekgaebkeif  # “See SOURCE/NOTES Fields”
+jdoaaldnifinadckcbfkbiekgaebkeif
 jeaebbdndojkbnnfcaihgokhnakocbnf
 jeahgicmhigopdgilnmclihdjjlhnmop  # Total Safety for Chrome [spyware]
 jedaibnliemmghjomdaejniddjcdbhom
@@ -1447,21 +1447,21 @@ jeicljefnlpdoblklfdephbpihhjgphf  # ENOCRM | Gestão de Leads no WhatsAPP [adwar
 jejifplcapdlbhjagfeginbledjpggod
 jelgelidmodjpmohbapbghdgcpncahki
 jeoigaeiibcpalnemoppabmfecmhfoda
-jepocknhdcgdmbiodbpopcbjnlgecdhf  # “See SOURCE/NOTES Fields”
+jepocknhdcgdmbiodbpopcbjnlgecdhf
 jfaijficgmogbfdkiihojhjfildgppdf
-jfamimfejiccpbnghhjfcibhkgblmiml  # “See SOURCE/NOTES Fields”
-jfefcmidfkpncdkjkkghhmjkafanhiam  # “See SOURCE/NOTES Fields”
-jfgkpeobcmjlocjpfgocelimhppdmigj  # “See SOURCE/NOTES Fields”
+jfamimfejiccpbnghhjfcibhkgblmiml
+jfefcmidfkpncdkjkkghhmjkafanhiam
+jfgkpeobcmjlocjpfgocelimhppdmigj
 jfglacfdockpdpbfodkipgcjplgnojel
 jfjgodhodlbbmchladiboammimaonoea
 jfliobjbgdclhcjgpgimckaijlcbkmdk  # Haikyuu Cursor ★ Custom Cursor for Chrome™ [adware]
-jfnlkmaledafkdhdokgnhlcmeamakham  # “See SOURCE/NOTES Fields”
+jfnlkmaledafkdhdokgnhlcmeamakham
 jfocahgaekfaemhfcfefcodphgpinnch  # "Fortnite Omega Wallpaper HD Custom New Tab"
 jfpipjgidnagjbmdfhogcoklclacgnhk
 jgajjllfidghjkjfipmjbaegafkdpfha
 jgbkgjepkeklblmlhnpjmnbinmifjenc  # "Forntine Skin Wallpaper HD Custom New Tab"
-jghiljaagglmcdeopnjkfhcikjnddhhc  # “See SOURCE/NOTES Fields”
-jgjakaebbliafihodjhpkpankimhckdf  # “See SOURCE/NOTES Fields”
+jghiljaagglmcdeopnjkfhcikjnddhhc
+jgjakaebbliafihodjhpkpankimhckdf
 jgjkbmccdkmjecomjfbnkgopgeaaikkc
 jglemppahimembneahjbkhjknnefeeio  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 jglpailiijgdhnmgbjbjpcfeecjhjblp
@@ -1480,7 +1480,7 @@ jiaopkfkampgnnkckajcbdgannoipcne  # Palant affiliate fraud cluster (name unconfi
 jihipmfmicjjpbpmoceapfjmigmemfam
 jihpefgcigdagkkekbggjofiipgbgedo
 jiiggekklbbojgfmdenimcdkmidnfofl
-jiiinmeiedloeiabcgkdcbbpfelmbaff  # “See SOURCE/NOTES Fields”
+jiiinmeiedloeiabcgkdcbbpfelmbaff
 jiodaacchgkgkgnmgmbjoommaebhnkke  # Amino Communities and Chats (fake) [phishing]
 jiofmdifioeejeilfkpegipdjiopiekl  # ChatGPT Assistant - Smart Search [data-theft]
 jiopaphnoebconjcblfkljoedjlplhbd
@@ -1492,17 +1492,17 @@ jjijhajiibghbdnmbkeidhgkafliocja
 jjnfhbcilcppomkcmkbbmcadoihkkgah
 jkaafnmmjecejakfanneehifglpdpccp
 jkblcpmoooocmdcfjojdecccejlkicap  # MERLIN BOT [adware]
-jkdngiblfdmfjhiahibnnhcjncehcgab  # “See SOURCE/NOTES Fields”
+jkdngiblfdmfjhiahibnnhcjncehcgab
 jkeogjcccehfccanacclmckcdgepkifo  # InterZap [adware]
 jkeolmadidncndcbnajhaojepbolajag  # Lunabot - AI on any webpages
 jkflhidejcmhenikpjhidoofogahicjp  # RED Chat CRM [adware]
 jkkmcoihchcflfjnigngdegbemipdlnl  # “Fix-case”
 jkmakgpojigahjdalffbkimpnpabelio  # Netflix Picture in Picture now for Prime &amp; D+ [QVI]
-jkofpdjclecgjcfomkaajhhmmhnninia  # “See SOURCE/NOTES Fields”
+jkofpdjclecgjcfomkaajhhmmhnninia
 jkokgpghakemlglpcdajghjjgliaamgc  # Anti phising safer browsing for chrome [click-fraud]
 jkphinfhmfkckkcnifhjiplhfoiefffl
 jkpmldmclchiccdelednphcmkcaoechb
-jlaaidmjgpgfkhehcljmeckhlaibgaol  # “See SOURCE/NOTES Fields”
+jlaaidmjgpgfkhehcljmeckhlaibgaol
 jlalnhjkfiogoeonamcnngdndjbneina  # AI Toolbox: Folders, Prompts, Advanced Search &amp; Export for AI Chats
 jlbebokeclkofhchdepbojfhmocdlhfl  # "Marble Wallpaper HD Custom New Tab"
 jlbhkoohfmnikpalgglhpadlbeiobkaa  # "Sports Cars - Super Cars Wallpaper HD New Tab"
@@ -1518,7 +1518,7 @@ jllebjcjaeddkfhohacafldffhbdpedp
 jlolcgbicggpnaaljnflepfmnaaceeln
 jlpchojjamcikhgmedobmfodcefjmccn
 jmbegcegjknachdgnichfcnjilebcojn
-jmbmildjdmppofnohldicmnkojfhggmb  # “See SOURCE/NOTES Fields”
+jmbmildjdmppofnohldicmnkojfhggmb
 jmklaacdggogjblaiofpikjjhblhicop
 jmlbnlcodmikhdpbjjdemgaebjgmpooa  # "Hetalia Backgrounds HD Tab"
 jmlgkeaofknfmnbpmlmadnfnfajdlehn  # AliExpress Deals Countdown - Flash Sale Timer
@@ -1544,7 +1544,7 @@ jpdhdeabikbmklmacididiaifpcploif
 jpefmbpcbebpjpmelobfakahfdcgcmkl  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 jpjljiibjkcgfgajdjhbfkocaoajnpjd  # CapCut (fake) [phishing]
 jplifhpepfnogkdnmimaoembccjpepmb
-jpnamljnefhpbpcofcbonjjjkmfjbhdp  # “See SOURCE/NOTES Fields”
+jpnamljnefhpbpcofcbonjjjkmfjbhdp
 jpoofbjomdefajdjcimmaoildecebkjc
 kabbfhmcaaodobkfbnnehopcghicgffo
 kacljcbejojnapnmiifgckbafkojcncf  # Adblock Web (PCVARK) [adware]
@@ -1554,7 +1554,7 @@ kahhommiipafgepbkjpajpmdchjpclml
 kajjcgpohlkdcjfkcbkkbhapafcblaom  # “PwnerLike”
 kakbikilhofblljdlmnncmicnjhcndmk
 kbaofbaehfbehifbkhplkifihabcicoi
-kbdbmddhlgckaggdapibpihadohhelao  # “See SOURCE/NOTES Fields”
+kbdbmddhlgckaggdapibpihadohhelao
 kbhhacnmeeljkelinngfddddmgnpfagc
 kbifpojhlkdoidmndacedmkbjopeekgl
 kbkajekcpifoekenleplhefobiponkmp
@@ -1572,11 +1572,11 @@ kdenlnncndfnhkognokgfpabgkgehodd
 kdgiododfaoegcmimpefnhdjcmbepchk
 kdgjiakonpbfmndaacfhamdoangincgp  # DiyTab - 图片下载器
 kdihodbgfndblemlklkllhfjhiidbgih  # "Fortnite Wallpaper HD Custom New Tab"
-kdkpllchojjkbgephbbeacaahecgfpga  # “See SOURCE/NOTES Fields”
+kdkpllchojjkbgephbbeacaahecgfpga
 kdmcdkanhnbdcmadgljmhdimdlfpgple
 kdnhehemkjcjffngpngfopegdfabiiin
 kdnnogfmhpppncphlnecbdhoggpmbkci  # Squid Game Cursor - Custom Korean Drama Cursor for Chrome [adware]
-keceijnpfmmlnebgnkhojinbkopolaom  # “See SOURCE/NOTES Fields”
+keceijnpfmmlnebgnkhojinbkopolaom
 keeocmalfanaeglbdieodbbpoplbklnb
 kefmhdhaebhmdeaabcgoaegmgodncebc  # "Just Cause 4 Themes New Tab Avalanche"
 kefnabicobeigajdngijnnjmljehknjl
@@ -1607,7 +1607,7 @@ khbegeannolbigamjahgggfpnaacbbmb
 khbhbpogabkcfkbjmpenbejldoeciioe
 khdnaopfklkdcloiinccnaflffmfcioa  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 khgkcnmepkkccpojldheccpladhflmen
-khhemdcdllgomlbleegjdpbeflgbomcj  # “See SOURCE/NOTES Fields”
+khhemdcdllgomlbleegjdpbeflgbomcj
 khkhnljbiikhodfhkbpfpgeodjmaghek
 khoapclcikhbeaggmmfcnckcnhfniijj  # Web Bear Search
 khoigeopdelmjmimedipaoebcmkoljdg  # Ask AI
@@ -1619,10 +1619,10 @@ kimfknhghkailpllnopclaelfjechldp
 kiobbadnbgllphgkigmkahaimkmamfln  # VUTTI CRM [adware]
 kiohalpdgogknjljjemlbpidjpaedlji
 kjbjbbpjmglncndehlbneolhickdejoa
-kjdcopljcgiekkmjhinmcpioncofoclg  # “See SOURCE/NOTES Fields”
+kjdcopljcgiekkmjhinmcpioncofoclg
 kjdpnimcnfinmilocccippmododhceol
 kjeffohcijbnlkgoaibmdcfconakaajm  # Maximum Color Changer for Youtube [adware]
-kjgaljeofmfgjfipajjeeflbknekghma  # “See SOURCE/NOTES Fields”
+kjgaljeofmfgjfipajjeeflbknekghma
 kjgceeikbnmddoaggelkkpljdabhghkc  # "Pokemon Backgrounds HD"
 kjgeglpblmplmceadclemoechgnonlnf
 kjgkmceledmpdnmgmppiekdbnamccdjp  # Palant affiliate fraud cluster (name unconfirmed) [adware]
@@ -1632,7 +1632,7 @@ kjjbepngcjggfigkpilafenaahlpdomg  # Microsoft Authenticator (fake, variant 2) [p
 kjkhljbbodkfgbfnhjfdchkjacdhmeaf
 kjkkejocbgnkfnhiblmfmgancjodcpbm
 kjnakdbpijigdbfepipnbafnhbcfdkga
-kjnmimfgphmcppjhombdhhegpjphpiol  # “See SOURCE/NOTES Fields”
+kjnmimfgphmcppjhombdhhegpjphpiol
 kjnnneekgbdelkncdkjiggebdacocigm
 kjpccpioamlfbjadkoofkghompkmjjbh
 kkchefmfekacdingcjkgiaggdafolhen  # Minecraft Cursor for Chrome [adware]
@@ -1685,16 +1685,16 @@ kpocjpoifmommoiiiamepombpeoaehfh
 kppfbknppimnoociaomjcdgkebdmenkh  # Amazon Price History Saver
 kppjffaccdlhfeleafnohmfkgimdjmgg  # "Darling In The Franxx New Tab HD"
 laameccjpleogmfhilmffpdbiibgbekf  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-labpefoeghdmpbfijhnnejdmnjccgplc  # “See SOURCE/NOTES Fields”
+labpefoeghdmpbfijhnnejdmnjccgplc
 lagdcjmbchphhndlbpfajelapcodekll  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 laholcgeblfbgdhkbiidbpiofdcbpeeo
 lalcmboamkljbdlgjfockddndpfoiojc  # One-Punch Man Cursor - Custom Anime Cursor for Chrome [adware]
 lalgaemhphcggiblnkhfiiifohlmeneg
 lalpacfpfnobgdkbbpggecolckiffhoi
-lameokaalbmnhgapanlloeichlbjloak  # “See SOURCE/NOTES Fields”
+lameokaalbmnhgapanlloeichlbjloak
 lbbegfjhlhpikmhbdcfcoadegdldmaen  # "Snow Man Wallpapers & Snow Man Games"
-lbeekfefglldjjenkaekhnogoplpmfin  # “See SOURCE/NOTES Fields”
-lbhddhdfbcdcfbbbmimncbakkjobaedh  # “See SOURCE/NOTES Fields”
+lbeekfefglldjjenkaekhnogoplpmfin
+lbhddhdfbcdcfbbbmimncbakkjobaedh
 lbjgbekokephmmfllmpglefmoaihklpn  # "Made In Abyss Wallpaper HD Custom New Tab"
 lblnngjkgcpplmddebmefokmccpflhip  # "Athletes Motivational Quotes Backgrounds"
 lbneaaedflankmgmfbmaplggbmjjmbae  # Internxt Video Downloader [data-theft]
@@ -1714,11 +1714,11 @@ ldkienofjncecbbnmhpngiiidekfcdoe  # "Bulldogs Themes"
 ldmnhdllijbchflpbmnlgndfnlgmkgif  # Page Locker [credential-theft]
 ldmnodpmebcfcdkejkdakphbcjnmejlf
 ldohbgcnonoffldimgdngkojkejibina  # 塔塔网申神器
-ldoiiiffclpggehajofeffljablcodif  # “See SOURCE/NOTES Fields”
+ldoiiiffclpggehajofeffljablcodif
 ldonikoaoafdiccjpkpcgplphedemnma  # Pochacco Cursor ★ Custom Cursor for Chrome™ [adware]
 leaglmohfmgdengbciphnodmcgfgdgnf
 lebaaldhfkhmjcmljacicokgmcfmeofm
-lebmkjafnodbnhbahbgdollaaabcmpbh  # “See SOURCE/NOTES Fields”
+lebmkjafnodbnhbahbgdollaaabcmpbh
 lecapbnkojjbcmpgojanclnilcnemjpk  # SmartZap [adware]
 lechagcebaneoafonkbfkljmbmaaoaec
 ledkggjjapdgojgihnaploncccgiadhg  # Palant affiliate fraud cluster (name unconfirmed) [adware]
@@ -1729,7 +1729,7 @@ lehjnmndiohfaphecnjhopgookigekdk  # ShadyPanda affiliate fraud extension [adware
 lejgjoflhajdmmbmeklmijaboflohhig
 lemhpidjofhodofghkakoglahdafpcbe  # "Harry Potter Wallpaper HD Custom New Tab"
 lepdjbhbkpfenckechpdfohdmkhogojf
-lfaahmcgahoalphllknbfcckggddoffj  # “See SOURCE/NOTES Fields”
+lfaahmcgahoalphllknbfcckggddoffj
 lfcadnmmmngiljpjpmfnghjdkkockdio
 lfedlgnabjompjngkpddclhgcmeklana  # “SaveFrom.net helper”
 lfenojckeamfnllggndghkmfhkheiimc  # UpSell [adware]
@@ -1746,18 +1746,18 @@ lgjdgmdbfhobkdbcjnpnlmhnplnidkkp  # Autoskip for Youtube [adware]
 lgjmjfjpldlhbaeinfjbgokoakpjglbn
 lgjogljbnbfjcaigalbhiagkboajmkkj  # “FORBES”
 lgknneiodddmfbbpaklighafdocbfnme
-lgljionbhcfbnpjgfnhhoadpdngkmfnh  # “See SOURCE/NOTES Fields”
+lgljionbhcfbnpjgfnhhoadpdngkmfnh
 lgmdiagiphelkdikgjehjpmfaecgmmfl
 lgnfmkckpppkfbfndcdighighholljcn
 lgnjdldkappogbkljaiedgogobcgemch
 lgpaegdhfonaljikhochmeafcpomlphb  # IMVU (fake) [phishing]
 lhahofhogpojbfgcejbohlinmhjaodkn
 lhfdakoonenpbggbeephofdlflloghhi
-lhfibgclamcffnddoicjmoopmgomknmb  # “See SOURCE/NOTES Fields”
+lhfibgclamcffnddoicjmoopmgomknmb
 lhiehjmkpbhhkfapacaiheolgejcifgd  # ShadyPanda affiliate fraud extension [adware]
-lhjdepbplpkgmghgiphdjpnagpmhijbg  # “See SOURCE/NOTES Fields”
+lhjdepbplpkgmghgiphdjpnagpmhijbg
 lhojojjidomkdaccdkpmejlmmbdjlhjo
-lidnmohoigekohfmdpopgcpigjkpemll  # “See SOURCE/NOTES Fields”
+lidnmohoigekohfmdpopgcpigjkpemll
 ligmikomohkaooecoochfknopalblanl  # Bull Lead - Automações e atendimento no WhatsApp para vendedores [adware]
 limaalniodpkiflneglakcpbfgjfipig
 linflaofbnlhpakjpohmfnkkkmpngnck
@@ -1765,14 +1765,14 @@ lipmdblppejomolopniipdjlpfjcojob  # Maxi Refresher [adware]
 ljbgkfbiifhpgpipepnfefijldolkhlm  # Game Crypto Merge
 ljbkcdepalofimjbnckeeikmhlgmijmg
 ljcgnobemekghgobhlplpehijemdgcgo  # Amazon ASIN Lookup | 10Xprofit
-ljddilebjpmmomoppeemckhpilhmoaok  # “See SOURCE/NOTES Fields”
+ljddilebjpmmomoppeemckhpilhmoaok
 ljdhejdbbogemelgkihbabifpfdfomcc
 ljhnndlmlendhmgedolhgegjhbkjkcbm
 ljjngehkphcdnnapgciajcdbcpgmpknc
 ljkgnegaajfacghepjiajibgdpfmcfip
 ljlhpcabhpjdlcjhbmgjigfceppgabmk
 ljmcneongnlaecabgneiippeacdoimaa  # ShadyPanda Phase 4 spyware (Edge) [spyware]
-ljnfpiodfojmjfbiechgkbkhikfbknjc  # “See SOURCE/NOTES Fields”
+ljnfpiodfojmjfbiechgkbkhikfbknjc
 ljoinkecfhmbfehhdmnbpcdncbgkffgd
 ljpfokmdomkbjmnplfigpjefemkcigca
 ljppknljdefmnkckkdjaokhlncbiehgo  # "Roblox Wallpaper HD Custom New Tab"
@@ -1818,24 +1818,24 @@ lmnmfkhppclolpdbdabpbhladegibpgi  # Demon Slayer Cursor - Custom Anime Cursor fo
 lmopfmpfoonboglmipmjafcnbphgefjb
 lmppkgmbapjgihlpadknmfalefnfnfnd
 lnajjhohknhgemncbaomjjjpmpdigedg  # Page Auto Refresh [credential-theft]
-lnedcnepmplnjmfdiclhbfhneconamoj  # “See SOURCE/NOTES Fields”
+lnedcnepmplnjmfdiclhbfhneconamoj
 lniooknjghghdjoehegcoinmbhdbhcck  # "Superheroes Wallpaper HD Custom New Tab"
 lnldeihhegenieijjghchpibcopifadd
-lnlkgfpceclfhomgocnnenmadlhanghf  # “See SOURCE/NOTES Fields”
+lnlkgfpceclfhomgocnnenmadlhanghf
 lnlononncfdnhdfmgpkdfoibmfdehfoj  # ShadyPanda affiliate fraud extension [adware]
 lnocaphbapmclliacmbbggnfnjojbjgf  # “Direct Message for Instagram”
 lodeighbngipjjedfelnboplhgediclp  # Header Value [browser-hijack]
 lodlcpnbppgipaimgbjgniokjcnpiiad
 logefefpibkofniajhdigjnpbmimjelg  # KENVIA - Transforme o seu WhatsApp Web numa plataforma de vendas [adware]
-loigeafmbglngofpkkddgobapkkcaena  # “See SOURCE/NOTES Fields”
+loigeafmbglngofpkkddgobapkkcaena
 loiofaagnefbonjdjklhacdhfkolcfgi  # AliExpress Price Tracker - Price History &amp; Alerts
-lojgkcienjoiogbfkbjiidpfnabhkckf  # “See SOURCE/NOTES Fields”
+lojgkcienjoiogbfkbjiidpfnabhkckf
 lojpdfjjionbhgplcangflkalmiadhfi  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 lollnjcjgkflfjicaijghbkoakeflolo
 lonfhijnhlpehhmhgekhkmdominoiopi
-looclnmoilplejheganiloofamfilbcd  # “See SOURCE/NOTES Fields”
+looclnmoilplejheganiloofamfilbcd
 lopnbnfpjmgpbppclhclehhgafnifija  # Palant cluster C000003 (name unconfirmed) [adware]
-lpajppfbbiafpmbeompbinpigbemekcg  # “See SOURCE/NOTES Fields”
+lpajppfbbiafpmbeompbinpigbemekcg
 lpeocpopopmbhchjndkbhgjgppnlikho
 lpgfobaeiolmbkaocfomdmnggfpaklhm
 lpjhpdcflkecpciaehfbpafflkeomcnb  # “Panel Community Surveys”
@@ -1846,7 +1846,7 @@ maeccdadgnadblfddcmanhpofobhgfme
 magnkhldhhgdlhikeighmhlhonpmlolk  # Craft Cursors [adware]
 mahgiheajijdifhnekeknnkfkjbfjkdh  # Acelere CRM [adware]
 maiackahflfnegibhinjhpbgeoldeklb
-majekhlfhmeeplofdolkddbecmgjgplm  # “See SOURCE/NOTES Fields”
+majekhlfhmeeplofdolkddbecmgjgplm
 makdmacamkifdldldlelollkkjnoiedg
 makeekhnfplggoaiklkphfopajegajci
 makliapgjjpdkkaikobcmdhkfbfcoafk  # "3D Wallpaper HD Custom New Tab"
@@ -1855,7 +1855,7 @@ mankdelieejldehcehkmnngbfnmialki
 maohnjppabopdhfkholcdkpehdojnpoc  # "Aquarium Live Wallpaper HD Custom New Tab"
 maolinhbkonpckjldhnocgilkabpfodc
 maookbdaoegaepgklgimmakbcfjdmbhf  # Peppa Pig Cursor ★ Custom Cursor for Chrome™ [adware]
-mapafdeimlgplbahigmhneiibemhgcnc  # “See SOURCE/NOTES Fields”
+mapafdeimlgplbahigmhneiibemhgcnc
 mbacbcfdfaapbcnlnbmciiaakomhkbkb  # “friGate CDN”
 mbindhfolmpijhodmgkloeeppmkhpmhc  # Censor Tracker [data-theft]
 mbjjannikkfihddnepoionimbedjnbib
@@ -1865,12 +1865,12 @@ mcadalidfbmnponoamfdjlahdeheommb  # "Roblox And Minecraft Wallpaper HD New Tab"
 mcafdholbcjhepgnpfdogaiagjmlfcon  # "Sword Art Online Wallpaper HD Custom New Tab"
 mcaglpclodnaiimhicpjemhcinjfnjce  # AliExpress Quick Currency &amp; Price Converter
 mcaihdkeijgfhnlfcdehniplmaapadgb  # Walmart Search By Image
-mcbcknmlpfkbpogpnfcimfgdmchchmmg  # “See SOURCE/NOTES Fields”
+mcbcknmlpfkbpogpnfcimfgdmchchmmg
 mcbdngfmhnadbiehggilloephjhjndpn
 mcbhhiafbiafmggccdcpgfldcaeipopg
-mcfeaailfhmpdphgnheboncfiikfkenn  # “See SOURCE/NOTES Fields”
+mcfeaailfhmpdphgnheboncfiikfkenn
 mchacgmgddefeohkjobefhihbadocneh  # OurTab
-mciddpldhpdpibckghnaoidpolnmighk  # “See SOURCE/NOTES Fields”
+mciddpldhpdpibckghnaoidpolnmighk
 mcmdolplhpeopapnlpbjceoofpgmkahc  # Adblock Dragon [adware]
 mcmmiinopedfbaoongoclagidncaacbd  # Browser game extension (malicious, name unconfirmed) [adware]
 mdaboflcmhejfihjcbmdiebgfchigjcf  # Blipshot: one click full page screenshots [adware]
@@ -1901,9 +1901,9 @@ mgammpcfhbffogpfceobnpcofaphocap
 mgbhdehiapbjamfgekfpebmhmnmcmemg  # Volume Max - Ultimate Sound Booster [data-theft]
 mgbkajajjhgmhchoajmomhcdmlndkofc
 mgjfjcimpkdjgeldkcaoboiojmlcleka
-mgkjakldpclhkfadefnoncnjkiaffpkp  # “See SOURCE/NOTES Fields”
+mgkjakldpclhkfadefnoncnjkiaffpkp
 mheomooihiffmcgldolenemmplpgoahn
-mhinpnedhapjlbgnhcifjdkklbeefbpa  # “See SOURCE/NOTES Fields”
+mhinpnedhapjlbgnhcifjdkklbeefbpa
 mhjdjckeljinofckdibjiojbdpapoecj
 mhpcabliilgadobjpkameggapnpeppdg  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 miadjhffliknkmljlggilcdabkiegifh
@@ -1914,16 +1914,16 @@ mielecbcceclacefhdjbbinppnppobba
 mifleipondphdoaampgmkndjjkfldmdb  # Super Mario Cursor ★ Custom Cursor for Chrome™ [adware]
 migdegnfalpegigcibhcijackkbgpbif
 miglaibdlgminlepgeifekifakochlka  # Wistia Video Downloader [data-theft]
-mihiainclhehjnklijgpokdpldjmjdap  # “See SOURCE/NOTES Fields”
+mihiainclhehjnklijgpokdpldjmjdap
 mijjlcdelglplkibhildchndciaafbep
 milgkhjojahbbkclkppcjpnlcpakneec
 mimplmibgdodhkjnclacjofjbgmhogce  # Session Export Tool
 mipophmjfhpecleajkijfifmffcjdiac
-mjbimaghobnkobfefccnnnjedoefbafl  # “See SOURCE/NOTES Fields”
+mjbimaghobnkobfefccnnnjedoefbafl
 mjbmelinkhpkmbjnocdklkjpiilpikba  # "Fortnite Wallpaper HD Custom New Tab"
 mjbmnkmkdfhbdkmibahohgipdodaglpp
 mjcgfimemamogfmekphcfdehfkkbmldn  # Amazon Global Price Checker
-mjchijabihjkhmmaaihpgmhkklgakinl  # “See SOURCE/NOTES Fields”
+mjchijabihjkhmmaaihpgmhkklgakinl
 mjdnhhajbhoicofpbkoakkflkpnblkjn
 mjebfndkbogmggcbpacbedbcjccoamkk
 mjhocphphjjjcabfdcaemfkokegeebbg
@@ -1954,7 +1954,7 @@ mmfmakmndejojblgceefkpinojhiacfk
 mmhaojkmpbmgbkojlagnhmjlfmnaglla  # "Doctor Who Wallpaper HD Custom New Tab"
 mmjhombiehngfpipefodkebphfnblphe
 mmjmcfaejolfbenlplfoihnobnggljij
-mmkakbkmcnchdopphcbphjioggaanmim  # “See SOURCE/NOTES Fields”
+mmkakbkmcnchdopphcbphjioggaanmim
 mmlhchoolkdnmnddgmoohigffekjnofo  # "Namjin Bts Wallpaper HD Custom New Tab"
 mmmapklofkmbcahafjmiogdbmpagimlp  # "Hypebeast Dope Supreme Wallpaper HD New Tab"
 mmnbenehknklpbendgmgngeaignppnbe  # Netflix Party [adware]
@@ -1962,7 +1962,7 @@ mmpfmolbdhdfoblfggigchncdgmdnjha
 mnacfoefejolpobogooghoclppjcgfcm  # Amazon Product Scraper | 10X
 mnafnfdagggclnaggnjajohakfbppaih  # “Odnoklassniki UnBlock.  Works quickly.”
 mnamhmcgcfflfjafflanbhbfffpmkmmm
-mnbhnjecaofgddbldmppbbdlokappkgk  # “See SOURCE/NOTES Fields”
+mnbhnjecaofgddbldmppbbdlokappkgk
 mncelcekoimhncibjkhcoejhmgfjmanl  # HBO Max Stream TV & Movies (fake, variant 2) [phishing]
 mndcjildkhcbefhicemomejgafmakcfo
 mndeiclfmpndlbkklepkbjihkaccfcod  # The Simpsons Cursor ★ Custom Cursor for Chrome™ [adware]
@@ -1979,25 +1979,25 @@ moighicahighphhhidlpanmnodgjkfjm
 moljhdcbomchgdffhddpicbokacnbjoj  # "Moana Wallpaper HD Custom New Tab"
 moodoffpaogeijclgpdicfnidnmeeeoe  # ViaShopModa [adware]
 mopjnoodlnbnkocfefcgnmnlbcmgekof  # Spiderman Cursor - Custom Cursor for Chrome [adware]
-mopkkgobjofbkkgemcidkndbglkcfhjj  # “See SOURCE/NOTES Fields”
+mopkkgobjofbkkgemcidkndbglkcfhjj
 mpaaggkgjenllbellfknanegfliknidd
 mpalaahimeigibehbocnjipjfakekfia
 mpdpjfobafahmgicjmpnfklbphhlacel  # "Alfa Romeo Wallpaper HD Custom New Tab"
 mpfleoaldoclbjhfkgbmnelkkbolbegl  # "Lion Wallpaper HD Custom New Tab"
 mpgaodghdhmeljgogbeagpbhgdbfofgb  # SHEIN Search By Image
 mpidnflfogjjkchbllplcpcdoifgnjjj  # Spy x Family Cursor ★ Custom Cursor for Chrome™ [adware]
-mpifmhgignilkmeckejgamolchmgfdom  # “See SOURCE/NOTES Fields”
+mpifmhgignilkmeckejgamolchmgfdom
 mplfhdalobdlipfjfebkbfpoocpbajae
 mpmccehgdjojicnlcmmdoogohdamlfpp  # DigitaZap [adware]
 mpneoicaochhlckfkackiigepakdgapj  # “Lite Bookmarks”
 mpocopacjjpabphbcapphjljfmffempk
 nabbdpjneieneepdfnmkdhooellilgho  # Website monitoring
-nabmpeienmkmicpjckkgihobgleppbkc  # “See SOURCE/NOTES Fields”
+nabmpeienmkmicpjckkgihobgleppbkc
 nadenkhojomjfdcppbhhncbfakfjiabp  # Base Image Downloader [adware]
 nafbodmhgaabbfchodpkmpnibgjmeeei  # "Super Cars - Sports Cars Wallpaper HD New Tab"
 nafdjcnfmdcdnebjhehhohfaaffdlkon
 nagbiboibhbjbclhcigklajjdefaiidc  # ShadyPanda affiliate fraud extension [adware]
-nahhmpbckpgdidfnmfkfgiflpjijilce  # “See SOURCE/NOTES Fields”
+nahhmpbckpgdidfnmfkfgiflpjijilce
 naofchadlleomaipaienfedidkiodamo  # "Red Dead Redemption Wallpaper HD New Tab"
 napifgkjbjeodgmfjmgncljmnmdefpbf
 nbbeiofjfjmnicfhkfbjdggbclmbaioc  # "League Of Legends (Lol) Wallpaper HD New Tab"
@@ -2013,9 +2013,9 @@ nbmffmnaecncglmeofodagbafilnokcj
 ncalomlkpjgkcmfbdikdodindkkngjhp
 ncapkionddmdmfocnjfcfpnimepibggf
 ncbknoohfjmcfneopnfkapmkblaenokb
-ncepfbpjhkahgdemgmjmcgbgnfdinnhk  # “See SOURCE/NOTES Fields”
+ncepfbpjhkahgdemgmjmcgbgnfdinnhk
 ncgnipmbmegebkpekikghdffjkmhjgen
-nchdkdaknojhpimbfbejfcdnmjfbllhj  # “See SOURCE/NOTES Fields”
+nchdkdaknojhpimbfbejfcdnmjfbllhj
 nchdmembkfgkejljapneliogidkchiop
 nchffcpkbehklpbdodlakgdbnkdcnpbi  # "Hedgehog Wallpaper HD Custom New Tab"
 ncjbeingokdeimlmolagjaddccfdlkbd
@@ -2049,7 +2049,7 @@ nfebelgoldoapjgfkekcmbddpljakakp  # "Danganronpa V3 Maki Wallpaper HD New Tab"
 nffmdokmgpgbnjdpibbfhhnminiackjg
 nfhbefcgpghdaaebjafocolpadkdedef  # WAPIN [adware]
 nfhbpopnbgigkljgmelpfncnghjpdopf  # "Ad-block for YouTube - Youtube Ad-blocker Pro"
-nfhpojfdhcdmimokleagkdcbkmcgfjkh  # “See SOURCE/NOTES Fields”
+nfhpojfdhcdmimokleagkdcbkmcgfjkh
 nfijbcmjagdmmkchgicfdidblofopkdp  # Search with AI on Chrome™
 nfodepdbkedfahdadcglakjdmopkobon  # Amazon Prime Freevee Skipper: skip ads, intros &amp; more [QVI]
 nfpnclghflfcgkgdjcbpoljlafndbomk  # "Seattle Seahawks Wallpaper HD Custom New Tab"
@@ -2072,7 +2072,7 @@ nhnfaiiobkpbenbbiblmgncgokeknnno
 nhnfcgpcbfclhfafjlooihdfghaeinfc  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 niccnmfnkokileojoalgiinemlekmfoa
 nichemncnkkplpkgpndnnedokokhoeam  # Pusheen Cursor ★ Custom Cursor for Chrome™ [adware]
-nicmhgecboifljcnbbjlajbpagmhcclp  # “See SOURCE/NOTES Fields”
+nicmhgecboifljcnbbjlajbpagmhcclp
 nieoenlddbbedidmgbapeockjjagapjl
 nigamacoibifjohkmepefofohfedblgg  # Amazon Quick Brand Search
 nilbfjdbacfdodpbdondbbkmoigehodg  # “Stories for Instagram”
@@ -2087,7 +2087,7 @@ njcphhbmfdglhkfegcpflminbhoojefc
 njdegihoinoiplfpbcckmjahlnpeipii  # "Godzilla Wallpaper HD Custom New Tab"
 njdkgjbjmdceaibhngelkkloceihelle  # “Pretty Kitty, The Cat Pet”
 njfkgeajknkffkngdmjmjninkbgjedlo
-njhfmnfcoffkdjbgpannpgifnbgdihkl  # “See SOURCE/NOTES Fields”
+njhfmnfcoffkdjbgpannpgifnbgdihkl
 njjbfkooniaeodkimaidbpginjcmhmbm  # Free adblocker [spyware]
 njliieipbkencklladfemkkipmfcjiom  # "Dope Wallpaper HD Custom New Tab"
 njmeabchibjdgopmacgnpjohlgheapkm  # Ultralight Photo Editor (fake) [phishing]
@@ -2107,7 +2107,7 @@ nlbdmcikemaghcoeoblmlkdlhiggnhin  # CRM DE ELITE : CRM no whatsapp, Automações
 nlcebdoehkdiojeahkofcfnolkleembf  # ShadyPanda Phase 4 spyware (Edge) [spyware]
 nldffbaphciaaophmdnikgkengbmigli  # "Final Fantasy Wallpaper HD Custom New Tab"
 nlgphodeccebbcnkgmokeegopgpnjfkc  # Super dark mode [adware]
-nlhocomjnfjedielocojomgfldbjmdjj  # “See SOURCE/NOTES Fields”
+nlhocomjnfjedielocojomgfldbjmdjj
 nlhpidbjmmffhoogcennoiopekbiglbp
 nlicmidohjbpkndnlcioehnbefjdpfof
 nlidfclccabaghacejpnbofmpghieacn
@@ -2139,23 +2139,23 @@ nnpdeoblieaeppbbemdbdbpajcpoogcp
 nnpnnpemnckcfdebeekibpiijlicmpom  # Cyberhaven Security Extension [data-theft]
 nodobilhjanebkafmpihkpoabiggnnfl  # Black Ninja - Slot Machine [credential-theft]
 noiinnecebffnjggilfhailhhgdilbld  # "One Direction - 1D Wallpaper HD New Tab"
-noilkpnilphojpjaimfcnldblelgllaa  # “See SOURCE/NOTES Fields”
+noilkpnilphojpjaimfcnldblelgllaa
 nojmjafalbmmoohpmjphalepmfnmhfao  # "Vmin Bts Wallpaper HD Custom New Tab"
 nokknhlkpdfppefncfkdebhgfpfilieo  # ShadyPanda Phase 4 spyware (Edge) [spyware]
 nonajfcfdpeheinkafjiefpdhfalffof  # AdBlock - Ads and Youtube [spyware]
 nonjdcjchghhkdoolnlbekcfllmednbl  # “Hover Zoom”
-npaklgbiblcbpokaiddpmmbknncnbljb  # “See SOURCE/NOTES Fields”
+npaklgbiblcbpokaiddpmmbknncnbljb
 npbpfkbnfpblnahogmnjiffoimllllek
 npcbkljcefmdegcjjghdfgfmnkmfjlba  # LEEVO CRM [adware]
 npcndkopgafkjggoledlgfblodppnckj  # "Kill La Kill Wallpaper HD Custom New Tab"
-npdfkclmbnoklkdebjfodpendkepbjek  # “See SOURCE/NOTES Fields”
+npdfkclmbnoklkdebjfodpendkepbjek  # Browsing Protector
 npdkkcjlmhcnnaoobfdjndibfkkhhdfn  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 npdpplbicnmpoigidfdjadamgfkilaak
 npeoblgjndfpphhdjlanbjalbccifpom  # Mais Leads CRM [adware]
 npfamfonpecnjjbhalhdahlokadlblbm  # Chatweb CRM : Transforme seu whatsapp em um sistema de vendas [adware]
 nphiadicgehlpbniemnkhinphngoeaeg  # "Red Dead Redemption Wallpaper HD New Tab"
 npifianbfjhobabjjpfdjjihgbdnbojh
-nplenkhhmalidgamfdejkblbaihndkcm  # “See SOURCE/NOTES Fields”
+nplenkhhmalidgamfdejkblbaihndkcm
 nplljogcholopgphioakbdjfkbkdhomg
 npmjjkphdlmbeidbdbfefgedondknlaf  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 npphdmcakmfhllhblkealgkeefamebih
@@ -2167,7 +2167,7 @@ oaihijkoodmmaibfhojdinffpinmhdji  # "Attack On Titan Wallpaper HD Custom New Tab
 oaikpkmjciadfpddlpjjdapglcihgdle  # Uvoice [data-theft]
 oakbcaafbicdddpdlhbchhpblmhefngh  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 oaldjcdohhhibelagdhoahbedekfjjjf
-oalfdomffplbcimjikgaklfamodahpmi  # “See SOURCE/NOTES Fields”
+oalfdomffplbcimjikgaklfamodahpmi
 oalffknmmdipjphppkcnffnfefljelcm  # My Hero Academia Cursor - Custom Anime Cursor for Chrome [adware]
 oaljkhbgbedmfoiieocoenglpaeogjmf
 oanbpfkcehelcjjipodkaafialmfejmi  # “PackageTrak Promotions”
@@ -2176,9 +2176,9 @@ oanpifaoclmgmflmddlgkikfaggejobn  # Pyramid Solitaire [credential-theft]
 oanplobhgngkpkpeihcdojkongpiheci  # "Destiny 2 Wallpaper HD Custom New Tab"
 oaomdgkkllmhepgpkfmbcfpbdocokfel
 obahibdkmhmnenkcdpakilchcppihopl  # "Clash Royale Wallpaper HD Custom New Tab"
-obbfndpanmiplgfcbeonoocobbnjdmdc  # “See SOURCE/NOTES Fields”
-obcfkcpejehknjdollnafpebkcpkklbl  # “See SOURCE/NOTES Fields”
-obcfoaeoidokjbaokikamaljjlpebofe  # “See SOURCE/NOTES Fields”
+obbfndpanmiplgfcbeonoocobbnjdmdc
+obcfkcpejehknjdollnafpebkcpkklbl
+obcfoaeoidokjbaokikamaljjlpebofe
 obdhcplpbliifflekgclobogbdliddjd  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 obdobankihdfckkbfnoglefmdgmblcld
 obedkjaaifedcfidfdjoinfaphghmbfl
@@ -2187,7 +2187,7 @@ obgdpcjbebcaphmigjhogcikejnlbjgl  # "Deadpool Wallpaper HD Custom New Tab"
 obifanppcpchlehkjipahhphbcbjekfa
 obipeailpaepgenggdakhhickjejjbpe
 objigmfpcefimjacdbhjcokamcdiakhc
-obmbmalbahpfbckpcfbipooimkldgphm  # “See SOURCE/NOTES Fields”
+obmbmalbahpfbckpcfbipooimkldgphm
 obocpangfamkffjllmcfnieeoacoheda
 ocbfgbpocngolfigkhfehckgeihdhgll  # Manual Finder 2024 [spyware]
 ocffbdeldlbilgegmifiakciiicnoaeo  # ShadyPanda affiliate fraud extension [adware]
@@ -2195,7 +2195,7 @@ ocflhkadmmnlbieoiiekfcdcmjcfeahe  # Chrome Client for Downhill Ski - SideGame [c
 ocfpmgbbkjeblbhdehminjdjffhcidbi  # "Dank Memes Wallpaper HD Custom New Tab"
 ocgfhclcahimdhfjgmakmfdnhomofljo  # "Bts Wallpaper HD Custom New Tab"
 ocginjipilabheemhfbedijlhajbcabh  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-ocifcogajbgikalbpphmoedjlcfjkhgh  # “See SOURCE/NOTES Fields”
+ocifcogajbgikalbpphmoedjlcfjkhgh
 ocopipabchoopeppmgiigphgbicocoea
 ocpcmfmiidofonkbodpdhgddhlcmcofd  # Phantom Shuttle (幻影穿梭) v2 [data-theft]
 ocponkhpfikgnggeflddgkfcmhjejedo  # "Chevrolet Corvette Wallpaper HD New Tab"
@@ -2205,15 +2205,15 @@ odeccdcabdffpebnfancpkepjeecempn  # Slot Machine Mr Chicken [credential-theft]
 odhmhkkhpibfjijmpgcdjondompgocog
 odljclganfccoonaccngnmpfepnjbanm
 odmmidbmgkkbabilcljmljbeopneabkn
-odnakbaioopckimfnkllgijmkikhfhhf  # “See SOURCE/NOTES Fields”
+odnakbaioopckimfnkllgijmkikhfhhf
 odoenahafpbigcelejhbkkhnjfleanok  # "Lamborghini Super Cars Wallpaper HD New Tab"
 oedechpcnjolalnpghbibmadgfjgaopm
 oeefjlikahigmlnplgijgeeecbpemhip  # Convert PDF to JPG
 oefgcfheipblokelgbnnldoolmikeljd
 oehamnhnpejphgpkgnenefolepinadjj  # "Fortnite Drift Wallpaper HD Custom New Tab"
-oehimkphpeeeneindfeekidpmkpffkgc  # “See SOURCE/NOTES Fields”
+oehimkphpeeeneindfeekidpmkpffkgc
 oeiomhmbaapihbilkfkhmlajkeegnjhe  # AI Shop Buddy [data-theft]
-oejafikjmfmejaafjjkoeejjpdfkdkpc  # “See SOURCE/NOTES Fields”
+oejafikjmfmejaafjjkoeejjpdfkdkpc
 oejbnchocabaoicconfnbjghebmbfemc  # "Rocky Paw Mighty Pups Wallpaper HD New Tab"
 oejhnncfanbaogjlbknmlgjpleachclf
 oejmcobpfiiladgbfpknibppfnekbolo  # "Yeezy Wallpaper HD Custom New Tab"
@@ -2221,7 +2221,7 @@ oelcnhfgpdjeocflhhfecinnpjojeokp
 oemkcngaaomgokaclafmkcgcpbfelmnb  # "Wild Animals 3D Neon Wallpaper HD New Tab"
 oepjogknopbbibcjcojmedaepolkghpb  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 ofbfieekadnmifbaoigkcffobkkjblep  # "Cherry Blossom Wallpaper HD Custom New Tab"
-ofdfbeanbffehepagohhengmjnhlkich  # “See SOURCE/NOTES Fields”
+ofdfbeanbffehepagohhengmjnhlkich
 ofdokdgfcbebbeloigjpiafhodlfphjj
 ofegeeihedplimffkkolffmpcafjngog
 ofgghdophhoggnlkgiigooldjblbmkid
@@ -2231,9 +2231,9 @@ ofjmbjjbkgdkidhfgjpimepabldligbi
 ofkjndegefemablfmefngnpchlhapdmi  # "Art Wallpaper HD Custom New Tab"
 ofkopmlicnffaiiabnmnaajaimmenkjn  # ShadyPanda affiliate fraud extension [adware]
 ofockibbbgfclddbpbhhohdldgkomhgm  # "Custom Super Cars Wallpaper HD Custom New Tab"
-ofpihhkeakgnnbkmcoifjkkhnllddbld  # “See SOURCE/NOTES Fields”
+ofpihhkeakgnnbkmcoifjkkhnllddbld
 ofpnikijgfhlmmjlpkfaifhhdonchhoi  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-ogaclpidpghafcnbchgpbigfegdbdikj  # “See SOURCE/NOTES Fields”
+ogaclpidpghafcnbchgpbigfegdbdikj
 ogbaedmbbmmipljceodeimlckohbnfan  # 3D Roulette Casino Game [credential-theft]
 ogbhbgkiojdollpjbhbamafmedkeockb  # Moonsift [data-theft]
 ogcaehilgakehloljjmajoempaflmdci  # Adblock for You [adware]
@@ -2244,7 +2244,7 @@ oghbffaoaooigagpockijkpfpgmnibkh
 oghgaghnofhhoolfneepjneedejcpiic
 oghollmlfgpfdlailojlcpbbmjoeabhe  # MARKETING DE FITNESS [adware]
 ogiaghccmoklogdlbchapejmjnnlichn  # "Japan Wallpaper HD Custom New Tab"
-ogjfhmgoalinegalajpmjoliipdibhdm  # “See SOURCE/NOTES Fields”
+ogjfhmgoalinegalajpmjoliipdibhdm
 ogjneoecnllmjcegcfpaamfpbiaaiekh  # ShadyPanda Phase 3 RCE extension [spyware]
 ogogpebnagniggbnkbpjioobomdbmdcj  # Text Translation [data-theft]
 ohalkmdcakplbfpelgmnegcbdkfigolo
@@ -2269,7 +2269,7 @@ ojmbbkdflpfjdceflikpkbbmmbfagglg  # “Blue Messenger”
 ojmpgbcmiimbkmjfgmcneplkneleehcc  # "God Of War 2018 Wallpaper HD Custom New Tab"
 ojnagfkemdilpdkjehfajjmcnaefhjhn  # Super Mario Bros Classic
 ojnlggfhmoioajgmnelfdpjojaeknjog  # "The Incredibles 2 Wallpaper HD Custom New Tab"
-ojofdaokgfdlbeomlelkiiipkocneien  # “See SOURCE/NOTES Fields”
+ojofdaokgfdlbeomlelkiiipkocneien
 ojpoinccmndjnfhhkgcbjmkfahfmppee  # ZAPGYN [adware]
 okanoajihjohgmbifnkiebaobfkgenfa
 okckcmcehmodfocipicdmllmideoobjf
@@ -2282,7 +2282,7 @@ okiccdcmkdhldgbclikganfldepocmmd  # Ninja Ads [adware]
 okjdbeegldeilceaflghgfdemobmfhbd
 okjdiicjoeloipmgdopdmhpebnnfadih  # "Sao Alicization Wallpaper HD Custom New Tab"
 okkffdhbfplmbjblhgapnchjinanmnij  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-oklejhdbgggnfaggiidiaokelehcfjdp  # “See SOURCE/NOTES Fields”
+oklejhdbgggnfaggiidiaokelehcfjdp
 okmklmkaficfbcebbggmjmphhipflhme  # IronZap [adware]
 oknpgmaeedlbdichgaghebhiknmghffa  # “Uploade photo to Instagram”
 okphhehkikoonipdjmhglcmlgccjcblp  # "Los Angeles Lakers Wallpaper HD New Tab"
@@ -2298,7 +2298,7 @@ olochidfgadpdbdmdfbhgimiffnllaij  # "Dragon Ball Super Wallpaper HD Custom New T
 ombenndgcnmcnfohnbbjcmbmfmpefojc  # "Panda Wallpaper HD Custom New Tab"
 omcehnglicpgnjnbiokejdacacnghojj
 omclahaofiigfggelbcleagcphjhabmp  # "Fallout 76 Wallpaper HD Custom New Tab"
-omgeapkgiddakeoklcapboapbamdgmhp  # “See SOURCE/NOTES Fields”
+omgeapkgiddakeoklcapboapbamdgmhp
 omieocempinhilcpbmnfdaamgomapded
 omkjakddaeljdfgekdjebbbiboljnalk
 onbkopaoemachfglhlpomhbpofepfpom
@@ -2318,10 +2318,10 @@ oodhphlpepgoccemjgpedagbpfelcpdl  # Hunter x Hunter Cursor ★ Custom Cursor for
 oodkhhminilgphkdofffddlgopkgbgpm  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 oogagmfhffbokmlpehpiokadejplchmi
 oolflnoogpfppiginbmhkghcelpkbllf
-oonbcpdabjcggcklopgbdagbfnkhbgbe  # “See SOURCE/NOTES Fields”
+oonbcpdabjcggcklopgbdagbfnkhbgbe
 oonheecobachpkogdjjnemiipogpgnmg  # "The Vampire Diaries Wallpaper HD New Tab"
 ooobfpifjkgeopllkalfgkbiefhooggl
-opahibnipmkjincplepgjiiinbfmppmh  # “See SOURCE/NOTES Fields”
+opahibnipmkjincplepgjiiinbfmppmh
 opakkgodhhongnhbdkgjgdlcbknacpaa
 opbobdfddmiemhekjiglckcenhpfdbjm  # "Hulk Wallpaper HD Custom New Tab"
 opcjjggkhndcdpedheeilommknkephik
@@ -2331,10 +2331,10 @@ opjpfngjbdmgkilopbnapbkbngedcpmj  # "Bap Kpop Wallpaper HD Custom New Tab"
 opkbjlbkejhjmnchhlllccoglphmimdc
 oplhjpchbbngmpgcpjcbijhfehbhodgi  # "Rwby Wallpaper HD Custom New Tab"
 opmdomafhdphidaghneljdkdiimpcopj
-opmelhjohnmenjibglddlpmbpbocohck  # “See SOURCE/NOTES Fields”
+opmelhjohnmenjibglddlpmbpbocohck
 opmnheodgmjdcpiciifndlaikfecdmja
 opncjjhgbllenobgbfjbblhghmdpmpbj
-opooaebceonakifaacigffdhogdgfadg  # “See SOURCE/NOTES Fields”
+opooaebceonakifaacigffdhogdgfadg
 oppbpkjmehgijcpeddkpbadoidfpcblg  # "Live Christmas Snowfall Wallpaper HD New Tab"
 oppeaknhldjjnfnflbcedipjbnbimhhf
 pabcjffaondlohboccfkekfjogcgceon
@@ -2345,7 +2345,7 @@ paghkadkhiladedijgodgghaajppmpcg
 pahlnbfkogncdbkaeaamcmpmhjecicmh  # Capybara Cursor ★ Custom Cursor for Chrome™ [adware]
 pajbempmgmalnfpbnpclkelnhfccikal  # "Bts Bangtan Boys Wallpaper HD Custom New Tab"
 pajkjnmeojmbapicmbpliphjmcekeaac  # Cyberhaven security extension
-pamchlfnkebmjbfbknoclehcpfclbhpl  # “See SOURCE/NOTES Fields”
+pamchlfnkebmjbfbknoclehcpfclbhpl
 paoipkmmfnnifebffghdaefpehhiaamn
 papedehkgfhnagdiempdbhlgcnioofnd
 pbaejapbddilgckealiiohfgoncbdhbb
@@ -2353,7 +2353,7 @@ pbdgglfabhmhpbfgakckfhdbhjiedmnm
 pbdpfhmbdldfoioggnphkiocpidecmbp  # Clickish fun cursors [adware]
 pbebadpeajadcmaoofljnnfgofehnpeo  # Easy Undo Closed Tabs [adware]
 pbgdglpocmnkoaljjehdlgnbgkilnfmh
-pbilbjpkfbfbackdcejdmhdfgeldakkn  # “See SOURCE/NOTES Fields”
+pbilbjpkfbfbackdcejdmhdfgeldakkn
 pbkadhbnkinljhoilhicdhnehacpfebc
 pboddlnfegdnifbhepjegnokocjpadpd  # "Kawaii Wallpaper HD Custom New Tab"
 pbplelndplalkhebhegbmpgkdodknnae
@@ -2363,16 +2363,16 @@ pcbpmbmpjjibcmodpaomahiokikjomgc  # "Boston Terrier Wallpaper HD Custom New Tab"
 pccfaccnfkjmdlkollpiaialndbieibj  # “SoundCloud Music Downloader”
 pcdgkgbadeggbnodegejccjffnoakcoh
 pcembleiffdccjkcebaodmhgkopipdan  # "Ultra Instinct Goku Wallpaper HD New Tab"
-pcfapghfanllmbdfiipeiihpkojekckk  # “See SOURCE/NOTES Fields”
+pcfapghfanllmbdfiipeiihpkojekckk
 pcgcmplcfdfkkkmaggghdghnlddkpbbo  # "DBS and Dragon Ball Super"
-pchfjdkempbhcjdifpfphmgdmnmadgce  # “See SOURCE/NOTES Fields”
+pchfjdkempbhcjdifpfphmgdmnmadgce
 pcipiedhfiojjdbooghpmjanbpigcojb
 pcjidgpofjkoaelajgfdecebigjiojcn  # WATHOR [adware]
 pcjlckhhhmlefmobnnoolakplfppdchi
 pcjmcnhpobkjnhajhhleejfmpeoahclc  # Qspeed Video Speed Controller [adware]
 pckoggnahgjephjpcmfnhfolbmenkdjp  # SellUP [adware]
 pclighhhemgemdkhnhejgmdnjnoggfif
-pcmdfnnipgpilomfclbnjpbdnmbcgjaf  # “See SOURCE/NOTES Fields”
+pcmdfnnipgpilomfclbnjpbdnmbcgjaf
 pcpdnigabekdogbajcacpbkebdfmaapc  # ELITE [adware]
 pdadlkbckhinonakkfkdaadceojbekep
 pdahnbohfcekobflehebdkoemnmmempk
@@ -2393,13 +2393,13 @@ pdlpnkplaofpdajmgegfnlifmdlejmfp  # Nextgo Zap: Seu Whatsapp Turbinado! [adware]
 pdneeecaedebfjpkhdobgcnapfdffbbk
 pdnhbaibaebmoklmjjpffoohcfohgbbg
 pdnhdddkoccchmbockecbohnakddkjip
-pdpcpceofkopegffcdnffeenbfdldock  # “See SOURCE/NOTES Fields”
+pdpcpceofkopegffcdnffeenbfdldock
 pdpfhanekfkeijhemmfbnnjffiblgefi  # RedDirection extension (name unconfirmed) [data-theft]
-pedokobimilhjemibclahcelgedmkgei  # “See SOURCE/NOTES Fields”
+pedokobimilhjemibclahcelgedmkgei
 pefighpbbfkgkmfmpfgaopoahdmkakll
 peflgkmfmoijonfgcjdlpnnfdegnlaji  # Video Poker Jacks or Better
 pegfdldddiilihjahcpdehhhfcbibipg  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-peglehonblabfemopkgmfcpofbchegcl  # “See SOURCE/NOTES Fields”
+peglehonblabfemopkgmfcpofbchegcl
 pehnljkefahmlhifockljagcfcpljclc  # "Gothic Wallpaper HD Custom New Tab"
 peiibhfbdkgnbepgobjcgabkcfembndm
 pejkmgfabkeddfcfldloonjbikjddapb  # “iCalc”
@@ -2416,7 +2416,7 @@ pfnmibjifkhhblmdmaocfohebdpfppkf  # “Video Downloader for FaceBook”
 pfpgpbfndacjjjdlgefggndhionakfmb  # "Lilo And Stitch Wallpaper HD Custom New Tab"
 pfpijacnpangmkfdpgodlbokpkhpkeka  # Tiktok Downloader
 pgabmkcldlelbhcookaealohoeknnapn
-pgahbiaijngfmbbijfgmchcnkipajgha  # “See SOURCE/NOTES Fields”
+pgahbiaijngfmbbijfgmchcnkipajgha
 pgbhmanighehdihhgcfodcecphdakkgn  # Naruto Cursor - Custom Anime Cursor for Chrome [adware]
 pgbmnheamnejadnjhnkejnpnmaifnhpn
 pgcmecpfgehfbogcaajjdnkpmmjgjjdp
@@ -2444,12 +2444,12 @@ phkafpikdokjpogdhjpkcgfjpfgnlgeo  # "Hulk Wallpaper HD Custom New Tab"
 phmogllmicehmpglfobbihoelfidjnpd  # "Carolina Panthers Wallpaper HD Custom New Tab"
 phngohjapibeemmkofldldedlbbndbag
 phoehhafolaebdpimmbmlofmeibdkckp  # “Video Downloader for YouTube”
-pidohlmjfgjbafgfleommlolmbjdcpal  # “See SOURCE/NOTES Fields”
+pidohlmjfgjbafgfleommlolmbjdcpal
 pihbjpjjgpejkbjmpijpmmolaehlbafc  # talkspeed [adware]
 pihogmfmhefemijkgmbimkngninbkkce  # "J-Hope Wallpaper HD Custom New Tab"
 pijphekphpccokjmkdmlihpmddhoocnb
 pilmbpeapchjcnldfomimmcfoigoenoc  # "Emoji Unicorn Wallpaper HD Custom New Tab"
-pilplloabdedfmialnfchjomjmpjcoej  # “See SOURCE/NOTES Fields”
+pilplloabdedfmialnfchjomjmpjcoej
 pinfndnjmdocmimbeonilpahdaldopjc  # "Assassination Classroom Wallpaper HD New Tab"
 pinkcaefpkjpljfflabpkcgbkpbomdfk  # "Forest Wallpaper HD Custom New Tab"
 pinnfpbpjancnbidnnhpemakncopaega  # OneCleaner [adware]
@@ -2458,12 +2458,12 @@ pjbcokeiajlkicejjfioeoggjblmhoko
 pjbgfifennfhnbkhoidkdchbflppjncb  # RedDirection extension (name unconfirmed) [data-theft]
 pjdnfljplcgepkonnklphjlkclhmlfdn
 pjfjconkopcckeanlhklghfogkdhnegk  # Pusheen Cursor - Custom Kawaii Cursor for Chrome [adware]
-pjjghngpidphgicpgdebpmdgdicepege  # “See SOURCE/NOTES Fields”
+pjjghngpidphgicpgdebpmdgdicepege
 pjjmcpmjocebmjmhdclbiheoideefiad  # "Harry Potter Wallpaper HD Custom New Tab"
 pjkgiojffhoepookbhloenffjmelohol
 pjlheckmodimboibhpdcgkpkbpjfhooe  # Font Expert: Identify Fonts from Images & Websites [spyware]
 pjmlmmlmdpcbipdmeedomkeomokaljjd
-pjpjefgijnjlhgegceegmpecklonpdjp  # “See SOURCE/NOTES Fields”
+pjpjefgijnjlhgegceegmpecklonpdjp
 pjpmebofipgpjaincgoboibbmicccbne
 pkajffddidnadoaceilnhdfcoamcbnnm
 pkcoogcpeheamgkhfhelaifnpmehdgmp
@@ -2473,23 +2473,23 @@ pkghgkfjhjghinikeanecbgjehojfhdg  # InterAlt [credential-theft]
 pkhlncgfgeoalinmmhpbfopbkefckaao
 pkjfghocapckmendmgdmppjccbplccbg
 pkkmmmmckhencoamaonbiidanpnhikbc  # Tetrys - Falling blocks
-pklmnoldkkoholegljdkibjjhmegpjep  # “See SOURCE/NOTES Fields”
+pklmnoldkkoholegljdkibjjhmegpjep
 pkndpfblglglngnngecdoglbifminnei
-pknkncdfjlncijifekldbjmeaiakdbof  # “See SOURCE/NOTES Fields”
+pknkncdfjlncijifekldbjmeaiakdbof
 plahbdekkijmgefopapakkhcogooghlk  # JJCA [adware]
 plcdglhlbmlnfoghfhmbhehapfadedod  # "Code Geass Wallpaper HD Custom New Tab"
 pldfelebkfalpldhfbeagfgmmmelajlc  # Zapbase [adware]
 pljbjcehnhcnofmkdbjolghdcjnmekia  # Bless
 plljhaecaeecbhjccjhgnhdlnbpfmdbo
 pllkanemicadpcmkfodglahcocfdgkhj  # Gold of Egypt - Slot Machine [credential-theft]
-plmgefkiicjfchonlmnbabfebpnpckkk  # “See SOURCE/NOTES Fields”
+plmgefkiicjfchonlmnbabfebpnpckkk
 plmlopfeeobajiecodiggabcihohcnge  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-plnlhldekkpgnngfdbdhocnjfplgnekg  # “See SOURCE/NOTES Fields”
+plnlhldekkpgnngfdbdhocnjfplgnekg
 pmannhofeaiadkcdbcebhnkcnkjjnfpn
 pmbfdejmiglahedobjddkhaebpaamkab
 pmdakkjbaeioodmomlmnklahihodjcjk  # "Kpop Red Velvet Wallpaper HD Custom New Tab"
 pmgmbeeafpdjjhmeaalneginpmdhamhe
-pmhlkgkblgeeigiegkmacefjoflennbn  # “See SOURCE/NOTES Fields”
+pmhlkgkblgeeigiegkmacefjoflennbn
 pmicalpapmomhbopnbpckepnbdoomboc
 pmilcmjbofinpnbnpanpdadijibcgifc  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 pmjfbdnpbhfgeioabfahbheefebeiehp
@@ -2505,11 +2505,11 @@ pnamonkagicmlnalnlcdaoeenhlgdklf  # "Fortnite Skull Trooper Wallpaper HD New Tab
 pnanegnllonoiklmmlegcaajoicfifcm  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 pnangioakbpgppagachdpfcnjncfncch
 pncclakgimbcblpfdclhkdaepmnepkel
-pnciakodcdnehobpfcjcnnlcpmjlpkac  # “See SOURCE/NOTES Fields”
+pnciakodcdnehobpfcjcnnlcpmjlpkac
 pndkaoeigpfhjkjblpmneppaffijeoof  # iArtBook Digital Painting (fake) [phishing]
 pndmbpnfolikhfnfnkmjkkpcgkmaibec  # AI Ad Generator
 pnhemnjbggihoedmgoagnjmmmfpnlkil
-pnhjnmacgahapmnnifmneapinilajfol  # “See SOURCE/NOTES Fields”
+pnhjnmacgahapmnnifmneapinilajfol
 pnhkolkelkfnfphohbdnboedhejlfbho
 pnlphjjfielecalmmjjdhjjninkbjdod  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 pnmmfplemkekboaalbeeajfidkkepppl  # Safe ChatGPT Search
@@ -2520,9 +2520,9 @@ poeokidblnamjkagggonidcigafaobki  # "Kakashi Hatake Wallpaper HD Custom New Tab"
 pofffhlknjbjolmfoeagdmbbdbjjmeki  # "Bts Wallpaper HD Custom New Tab"
 pojgkmkfincpdkdgjepkmdekcahmckjp  # Full Page Screenshot Capture - Screenshotting [adware]
 polgnkadhhhmlahkhhbicledbpklnake  # "James Harden Wallpaper HD Custom New Tab"
-ponodoigcmkglddlljanchegmkgkhmgb  # “See SOURCE/NOTES Fields”
+ponodoigcmkglddlljanchegmkgkhmgb
 pooaemmkohlphkekccfajnbcokjlbehk  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-poppendnaoonepbkmjejdfebihohaalo  # “See SOURCE/NOTES Fields”
+poppendnaoonepbkmjejdfebihohaalo
 ppfdcmempdfjnanjegmjhanplgjicefg
 pphgdbgldlmicfdkhondlafkiomnelnk
 ppicajcmopaimnnikbafgknffbdmomfk  # "Muscle Cars Wallpaper HD Custom New Tab"

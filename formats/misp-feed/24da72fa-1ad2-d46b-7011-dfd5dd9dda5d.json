@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779947635",
+    "timestamp": "1779949742",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Fire Shield Extension Protection | Threat: spyware,data-theft | Secure Annex unknow.com spyware campaign (Apr 2025). 300,000 users. 57 total extensions linked by shared unknow[.]com domain in background services code. Heavily obfuscated, unlisted from Chrome Web S",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Fire Shield Extension Protection",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Total Safety for Chrome | Threat: spyware,data-theft | Secure Annex unknow.com spyware campaign (Apr 2025). 300,000 users. 57 total extensions linked by shared unknow[.]com domain in background services code. Heavily obfuscated, unlisted from Chrome Web S",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Total Safety for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Cuponomia - Coupon and Cashback | Threat: spyware,data-theft | ⚡ Still active in store | Secure Annex unknow.com spyware campaign (Apr 2025). 700,000 users. 57 total extensions linked by shared unknow[.]com domain in background services code. Heavily obfuscated, unlisted from Chrome Web S",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Cuponomia - Coupon and Cashback",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       }
     ]

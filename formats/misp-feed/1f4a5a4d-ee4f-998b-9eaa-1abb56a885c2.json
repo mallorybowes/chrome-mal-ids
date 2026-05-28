@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779947635",
+    "timestamp": "1779949742",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: WAME | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — WAME",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: WAVENDY | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — WAVENDY",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Eddye | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Eddye",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Name: WhatSeller | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Chrome/Edge extension ID — WhatSeller",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -127,7 +127,7 @@
         "comment": "Name: zapboost | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -138,7 +138,7 @@
         "comment": "Chrome/Edge extension ID — zapboost",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -149,7 +149,7 @@
         "comment": "Name: Agencia Guedes | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -160,7 +160,7 @@
         "comment": "Chrome/Edge extension ID — Agencia Guedes",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -171,7 +171,7 @@
         "comment": "Name: G5 Chat | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -182,7 +182,7 @@
         "comment": "Chrome/Edge extension ID — G5 Chat",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -193,7 +193,7 @@
         "comment": "Name: What Vision | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -204,7 +204,7 @@
         "comment": "Chrome/Edge extension ID — What Vision",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -215,7 +215,7 @@
         "comment": "Name: Dental Chat - Gestão de leads e pacientes no Whatsapp para Clínicas | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -226,7 +226,7 @@
         "comment": "Chrome/Edge extension ID — Dental Chat - Gestão de leads e pacientes no Whatsapp para Clínicas",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -237,7 +237,7 @@
         "comment": "Name: KASAPP | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -248,7 +248,7 @@
         "comment": "Chrome/Edge extension ID — KASAPP",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -259,7 +259,7 @@
         "comment": "Name: PROSPECTA CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -270,7 +270,7 @@
         "comment": "Chrome/Edge extension ID — PROSPECTA CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -281,7 +281,7 @@
         "comment": "Name: YOUSELLER - Facilidade, produtividade em escala. | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -292,7 +292,7 @@
         "comment": "Chrome/Edge extension ID — YOUSELLER - Facilidade, produtividade em escala.",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -303,7 +303,7 @@
         "comment": "Name: MI CIERRO | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -314,7 +314,7 @@
         "comment": "Chrome/Edge extension ID — MI CIERRO",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -325,7 +325,7 @@
         "comment": "Name: WhatsSelling | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -336,7 +336,7 @@
         "comment": "Chrome/Edge extension ID — WhatsSelling",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -347,7 +347,7 @@
         "comment": "Name: ZAZMAX | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -358,7 +358,7 @@
         "comment": "Chrome/Edge extension ID — ZAZMAX",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -369,7 +369,7 @@
         "comment": "Name: Gestor B2B | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -380,7 +380,7 @@
         "comment": "Chrome/Edge extension ID — Gestor B2B",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -391,7 +391,7 @@
         "comment": "Name: CRM-PRO : Transforme seu whatsapp em um sistema de vendas | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -402,7 +402,7 @@
         "comment": "Chrome/Edge extension ID — CRM-PRO : Transforme seu whatsapp em um sistema de vendas",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -413,7 +413,7 @@
         "comment": "Name: MULTIZAP CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -424,7 +424,7 @@
         "comment": "Chrome/Edge extension ID — MULTIZAP CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -435,7 +435,7 @@
         "comment": "Name: Smart WA | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -446,7 +446,7 @@
         "comment": "Chrome/Edge extension ID — Smart WA",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -457,7 +457,7 @@
         "comment": "Name: DR.FIDELIZA | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -468,7 +468,7 @@
         "comment": "Chrome/Edge extension ID — DR.FIDELIZA",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -479,7 +479,7 @@
         "comment": "Name: PRAXATECH SOLUÇÕES | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -490,7 +490,7 @@
         "comment": "Chrome/Edge extension ID — PRAXATECH SOLUÇÕES",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -501,7 +501,7 @@
         "comment": "Name: UATZAP CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -512,7 +512,7 @@
         "comment": "Chrome/Edge extension ID — UATZAP CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -523,7 +523,7 @@
         "comment": "Name: Wa Elo IA | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -534,7 +534,7 @@
         "comment": "Chrome/Edge extension ID — Wa Elo IA",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -545,7 +545,7 @@
         "comment": "Name: waSuper | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -556,7 +556,7 @@
         "comment": "Chrome/Edge extension ID — waSuper",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -567,7 +567,7 @@
         "comment": "Name: WAction | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -578,7 +578,7 @@
         "comment": "Chrome/Edge extension ID — WAction",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -589,7 +589,7 @@
         "comment": "Name: Gera Cliente - Extensão do Whatsapp para vender até 4x mais | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -600,7 +600,7 @@
         "comment": "Chrome/Edge extension ID — Gera Cliente - Extensão do Whatsapp para vender até 4x mais",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -611,7 +611,7 @@
         "comment": "Name: IA do Corretor | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -622,7 +622,7 @@
         "comment": "Chrome/Edge extension ID — IA do Corretor",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -633,7 +633,7 @@
         "comment": "Name: Midia Medica Orientada | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -644,7 +644,7 @@
         "comment": "Chrome/Edge extension ID — Midia Medica Orientada",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -655,7 +655,7 @@
         "comment": "Name: Monitora Leads | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -666,7 +666,7 @@
         "comment": "Chrome/Edge extension ID — Monitora Leads",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -677,7 +677,7 @@
         "comment": "Name: FocusLead | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -688,7 +688,7 @@
         "comment": "Chrome/Edge extension ID — FocusLead",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -699,7 +699,7 @@
         "comment": "Name: KFarias Inovação Tecnologica | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -710,7 +710,7 @@
         "comment": "Chrome/Edge extension ID — KFarias Inovação Tecnologica",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -721,7 +721,7 @@
         "comment": "Name: SPEEDYX | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -732,7 +732,7 @@
         "comment": "Chrome/Edge extension ID — SPEEDYX",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -743,7 +743,7 @@
         "comment": "Name: BALTZ CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -754,7 +754,7 @@
         "comment": "Chrome/Edge extension ID — BALTZ CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -765,7 +765,7 @@
         "comment": "Name: Pangeia | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -776,7 +776,7 @@
         "comment": "Chrome/Edge extension ID — Pangeia",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -787,7 +787,7 @@
         "comment": "Name: CRM TURBINADO | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -798,7 +798,7 @@
         "comment": "Chrome/Edge extension ID — CRM TURBINADO",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -809,7 +809,7 @@
         "comment": "Name: ZAPFY CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -820,7 +820,7 @@
         "comment": "Chrome/Edge extension ID — ZAPFY CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -831,7 +831,7 @@
         "comment": "Name: WA Envio | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -842,7 +842,7 @@
         "comment": "Chrome/Edge extension ID — WA Envio",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -853,7 +853,7 @@
         "comment": "Name: EAI + | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -864,7 +864,7 @@
         "comment": "Chrome/Edge extension ID — EAI +",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -875,7 +875,7 @@
         "comment": "Name: WaListall | O Melhor CRM para WhatsApp Web – Teste Grátis | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -886,7 +886,7 @@
         "comment": "Chrome/Edge extension ID — WaListall | O Melhor CRM para WhatsApp Web – Teste Grátis",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -897,7 +897,7 @@
         "comment": "Name: Cliente Flow | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -908,7 +908,7 @@
         "comment": "Chrome/Edge extension ID — Cliente Flow",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -919,7 +919,7 @@
         "comment": "Name: CRMSIM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -930,7 +930,7 @@
         "comment": "Chrome/Edge extension ID — CRMSIM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -941,7 +941,7 @@
         "comment": "Name: JURIMIND CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -952,7 +952,7 @@
         "comment": "Chrome/Edge extension ID — JURIMIND CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -963,7 +963,7 @@
         "comment": "Name: Talk Mais | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -974,7 +974,7 @@
         "comment": "Chrome/Edge extension ID — Talk Mais",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -985,7 +985,7 @@
         "comment": "Name: Hchat | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -996,7 +996,7 @@
         "comment": "Chrome/Edge extension ID — Hchat",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1007,7 +1007,7 @@
         "comment": "Name: Chat Boost | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1018,7 +1018,7 @@
         "comment": "Chrome/Edge extension ID — Chat Boost",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1029,7 +1029,7 @@
         "comment": "Name: ClickZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1040,7 +1040,7 @@
         "comment": "Chrome/Edge extension ID — ClickZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1051,7 +1051,7 @@
         "comment": "Name: WaMed | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1062,7 +1062,7 @@
         "comment": "Chrome/Edge extension ID — WaMed",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1073,7 +1073,7 @@
         "comment": "Name: SmartFlow | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1084,7 +1084,7 @@
         "comment": "Chrome/Edge extension ID — SmartFlow",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1095,7 +1095,7 @@
         "comment": "Name: FR VENDAS PRO | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1106,7 +1106,7 @@
         "comment": "Chrome/Edge extension ID — FR VENDAS PRO",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1117,7 +1117,7 @@
         "comment": "Name: DGUESTS | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1128,7 +1128,7 @@
         "comment": "Chrome/Edge extension ID — DGUESTS",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1139,7 +1139,7 @@
         "comment": "Name: Win7max - CRM no WhatsApp Web, Chatbot, Automação e Disparo em Massa | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1150,7 +1150,7 @@
         "comment": "Chrome/Edge extension ID — Win7max - CRM no WhatsApp Web, Chatbot, Automação e Disparo em Massa",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1161,7 +1161,7 @@
         "comment": "Name: App Vendas CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1172,7 +1172,7 @@
         "comment": "Chrome/Edge extension ID — App Vendas CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1183,7 +1183,7 @@
         "comment": "Name: Primeira Classe | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1194,7 +1194,7 @@
         "comment": "Chrome/Edge extension ID — Primeira Classe",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1205,7 +1205,7 @@
         "comment": "Name: WORKZAP | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1216,7 +1216,7 @@
         "comment": "Chrome/Edge extension ID — WORKZAP",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1227,7 +1227,7 @@
         "comment": "Name: WATSELY | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1238,7 +1238,7 @@
         "comment": "Chrome/Edge extension ID — WATSELY",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1249,7 +1249,7 @@
         "comment": "Name: To Talk Connect | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1260,7 +1260,7 @@
         "comment": "Chrome/Edge extension ID — To Talk Connect",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1271,7 +1271,7 @@
         "comment": "Name: WAURA | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1282,7 +1282,7 @@
         "comment": "Chrome/Edge extension ID — WAURA",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1293,7 +1293,7 @@
         "comment": "Name: WaBest | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1304,7 +1304,7 @@
         "comment": "Chrome/Edge extension ID — WaBest",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1315,7 +1315,7 @@
         "comment": "Name: FATURE MAIS | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1326,7 +1326,7 @@
         "comment": "Chrome/Edge extension ID — FATURE MAIS",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1337,7 +1337,7 @@
         "comment": "Name: WhaScale - Um passo à frente do seu concorrente | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1348,7 +1348,7 @@
         "comment": "Chrome/Edge extension ID — WhaScale - Um passo à frente do seu concorrente",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1359,7 +1359,7 @@
         "comment": "Name: SutoflyCRM, WhatsApp Web organizado, automatizado e vendendo | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1370,7 +1370,7 @@
         "comment": "Chrome/Edge extension ID — SutoflyCRM, WhatsApp Web organizado, automatizado e vendendo",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1381,7 +1381,7 @@
         "comment": "Name: waTidy : CRM no whatsapp, Automações e Ferramentas para venda | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1392,7 +1392,7 @@
         "comment": "Chrome/Edge extension ID — waTidy : CRM no whatsapp, Automações e Ferramentas para venda",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1403,7 +1403,7 @@
         "comment": "Name: Whapro – Automação, CRM e Vendas no WhatsApp Web | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1414,7 +1414,7 @@
         "comment": "Chrome/Edge extension ID — Whapro – Automação, CRM e Vendas no WhatsApp Web",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1425,7 +1425,7 @@
         "comment": "Name: ZappyGO | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1436,7 +1436,7 @@
         "comment": "Chrome/Edge extension ID — ZappyGO",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1447,7 +1447,7 @@
         "comment": "Name: SevenSales | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1458,7 +1458,7 @@
         "comment": "Chrome/Edge extension ID — SevenSales",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1469,7 +1469,7 @@
         "comment": "Name: Whats Expert | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1480,7 +1480,7 @@
         "comment": "Chrome/Edge extension ID — Whats Expert",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1491,7 +1491,7 @@
         "comment": "Name: Master Engage | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1502,7 +1502,7 @@
         "comment": "Chrome/Edge extension ID — Master Engage",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1513,7 +1513,7 @@
         "comment": "Name: ZAPPROFIT CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1524,7 +1524,7 @@
         "comment": "Chrome/Edge extension ID — ZAPPROFIT CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1535,7 +1535,7 @@
         "comment": "Name: wazippy | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1546,7 +1546,7 @@
         "comment": "Chrome/Edge extension ID — wazippy",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1557,7 +1557,7 @@
         "comment": "Name: WATEND | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1568,7 +1568,7 @@
         "comment": "Chrome/Edge extension ID — WATEND",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1579,7 +1579,7 @@
         "comment": "Name: autozai – Otimize o tempo e multiplique as vendas no WhatsApp | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1590,7 +1590,7 @@
         "comment": "Chrome/Edge extension ID — autozai – Otimize o tempo e multiplique as vendas no WhatsApp",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1601,7 +1601,7 @@
         "comment": "Name: AtendaZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1612,7 +1612,7 @@
         "comment": "Chrome/Edge extension ID — AtendaZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1623,7 +1623,7 @@
         "comment": "Name: Verk - Direto no whatsapp, Automações e IA para vendas | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1634,7 +1634,7 @@
         "comment": "Chrome/Edge extension ID — Verk - Direto no whatsapp, Automações e IA para vendas",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1645,7 +1645,7 @@
         "comment": "Name: Kentro | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1656,7 +1656,7 @@
         "comment": "Chrome/Edge extension ID — Kentro",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1667,7 +1667,7 @@
         "comment": "Name: WaSeller - Perder vendas no WhatsApp não é normal | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1678,7 +1678,7 @@
         "comment": "Chrome/Edge extension ID — WaSeller - Perder vendas no WhatsApp não é normal",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1689,7 +1689,7 @@
         "comment": "Name: WaClinic | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1700,7 +1700,7 @@
         "comment": "Chrome/Edge extension ID — WaClinic",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1711,7 +1711,7 @@
         "comment": "Name: WAFACIL | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1722,7 +1722,7 @@
         "comment": "Chrome/Edge extension ID — WAFACIL",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1733,7 +1733,7 @@
         "comment": "Name: WaPROdy | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1744,7 +1744,7 @@
         "comment": "Chrome/Edge extension ID — WaPROdy",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1755,7 +1755,7 @@
         "comment": "Name: Waat: CRM e Vendas no WhatsApp Web | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1766,7 +1766,7 @@
         "comment": "Chrome/Edge extension ID — Waat: CRM e Vendas no WhatsApp Web",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1777,7 +1777,7 @@
         "comment": "Name: ZarpGo | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1788,7 +1788,7 @@
         "comment": "Chrome/Edge extension ID — ZarpGo",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1799,7 +1799,7 @@
         "comment": "Name: ENOCRM | Gestão de Leads no WhatsAPP | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1810,7 +1810,7 @@
         "comment": "Chrome/Edge extension ID — ENOCRM | Gestão de Leads no WhatsAPP",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1821,7 +1821,7 @@
         "comment": "Name: Disparô/Wa - Disparo no WhatsApp, CRM, Automações, Ferramentas para Venda | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1832,7 +1832,7 @@
         "comment": "Chrome/Edge extension ID — Disparô/Wa - Disparo no WhatsApp, CRM, Automações, Ferramentas para Venda",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1843,7 +1843,7 @@
         "comment": "Name: MERLIN BOT | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1854,7 +1854,7 @@
         "comment": "Chrome/Edge extension ID — MERLIN BOT",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1865,7 +1865,7 @@
         "comment": "Name: InterZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1876,7 +1876,7 @@
         "comment": "Chrome/Edge extension ID — InterZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1887,7 +1887,7 @@
         "comment": "Name: RED Chat CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1898,7 +1898,7 @@
         "comment": "Chrome/Edge extension ID — RED Chat CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1909,7 +1909,7 @@
         "comment": "Name: VUTTI CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1920,7 +1920,7 @@
         "comment": "Chrome/Edge extension ID — VUTTI CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1931,7 +1931,7 @@
         "comment": "Name: Organize-C Pro | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1942,7 +1942,7 @@
         "comment": "Chrome/Edge extension ID — Organize-C Pro",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1953,7 +1953,7 @@
         "comment": "Name: BootComp | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1964,7 +1964,7 @@
         "comment": "Chrome/Edge extension ID — BootComp",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1975,7 +1975,7 @@
         "comment": "Name: WaContact | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1986,7 +1986,7 @@
         "comment": "Chrome/Edge extension ID — WaContact",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -1997,7 +1997,7 @@
         "comment": "Name: Salezap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2008,7 +2008,7 @@
         "comment": "Chrome/Edge extension ID — Salezap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2019,7 +2019,7 @@
         "comment": "Name: SmartZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2030,7 +2030,7 @@
         "comment": "Chrome/Edge extension ID — SmartZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2041,7 +2041,7 @@
         "comment": "Name: UpSell | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2052,7 +2052,7 @@
         "comment": "Chrome/Edge extension ID — UpSell",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2063,7 +2063,7 @@
         "comment": "Name: Bull Lead - Automações e atendimento no WhatsApp para vendedores | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2074,7 +2074,7 @@
         "comment": "Chrome/Edge extension ID — Bull Lead - Automações e atendimento no WhatsApp para vendedores",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2085,7 +2085,7 @@
         "comment": "Name: KENVIA - Transforme o seu WhatsApp Web numa plataforma de vendas | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2096,7 +2096,7 @@
         "comment": "Chrome/Edge extension ID — KENVIA - Transforme o seu WhatsApp Web numa plataforma de vendas",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2107,7 +2107,7 @@
         "comment": "Name: Acelere CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2118,7 +2118,7 @@
         "comment": "Chrome/Edge extension ID — Acelere CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2129,7 +2129,7 @@
         "comment": "Name: ZAPARETO | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2140,7 +2140,7 @@
         "comment": "Chrome/Edge extension ID — ZAPARETO",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2151,7 +2151,7 @@
         "comment": "Name: ViaShopModa | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2162,7 +2162,7 @@
         "comment": "Chrome/Edge extension ID — ViaShopModa",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2173,7 +2173,7 @@
         "comment": "Name: DigitaZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2184,7 +2184,7 @@
         "comment": "Chrome/Edge extension ID — DigitaZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2195,7 +2195,7 @@
         "comment": "Name: Vluw | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2206,7 +2206,7 @@
         "comment": "Chrome/Edge extension ID — Vluw",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2217,7 +2217,7 @@
         "comment": "Name: AmizApp | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2228,7 +2228,7 @@
         "comment": "Chrome/Edge extension ID — AmizApp",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2239,7 +2239,7 @@
         "comment": "Name: WAPIN | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2250,7 +2250,7 @@
         "comment": "Chrome/Edge extension ID — WAPIN",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2261,7 +2261,7 @@
         "comment": "Name: Botzom – Vendas, CRM e Chatbot para WhatsApp | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2272,7 +2272,7 @@
         "comment": "Chrome/Edge extension ID — Botzom – Vendas, CRM e Chatbot para WhatsApp",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2283,7 +2283,7 @@
         "comment": "Name: DragonChat | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2294,7 +2294,7 @@
         "comment": "Chrome/Edge extension ID — DragonChat",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2305,7 +2305,7 @@
         "comment": "Name: CRM DE ELITE : CRM no whatsapp, Automações e Ferramentas para venda | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2316,7 +2316,7 @@
         "comment": "Chrome/Edge extension ID — CRM DE ELITE : CRM no whatsapp, Automações e Ferramentas para venda",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2327,7 +2327,7 @@
         "comment": "Name: LEEVO CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2338,7 +2338,7 @@
         "comment": "Chrome/Edge extension ID — LEEVO CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2349,7 +2349,7 @@
         "comment": "Name: Mais Leads CRM | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2360,7 +2360,7 @@
         "comment": "Chrome/Edge extension ID — Mais Leads CRM",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2371,7 +2371,7 @@
         "comment": "Name: Chatweb CRM : Transforme seu whatsapp em um sistema de vendas | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2382,7 +2382,7 @@
         "comment": "Chrome/Edge extension ID — Chatweb CRM : Transforme seu whatsapp em um sistema de vendas",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2393,7 +2393,7 @@
         "comment": "Name: MARKETING DE FITNESS | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2404,7 +2404,7 @@
         "comment": "Chrome/Edge extension ID — MARKETING DE FITNESS",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2415,7 +2415,7 @@
         "comment": "Name: ZAPGYN | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2426,7 +2426,7 @@
         "comment": "Chrome/Edge extension ID — ZAPGYN",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2437,7 +2437,7 @@
         "comment": "Name: Feel Up | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2448,7 +2448,7 @@
         "comment": "Chrome/Edge extension ID — Feel Up",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2459,7 +2459,7 @@
         "comment": "Name: Ninja Ads | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2470,7 +2470,7 @@
         "comment": "Chrome/Edge extension ID — Ninja Ads",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2481,7 +2481,7 @@
         "comment": "Name: IronZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2492,7 +2492,7 @@
         "comment": "Chrome/Edge extension ID — IronZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2503,7 +2503,7 @@
         "comment": "Name: WA BOOSTER | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2514,7 +2514,7 @@
         "comment": "Chrome/Edge extension ID — WA BOOSTER",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2525,7 +2525,7 @@
         "comment": "Name: WATHOR | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2536,7 +2536,7 @@
         "comment": "Chrome/Edge extension ID — WATHOR",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2547,7 +2547,7 @@
         "comment": "Name: SellUP | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2558,7 +2558,7 @@
         "comment": "Chrome/Edge extension ID — SellUP",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2569,7 +2569,7 @@
         "comment": "Name: ELITE | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2580,7 +2580,7 @@
         "comment": "Chrome/Edge extension ID — ELITE",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2591,7 +2591,7 @@
         "comment": "Name: wa To you | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2602,7 +2602,7 @@
         "comment": "Chrome/Edge extension ID — wa To you",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2613,7 +2613,7 @@
         "comment": "Name: WaPower | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2624,7 +2624,7 @@
         "comment": "Chrome/Edge extension ID — WaPower",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2635,7 +2635,7 @@
         "comment": "Name: Nextgo Zap: Seu Whatsapp Turbinado! | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2646,7 +2646,7 @@
         "comment": "Chrome/Edge extension ID — Nextgo Zap: Seu Whatsapp Turbinado!",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2657,7 +2657,7 @@
         "comment": "Name: EnZap | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2668,7 +2668,7 @@
         "comment": "Chrome/Edge extension ID — EnZap",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2679,7 +2679,7 @@
         "comment": "Name: talkspeed | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2690,7 +2690,7 @@
         "comment": "Chrome/Edge extension ID — talkspeed",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2701,7 +2701,7 @@
         "comment": "Name: JJCA | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2712,7 +2712,7 @@
         "comment": "Chrome/Edge extension ID — JJCA",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2723,7 +2723,7 @@
         "comment": "Name: Zapbase | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2734,7 +2734,7 @@
         "comment": "Chrome/Edge extension ID — Zapbase",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2745,7 +2745,7 @@
         "comment": "Name: WhatsTime CRM for WhatsApp™ Web | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2756,7 +2756,7 @@
         "comment": "Chrome/Edge extension ID — WhatsTime CRM for WhatsApp™ Web",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2767,7 +2767,7 @@
         "comment": "Name: YouZapCRM - WhatsApp Web com poder de CRM, automações e muito mais! | Threat: adware,data-theft,spyware | ⚡ Still active in store | DBX Tecnologia / Grupo OPT WhatsApp automation campaign (Socket, October 2025). 131-extension franchise-model spamware operation targeting WhatsApp Web users. Brazilian company DBX Tecnologia licensed",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2778,7 +2778,7 @@
         "comment": "Chrome/Edge extension ID — YouZapCRM - WhatsApp Web com poder de CRM, automações e muito mais!",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       },
       {
@@ -2789,7 +2789,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779947635",
+        "timestamp": "1779949742",
         "disable_correlation": false
       }
     ]
