@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779934459",
+    "timestamp": "1779936459",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Chat GPT for Chrome with GPT-5 Claude Sonnet and DeepSeek AI | Threat: ai-chat-scraper,fake-extension,data-theft | ⚡ Still active in store | AITOPIA impersonator campaign (Prompt Poaching). Exfiltrated ChatGPT and DeepSeek conversations to C2 every 30 mins. Had Google Featured badge. Reported to Google Dec 29 2025. C2: deepaichats.com, cha",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779934459",
+        "timestamp": "1779936459",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Chat GPT for Chrome with GPT-5 Claude Sonnet and DeepSeek AI",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779934459",
+        "timestamp": "1779936459",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: AI Sidebar with Deepseek ChatGPT Claude and more | Threat: ai-chat-scraper,fake-extension,data-theft | ⚡ Still active in store | AITOPIA impersonator campaign (Prompt Poaching). Exfiltrated ChatGPT and DeepSeek conversations to C2 every 30 mins. Had Google Featured badge. Reported to Google Dec 29 2025. C2: deepaichats.com, cha",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779934459",
+        "timestamp": "1779936459",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — AI Sidebar with Deepseek ChatGPT Claude and more",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779934459",
+        "timestamp": "1779936459",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779934459",
+        "timestamp": "1779936459",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779934459",
+        "timestamp": "1779936459",
         "disable_correlation": false
       }
     ]
