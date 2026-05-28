@@ -597,6 +597,9 @@
       <label class="filter-option">
         <input type="checkbox" id="filter-hide-stubs"> Hide stubs
       </label>
+      <label class="filter-option">
+        <input type="checkbox" id="filter-hide-exhausted"> Hide exhausted
+      </label>
     </div>
 
     <div class="filter-section">
@@ -791,7 +794,8 @@ async function loadData() {
         r.SOURCE, r.ARTICLE, r['ADD-SOURCES'],
         r.CONTRIB, r['CONTRIB-METHOD'], r['CONTRIB-HANDLE'],
         r['DATE-DIS'], r['DATE-ADD'],
-        'tpci-v-' + (r['TPCI-VERIFY'] || ''), r['TPCI-VERIFY'] || ''
+        'tpci-v-' + (r['TPCI-VERIFY'] || ''), r['TPCI-VERIFY'] || '',
+        r['ENRICH-STATUS'] || ''
       ].join(' ').toLowerCase();
     });
 
@@ -882,7 +886,8 @@ function applyFilters() {
   const activeOnly   = document.getElementById('filter-active').checked;
   const xferOnly     = document.getElementById('filter-xfer').checked;
   const stubsOnly    = document.getElementById('filter-stubs-only').checked;
-  const hideStubs    = document.getElementById('filter-hide-stubs').checked;
+  const hideStubs      = document.getElementById('filter-hide-stubs').checked;
+  const hideExhausted  = document.getElementById('filter-hide-exhausted').checked;
   const dateFrom     = document.getElementById('filter-date-from').value.trim();
   const dateTo       = document.getElementById('filter-date-to').value.trim();
 
@@ -896,6 +901,7 @@ function applyFilters() {
     if (xferOnly && !r._xfer) return false;
     if (stubsOnly && !r._stub) return false;
     if (hideStubs && r._stub) return false;
+    if (hideExhausted && (r['ENRICH-STATUS'] || '').trim().toLowerCase() === 'exhausted') return false;
     if (dateFrom && r._date && r._date < dateFrom) return false;
     if (dateTo   && r._date && r._date > dateTo)   return false;
 
@@ -1009,7 +1015,9 @@ function renderResults(query = '') {
           <span class="detail-key">Still Active</span>
           <span class="detail-val">${row._active ? '⚡ Yes — still in store' : 'No'}</span>
           <span class="detail-key">TPCI-V</span>
-          <span class="detail-val">${{'1':'Stage 1 — CRX active','2':'Stage 2/3 — Confirmed removed','4':'Stage 4 — Remediated','5':'Stage 5A — Static analysis confirmed'}[row._tpciv] || '—'}</span>
+          <span class="detail-val">${{'1':'Stage 1 — CRX active','2':'Stage 2/3 — Confirmed removed','3':'Stage 3 — Playwright confirmed','4':'Stage 4 — Remediated','5':'Stage 5A — Static analysis confirmed'}[row._tpciv] || '—'}</span>
+          <span class="detail-key">Enrich status</span>
+          <span class="detail-val">${row['ENRICH-STATUS'] || '—'}${row['ENRICH-DATE'] ? ' · ' + row['ENRICH-DATE'] : ''}</span>
           <span class="detail-key">Ownership ⟳</span>
           <span class="detail-val">${row._xfer ? 'Yes — transferred before malicious update' : 'No'}</span>
           ${row.SOURCE ? `<span class="detail-key">Source</span>
