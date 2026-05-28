@@ -859,7 +859,8 @@ function applyFilters() {
 
     // Threat filter — skip if stubs-only or active search query
     if (!stubsOnly && !query && r._threats.length > 0) {
-      if (!r._threats.some(t => threats.has(t))) return false;
+      const knownThreats = r._threats.filter(t => t.toLowerCase() !== 'unknown');
+      if (knownThreats.length > 0 && !knownThreats.some(t => threats.has(t))) return false;
     }
 
     // Text search
