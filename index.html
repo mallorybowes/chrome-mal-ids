@@ -846,7 +846,9 @@ function applyFilters() {
 
   filtered = allRows.filter(r => {
     const browser = (r.BROWSER || 'chrome').toLowerCase();
-    if (!browsers.includes(browser)) return false;
+    if (browser === 'both') {
+      if (!browsers.includes('chrome') && !browsers.includes('edge')) return false;
+    } else if (!browsers.includes(browser)) return false;
     if (activeOnly && !r._active) return false;
     if (xferOnly && !r._xfer) return false;
     if (stubsOnly && !r._stub) return false;
