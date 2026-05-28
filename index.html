@@ -622,6 +622,11 @@
         <span class="filter-count" id="cnt-tpciv-4">—</span>
       </label>
       <label class="filter-option">
+        <input type="checkbox" class="filter-tpciv" value="3" checked>
+        <span style="color:var(--rose)">TPCI-V 3</span> — Playwright confirmed
+        <span class="filter-count" id="cnt-tpciv-3">—</span>
+      </label>
+      <label class="filter-option">
         <input type="checkbox" class="filter-tpciv" value="1" checked>
         <span style="color:var(--rose2)">TPCI-V 1</span> — CRX active
         <span class="filter-count" id="cnt-tpciv-1">—</span>
@@ -839,7 +844,7 @@ function buildFilters() {
       </label>`).join('');
 
   // TPCI-V counts
-  ['1','2','4','5'].forEach(v => {
+  ['1','2','3','4','5'].forEach(v => {
     const el = document.getElementById('cnt-tpciv-' + v);
     if (el) el.textContent = allRows.filter(r => r._tpciv === v).length;
   });
