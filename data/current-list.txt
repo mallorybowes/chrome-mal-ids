@@ -1,6 +1,6 @@
 # Malicious Chrome Extension IOC Database
 # https://github.com/mallorybowes/chrome-mal-ids
-# Generated: 2026-05-28 02:47 UTC
+# Generated: 2026-05-28 02:49 UTC
 # Total: 2525 extension IDs
 # License: CC BY 4.0 — attribution required for commercial use
 # Format: one Chrome/Edge extension ID per line (32 lowercase a-p chars)
@@ -115,19 +115,19 @@ ajogkbkdomdjamjipaoapkkfkdcbjeom
 akdajpomgjgldidenledjjiemgkjcchc  # Giant Coupons Official Extension
 akdbogfpgohikflhccclloneidjkogog  # “Скачать фото и видео из Instagram”
 akdpobnbjepjbnjklkkbdafemhnbfldj  # "My Hero Academia Wallpaper HD Custom New Tab"
-akebbllmckjphjiojeioooidhnddnplj  # ﻿Formula Rush Racing Game
+akebbllmckjphjiojeioooidhnddnplj  # Formula Rush Racing Game
 akeliekmeaifanbdfknjoelhmmeblggh
 akglkgdiggmkilkhejagginkngocbpbj  # “See SOURCE/NOTES Fields”
 akhiflcfcbnheaofcaflofbmnkmjlnno  # "Cs Go Wallpaper HD Custom New Tab"
 akialmafcdmkelghnomeneinkcllnoih
 akifdnfipbeoonhoeabdicnlcdhghmpn
-akkkopcadaalekbdgpdikhdablkgjagd  # ﻿﻿Slot Arabian [credential-theft]
+akkkopcadaalekbdgpdikhdablkgjagd  # Slot Arabian [credential-theft]
 aklklkifmplgnobmieahildcfbleamdb  # "Super Junior Wallpapers Eunhyuk"
 akmdionenlnfcipmdhbhcnkighafmdha  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 akncjgblpooaigmieecjiigaebgblnaj
 albakpncdngcejcjdahomfbkakbmafgb  # Hourly to salary calculator​
 alecjlhgldihcjjcffgjalappiifdhae  # “FairShare Unlock”
-alkfljfjkpiccfgbeocbbjjladigcleg  # ﻿﻿Frogtastic [credential-theft]
+alkfljfjkpiccfgbeocbbjjladigcleg  # Frogtastic [credential-theft]
 alkgglonfjgmdolnjafmbmldmmalhdoi  # Instagram Saved Posts Downloader
 alknmfpopohfpdpafdmobclioihdkhjh
 allabgknbmoecnnnnkiddmpapchmhiii
@@ -142,7 +142,7 @@ ambcheakfbokmebglefpbbphbccekhhl  # DarkSpectre ShadyPanda expansion / Zoom Stea
 amdnpfcpjglkdfcigaccfgmlmdepdpeo  # "D.Gray-man Backgrounds New Tab"
 amfamndhbbiaafhpclielacfailgflbi
 amkkjdjjgiiamenbopfpdmjcleecjjgg
-amnaljnjmgajgajelnplfmidgjgbjfhe  # ﻿Mahjong Deluxe
+amnaljnjmgajgajelnplfmidgjgbjfhe  # Mahjong Deluxe
 amomdmnemaieioenimcelcagpdbdbigi
 amomkbhjghmegifhopipecfioeelecal  # Plants vs. Zombies Cursor ★ Custom Cursor for Chrome™ [adware]
 anbjdcdemclgpcafgdehfmmakkhnopen
@@ -195,7 +195,7 @@ bbdldenhkjcoikalkfkgolomdpnncofc  # "Snowman & Gingerbread New Tab Constellation
 bbdnohkpnbkdkmnkddobeafboooinpla  # Bard AI chat [data-theft]
 bbdpihagclfjiodkbebbheamdhifhcgl
 bbhaganppipihlhjgaaeeeefbaoihcgi
-bbjdlbemjklojnbifkgameepcafflmem  # ﻿Crazy Freekick [credential-theft]
+bbjdlbemjklojnbifkgameepcafflmem  # Crazy Freekick [credential-theft]
 bbjilncoookdcjjnkcdaofiollndepla  # “See SOURCE/NOTES Fields”
 bblkckhknhmalchbceidkmjalmcmnkfa  # “See SOURCE/NOTES Fields”
 bboeoilakaofjkdmekpgeigieokkpgfn
@@ -354,11 +354,11 @@ cdfheigdnhiakflhgchemmmpmbeojgfn
 cdgmcemiphgkibjdcfjhcokpailckhao
 cdgonefipacceedbkflolomdegncceid  # ShadyPanda Phase 3 RCE extension [spyware]
 cdiohdbijdajffgccjmbblbikpnnnkeg  # ZAP Wallet - AI-Powered Solana Wallet
-cdpiopekjeonfjeocbfebemgocjciepp  # ﻿﻿Master Chess [credential-theft]
+cdpiopekjeonfjeocbfebemgocjciepp  # Master Chess [credential-theft]
 cdpmhflbdaoifgkmlhpfkbfgcifchgpn  # "CS GO Themes NewTab"
 cebjhmljaodmgmcaecenghhikkjdfabo  # “See SOURCE/NOTES Fields”
 cedgndijpacnfbdggppddacngjfdkaca  # Reader Mode [data-theft]
-cehdkmmfadpplgchnbjgdngdcjmhlfcc  # ﻿Hockey Shootout
+cehdkmmfadpplgchnbjgdngdcjmhlfcc  # Hockey Shootout
 cehifnkfcddaeppdajpfldbpommggaca
 ceibjdigmfbbgcpkkdpmjokkokklodmc  # VK Styles - Themes for vk.com [session-hijack]
 celjchjgliegnlalhjegfcaacphgdkij  # Blocksi AI Web Filter
@@ -439,7 +439,7 @@ cljengcehefhflhoahaambmkknjekjib
 cllehfhocaopfbkehdoiphpgehffmneh
 clndgmolhlkchkbiinamamnbibkakiml  # "Tokyo Ghoul Wallpaper HD Custom New Tab"
 clopbiaijcfolfmjebjinippgmdkkppj  # “See SOURCE/NOTES Fields”
-clpgopiimdjcilllcjncdkoeikkkcfbi  # ﻿Billiards Pro [credential-theft]
+clpgopiimdjcilllcjncdkoeikkkcfbi  # Billiards Pro [credential-theft]
 cmbfgkkjfkmmhalhebnhmanbenfghkcm  # "Galaxy Wallpaper HD Custom New Tab"
 cmckpheolajgbmhlfhgelajhhfgjbhpk
 cmeoegkmpbpcoabhlklbamfeidebgmdf  # Three Card Poker [credential-theft]
@@ -473,7 +473,7 @@ cplhlgabfijoiabgkigdafklbhhdkahj  # Earny - Up to 20% Cash Back [data-theft]
 cpmbdnkbpaabapidllalnfopojfimbno
 cpmpipfpcgkoiedkehiobjidambkldfi  # HBO Max: Stream HBO TV (fake) [phishing]
 cpmpjapeeidaikiiemnddfgfdfjjhgif  # Browser game extension (malicious, name unconfirmed) [adware]
-cpnfioldnmhaihohppoaebillnambcgn  # ﻿Rugby Rush
+cpnfioldnmhaihohppoaebillnambcgn  # Rugby Rush
 cpopolncdlnofnhahmapebnmmgfibcdk
 dacliiapfipnlipdmifioaijepgmhdga
 dagelhckpadaagjpebgjfkccfnljcjmn  # Pangeia [adware]
@@ -494,7 +494,7 @@ dbjpighofpljmoogjcbhghlnlnepmmie  # Back to School Cursor ★ Custom Cursor for 
 dbodeahpplojfmjoiabfkaodjpbblhkc
 dbohcpohlgnhgjmfkakoniiplglpfhcb  # Bingo
 dcaffjpclkkjfacgfofgpjbmgjnjlpmh  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-dcamdpfclondppklabgkfaofjccpioil  # ﻿Web Client for game Cricket Batter Challenge [credential-theft]
+dcamdpfclondppklabgkfaofjccpioil  # Web Client for game Cricket Batter Challenge [credential-theft]
 dcbcnpnaccfjoikaofjgcipcfbmfkpmj  # ChatGPT Extension
 dcbfmglfdlgpnolgdjoioeocllioebpe  # “See SOURCE/NOTES Fields”
 dcbikjphkkgmgmjoohmbnhccbndgpmin
@@ -585,7 +585,7 @@ dkkpollfhjoiapcenojlmgempmjekcla
 dlanpgfginllefahhibhbeanopbhbkkh
 dlfjoijnhjeagkenhbililbdiooginng  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 dljdbmkffjijepjnkonndbdiakjfdcic  # “Volume Controller”
-dljlpildgknddpnahppkihgodokfjbnd  # ﻿﻿Slot Machine Zeus Treasures [credential-theft]
+dljlpildgknddpnahppkihgodokfjbnd  # Slot Machine Zeus Treasures [credential-theft]
 dllpkaoladhieehkbjbifonfblhgkoki  # Best AdBlocker
 dlpimjmonhbmamocpboifndnnakgknbf  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 dlpiookhionidajbiopmaajeckifeehn  # Horse Racing [credential-theft]
@@ -625,7 +625,7 @@ domokkifabiamikppmngfikdjjihldln
 dopkmmcoegcjggfanajnindneifffpck  # “See SOURCE/NOTES Fields”
 dopmojabcdlfbnppmjeaajclohofnbol  # “See SOURCE/NOTES Fields”
 dpahdbhekfclimkekdabboefohagelfp  # Cliente Flow [adware]
-dpdemambcedffmnkfmkephnhhnclmcio  # ﻿﻿Slot The Gold Pot [credential-theft]
+dpdemambcedffmnkfmkephnhhnclmcio  # Slot The Gold Pot [credential-theft]
 dpdgjbnanmmlikideilnpfjjdbmneanf  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 dpdibkjjgbaadnnjhkmmnenkmbnhpobj  # Free Weather Forecast [data-theft]
 dpfofggmkhdbfcciajfdphofclabnogo  # Palant affiliate fraud cluster (name unconfirmed) [adware]
@@ -834,7 +834,7 @@ fcoongackakfdmiincikmjgkedcgjkdp
 fdacngbbemokpkmdkdefkoodndakgejc  # "Neon Wolf NewTab"
 fdbiogldjjmedbkbjdnolcifiankgeeo
 fdbmoflclpmkmeobidcgmfamkicinnlg  # “See SOURCE/NOTES Fields”
-fddajeklkkggbnppabbhkdmnkdjindlo  # ﻿Street Basketball [credential-theft]
+fddajeklkkggbnppabbhkdmnkdjindlo  # Street Basketball [credential-theft]
 fdempkefdmgfcogieifmnadjhohaljcb
 fdfffeipjpofnkmdkadjcjohdfoeblhk  # "Zombies Wallpaper HD Custom New Tab"
 fdlagfnfaheppaigholhoojabfaapnhb  # AI Agent
@@ -978,7 +978,7 @@ gbbpilgcdcmfppjkdociebhmcnbfbmod  # “See SOURCE/NOTES Fields”
 gbcgjnbccjojicobfimcnfjddhpphaod
 gbcjipmcpedgndgdnfofbhgnkmghoamm
 gbdjcgalliefpinpmggefbloehmmknca  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-gbhhgipmedccnankkjchgcidiigmioio  # ﻿Slot Ramses
+gbhhgipmedccnankkjchgcidiigmioio  # Slot Ramses
 gbkmkgfjngebdcpklbkeccelcjaobblk  # “See SOURCE/NOTES Fields”
 gbnahglfafmhaehbdmjedfhdmimjcbed  # AutoBuy Flash Sales [adware]
 gbnjejhgognmdkjeljbpecpnanakcooh
@@ -1140,7 +1140,7 @@ hbghbdhfibifdgnbpaogepnkekonkdgc
 hbghfkabaomclpcofjbokbnigcocfdla
 hbjeophpjnopmeheabcilmgdhnnjbmbo  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
 hblfamjdifnhiioifbfamlnkjfenhfed
-hbobdcfpgonejphpemijgjddanoipbkj  # ﻿Flicking Soccer [credential-theft]
+hbobdcfpgonejphpemijgjddanoipbkj  # Flicking Soccer [credential-theft]
 hcajdpmoffefpkboepbgggjagedbdolf
 hcbmcbkjjklkjidikpggmmfpfklcpnmb  # ZAPPROFIT CRM [adware]
 hccflbcmekoegenjodacikdoponodeid
@@ -1193,7 +1193,7 @@ hilgkhepkfjdkkdigphhcgmghefdledg
 himipdblnokdafogmdlmajgokiopcbjk  # Словарёк
 hinhmojdkodmficpockledafoeodokmc  # HyperVolume [adware]
 hiodlpcelfelhpinhgngoopbmclcaghd
-hiofkndodabpioiheinoiojjobadpgmj  # ﻿﻿MASTER CHECKERS [credential-theft]
+hiofkndodabpioiheinoiojjobadpgmj  # MASTER CHECKERS [credential-theft]
 hjchjajelldmdegnajehbipdeepdloko
 hjepnlaapopkiedfendjaieefldndecd
 hjfmdhbmpagpfheceengkakdmpncmlif  # "Christmas Tree - Rose Gold Themes Frozen"
@@ -1204,7 +1204,7 @@ hjljmggepgoedlhpmmnnlhgnpnhpciel
 hjobpecmhlmolgpmkejgadabjejpjcgm
 hjoihkjijjbkiglgeghbokincmidfped  # "Harry Potter Wallpaper HD Custom New Tab"
 hkanhigmilpgifamljmnfppnllckkpda
-hkbihmjhjmehlocilifheeaeiljabenb  # ﻿﻿Watercraft Rush [credential-theft]
+hkbihmjhjmehlocilifheeaeiljabenb  # Watercraft Rush [credential-theft]
 hkcbibfkelanabcbbmfoggcefieeboml
 hkdbocoaofpdmbbgpimdkhcafenpkikn  # WATEND [adware]
 hkhmodcdjhcidbcncgmnknjppphcpgmh  # Amazon Sticky Notes
@@ -1216,7 +1216,7 @@ hlbdhflagoegglpdminhlpenkdgloabe  # Palant affiliate fraud cluster (name unconfi
 hlcjkaoneihodfmonjnlnnfpdcopgfjk  # ShadyPanda affiliate fraud extension [adware]
 hlglicejgohbanllnmnjllajhmnhjjel
 hljdedgemmmkdalbnmnpoimdedckdkhm
-hlmdnedepbbihmbddepemmbkenbnoegd  # ﻿﻿Car Rush [credential-theft]
+hlmdnedepbbihmbddepemmbkenbnoegd  # Car Rush [credential-theft]
 hmaeodbfmgikoddffcfoedogkkiifhfe  # Adblock.mx - Adblock for Chrome [click-fraud]
 hmamdkecijcegebmhndhcihjjkndbjgk  # “See SOURCE/NOTES Fields”
 hmbacpfgehmmoloinfmkgkpjoagiogai
@@ -1235,7 +1235,7 @@ hnadleianomnjcoeplifgbkiejchjmah  # Search Everywhere with Google Bard/Gemini
 hncokbmdmbmmlkjhoagcpokehopdikhc  # "Star Wars Wallpaper HD Custom New Tab"
 hnfabcchmopgohnhkcojhocneefbnffg  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 hnhpnbajfmmopedidmiablkcdnlegkmd  # "Sports Cars - Super Cars Wallpaper HD New Tab"
-hnpbijogiiaegambgpaenjbcbgaeimlf  # ﻿Slot Machine Ultimate Soccer
+hnpbijogiiaegambgpaenjbcbgaeimlf  # Slot Machine Ultimate Soccer
 hoclolhilhbecpefaignjficiaaclpop
 hodafefeincjlgijbiabbmaffambjeaa
 hodfejbmfdhcgolcglcojkpfdjjdepji  # “See SOURCE/NOTES Fields”
@@ -1332,12 +1332,12 @@ iicpikopjmmincpjkckdngpkmlcchold  # Repeat button [adware]
 iiegilogjnagependdonbfcmfmmaamon
 iikipimjoiepbfmpiglnkgkcepnkjfie
 ijapakghdgckgblfgjobhcfglebbkebf
-ijccacgjefefdpglhclnbpfjlcbagafm  # ﻿﻿High or Low Casino Game [credential-theft]
+ijccacgjefefdpglhclnbpfjlcbagafm  # High or Low Casino Game [credential-theft]
 ijccagageaijbfaefkflkepnglppdlnn  # Hunter x Hunter Cursor - Custom Anime Cursor for Chrome [adware]
 ijcpbhmpbaafndchbjdjchogaogelnjl  # ShadyPanda affiliate fraud extension [adware]
 ijdgdpgjggoehifckpmpdmfpnkdakkne  # Verk - Direto no whatsapp, Automações e IA para vendas [adware]
 ijejnggjjphlenbhmjhhgcdpehhacaal  # Palant affiliate fraud cluster (name unconfirmed) [adware]
-ijfmkphjcogaealhjgijjfjlkpdhhojk  # ﻿﻿Goalkeeper Challenge [credential-theft]
+ijfmkphjcogaealhjgijjfjlkpdhhojk  # Goalkeeper Challenge [credential-theft]
 ijgahedgacnhnbdakolhnhkbjbhjgfao
 ijhakgidfnlallpobldpbhandllbeobg  # “See SOURCE/NOTES Fields”
 ijhbioflmfpgfmgapjnojopobfncdeif
@@ -1363,7 +1363,7 @@ imdgpklnabbkghcbhmkbjbhcomnfdige  # ShadyPanda affiliate fraud extension [adware
 imgjapefioodjkjipgpnohmceghomkmb  # WaClinic [adware]
 imgobajicoilkgmmoolognglaljhokno
 imhlnhlbiencamnbpigopiibddajimep
-imjmnghlhiimodfkdkgnfplhlobehnpm  # ﻿﻿BlackJack 3D [credential-theft]
+imjmnghlhiimodfkdkgnfplhlobehnpm  # BlackJack 3D [credential-theft]
 imkngaibigegepnlckfcbecjoilcjbhf
 immheffbkopbhdlaaahedhehiaakkpaj
 imopknpgdihifjkjpmjaagcagkefddnb  # Palant affiliate fraud cluster (name unconfirmed) [adware]
@@ -1537,7 +1537,7 @@ joaobbbiagpjnhgbppfdjcbeabbbjokm
 jobfmpppoaapbjmgbejgdfkigomnjihe
 jocnjcakendmllafpmjailfnlndaaklf
 jodgpofgbnifpjpikmagibgcfiipkgkb
-jodocbbdcdclkhjkibnlfhbmllcpfkfo  # ﻿﻿Slot Machine The Fruits [credential-theft]
+jodocbbdcdclkhjkibnlfhbmllcpfkfo  # Slot Machine The Fruits [credential-theft]
 johobikccpnmifjjpephegmfpipfbfme  # Amazon Stock Checker &amp; 999 Trick
 jooiimddfkjoomennmpjabdbbpdocjng
 jpdhdeabikbmklmacididiaifpcploif
@@ -1559,7 +1559,7 @@ kbhhacnmeeljkelinngfddddmgnpfagc
 kbifpojhlkdoidmndacedmkbjopeekgl
 kbkajekcpifoekenleplhefobiponkmp
 kblengdlefjpjkekanpoidgoghdngdgl
-kblomapfkjidbbbdllmofkcakcenkmec  # ﻿Mini Golf World
+kblomapfkjidbbbdllmofkcakcenkmec  # Mini Golf World
 kbmindomjiejdikjaagfdbdfpnlanobi  # Gold Rush - Slot Machine
 kbnkkecifeppobnemkielnpagifkobki  # Pirat Slot
 kcbmdejmlcdjmfdiaepfblnocimhlnfm
@@ -1641,7 +1641,7 @@ kkfobcljflnlpbemjicenfkfnplaggkk
 kkgmdjjpobmenpkhcclceelekpbnnana
 kkhajpbefbdihlflckhhahbneaoooeka
 kkhjihaeddnhknninbekkhaklnailngh
-kknakidneabpfgepadgpkibalcnabnnh  # ﻿3D Soccer Slot Machine
+kknakidneabpfgepadgpkibalcnabnnh  # 3D Soccer Slot Machine
 kknkkiffjdiapkinkldibnndmnmdccnn
 kknnggmipdieldidejjflfceicjpcgdk  # Organize-C Pro [adware]
 kkodiihpgodmdankclfibbiphjkfdenh  # VPNCity [data-theft]
@@ -1651,7 +1651,7 @@ kldgaejigkhpgmfglbamggiglngkifck
 klejifgmmnkgejbhgmpgajemhlnijlib  # “Zoomer for Instagram and FaceBook”
 klggeioacnkkpdcnapgcoicnblliidmf
 klgjbnheihgnmimajhohfcldhfpjnahe
-klglejfbdeipgklgaepnodpjcnhaihkd  # ﻿﻿Premium Horse Racing [credential-theft]
+klglejfbdeipgklgaepnodpjcnhaihkd  # Premium Horse Racing [credential-theft]
 kljbaedmklfnlgfmmbodnckafhllkjnd
 klmjcelobglnhnbfpmlbgnoeippfhhil  # “Stylebot”
 klnndcfpflikaeipgimmbhjhhhcegpoi
@@ -1947,7 +1947,7 @@ mlkjjjmhjijlmafgjlpkiobpdocdbncj  # Palant affiliate fraud cluster (name unconfi
 mllkmmdaapekjehapekhjjiednchgmag
 mmadogheddoddplagmdodenehpogllod
 mmbbjakjlpmndjlbhihlddgcdppblpka
-mmbkmjmlnhocfcnjmbchmflamalekbnb  # ﻿﻿Penalty Kicks
+mmbkmjmlnhocfcnjmbchmflamalekbnb  # Penalty Kicks
 mmcnmppeeghenglmidpmjkaiamcacmgm  # Volume Booster [browser-hijack]
 mmecpiobcdbjkaijljohghhpfgngpjmk  # YouSide [adware]
 mmfmakmndejojblgceefkpinojhiacfk
@@ -2021,7 +2021,7 @@ nchffcpkbehklpbdodlakgdbnkdcnpbi  # "Hedgehog Wallpaper HD Custom New Tab"
 ncjbeingokdeimlmolagjaddccfdlkbd
 nckldhnoondmiheikhblobkgcfchcbld  # "Blade Runner 2049 Wallpaper HD Custom New Tab"
 ncnonnloajjbpdpgnelmlbflmbhlilid  # "Vkook Kim Wallpaper HD Custom New Tab"
-ncpdkpcgmdhhnmcjgiiifdhefmekdcnf  # ﻿Metal Calculator [credential-theft]
+ncpdkpcgmdhhnmcjgiiifdhefmekdcnf  # Metal Calculator [credential-theft]
 ncpjlhellnlcjnjmablbaingipdemidh  # "Bears Wallpaper HD Custom New Tab"
 ndajcmifndknmkckdcdefkpgcodciggk  # Farm - Slot Machine [credential-theft]
 ndajnaaobjaganokllcgbapngenfbgkc  # Fire Shield Extension Protection [spyware]
@@ -2201,7 +2201,7 @@ ocpcmfmiidofonkbodpdhgddhlcmcofd  # Phantom Shuttle (幻影穿梭) v2 [data-thef
 ocponkhpfikgnggeflddgkfcmhjejedo  # "Chevrolet Corvette Wallpaper HD New Tab"
 odccobbfnngplckpongkahajfjpnbcck
 odcfdbjimjkipbopcfaohmffnbmnbfhb  # DAZN: Live Sports Streaming (fake) [phishing]
-odeccdcabdffpebnfancpkepjeecempn  # ﻿﻿Slot Machine Mr Chicken [credential-theft]
+odeccdcabdffpebnfancpkepjeecempn  # Slot Machine Mr Chicken [credential-theft]
 odhmhkkhpibfjijmpgcdjondompgocog
 odljclganfccoonaccngnmpfepnjbanm
 odmmidbmgkkbabilcljmljbeopneabkn
@@ -2261,7 +2261,7 @@ ojdagjoeaaooofmeofppefbnebclnmkh
 ojdkklpgpacpicaobnhankbalkkgaafp  # Web Sound Equalizer [browser-hijack]
 ojfjgkolegfhneacbgcjaoajfgcfoapf  # "Halloween Wallpaper HD Custom New Tab"
 ojhlagjgjbjfgllocdhlpnkbdlcipnmo  # "Cars"
-ojkbafekojdcedacileemekjdfdpkbkf  # ﻿﻿Slot Machine Space Adventure [credential-theft]
+ojkbafekojdcedacileemekjdfdpkbkf  # Slot Machine Space Adventure [credential-theft]
 ojkoofedgcdebdnajjeodlooojdphnlj  # Volume Booster - Super Sound Booster [spyware]
 ojlhcbolfcndnojcjhhjgmdblnojgefm
 ojmaccnnagaiokckbcpdldhnifkibcah
@@ -2383,7 +2383,7 @@ pddpiopnmcfhgdegdbjbiidcldcclepd
 pdepablkdfgdadoleeghhajaapcbilio  # MR Vulnerability Widget for GitLab
 pdfegaocpmmmomhgodfipbfmbikdajfj  # WaPower [adware]
 pdfladlchakneeclhmpoboohikpbchkj
-pdgaknahllnfldmclpcllpieafkaibmf  # ﻿﻿Whack &#39;em All [credential-theft]
+pdgaknahllnfldmclpcllpieafkaibmf  # Whack &#39;em All [credential-theft]
 pdgghfndbkndiojjojcmbkfianekifna
 pdhibfagbndnidgfjkhdhlfibdoofbji  # "Bmw Wallpaper HD Custom New Tab"
 pdjpkfbpeniinkdlmibcdebccnkimnna
@@ -2397,7 +2397,7 @@ pdpcpceofkopegffcdnffeenbfdldock  # “See SOURCE/NOTES Fields”
 pdpfhanekfkeijhemmfbnnjffiblgefi  # RedDirection extension (name unconfirmed) [data-theft]
 pedokobimilhjemibclahcelgedmkgei  # “See SOURCE/NOTES Fields”
 pefighpbbfkgkmfmpfgaopoahdmkakll
-peflgkmfmoijonfgcjdlpnnfdegnlaji  # ﻿Video Poker Jacks or Better
+peflgkmfmoijonfgcjdlpnnfdegnlaji  # Video Poker Jacks or Better
 pegfdldddiilihjahcpdehhhfcbibipg  # Palant affiliate fraud cluster (name unconfirmed) [adware]
 peglehonblabfemopkgmfcpofbchegcl  # “See SOURCE/NOTES Fields”
 pehnljkefahmlhifockljagcfcpljclc  # "Gothic Wallpaper HD Custom New Tab"
@@ -2469,7 +2469,7 @@ pkajffddidnadoaceilnhdfcoamcbnnm
 pkcoogcpeheamgkhfhelaifnpmehdgmp
 pkdpclgpnnfhpapcnffgjbplfbmoejbj
 pkgciiiancapdlpcbppfkmeaieppikkk  # Primus (prev. PADO) [data-theft]
-pkghgkfjhjghinikeanecbgjehojfhdg  # ﻿InterAlt [credential-theft]
+pkghgkfjhjghinikeanecbgjehojfhdg  # InterAlt [credential-theft]
 pkhlncgfgeoalinmmhpbfopbkefckaao
 pkjfghocapckmendmgdmppjccbplccbg
 pkkmmmmckhencoamaonbiidanpnhikbc  # Tetrys - Falling blocks

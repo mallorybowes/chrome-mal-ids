@@ -2,7 +2,7 @@
   "meta": {
     "name": "Malicious Chrome Extension IOC Database",
     "url": "https://github.com/mallorybowes/chrome-mal-ids",
-    "generated": "2026-05-28T02:47:32.879349+00:00",
+    "generated": "2026-05-28T02:49:55.954946+00:00",
     "total": 2525,
     "license": "CC BY 4.0",
     "attribution": "Data sourced from Malicious Chrome Extension IOC Database — https://github.com/mallorybowes/chrome-mal-ids"
@@ -1315,7 +1315,7 @@
     },
     {
       "ext_id": "akebbllmckjphjiojeioooidhnddnplj",
-      "name": "﻿Formula Rush Racing Game",
+      "name": "Formula Rush Racing Game",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -1379,7 +1379,7 @@
     },
     {
       "ext_id": "akkkopcadaalekbdgpdikhdablkgjagd",
-      "name": "﻿﻿Slot Arabian",
+      "name": "Slot Arabian",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -1457,7 +1457,7 @@
     },
     {
       "ext_id": "alkfljfjkpiccfgbeocbbjjladigcleg",
-      "name": "﻿﻿Frogtastic",
+      "name": "Frogtastic",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -1644,7 +1644,7 @@
     },
     {
       "ext_id": "amnaljnjmgajgajelnplfmidgjgbjfhe",
-      "name": "﻿Mahjong Deluxe",
+      "name": "Mahjong Deluxe",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -2268,7 +2268,7 @@
     },
     {
       "ext_id": "bbjdlbemjklojnbifkgameepcafflmem",
-      "name": "﻿Crazy Freekick",
+      "name": "Crazy Freekick",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -4254,7 +4254,7 @@
     },
     {
       "ext_id": "cdpiopekjeonfjeocbfebemgocjciepp",
-      "name": "﻿﻿Master Chess",
+      "name": "Master Chess",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -4312,7 +4312,7 @@
     },
     {
       "ext_id": "cehdkmmfadpplgchnbjgdngdcjmhlfcc",
-      "name": "﻿Hockey Shootout",
+      "name": "Hockey Shootout",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -5298,7 +5298,7 @@
     },
     {
       "ext_id": "clpgopiimdjcilllcjncdkoeikkkcfbi",
-      "name": "﻿Billiards Pro",
+      "name": "Billiards Pro",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -5731,7 +5731,7 @@
     },
     {
       "ext_id": "cpnfioldnmhaihohppoaebillnambcgn",
-      "name": "﻿Rugby Rush",
+      "name": "Rugby Rush",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -5993,7 +5993,7 @@
     },
     {
       "ext_id": "dcamdpfclondppklabgkfaofjccpioil",
-      "name": "﻿Web Client for game Cricket Batter Challenge",
+      "name": "Web Client for game Cricket Batter Challenge",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -7080,7 +7080,7 @@
     },
     {
       "ext_id": "dljlpildgknddpnahppkihgodokfjbnd",
-      "name": "﻿﻿Slot Machine Zeus Treasures",
+      "name": "Slot Machine Zeus Treasures",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -7590,7 +7590,7 @@
     },
     {
       "ext_id": "dpdemambcedffmnkfmkephnhhnclmcio",
-      "name": "﻿﻿Slot The Gold Pot",
+      "name": "Slot The Gold Pot",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -10217,7 +10217,7 @@
     },
     {
       "ext_id": "fddajeklkkggbnppabbhkdmnkdjindlo",
-      "name": "﻿Street Basketball",
+      "name": "Street Basketball",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -11979,7 +11979,7 @@
     },
     {
       "ext_id": "gbhhgipmedccnankkjchgcidiigmioio",
-      "name": "﻿Slot Ramses",
+      "name": "Slot Ramses",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -13933,7 +13933,7 @@
     },
     {
       "ext_id": "hbobdcfpgonejphpemijgjddanoipbkj",
-      "name": "﻿Flicking Soccer",
+      "name": "Flicking Soccer",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -14533,7 +14533,7 @@
     },
     {
       "ext_id": "hiofkndodabpioiheinoiojjobadpgmj",
-      "name": "﻿﻿MASTER CHECKERS",
+      "name": "MASTER CHECKERS",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -14660,7 +14660,7 @@
     },
     {
       "ext_id": "hkbihmjhjmehlocilifheeaeiljabenb",
-      "name": "﻿﻿Watercraft Rush",
+      "name": "Watercraft Rush",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -14829,7 +14829,7 @@
     },
     {
       "ext_id": "hlmdnedepbbihmbddepemmbkenbnoegd",
-      "name": "﻿﻿Car Rush",
+      "name": "Car Rush",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -15090,7 +15090,7 @@
     },
     {
       "ext_id": "hnpbijogiiaegambgpaenjbcbgaeimlf",
-      "name": "﻿Slot Machine Ultimate Soccer",
+      "name": "Slot Machine Ultimate Soccer",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -16265,7 +16265,7 @@
     },
     {
       "ext_id": "ijccacgjefefdpglhclnbpfjlcbagafm",
-      "name": "﻿﻿High or Low Casino Game",
+      "name": "High or Low Casino Game",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -16350,7 +16350,7 @@
     },
     {
       "ext_id": "ijfmkphjcogaealhjgijjfjlkpdhhojk",
-      "name": "﻿﻿Goalkeeper Challenge",
+      "name": "Goalkeeper Challenge",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -16656,7 +16656,7 @@
     },
     {
       "ext_id": "imjmnghlhiimodfkdkgnfplhlobehnpm",
-      "name": "﻿﻿BlackJack 3D",
+      "name": "BlackJack 3D",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -18764,7 +18764,7 @@
     },
     {
       "ext_id": "jodocbbdcdclkhjkibnlfhbmllcpfkfo",
-      "name": "﻿﻿Slot Machine The Fruits",
+      "name": "Slot Machine The Fruits",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -19020,7 +19020,7 @@
     },
     {
       "ext_id": "kblomapfkjidbbbdllmofkcakcenkmec",
-      "name": "﻿Mini Golf World",
+      "name": "Mini Golf World",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -19965,7 +19965,7 @@
     },
     {
       "ext_id": "kknakidneabpfgepadgpkibalcnabnnh",
-      "name": "﻿3D Soccer Slot Machine",
+      "name": "3D Soccer Slot Machine",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -20085,7 +20085,7 @@
     },
     {
       "ext_id": "klglejfbdeipgklgaepnodpjcnhaihkd",
-      "name": "﻿﻿Premium Horse Racing",
+      "name": "Premium Horse Racing",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -23673,7 +23673,7 @@
     },
     {
       "ext_id": "mmbkmjmlnhocfcnjmbchmflamalekbnb",
-      "name": "﻿﻿Penalty Kicks",
+      "name": "Penalty Kicks",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -24556,7 +24556,7 @@
     },
     {
       "ext_id": "ncpdkpcgmdhhnmcjgiiifdhefmekdcnf",
-      "name": "﻿Metal Calculator",
+      "name": "Metal Calculator",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -26796,7 +26796,7 @@
     },
     {
       "ext_id": "odeccdcabdffpebnfancpkepjeecempn",
-      "name": "﻿﻿Slot Machine Mr Chicken",
+      "name": "Slot Machine Mr Chicken",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -27541,7 +27541,7 @@
     },
     {
       "ext_id": "ojkbafekojdcedacileemekjdfdpkbkf",
-      "name": "﻿﻿Slot Machine Space Adventure",
+      "name": "Slot Machine Space Adventure",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -29006,7 +29006,7 @@
     },
     {
       "ext_id": "pdgaknahllnfldmclpcllpieafkaibmf",
-      "name": "﻿﻿Whack &#39;em All",
+      "name": "Whack &#39;em All",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",
@@ -29181,7 +29181,7 @@
     },
     {
       "ext_id": "peflgkmfmoijonfgcjdlpnnfdegnlaji",
-      "name": "﻿Video Poker Jacks or Better",
+      "name": "Video Poker Jacks or Better",
       "browser": "chrome",
       "date_added": "2026-05-17",
       "still_active": true,
@@ -30033,7 +30033,7 @@
     },
     {
       "ext_id": "pkghgkfjhjghinikeanecbgjehojfhdg",
-      "name": "﻿InterAlt",
+      "name": "InterAlt",
       "browser": "chrome",
       "threat_types": [
         "credential-theft",

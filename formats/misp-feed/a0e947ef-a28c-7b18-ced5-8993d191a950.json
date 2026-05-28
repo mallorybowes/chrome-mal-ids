@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779936459",
+    "timestamp": "1779936602",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: VK Styles - Themes for vk.com | Threat: session-hijack,data-theft,click-fraud | VK Styles campaign (threat actor 2vk). 5 Chrome extensions targeting VKontakte users. Lead extension VK Styles - Themes for vk.com had 400,000 installs. Used VK profile metadata as dead-drop C2. Auto-",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936459",
+        "timestamp": "1779936602",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — VK Styles - Themes for vk.com",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936459",
+        "timestamp": "1779936602",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936459",
+        "timestamp": "1779936602",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936459",
+        "timestamp": "1779936602",
         "disable_correlation": false
       }
     ]
