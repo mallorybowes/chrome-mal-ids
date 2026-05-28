@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "5d97debc-889b-212f-cc39-f143f0178986",
     "info": "[chrome-mal-ids] YowGames cursor farm — 43 malicious extension(s)",
-    "date": "2026-05-26",
+    "date": "2026-05-28",
     "threat_level_id": "2",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779831555",
+    "timestamp": "1779933694",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -36,10 +36,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ahofgjkfjljcliehioeefaanagffnffa",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Star Wars Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -47,10 +47,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ahofgjkfjljcliehioeefaanagffnffa",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Star Wars Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -58,10 +58,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ajcnllagebcaahcdfbappndlmhmpdhif",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Avengers Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -69,10 +69,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ajcnllagebcaahcdfbappndlmhmpdhif",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Avengers Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -80,10 +80,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/amomkbhjghmegifhopipecfioeelecal",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Plants vs. Zombies Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -91,10 +91,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "amomkbhjghmegifhopipecfioeelecal",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Plants vs. Zombies Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -102,10 +102,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/aobjbhiaoljpdpeappmepnhdhklkijjp",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Cat Cursor ♥ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -113,10 +113,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "aobjbhiaoljpdpeappmepnhdhklkijjp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Cat Cursor ♥ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -124,10 +124,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/blibecomdmpcndbgkinclhaokmaheild",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: KPop Demon Hunters Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -135,10 +135,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "blibecomdmpcndbgkinclhaokmaheild",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — KPop Demon Hunters Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -146,10 +146,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/boolceociingmfoakiaiikpcnbcbajfm",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Blackpink Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -157,10 +157,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "boolceociingmfoakiaiikpcnbcbajfm",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Blackpink Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -168,10 +168,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/caeneogdipddninidgnoamjaglmmlmoo",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Dandadan Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -179,10 +179,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "caeneogdipddninidgnoamjaglmmlmoo",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Dandadan Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -190,10 +190,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cbgmidgpbbholpniehflilcaacpfipob",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Musicians and Singers Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -201,10 +201,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cbgmidgpbbholpniehflilcaacpfipob",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Musicians and Singers Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -212,10 +212,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cembgjjgklolpjnbjmemmfmlkfmklood",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Lilo &amp; Stitch Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -223,10 +223,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cembgjjgklolpjnbjmemmfmlkfmklood",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Lilo &amp; Stitch Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -234,10 +234,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cfolcjmcamelkgoopjddgbnaobjihmcn",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Kirby Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -245,10 +245,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cfolcjmcamelkgoopjddgbnaobjihmcn",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Kirby Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -256,10 +256,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dbjpighofpljmoogjcbhghlnlnepmmie",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Back to School Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -267,10 +267,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dbjpighofpljmoogjcbhghlnlnepmmie",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Back to School Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -278,10 +278,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dgfaekieonkobpaklglncjmjibbbpnod",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Anime Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -289,10 +289,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dgfaekieonkobpaklglncjmjibbbpnod",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Anime Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -300,10 +300,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dobjkkoopofegeinkiepblgidnigchoo",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Preppy Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -311,10 +311,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dobjkkoopofegeinkiepblgidnigchoo",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Preppy Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -322,10 +322,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/domdcfhmjfdchcegjmnjbioejdphmnio",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Cinnamoroll Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -333,10 +333,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "domdcfhmjfdchcegjmnjbioejdphmnio",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Cinnamoroll Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -344,10 +344,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/eenfkghojihnhnninifhndjilpibchki",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Peanuts Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -355,10 +355,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "eenfkghojihnhnninifhndjilpibchki",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Peanuts Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -366,10 +366,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/elfcaiclmhkioadcpikkonlnanaakmem",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Solo Leveling Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -377,10 +377,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "elfcaiclmhkioadcpikkonlnanaakmem",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Solo Leveling Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -388,10 +388,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/eljclcigelmfnomncdefdkbgnbbilnel",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Hello Kitty Cursor ♥ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -399,10 +399,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "eljclcigelmfnomncdefdkbgnbbilnel",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Hello Kitty Cursor ♥ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -410,10 +410,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/enemknlfbkchplbhdflblafnpfmgdpib",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: My Hero Academia Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -421,10 +421,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "enemknlfbkchplbhdflblafnpfmgdpib",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — My Hero Academia Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -432,10 +432,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fkbjmjplmceabidmaloaffkmanglpfoe",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Soccer Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -443,10 +443,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "fkbjmjplmceabidmaloaffkmanglpfoe",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Soccer Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -454,10 +454,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/flpfhaclifodhjecdjjdnefcjfnflcpp",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Harry Potter Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -465,10 +465,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "flpfhaclifodhjecdjjdnefcjfnflcpp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Harry Potter Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -476,10 +476,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gdnhbhfhnjcfhakagfdeeblhnpjcfjnn",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Winnie The Pooh Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -487,10 +487,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gdnhbhfhnjcfhakagfdeeblhnpjcfjnn",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Winnie The Pooh Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -498,10 +498,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gkbilebmkjlflcijbecemkmgkhnenakm",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Brawl Stars Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -509,10 +509,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gkbilebmkjlflcijbecemkmgkhnenakm",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Brawl Stars Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -520,10 +520,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gpacldldkpfobgbdabaollodfoilfela",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Pokemon Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -531,10 +531,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gpacldldkpfobgbdabaollodfoilfela",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Pokemon Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -542,10 +542,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/iglgfjffffiknjajejaleginhanmejec",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Naruto Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -553,10 +553,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "iglgfjffffiknjajejaleginhanmejec",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Naruto Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -564,10 +564,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jalaoplogcelljfhlodnagfepednmilm",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Dragon Ball Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -575,10 +575,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jalaoplogcelljfhlodnagfepednmilm",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Dragon Ball Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -586,10 +586,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jddaakabhmcbgfnbkgcjfeigbnbcdjgn",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: BTS Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -597,10 +597,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jddaakabhmcbgfnbkgcjfeigbnbcdjgn",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — BTS Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -608,10 +608,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jddgindpdjdojhenigliipabmmckcofh",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Supercars Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -619,10 +619,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jddgindpdjdojhenigliipabmmckcofh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Supercars Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -630,10 +630,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jfliobjbgdclhcjgpgimckaijlcbkmdk",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Haikyuu Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -641,10 +641,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jfliobjbgdclhcjgpgimckaijlcbkmdk",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Haikyuu Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -652,10 +652,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/knomkjoeecgejmhchcpmpbdpfdphpgpo",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Poppy Playtime Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -663,10 +663,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "knomkjoeecgejmhchcpmpbdpfdphpgpo",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Poppy Playtime Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -674,10 +674,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/lcahlhmejfgofgednancmbfmflaoihld",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Jujutsu Kaisen Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -685,10 +685,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "lcahlhmejfgofgednancmbfmflaoihld",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Jujutsu Kaisen Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -696,10 +696,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ldonikoaoafdiccjpkpcgplphedemnma",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Pochacco Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -707,10 +707,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ldonikoaoafdiccjpkpcgplphedemnma",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Pochacco Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -718,10 +718,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/maookbdaoegaepgklgimmakbcfjdmbhf",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Peppa Pig Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -729,10 +729,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "maookbdaoegaepgklgimmakbcfjdmbhf",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Peppa Pig Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -740,10 +740,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/midamgpdhbehjnjchnegghbhnpkcljmd",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Chiikawa Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -751,10 +751,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "midamgpdhbehjnjchnegghbhnpkcljmd",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Chiikawa Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -762,10 +762,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mifleipondphdoaampgmkndjjkfldmdb",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Super Mario Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -773,10 +773,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mifleipondphdoaampgmkndjjkfldmdb",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Super Mario Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -784,10 +784,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mndeiclfmpndlbkklepkbjihkaccfcod",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: The Simpsons Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -795,10 +795,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mndeiclfmpndlbkklepkbjihkaccfcod",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — The Simpsons Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -806,10 +806,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mpidnflfogjjkchbllplcpcdoifgnjjj",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Spy x Family Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -817,10 +817,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mpidnflfogjjkchbllplcpcdoifgnjjj",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Spy x Family Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -828,10 +828,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nichemncnkkplpkgpndnnedokokhoeam",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Pusheen Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -839,10 +839,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "nichemncnkkplpkgpndnnedokokhoeam",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Pusheen Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -850,10 +850,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nlppklcmgfgaploglaakimdlfgeinajj",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Blue Lock Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -861,10 +861,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "nlppklcmgfgaploglaakimdlfgeinajj",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Blue Lock Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -872,10 +872,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ofjldebeoclakifeeoidicojpinkllmc",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Hollow Knight Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -883,10 +883,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ofjldebeoclakifeeoidicojpinkllmc",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Hollow Knight Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -894,10 +894,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ondkeebbobdggpgmdnimdcnopmckcabp",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Five Nights at Freddy&#39;s Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -905,10 +905,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ondkeebbobdggpgmdnimdcnopmckcabp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Five Nights at Freddy&#39;s Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -916,10 +916,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/oodhphlpepgoccemjgpedagbpfelcpdl",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Hunter x Hunter Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -927,10 +927,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "oodhphlpepgoccemjgpedagbpfelcpdl",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Hunter x Hunter Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -938,10 +938,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pahlnbfkogncdbkaeaamcmpmhjecicmh",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Capybara Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -949,10 +949,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pahlnbfkogncdbkaeaamcmpmhjecicmh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Capybara Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -960,10 +960,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pmlcfgndjofkkpimdenhpkmdbmnbfend",
-        "comment": "Threat: adware,spyware | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
+        "comment": "Name: Sonic the Hedgehog Cursor ★ Custom Cursor for Chrome™ | Threat: adware,spyware | ⚡ Still active in store | YowGames cursor farm. Install/uninstall tracking via yowgames[.]com. Content scripts on all URLs enable browsing activity monitoring and ad injection. Stage 5A confirmed. | Original note: Stub entry i",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -971,10 +971,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pmlcfgndjofkkpimdenhpkmdbmnbfend",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Sonic the Hedgehog Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -985,7 +985,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       }
     ]

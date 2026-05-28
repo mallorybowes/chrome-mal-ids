@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "fc984428-5926-3a42-b2eb-1bd2e98fe0fb",
     "info": "[chrome-mal-ids] Unit 42 Feb 2026 AI-accelerated malicious extension campaign — 1 malicious extension(s)",
-    "date": "2026-05-26",
+    "date": "2026-05-28",
     "threat_level_id": "3",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779831555",
+    "timestamp": "1779933694",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -36,10 +36,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dkhpgbbhlnmjbkihoeniojpkggkabbbl",
-        "comment": "Unit 42 Feb 2026 AI-accelerated malicious extension campaign. Name and specific behavior pending enrichment.",
+        "comment": "Name: AI Compare - Multi-AI one-click compare &amp; copy results | ⚡ Still active in store | Unit 42 Feb 2026 AI-accelerated malicious extension campaign. Name and specific behavior pending enrichment.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -47,10 +47,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dkhpgbbhlnmjbkihoeniojpkggkabbbl",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — AI Compare - Multi-AI one-click compare &amp; copy results",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       }
     ]

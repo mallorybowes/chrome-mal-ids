@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "800f30af-710a-e43c-c0de-879078a44207",
     "info": "[chrome-mal-ids] TabPlugins cursor farm — 26 malicious extension(s)",
-    "date": "2026-05-26",
+    "date": "2026-05-28",
     "threat_level_id": "2",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779831555",
+    "timestamp": "1779933694",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -36,10 +36,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/bhcjjbencodlgfoneipfnnpclempbdka",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: One Piece Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -47,10 +47,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "bhcjjbencodlgfoneipfnnpclempbdka",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — One Piece Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -58,10 +58,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/bjacehmkdjdpknkoomphgfheehjfiocg",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Black Clover Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -69,10 +69,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "bjacehmkdjdpknkoomphgfheehjfiocg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Black Clover Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -80,10 +80,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cckgnbinkelflpimkpadlfmlpbbagmka",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Bleach Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -91,10 +91,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cckgnbinkelflpimkpadlfmlpbbagmka",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Bleach Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -102,10 +102,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dnfjhcohapaoibiekobphekeohdamjbi",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Futurama Cursor - Custom Cartoon Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -113,10 +113,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dnfjhcohapaoibiekobphekeohdamjbi",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Futurama Cursor - Custom Cartoon Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -124,10 +124,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dnhfbehomlbkmimmmoejcmcondhmebia",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Kirby Cursor Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -135,10 +135,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dnhfbehomlbkmimmmoejcmcondhmebia",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Kirby Cursor Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -146,10 +146,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/eioefbifkjcfpkdoghnndbceebbohkcd",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Genshin Impact Cursor - Custom Cartoon Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -157,10 +157,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "eioefbifkjcfpkdoghnndbceebbohkcd",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Genshin Impact Cursor - Custom Cartoon Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -168,10 +168,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/emekjhecncemhkpoolndbgmbgfieipdh",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Pac-Man Cursor - Custom Retro Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -179,10 +179,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "emekjhecncemhkpoolndbgmbgfieipdh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Pac-Man Cursor - Custom Retro Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -190,10 +190,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fghhbjaoopknmbecbghnhnfapabhjhhg",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Dragon Ball Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -201,10 +201,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "fghhbjaoopknmbecbghnhnfapabhjhhg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Dragon Ball Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -212,10 +212,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gkjbbfabeojdbiabpjapkjnhpnjcckbf",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: FNaF Cursor - Custom Horror Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -223,10 +223,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gkjbbfabeojdbiabpjapkjnhpnjcckbf",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — FNaF Cursor - Custom Horror Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -234,10 +234,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gmjibldihkpammmelmkiipjcgmhdcdmb",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Dogs Cursor - Custom Dog Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -245,10 +245,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gmjibldihkpammmelmkiipjcgmhdcdmb",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Dogs Cursor - Custom Dog Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -256,10 +256,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hdholjicmhinpjcbmigoffjedkiihlen",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Death Note Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -267,10 +267,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "hdholjicmhinpjcbmigoffjedkiihlen",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Death Note Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -278,10 +278,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/igmblpicjfppdloljoabpiafdlokogno",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Fallout Cursor - Custom Game Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -289,10 +289,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "igmblpicjfppdloljoabpiafdlokogno",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Fallout Cursor - Custom Game Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -300,10 +300,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ijccagageaijbfaefkflkepnglppdlnn",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Hunter x Hunter Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -311,10 +311,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ijccagageaijbfaefkflkepnglppdlnn",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Hunter x Hunter Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -322,10 +322,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/kdnnogfmhpppncphlnecbdhoggpmbkci",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Squid Game Cursor - Custom Korean Drama Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -333,10 +333,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "kdnnogfmhpppncphlnecbdhoggpmbkci",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Squid Game Cursor - Custom Korean Drama Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -344,10 +344,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/kkchefmfekacdingcjkgiaggdafolhen",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Minecraft Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -355,10 +355,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "kkchefmfekacdingcjkgiaggdafolhen",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Minecraft Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -366,10 +366,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/lalcmboamkljbdlgjfockddndpfoiojc",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: One-Punch Man Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -377,10 +377,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "lalcmboamkljbdlgjfockddndpfoiojc",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — One-Punch Man Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -388,10 +388,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/lmjdeimbphcbnfekpgblhlbhknpmaoij",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Hello Kitty Cursor - Custom Kawaii Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -399,10 +399,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "lmjdeimbphcbnfekpgblhlbhknpmaoij",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Hello Kitty Cursor - Custom Kawaii Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -410,10 +410,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/lmjocpjbilfamkogfpbecdhefcjffbhb",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Soccer Cursor - Custom Sports Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -421,10 +421,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "lmjocpjbilfamkogfpbecdhefcjffbhb",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Soccer Cursor - Custom Sports Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -432,10 +432,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/lmnmfkhppclolpdbdabpbhladegibpgi",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Demon Slayer Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -443,10 +443,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "lmnmfkhppclolpdbdabpbhladegibpgi",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Demon Slayer Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -454,10 +454,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ngiaafjblpmiejfgcnfcolhdccmaafjg",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Basketball Cursor - Custom Sports Game Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -465,10 +465,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ngiaafjblpmiejfgcnfcolhdccmaafjg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Basketball Cursor - Custom Sports Game Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -476,10 +476,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nmkpckdpiikfoenhfaognmajhpgpoobg",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Animal Crossing Cursor - Custom Nintendo Game Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -487,10 +487,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "nmkpckdpiikfoenhfaognmajhpgpoobg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Animal Crossing Cursor - Custom Nintendo Game Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -498,10 +498,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/oalffknmmdipjphppkcnffnfefljelcm",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: My Hero Academia Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -509,10 +509,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "oalffknmmdipjphppkcnffnfefljelcm",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — My Hero Academia Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -520,10 +520,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/oiogpbnonmepejhhmhgnmmpofkknomcf",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Spy x Family Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -531,10 +531,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "oiogpbnonmepejhhmhgnmmpofkknomcf",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Spy x Family Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -542,10 +542,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pgbhmanighehdihhgcfodcecphdakkgn",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Naruto Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -553,10 +553,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pgbhmanighehdihhgcfodcecphdakkgn",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Naruto Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -564,10 +564,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pgmiigclfodaendfgenfbmcfoefaljda",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Attack on Titan Cursor - Custom Anime Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -575,10 +575,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pgmiigclfodaendfgenfbmcfoefaljda",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Attack on Titan Cursor - Custom Anime Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -586,10 +586,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pjfjconkopcckeanlhklghfogkdhnegk",
-        "comment": "Threat: adware,browser-hijack | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
+        "comment": "Name: Pusheen Cursor - Custom Kawaii Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | TabPlugins cursor farm. Install/uninstall tracking via tabplugins[.]com. New tab hijacking infrastructure at tabplugins[.]com/constructor/. Content scripts on all URLs. Stage 5A confirmed. | Original ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -597,10 +597,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pjfjconkopcckeanlhklghfogkdhnegk",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Pusheen Cursor - Custom Kawaii Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -611,7 +611,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       }
     ]

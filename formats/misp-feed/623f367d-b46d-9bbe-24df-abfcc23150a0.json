@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "623f367d-b46d-9bbe-24df-abfcc23150a0",
     "info": "[chrome-mal-ids] Stage 5A static analysis confirmed malicious behavior — 58 malicious extension(s)",
-    "date": "2026-05-26",
+    "date": "2026-05-28",
     "threat_level_id": "3",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779831555",
+    "timestamp": "1779933694",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -36,10 +36,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ahlnchhkedmjbdocaamkbmhppnligmoh",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Amazon Seller Assistant - 10Xprofit Amazon Seller Tools (FBA &amp; FBM) | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -47,10 +47,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ahlnchhkedmjbdocaamkbmhppnligmoh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Amazon Seller Assistant - 10Xprofit Amazon Seller Tools (FBA &amp; FBM)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -58,10 +58,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/akdajpomgjgldidenledjjiemgkjcchc",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=102). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Giant Coupons Official Extension | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=102). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -69,10 +69,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "akdajpomgjgldidenledjjiemgkjcchc",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Giant Coupons Official Extension",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -80,10 +80,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/alkgglonfjgmdolnjafmbmldmmalhdoi",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Instagram Saved Posts Downloader | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -91,10 +91,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "alkgglonfjgmdolnjafmbmldmmalhdoi",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Instagram Saved Posts Downloader",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -102,10 +102,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/almalgbpmcfpdaopimbdchdliminoign",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=232). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Urban Browser Guard | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=232). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -113,10 +113,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "almalgbpmcfpdaopimbdchdliminoign",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Urban Browser Guard",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -124,10 +124,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/aohfjaadlbiifnnajpobdhokecjokhab",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Amazon ASIN Copy | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -135,10 +135,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "aohfjaadlbiifnnajpobdhokecjokhab",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Amazon ASIN Copy",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -146,10 +146,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/bgnpgpfjdpmgfdegmmjdbppccdhjhdpe",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=122). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Screen Recorder | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=122). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -157,10 +157,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "bgnpgpfjdpmgfdegmmjdbppccdhjhdpe",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Screen Recorder",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -168,10 +168,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/bnacincmbaknlbegecpioobkfgejlojp",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: MaxFocus: Link Preview &amp; AI Assistant | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -179,10 +179,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "bnacincmbaknlbegecpioobkfgejlojp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — MaxFocus: Link Preview &amp; AI Assistant",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -190,10 +190,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cdiohdbijdajffgccjmbblbikpnnnkeg",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: ZAP Wallet - AI-Powered Solana Wallet | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -201,10 +201,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cdiohdbijdajffgccjmbblbikpnnnkeg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — ZAP Wallet - AI-Powered Solana Wallet",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -212,10 +212,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/celjchjgliegnlalhjegfcaacphgdkij",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=142). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Blocksi AI Web Filter | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=142). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -223,10 +223,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "celjchjgliegnlalhjegfcaacphgdkij",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Blocksi AI Web Filter",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -234,10 +234,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cfbgdmiobbicgjnaegnenlcgbdabkcli",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: TikTok Video Downloader — Save Videos | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -245,10 +245,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cfbgdmiobbicgjnaegnenlcgbdabkcli",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — TikTok Video Downloader — Save Videos",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -256,10 +256,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cgmllohkcppmnkfpijpngkplpdbikhlf",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=162). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Safe Surf | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=162). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -267,10 +267,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "cgmllohkcppmnkfpijpngkplpdbikhlf",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Safe Surf",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -278,10 +278,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/coegijljhiejhdodjbnlglffjomlbgmi",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: HashDit | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -289,10 +289,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "coegijljhiejhdodjbnlglffjomlbgmi",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — HashDit",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -300,10 +300,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dcbcnpnaccfjoikaofjgcipcfbmfkpmj",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=182). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: ChatGPT Extension | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=182). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -311,10 +311,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dcbcnpnaccfjoikaofjgcipcfbmfkpmj",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — ChatGPT Extension",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -322,10 +322,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dgeiaiglmhdhajbpfbmajaajdlfdinpi",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=152). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: 会译:一站式 AI 翻译 Agent｜对照式DeepL翻译｜DeepSeek划词翻译｜免费 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=152). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -333,10 +333,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dgeiaiglmhdhajbpfbmajaajdlfdinpi",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — 会译:一站式 AI 翻译 Agent｜对照式DeepL翻译｜DeepSeek划词翻译｜免费",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -344,10 +344,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dkdnidbnjihhilbjndnnlfipmbnoaipn",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: BirdTab - Bird Wallpapers and Nature Sounds for New Tab Page | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -355,10 +355,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dkdnidbnjihhilbjndnnlfipmbnoaipn",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — BirdTab - Bird Wallpapers and Nature Sounds for New Tab Page",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -366,10 +366,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dllpkaoladhieehkbjbifonfblhgkoki",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=82). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Best AdBlocker | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=82). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -377,10 +377,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "dllpkaoladhieehkbjbifonfblhgkoki",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Best AdBlocker",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -388,10 +388,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ecocgofdjmiomgmgnchijbghkikolkkl",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Instagram Downloader | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -399,10 +399,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ecocgofdjmiomgmgnchijbghkikolkkl",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Instagram Downloader",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -410,10 +410,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/edkmbojkflfanganifkkajmldejmhlec",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=172). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: GoCashBack: Deals, Rebates, Savings Extension | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=172). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -421,10 +421,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "edkmbojkflfanganifkkajmldejmhlec",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — GoCashBack: Deals, Rebates, Savings Extension",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -432,10 +432,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/eemjhliengnnmjmbdjagekdddmkhanna",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=182). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: ima知识库 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=182). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -443,10 +443,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "eemjhliengnnmjmbdjagekdddmkhanna",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — ima知识库",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -454,10 +454,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fcejkolobdcfbhhakbhajcflakmnhaff",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=272). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Knowee AI (formerly StudyGPT) - Your Homework &amp; Essay Helper | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=272). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -465,10 +465,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "fcejkolobdcfbhhakbhajcflakmnhaff",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Knowee AI (formerly StudyGPT) - Your Homework &amp; Essay Helper",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -476,10 +476,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fjpobenajidogfpilgbjgbglcanfjnoa",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: DAT GO | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -487,10 +487,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "fjpobenajidogfpilgbjgbglcanfjnoa",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — DAT GO",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -498,10 +498,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fmncmpginchogfdnjfeopdopoiegjjjp",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Search GPT for Chrome | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -509,10 +509,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "fmncmpginchogfdnjfeopdopoiegjjjp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Search GPT for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -520,10 +520,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fphiegmeigkjnjcpmdoecllfeanfbbhd",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Squid Game Cursor ★ Custom Cursor for Chrome™ | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -531,10 +531,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "fphiegmeigkjnjcpmdoecllfeanfbbhd",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Squid Game Cursor ★ Custom Cursor for Chrome™",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -542,10 +542,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gejgekoijpmoplecdpbbnldgcbhnfmpo",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: İSGPratik Bot | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -553,10 +553,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gejgekoijpmoplecdpbbnldgcbhnfmpo",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — İSGPratik Bot",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -564,10 +564,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/giaooddllfkkkblpaedgkhfmhocponbo",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: DeepSeek v3 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -575,10 +575,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "giaooddllfkkkblpaedgkhfmhocponbo",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — DeepSeek v3",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -586,10 +586,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gmmhcbmmnclgmmjimiiefhiagmpamdlb",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Edit anything - Boost any page | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -597,10 +597,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "gmmhcbmmnclgmmjimiiefhiagmpamdlb",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Edit anything - Boost any page",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -608,10 +608,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hegneaniplmfjcmohoclabblbahcbjoe",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=132). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Video Ad Blocker Plus | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=132). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -619,10 +619,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "hegneaniplmfjcmohoclabblbahcbjoe",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Video Ad Blocker Plus",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -630,10 +630,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/himipdblnokdafogmdlmajgokiopcbjk",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Словарёк | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -641,10 +641,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "himipdblnokdafogmdlmajgokiopcbjk",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Словарёк",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -652,10 +652,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hklhhkchffegjfojbofhfkckjidfbjhe",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Free VPN for Chrome: Secure VPN Proxy in One Click | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -663,10 +663,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "hklhhkchffegjfojbofhfkckjidfbjhe",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Free VPN for Chrome: Secure VPN Proxy in One Click",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -674,10 +674,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hmkcidjcpomiegnklmplkimmbcbklglb",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Adobe Express: AI Photo, Video | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -685,10 +685,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "hmkcidjcpomiegnklmplkimmbcbklglb",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Adobe Express: AI Photo, Video",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -696,10 +696,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hnadleianomnjcoeplifgbkiejchjmah",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=102). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Search Everywhere with Google Bard/Gemini | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=102). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -707,10 +707,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "hnadleianomnjcoeplifgbkiejchjmah",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Search Everywhere with Google Bard/Gemini",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -718,10 +718,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hpkfkbmcphnigepfjmapkdaedglohgjg",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: flappy birdie (night farm mode) | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -729,10 +729,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "hpkfkbmcphnigepfjmapkdaedglohgjg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — flappy birdie (night farm mode)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -740,10 +740,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/iedbphhbpflhgpihkcceocomcdnemcbj",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=192). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: AI Webcam Effects + Recorder: Google Meet, Zoom, Discord &amp; Other Meetings | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=192). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -751,10 +751,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "iedbphhbpflhgpihkcceocomcdnemcbj",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — AI Webcam Effects + Recorder: Google Meet, Zoom, Discord &amp; Other Meetings",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -762,10 +762,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/inloipbahbmhelpokmejailbmcegccal",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: ConnectGenie - Linkedin AI Assistant | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -773,10 +773,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "inloipbahbmhelpokmejailbmcegccal",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — ConnectGenie - Linkedin AI Assistant",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -784,10 +784,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/iofmialeiddolmdlkbheakaefefkjokp",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Palette Creator | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -795,10 +795,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "iofmialeiddolmdlkbheakaefefkjokp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Palette Creator",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -806,10 +806,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jaioobipjdejpeckgojiojjahmkiaihp",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=252). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Care.Sale | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=252). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -817,10 +817,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jaioobipjdejpeckgojiojjahmkiaihp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Care.Sale",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -828,10 +828,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jkeolmadidncndcbnajhaojepbolajag",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Lunabot - AI on any webpages | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -839,10 +839,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jkeolmadidncndcbnajhaojepbolajag",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Lunabot - AI on any webpages",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -850,10 +850,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jkmakgpojigahjdalffbkimpnpabelio",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Netflix Picture in Picture now for Prime &amp; D+ [QVI] | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -861,10 +861,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jkmakgpojigahjdalffbkimpnpabelio",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Netflix Picture in Picture now for Prime &amp; D+ [QVI]",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -872,10 +872,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jlalnhjkfiogoeonamcnngdndjbneina",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: AI Toolbox: Folders, Prompts, Advanced Search &amp; Export for AI Chats | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -883,10 +883,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "jlalnhjkfiogoeonamcnngdndjbneina",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — AI Toolbox: Folders, Prompts, Advanced Search &amp; Export for AI Chats",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -894,10 +894,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/kdgjiakonpbfmndaacfhamdoangincgp",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: DiyTab - 图片下载器 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -905,10 +905,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "kdgjiakonpbfmndaacfhamdoangincgp",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — DiyTab - 图片下载器",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -916,10 +916,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/kfdopiiledmclnopmihkclnfgdiggjna",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Become Waifu | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -927,10 +927,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "kfdopiiledmclnopmihkclnfgdiggjna",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Become Waifu",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -938,10 +938,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/khoigeopdelmjmimedipaoebcmkoljdg",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=122). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Ask AI | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=122). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -949,10 +949,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "khoigeopdelmjmimedipaoebcmkoljdg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Ask AI",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -960,10 +960,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/kjidkkncdchjnnfpclneimlcmghcfoon",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: intentleads - Engagement based LinkedIn Leads PREVIEW | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -971,10 +971,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "kjidkkncdchjnnfpclneimlcmghcfoon",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — intentleads - Engagement based LinkedIn Leads PREVIEW",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -982,10 +982,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ldohbgcnonoffldimgdngkojkejibina",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=122). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: 塔塔网申神器 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=122). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -993,10 +993,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ldohbgcnonoffldimgdngkojkejibina",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — 塔塔网申神器",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1004,10 +1004,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ljcgnobemekghgobhlplpehijemdgcgo",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Amazon ASIN Lookup | 10Xprofit | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1015,10 +1015,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "ljcgnobemekghgobhlplpehijemdgcgo",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Amazon ASIN Lookup | 10Xprofit",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1026,10 +1026,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mchacgmgddefeohkjobefhihbadocneh",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: OurTab | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=62). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1037,10 +1037,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mchacgmgddefeohkjobefhihbadocneh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — OurTab",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1048,10 +1048,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mimplmibgdodhkjnclacjofjbgmhogce",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Session Export Tool | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1059,10 +1059,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mimplmibgdodhkjnclacjofjbgmhogce",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Session Export Tool",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1070,10 +1070,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mkhdiephfhifcgpmkaaboknnbdpjlneg",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=132). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: DeepSeek Assistant: AI Chat, Minibar, SidePanel &amp; Search | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=132). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1081,10 +1081,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mkhdiephfhifcgpmkaaboknnbdpjlneg",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — DeepSeek Assistant: AI Chat, Minibar, SidePanel &amp; Search",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1092,10 +1092,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mleflnbfifngdmiknggikhfmjjmioofi",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=162). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: LookGood Live | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=162). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1103,10 +1103,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mleflnbfifngdmiknggikhfmjjmioofi",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — LookGood Live",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1114,10 +1114,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mleloepbohmmgjcfacngpffcappdcdni",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: VMSender | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1125,10 +1125,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mleloepbohmmgjcfacngpffcappdcdni",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — VMSender",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1136,10 +1136,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nfodepdbkedfahdadcglakjdmopkobon",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Amazon Prime Freevee Skipper: skip ads, intros &amp; more [QVI] | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1147,10 +1147,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "nfodepdbkedfahdadcglakjdmopkobon",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Amazon Prime Freevee Skipper: skip ads, intros &amp; more [QVI]",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1158,10 +1158,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/njmhcidcdbaannpafjdljminaigdgolj",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Noise Cancelling App | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1169,10 +1169,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "njmhcidcdbaannpafjdljminaigdgolj",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Noise Cancelling App",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1180,10 +1180,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nngjdplpkehilhcinpccdbkjaknkkifl",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Newsit: Hacker News and Reddit Links | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1191,10 +1191,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "nngjdplpkehilhcinpccdbkjaknkkifl",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Newsit: Hacker News and Reddit Links",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1202,10 +1202,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nnnkddnnlpamobajfibfdgfnbcnkgngh",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Infinity New Tab (Pro) | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1213,10 +1213,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "nnnkddnnlpamobajfibfdgfnbcnkgngh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Infinity New Tab (Pro)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1224,10 +1224,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/okepehobneenpbhiendcjcanjodhmcbj",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: nbnhhsh - 能不能好好说话 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1235,10 +1235,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "okepehobneenpbhiendcjcanjodhmcbj",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — nbnhhsh - 能不能好好说话",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1246,10 +1246,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pajkjnmeojmbapicmbpliphjmcekeaac",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=152). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Cyberhaven security extension | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=152). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1257,10 +1257,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pajkjnmeojmbapicmbpliphjmcekeaac",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Cyberhaven security extension",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1268,10 +1268,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pfpijacnpangmkfdpgodlbokpkhpkeka",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Tiktok Downloader | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1279,10 +1279,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pfpijacnpangmkfdpgodlbokpkhpkeka",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Tiktok Downloader",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1290,10 +1290,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pljbjcehnhcnofmkdbjolghdcjnmekia",
-        "comment": "Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "comment": "Name: Bless | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1301,10 +1301,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "pljbjcehnhcnofmkdbjolghdcjnmekia",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Bless",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -1315,7 +1315,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       }
     ]

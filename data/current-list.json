@@ -2,7 +2,7 @@
   "meta": {
     "name": "Malicious Chrome Extension IOC Database",
     "url": "https://github.com/mallorybowes/chrome-mal-ids",
-    "generated": "2026-05-26T21:39:09.268200+00:00",
+    "generated": "2026-05-28T02:01:24.815299+00:00",
     "total": 2525,
     "license": "CC BY 4.0",
     "attribution": "Data sourced from Malicious Chrome Extension IOC Database — https://github.com/mallorybowes/chrome-mal-ids"
@@ -89,6 +89,7 @@
     },
     {
       "ext_id": "aajdkangkldmljmoaoehmbnchdjkgojk",
+      "name": "WAME",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -96,6 +97,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -104,8 +106,10 @@
     },
     {
       "ext_id": "abbngaojehjekanfdipifimgmppiojpl",
+      "name": "Clothing Brand Name Generator",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -177,6 +181,7 @@
     },
     {
       "ext_id": "abkolnpebgghiglkkdjcgjgbpnddmfmp",
+      "name": "WAVENDY",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -184,6 +189,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -192,6 +198,7 @@
     },
     {
       "ext_id": "abpcbpoghgmfjkkdoeknbldhkklpcmfn",
+      "name": "Eddye",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -199,6 +206,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -376,6 +384,7 @@
     },
     {
       "ext_id": "acncpfocelnijeegfclfigffjgancfod",
+      "name": "WhatSeller",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -383,6 +392,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -473,6 +483,7 @@
     },
     {
       "ext_id": "adjmmdjciklooaidchgnmbdjmmgobcnc",
+      "name": "zapboost",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -480,6 +491,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -560,8 +572,10 @@
     },
     {
       "ext_id": "aeggcdnlgoodafmelonmibaaclbeejol",
+      "name": "Chill Super Mario Pixel Live Wallpaper",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -570,6 +584,7 @@
     },
     {
       "ext_id": "aehakeblnhhdddmglmolkjcdjblghjbm",
+      "name": "Agencia Guedes",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -577,6 +592,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -670,6 +686,7 @@
     },
     {
       "ext_id": "afdhcpnimkgccfjcelgkiipidhebddjh",
+      "name": "G5 Chat",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -677,6 +694,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -826,8 +844,10 @@
     },
     {
       "ext_id": "agleiimpggapjekcdhdjbmegjbbkleie",
+      "name": "Ground News - Bias Checker",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -884,6 +904,7 @@
     },
     {
       "ext_id": "ahgellbcclklfinhliakcdgjnebickel",
+      "name": "What Vision",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -891,6 +912,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -899,6 +921,7 @@
     },
     {
       "ext_id": "ahiieliljkcgmghicbgidblclkbklmka",
+      "name": "Dental Chat - Gestão de leads e pacientes no Whatsapp para Clínicas",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -906,6 +929,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -946,8 +970,10 @@
     },
     {
       "ext_id": "ahlnchhkedmjbdocaamkbmhppnligmoh",
+      "name": "Amazon Seller Assistant - 10Xprofit Amazon Seller Tools (FBA &amp; FBM)",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -977,12 +1003,14 @@
     },
     {
       "ext_id": "ahofgjkfjljcliehioeefaanagffnffa",
+      "name": "Star Wars Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1011,6 +1039,7 @@
     },
     {
       "ext_id": "aidmcapfnmaopagoclmgncjeegknibpd",
+      "name": "KASAPP",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -1018,6 +1047,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1104,12 +1134,14 @@
     },
     {
       "ext_id": "ajcnllagebcaahcdfbappndlmhmpdhif",
+      "name": "Avengers Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1162,6 +1194,7 @@
     },
     {
       "ext_id": "ajihoihfamedkfcknpgcelpbhdnadabg",
+      "name": "PROSPECTA CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -1169,6 +1202,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1245,8 +1279,10 @@
     },
     {
       "ext_id": "akdajpomgjgldidenledjjiemgkjcchc",
+      "name": "Giant Coupons Official Extension",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1276,8 +1312,10 @@
     },
     {
       "ext_id": "akebbllmckjphjiojeioooidhnddnplj",
+      "name": "﻿Formula Rush Racing Game",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -1393,8 +1431,10 @@
     },
     {
       "ext_id": "albakpncdngcejcjdahomfbkakbmafgb",
+      "name": "Hourly to salary calculator​",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1431,8 +1471,10 @@
     },
     {
       "ext_id": "alkgglonfjgmdolnjafmbmldmmalhdoi",
+      "name": "Instagram Saved Posts Downloader",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1478,8 +1520,10 @@
     },
     {
       "ext_id": "almalgbpmcfpdaopimbdchdliminoign",
+      "name": "Urban Browser Guard",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1596,8 +1640,10 @@
     },
     {
       "ext_id": "amnaljnjmgajgajelnplfmidgjgbjfhe",
+      "name": "﻿Mahjong Deluxe",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -1616,12 +1662,14 @@
     },
     {
       "ext_id": "amomkbhjghmegifhopipecfioeelecal",
+      "name": "Plants vs. Zombies Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1679,12 +1727,14 @@
     },
     {
       "ext_id": "anjoapnmcdcndaagonoiindlklkpmnmh",
+      "name": "Brawl Stars Cursor - Custom Game Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1713,12 +1763,14 @@
     },
     {
       "ext_id": "aobjbhiaoljpdpeappmepnhdhklkijjp",
+      "name": "Cat Cursor ♥ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1727,6 +1779,7 @@
     },
     {
       "ext_id": "aocojboaoklgedadlpaallelnanhcpgm",
+      "name": "YOUSELLER - Facilidade, produtividade em escala.",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -1734,6 +1787,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1764,8 +1818,10 @@
     },
     {
       "ext_id": "aoemlgniakbojcecmjefonjkgnceklpg",
+      "name": "Grok 4",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1774,8 +1830,10 @@
     },
     {
       "ext_id": "aofddmgnidinflambjlfkpboeamdldbd",
+      "name": "HTML validator",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1794,8 +1852,10 @@
     },
     {
       "ext_id": "aohfjaadlbiifnnajpobdhokecjokhab",
+      "name": "Amazon ASIN Copy",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1836,8 +1896,10 @@
     },
     {
       "ext_id": "apeadjelacokohnkfclnhjlihklpclmp",
+      "name": "EcoIndex.fr",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -1920,8 +1982,10 @@
     },
     {
       "ext_id": "baaekoloipdmhgffglokngoonljoachp",
+      "name": "Super Mario Bros Classic Game",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2027,8 +2091,10 @@
     },
     {
       "ext_id": "bamkikhlhhnpdkehbjpepjkjgcdcdlfi",
+      "name": "Vieu Chrome Extension - Get introduced to your buyers",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2100,6 +2166,7 @@
     },
     {
       "ext_id": "bbbifilhkmefbakdfjnamkneldmocibp",
+      "name": "MI CIERRO",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2107,6 +2174,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2296,6 +2364,7 @@
     },
     {
       "ext_id": "bdcoljfgfbdkmjeabhnpgddpiopccleo",
+      "name": "WhatsSelling",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2303,6 +2372,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2311,6 +2381,7 @@
     },
     {
       "ext_id": "bddkejibhlhebhfpbhjbgfnpkmgoboaj",
+      "name": "ZAZMAX",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2318,6 +2389,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2410,6 +2482,7 @@
     },
     {
       "ext_id": "beeemlkkaejmncamaeeahkbibhapgpeg",
+      "name": "Gestor B2B",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2417,6 +2490,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2443,8 +2517,10 @@
     },
     {
       "ext_id": "behckapcoohededfbgjgkgefgkpodeho",
+      "name": "Amazon Profit Calculator Lite",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2521,6 +2597,7 @@
     },
     {
       "ext_id": "bgaaamckjapoiaiioklgmbknjegdkkhd",
+      "name": "CRM-PRO : Transforme seu whatsapp em um sistema de vendas",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2528,6 +2605,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2546,8 +2624,10 @@
     },
     {
       "ext_id": "bgdkbjcdecedfoejdfgeafdodjgfohno",
+      "name": "Clear Cache Plus",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -2616,6 +2696,7 @@
     },
     {
       "ext_id": "bgnkgembgfkfjipflkniiibgcedloekn",
+      "name": "MULTIZAP CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2623,6 +2704,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2631,8 +2713,10 @@
     },
     {
       "ext_id": "bgnpgpfjdpmgfdegmmjdbppccdhjhdpe",
+      "name": "Screen Recorder",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2641,8 +2725,10 @@
     },
     {
       "ext_id": "bhahpmoebdipfoaadcclkcnieeokebnf",
+      "name": "Bitcoin price live",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2661,12 +2747,14 @@
     },
     {
       "ext_id": "bhcjjbencodlgfoneipfnnpclempbdka",
+      "name": "One Piece Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2686,6 +2774,7 @@
     },
     {
       "ext_id": "bhdaecfcjmipomgngjhacbfmjafjnicl",
+      "name": "Smart WA",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2693,6 +2782,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2850,6 +2940,7 @@
     },
     {
       "ext_id": "bijckmbmblabepobmabjcegimlcpilml",
+      "name": "DR.FIDELIZA",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2857,6 +2948,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2905,12 +2997,14 @@
     },
     {
       "ext_id": "bjacehmkdjdpknkoomphgfheehjfiocg",
+      "name": "Black Clover Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -2956,6 +3050,7 @@
     },
     {
       "ext_id": "bjhbgbfapjofmjcoonncefneakppmkmo",
+      "name": "PRAXATECH SOLUÇÕES",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -2963,6 +3058,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3031,6 +3127,7 @@
     },
     {
       "ext_id": "bkkcobflaheefjdhejdbogmhpojphhhf",
+      "name": "UATZAP CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -3038,6 +3135,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3141,6 +3239,7 @@
     },
     {
       "ext_id": "bledopcgjbhnheppjbekbjnjnelmckdl",
+      "name": "Wa Elo IA",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -3148,6 +3247,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3176,12 +3276,14 @@
     },
     {
       "ext_id": "blibecomdmpcndbgkinclhaokmaheild",
+      "name": "KPop Demon Hunters Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3213,8 +3315,10 @@
     },
     {
       "ext_id": "blnokeghbnokbibmohahmimdfknjcfnf",
+      "name": "Private MV3 322.373",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3322,8 +3426,10 @@
     },
     {
       "ext_id": "bnacincmbaknlbegecpioobkfgejlojp",
+      "name": "MaxFocus: Link Preview &amp; AI Assistant",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3453,12 +3559,14 @@
     },
     {
       "ext_id": "boolceociingmfoakiaiikpcnbcbajfm",
+      "name": "Blackpink Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3531,6 +3639,7 @@
     },
     {
       "ext_id": "bpgbjcgkegcecddlnlckjcoddhpmekdh",
+      "name": "waSuper",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -3538,6 +3647,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3625,8 +3735,10 @@
     },
     {
       "ext_id": "cackjmmgcmnkjnffabkabapdkofggpjl",
+      "name": "Gloss",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3663,12 +3775,14 @@
     },
     {
       "ext_id": "caeneogdipddninidgnoamjaglmmlmoo",
+      "name": "Dandadan Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3759,6 +3873,7 @@
     },
     {
       "ext_id": "cbaabfpflhiklcjgkjjhfjelihkgondn",
+      "name": "WAction",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -3766,6 +3881,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3802,6 +3918,7 @@
     },
     {
       "ext_id": "cbfeaklofemfhdlajmnlbdadcmbfaakc",
+      "name": "Gera Cliente - Extensão do Whatsapp para vender até 4x mais",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -3809,6 +3926,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3835,6 +3953,7 @@
     },
     {
       "ext_id": "cbgghdpadjdmlelmkkonkcjiccajaoln",
+      "name": "IA do Corretor",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -3842,6 +3961,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -3850,12 +3970,14 @@
     },
     {
       "ext_id": "cbgmidgpbbholpniehflilcaacpfipob",
+      "name": "Musicians and Singers Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4011,12 +4133,14 @@
     },
     {
       "ext_id": "cckgnbinkelflpimkpadlfmlpbbagmka",
+      "name": "Bleach Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4111,8 +4235,10 @@
     },
     {
       "ext_id": "cdiohdbijdajffgccjmbblbikpnnnkeg",
+      "name": "ZAP Wallet - AI-Powered Solana Wallet",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4179,8 +4305,10 @@
     },
     {
       "ext_id": "cehdkmmfadpplgchnbjgdngdcjmhlfcc",
+      "name": "﻿Hockey Shootout",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -4217,8 +4345,10 @@
     },
     {
       "ext_id": "celjchjgliegnlalhjegfcaacphgdkij",
+      "name": "Blocksi AI Web Filter",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4227,6 +4357,7 @@
     },
     {
       "ext_id": "cellckcnenolgakggljkichbmgmbibgb",
+      "name": "Midia Medica Orientada",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -4234,6 +4365,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4242,12 +4374,14 @@
     },
     {
       "ext_id": "cembgjjgklolpjnbjmemmfmlkfmklood",
+      "name": "Lilo &amp; Stitch Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4316,6 +4450,7 @@
     },
     {
       "ext_id": "cfbgbmdpdkmdpdpchmhpkkdcolpgnode",
+      "name": "Monitora Leads",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -4323,6 +4458,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4331,8 +4467,10 @@
     },
     {
       "ext_id": "cfbgdmiobbicgjnaegnenlcgbdabkcli",
+      "name": "TikTok Video Downloader — Save Videos",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4422,12 +4560,14 @@
     },
     {
       "ext_id": "cfolcjmcamelkgoopjddgbnaobjihmcn",
+      "name": "Kirby Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4515,8 +4655,10 @@
     },
     {
       "ext_id": "cgmllohkcppmnkfpijpngkplpdbikhlf",
+      "name": "Safe Surf",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4741,6 +4883,7 @@
     },
     {
       "ext_id": "cicmfpphdicmiaphcmjpcapphlnooglp",
+      "name": "FocusLead",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -4748,6 +4891,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -4967,6 +5111,7 @@
     },
     {
       "ext_id": "ckfolfphmhnhimichgialimbohkfkmpp",
+      "name": "KFarias Inovação Tecnologica",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -4974,6 +5119,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5367,8 +5513,10 @@
     },
     {
       "ext_id": "coegijljhiejhdodjbnlglffjomlbgmi",
+      "name": "HashDit",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5387,6 +5535,7 @@
     },
     {
       "ext_id": "comknamophhecgmcchgcclmcodohlfap",
+      "name": "SPEEDYX",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -5394,6 +5543,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5432,8 +5582,10 @@
     },
     {
       "ext_id": "cpcojeeblggnjjgnpiicndnahfhjdobd",
+      "name": "Amazon Image Downloader with Videos | 10X",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5491,6 +5643,7 @@
     },
     {
       "ext_id": "cplaeebopfpnoebkaimlibpdickcjofa",
+      "name": "BALTZ CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -5498,6 +5651,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5569,8 +5723,10 @@
     },
     {
       "ext_id": "cpnfioldnmhaihohppoaebillnambcgn",
+      "name": "﻿Rugby Rush",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -5599,6 +5755,7 @@
     },
     {
       "ext_id": "dagelhckpadaagjpebgjfkccfnljcjmn",
+      "name": "Pangeia",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -5606,6 +5763,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5771,12 +5929,14 @@
     },
     {
       "ext_id": "dbjpighofpljmoogjcbhghlnlnepmmie",
+      "name": "Back to School Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -5795,8 +5955,10 @@
     },
     {
       "ext_id": "dbohcpohlgnhgjmfkakoniiplglpfhcb",
+      "name": "Bingo",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -5839,8 +6001,10 @@
     },
     {
       "ext_id": "dcbcnpnaccfjoikaofjgcipcfbmfkpmj",
+      "name": "ChatGPT Extension",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6024,6 +6188,7 @@
     },
     {
       "ext_id": "deaadbmkldfnondhdbbfoldamngpgahp",
+      "name": "CRM TURBINADO",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -6031,6 +6196,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6077,6 +6243,7 @@
     },
     {
       "ext_id": "deglljpibacfneponmjilaopemcdohle",
+      "name": "ZAPFY CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -6084,6 +6251,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6231,6 +6399,7 @@
     },
     {
       "ext_id": "dfcngbjlmlakepppfaaepideejcbfcjf",
+      "name": "WA Envio",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -6238,6 +6407,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6256,6 +6426,7 @@
     },
     {
       "ext_id": "dfeojjampcncbhemefhadnnokdjdfomd",
+      "name": "EAI +",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -6263,6 +6434,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6281,8 +6453,10 @@
     },
     {
       "ext_id": "dfnannaibdndmkienngjahldiofjbkmj",
+      "name": "Amazon Weight Converter",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6301,8 +6475,10 @@
     },
     {
       "ext_id": "dgeiaiglmhdhajbpfbmajaajdlfdinpi",
+      "name": "会译:一站式 AI 翻译 Agent｜对照式DeepL翻译｜DeepSeek划词翻译｜免费",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6311,12 +6487,14 @@
     },
     {
       "ext_id": "dgfaekieonkobpaklglncjmjibbbpnod",
+      "name": "Anime Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6459,6 +6637,7 @@
     },
     {
       "ext_id": "dhpgneegbflgangnpfeoafgpabacholj",
+      "name": "WaListall | O Melhor CRM para WhatsApp Web – Teste Grátis",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -6466,6 +6645,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6796,8 +6976,10 @@
     },
     {
       "ext_id": "dkdnidbnjihhilbjndnnlfipmbnoaipn",
+      "name": "BirdTab - Bird Wallpapers and Nature Sounds for New Tab Page",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -6828,9 +7010,11 @@
     },
     {
       "ext_id": "dkhpgbbhlnmjbkihoeniojpkggkabbbl",
+      "name": "AI Compare - Multi-AI one-click compare &amp; copy results",
       "browser": "chrome",
       "date_discovered": "2026-02-20",
       "date_added": "2026-05-19",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-02-20-%20AI-Accelerated%20Malicious%20Chrome%20Extension%20Campaigns.txt",
       "article": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
@@ -6904,8 +7088,10 @@
     },
     {
       "ext_id": "dllpkaoladhieehkbjbifonfblhgkoki",
+      "name": "Best AdBlocker",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7110,12 +7296,14 @@
     },
     {
       "ext_id": "dnfjhcohapaoibiekobphekeohdamjbi",
+      "name": "Futurama Cursor - Custom Cartoon Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7134,12 +7322,14 @@
     },
     {
       "ext_id": "dnhfbehomlbkmimmmoejcmcondhmebia",
+      "name": "Kirby Cursor Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7159,8 +7349,10 @@
     },
     {
       "ext_id": "dnmfcojgjchpjcmjgpgonmhccibjopnb",
+      "name": "Amazon Search Suggestion Expander | 10xProfit",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7179,12 +7371,14 @@
     },
     {
       "ext_id": "dobjkkoopofegeinkiepblgidnigchoo",
+      "name": "Preppy Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7270,8 +7464,10 @@
     },
     {
       "ext_id": "dohenclhhdfljpjlnpjnephpccbdgmmb",
+      "name": "Straight 4",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -7307,12 +7503,14 @@
     },
     {
       "ext_id": "domdcfhmjfdchcegjmnjbioejdphmnio",
+      "name": "Cinnamoroll Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7365,6 +7563,7 @@
     },
     {
       "ext_id": "dpahdbhekfclimkekdabboefohagelfp",
+      "name": "Cliente Flow",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -7372,6 +7571,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7817,6 +8017,7 @@
     },
     {
       "ext_id": "echacghfmpmedednbkfoalmpccdiajci",
+      "name": "CRMSIM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -7824,6 +8025,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -7910,8 +8112,10 @@
     },
     {
       "ext_id": "ecocgofdjmiomgmgnchijbghkikolkkl",
+      "name": "Instagram Downloader",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8001,8 +8205,10 @@
     },
     {
       "ext_id": "edkmbojkflfanganifkkajmldejmhlec",
+      "name": "GoCashBack: Deals, Rebates, Savings Extension",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8181,8 +8387,10 @@
     },
     {
       "ext_id": "eemjhliengnnmjmbdjagekdddmkhanna",
+      "name": "ima知识库",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8191,12 +8399,14 @@
     },
     {
       "ext_id": "eenfkghojihnhnninifhndjilpibchki",
+      "name": "Peanuts Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8396,8 +8606,10 @@
     },
     {
       "ext_id": "eheagnmidghfknkcaehacggccfiidhik",
+      "name": "Email checker - verify email address in 1-click",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8550,12 +8762,14 @@
     },
     {
       "ext_id": "eioefbifkjcfpkdoghnndbceebbohkcd",
+      "name": "Genshin Impact Cursor - Custom Cartoon Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8595,6 +8809,7 @@
     },
     {
       "ext_id": "ejenghcfiaehahmeklcojkhpamicfjol",
+      "name": "JURIMIND CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -8602,6 +8817,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8653,8 +8869,10 @@
     },
     {
       "ext_id": "ejlcbfmhjbkgohopdkijfgggbikgbacb",
+      "name": "American Roulette Royale",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -8722,8 +8940,10 @@
     },
     {
       "ext_id": "ekfbpedkallblckjgijmibabfcacgjhl",
+      "name": "YT Search Helper",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8788,6 +9008,7 @@
     },
     {
       "ext_id": "ekmdldnjhmffdbihkfannnmloccnmemn",
+      "name": "Talk Mais",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -8795,6 +9016,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8833,8 +9055,10 @@
     },
     {
       "ext_id": "ekomkpgkmieaaekmaldmaljljahehkoi",
+      "name": "Amazon Keyword Density &amp; SEO Tool",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8871,6 +9095,7 @@
     },
     {
       "ext_id": "elahghcenkbboillglflockiijbkejod",
+      "name": "Hchat",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -8878,6 +9103,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8906,12 +9132,14 @@
     },
     {
       "ext_id": "elfcaiclmhkioadcpikkonlnanaakmem",
+      "name": "Solo Leveling Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8932,6 +9160,7 @@
     },
     {
       "ext_id": "elicjcmfamohcfkpokcdhapngkadckpa",
+      "name": "Chat Boost",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -8939,6 +9168,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -8957,12 +9187,14 @@
     },
     {
       "ext_id": "eljclcigelmfnomncdefdkbgnbbilnel",
+      "name": "Hello Kitty Cursor ♥ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9057,12 +9289,14 @@
     },
     {
       "ext_id": "emekjhecncemhkpoolndbgmbgfieipdh",
+      "name": "Pac-Man Cursor - Custom Retro Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9098,6 +9332,7 @@
     },
     {
       "ext_id": "emhembimlgjkalegifeijlilginlnano",
+      "name": "ClickZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -9105,6 +9340,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9195,6 +9431,7 @@
     },
     {
       "ext_id": "endfahndaiibchcbfaphnhanpckdhmll",
+      "name": "WaMed",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -9202,6 +9439,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9210,12 +9448,14 @@
     },
     {
       "ext_id": "enemknlfbkchplbhdflblafnpfmgdpib",
+      "name": "My Hero Academia Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9224,6 +9464,7 @@
     },
     {
       "ext_id": "engjehngfignjpekjkpgjgapnlkndofk",
+      "name": "SmartFlow",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -9231,6 +9472,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9424,6 +9666,7 @@
     },
     {
       "ext_id": "eolijkhfnnodhepiglajhkijjbcndiea",
+      "name": "FR VENDAS PRO",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -9431,6 +9674,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9521,6 +9765,7 @@
     },
     {
       "ext_id": "ephepidhbiabcalednafkdpllnnohnph",
+      "name": "DGUESTS",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -9528,6 +9773,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9654,8 +9900,10 @@
     },
     {
       "ext_id": "fbakofpmbmcodpmbecdimecilceplfll",
+      "name": "AI Chat Turbo",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9851,8 +10099,10 @@
     },
     {
       "ext_id": "fcejkolobdcfbhhakbhajcflakmnhaff",
+      "name": "Knowee AI (formerly StudyGPT) - Your Homework &amp; Essay Helper",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -9993,8 +10243,10 @@
     },
     {
       "ext_id": "fdlagfnfaheppaigholhoojabfaapnhb",
+      "name": "AI Agent",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10068,8 +10320,10 @@
     },
     {
       "ext_id": "feeonheemodpkdckaljcjogdncpiiban",
+      "name": "Switch to Chrome?",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": false,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10078,6 +10332,7 @@
     },
     {
       "ext_id": "fefgeijhenfppagifhlfkjjadijghoea",
+      "name": "Win7max - CRM no WhatsApp Web, Chatbot, Automação e Disparo em Massa",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -10085,6 +10340,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10242,6 +10498,7 @@
     },
     {
       "ext_id": "ffngpoeegbhbhpbkhbnilghielofekpc",
+      "name": "App Vendas CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -10249,6 +10506,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10300,8 +10558,10 @@
     },
     {
       "ext_id": "fgbieegonkgdlkmeaapmkejdlfalonkb",
+      "name": "DeepSeek AI",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10338,12 +10598,14 @@
     },
     {
       "ext_id": "fghhbjaoopknmbecbghnhnfapabhjhhg",
+      "name": "Dragon Ball Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10393,6 +10655,7 @@
     },
     {
       "ext_id": "fhgjdkfbeghkbgjjkkkldiemdcboimmi",
+      "name": "Primeira Classe",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -10400,6 +10663,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10589,8 +10853,10 @@
     },
     {
       "ext_id": "fjpobenajidogfpilgbjgbglcanfjnoa",
+      "name": "DAT GO",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10609,12 +10875,14 @@
     },
     {
       "ext_id": "fkbjmjplmceabidmaloaffkmanglpfoe",
+      "name": "Soccer Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10769,6 +11037,7 @@
     },
     {
       "ext_id": "flfjappofhfkljghalmpfnnhllokpami",
+      "name": "WORKZAP",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -10776,6 +11045,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10835,8 +11105,10 @@
     },
     {
       "ext_id": "flkebkiofojicogddingbdmcmkpbplcd",
+      "name": "Search for perplexity ai",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -10899,12 +11171,14 @@
     },
     {
       "ext_id": "flpfhaclifodhjecdjjdnefcjfnflcpp",
+      "name": "Harry Potter Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11054,8 +11328,10 @@
     },
     {
       "ext_id": "fmncmpginchogfdnjfeopdopoiegjjjp",
+      "name": "Search GPT for Chrome",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11126,6 +11402,7 @@
     },
     {
       "ext_id": "fnhnkcmbkibeacgbhloapcdgmgfdnpcc",
+      "name": "WATSELY",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -11133,6 +11410,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11295,6 +11573,7 @@
     },
     {
       "ext_id": "foodgdffkpakghokjoemdblocpijcdgd",
+      "name": "To Talk Connect",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -11302,6 +11581,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11352,8 +11632,10 @@
     },
     {
       "ext_id": "fphiegmeigkjnjcpmdoecllfeanfbbhd",
+      "name": "Squid Game Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11516,6 +11798,7 @@
     },
     {
       "ext_id": "gadlhgaecbhahkiojnnfnkklomflhifh",
+      "name": "WAURA",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -11523,6 +11806,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11680,8 +11964,10 @@
     },
     {
       "ext_id": "gbhhgipmedccnankkjchgcidiigmioio",
+      "name": "﻿Slot Ramses",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -11916,12 +12202,14 @@
     },
     {
       "ext_id": "gdnhbhfhnjcfhakagfdeeblhnpjcfjnn",
+      "name": "Winnie The Pooh Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -11980,8 +12268,10 @@
     },
     {
       "ext_id": "gejgekoijpmoplecdpbbnldgcbhnfmpo",
+      "name": "İSGPratik Bot",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12071,8 +12361,10 @@
     },
     {
       "ext_id": "gfdbbmngalhmegpkejhidhgdpmehlmnd",
+      "name": "Amazon Keyword Cloud Generator",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12113,8 +12405,10 @@
     },
     {
       "ext_id": "gfhcdakcnpahfdealajmhcapnhhablbp",
+      "name": "Battleship War",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -12279,6 +12573,7 @@
     },
     {
       "ext_id": "ghajfmiecdhdkifpapbjngmcdbedjmgg",
+      "name": "WaBest",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12286,6 +12581,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12305,6 +12601,7 @@
     },
     {
       "ext_id": "ghfhbalboihigmncnabikapdldfdikng",
+      "name": "FATURE MAIS",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12312,6 +12609,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12407,8 +12705,10 @@
     },
     {
       "ext_id": "giaooddllfkkkblpaedgkhfmhocponbo",
+      "name": "DeepSeek v3",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12544,6 +12844,7 @@
     },
     {
       "ext_id": "gjbfdbkfhgdfiieppgdpbglhjhljhhmk",
+      "name": "WhaScale - Um passo à frente do seu concorrente",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12551,6 +12852,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12559,6 +12861,7 @@
     },
     {
       "ext_id": "gjdchlihfacnabnppldhmnimolipgnmj",
+      "name": "SutoflyCRM, WhatsApp Web organizado, automatizado e vendendo",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12566,6 +12869,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12622,8 +12926,10 @@
     },
     {
       "ext_id": "gjlbbcimkbncedhofeknicfkhgaocohl",
+      "name": "Shopify Search By Image",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12632,6 +12938,7 @@
     },
     {
       "ext_id": "gjlfpggiddcminhebiejofeglfjmleli",
+      "name": "waTidy : CRM no whatsapp, Automações e Ferramentas para venda",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12639,6 +12946,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12667,12 +12975,14 @@
     },
     {
       "ext_id": "gkbilebmkjlflcijbecemkmgkhnenakm",
+      "name": "Brawl Stars Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12691,6 +13001,7 @@
     },
     {
       "ext_id": "gkdefmghclmhookpgciggdhglejpghoc",
+      "name": "Whapro – Automação, CRM e Vendas no WhatsApp Web",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12698,6 +13009,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12737,12 +13049,14 @@
     },
     {
       "ext_id": "gkjbbfabeojdbiabpjapkjnhpnjcckbf",
+      "name": "FNaF Cursor - Custom Horror Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12762,6 +13076,7 @@
     },
     {
       "ext_id": "gkkkdobapmhkaihggejlcdbjemfkhdgk",
+      "name": "ZappyGO",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12769,6 +13084,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12940,6 +13256,7 @@
     },
     {
       "ext_id": "gmidblfofjdiajmlnfiagijikmojkhia",
+      "name": "SevenSales",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -12947,6 +13264,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -12965,12 +13283,14 @@
     },
     {
       "ext_id": "gmjibldihkpammmelmkiipjcgmhdcdmb",
+      "name": "Dogs Cursor - Custom Dog Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13000,8 +13320,10 @@
     },
     {
       "ext_id": "gmmhcbmmnclgmmjimiiefhiagmpamdlb",
+      "name": "Edit anything - Boost any page",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13078,6 +13400,7 @@
     },
     {
       "ext_id": "gnmmfdohfcohcflccikmlodaeignlkce",
+      "name": "Whats Expert",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -13085,6 +13408,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13169,8 +13493,10 @@
     },
     {
       "ext_id": "goikoilmhcgfidolicnbgggdpckdcoam",
+      "name": "Amazon Character Count &amp; Seller Tools",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13199,6 +13525,7 @@
     },
     {
       "ext_id": "gollbfedpcfodjgfjddbkfnkkfdedknn",
+      "name": "Master Engage",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -13206,6 +13533,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13235,12 +13563,14 @@
     },
     {
       "ext_id": "gpacldldkpfobgbdabaollodfoilfela",
+      "name": "Pokemon Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13398,8 +13728,10 @@
     },
     {
       "ext_id": "hafhkoalnlpoifpidohfjlmeemfifndi",
+      "name": "Grok AI",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13611,6 +13943,7 @@
     },
     {
       "ext_id": "hcbmcbkjjklkjidikpggmmfpfklcpnmb",
+      "name": "ZAPPROFIT CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -13618,6 +13951,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13773,12 +14107,14 @@
     },
     {
       "ext_id": "hdholjicmhinpjcbmigoffjedkiihlen",
+      "name": "Death Note Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13860,6 +14196,7 @@
     },
     {
       "ext_id": "hecbfkaeblempihjgpoeapkpjnkhlmli",
+      "name": "wazippy",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -13867,6 +14204,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -13895,8 +14233,10 @@
     },
     {
       "ext_id": "hegneaniplmfjcmohoclabblbahcbjoe",
+      "name": "Video Ad Blocker Plus",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14045,8 +14385,10 @@
     },
     {
       "ext_id": "hhlcpmdhlcoghhfgiiopcjbkfmdliknc",
+      "name": "CSS validator",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14135,8 +14477,10 @@
     },
     {
       "ext_id": "himipdblnokdafogmdlmajgokiopcbjk",
+      "name": "Словарёк",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14326,6 +14670,7 @@
     },
     {
       "ext_id": "hkdbocoaofpdmbbgpimdkhcafenpkikn",
+      "name": "WATEND",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -14333,6 +14678,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14341,8 +14687,10 @@
     },
     {
       "ext_id": "hkhmodcdjhcidbcncgmnknjppphcpgmh",
+      "name": "Amazon Sticky Notes",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14368,8 +14716,10 @@
     },
     {
       "ext_id": "hkkkipfcdagiocekjdhobgmlkhejjfoj",
+      "name": "Amazon Negative Review Highlighter",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14378,8 +14728,10 @@
     },
     {
       "ext_id": "hklhhkchffegjfojbofhfkckjidfbjhe",
+      "name": "Free VPN for Chrome: Secure VPN Proxy in One Click",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14388,6 +14740,7 @@
     },
     {
       "ext_id": "hknmlgmbiononigjnihhflhmmmhfbjpl",
+      "name": "autozai – Otimize o tempo e multiplique as vendas no WhatsApp",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -14395,6 +14748,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14589,8 +14943,10 @@
     },
     {
       "ext_id": "hmkcidjcpomiegnklmplkimmbcbklglb",
+      "name": "Adobe Express: AI Photo, Video",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14665,8 +15021,10 @@
     },
     {
       "ext_id": "hnadleianomnjcoeplifgbkiejchjmah",
+      "name": "Search Everywhere with Google Bard/Gemini",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -14714,8 +15072,10 @@
     },
     {
       "ext_id": "hnpbijogiiaegambgpaenjbcbgaeimlf",
+      "name": "﻿Slot Machine Ultimate Soccer",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -14897,8 +15257,10 @@
     },
     {
       "ext_id": "hpkfkbmcphnigepfjmapkdaedglohgjg",
+      "name": "flappy birdie (night farm mode)",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15176,8 +15538,10 @@
     },
     {
       "ext_id": "iclckldkfemlnecocpphinnplnmijkol",
+      "name": "SQLite browser",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15351,8 +15715,10 @@
     },
     {
       "ext_id": "iedbphhbpflhgpihkcceocomcdnemcbj",
+      "name": "AI Webcam Effects + Recorder: Google Meet, Zoom, Discord &amp; Other Meetings",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15498,8 +15864,10 @@
     },
     {
       "ext_id": "ifhigdhiifbnjanhacoedbadhmlkjgae",
+      "name": "Chat with AI",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15647,12 +16015,14 @@
     },
     {
       "ext_id": "iglgfjffffiknjajejaleginhanmejec",
+      "name": "Naruto Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15661,12 +16031,14 @@
     },
     {
       "ext_id": "igmblpicjfppdloljoabpiafdlokogno",
+      "name": "Fallout Cursor - Custom Game Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15774,6 +16146,7 @@
     },
     {
       "ext_id": "iibldfhmeiipohbjlkhfgnjhcmkknffi",
+      "name": "AtendaZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -15781,6 +16154,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15811,8 +16185,10 @@
     },
     {
       "ext_id": "iiclalbandeleomiglahokbnnlmbajpl",
+      "name": "Infinite Mario Bros Offline",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15885,12 +16261,14 @@
     },
     {
       "ext_id": "ijccagageaijbfaefkflkepnglppdlnn",
+      "name": "Hunter x Hunter Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -15917,6 +16295,7 @@
     },
     {
       "ext_id": "ijdgdpgjggoehifckpmpdmfpnkdakkne",
+      "name": "Verk - Direto no whatsapp, Automações e IA para vendas",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -15924,6 +16303,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16085,6 +16465,7 @@
     },
     {
       "ext_id": "ikliliinakofoiojghnipegfphmoljla",
+      "name": "Kentro",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16092,6 +16473,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16171,6 +16553,7 @@
     },
     {
       "ext_id": "illemhbijpiebjfilfmgebahaakajkpe",
+      "name": "WaSeller - Perder vendas no WhatsApp não é normal",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16178,6 +16561,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16214,6 +16598,7 @@
     },
     {
       "ext_id": "imgjapefioodjkjipgpnohmceghomkmb",
+      "name": "WaClinic",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16221,6 +16606,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16323,8 +16709,10 @@
     },
     {
       "ext_id": "incoejagnokjhlkjkgpbdbooagggckdg",
+      "name": "Web.archive.org Auto-Archiver",
       "browser": "chrome",
       "date_added": "2026-05-19",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/gnyman/chromium-mal-ids",
       "article": "https://github.com/gnyman/chromium-mal-ids",
@@ -16453,8 +16841,10 @@
     },
     {
       "ext_id": "inloipbahbmhelpokmejailbmcegccal",
+      "name": "ConnectGenie - Linkedin AI Assistant",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16494,8 +16884,10 @@
     },
     {
       "ext_id": "iofmialeiddolmdlkbheakaefefkjokp",
+      "name": "Palette Creator",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16712,6 +17104,7 @@
     },
     {
       "ext_id": "jacgfjfdnjamjbdkihblimkekfoiiafi",
+      "name": "WAFACIL",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16719,6 +17112,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16737,6 +17131,7 @@
     },
     {
       "ext_id": "jadgponjpllhepidoclncpogkhcnepac",
+      "name": "WaPROdy",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16744,6 +17139,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16802,8 +17198,10 @@
     },
     {
       "ext_id": "jaioobipjdejpeckgojiojjahmkiaihp",
+      "name": "Care.Sale",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16822,12 +17220,14 @@
     },
     {
       "ext_id": "jalaoplogcelljfhlodnagfepednmilm",
+      "name": "Dragon Ball Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16836,8 +17236,10 @@
     },
     {
       "ext_id": "jaojpdijbaolkhkifpgbjnhfbmckoojh",
+      "name": "Amazon Listing Score Checker",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16846,6 +17248,7 @@
     },
     {
       "ext_id": "jaonmiiccahaddjkdhaonhfhdiagfbdh",
+      "name": "Waat: CRM e Vendas no WhatsApp Web",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16853,6 +17256,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -16977,6 +17381,7 @@
     },
     {
       "ext_id": "jcjodbceolndbhnbljiedcanmglmhmop",
+      "name": "ZarpGo",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -16984,6 +17389,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17033,12 +17439,14 @@
     },
     {
       "ext_id": "jddaakabhmcbgfnbkgcjfeigbnbcdjgn",
+      "name": "BTS Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17047,12 +17455,14 @@
     },
     {
       "ext_id": "jddgindpdjdojhenigliipabmmckcofh",
+      "name": "Supercars Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17216,6 +17626,7 @@
     },
     {
       "ext_id": "jeicljefnlpdoblklfdephbpihhjgphf",
+      "name": "ENOCRM | Gestão de Leads no WhatsAPP",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -17223,6 +17634,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17337,12 +17749,14 @@
     },
     {
       "ext_id": "jfliobjbgdclhcjgpgimckaijlcbkmdk",
+      "name": "Haikyuu Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17515,8 +17929,10 @@
     },
     {
       "ext_id": "jhhjbaicgmecddbaobeobkikgmfffaeg",
+      "name": "Chat AI for Chrome",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17535,8 +17951,10 @@
     },
     {
       "ext_id": "jhjomhjgolkejjhnglnammeflgedabbo",
+      "name": "Stacker - Falling Block",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17572,6 +17990,7 @@
     },
     {
       "ext_id": "jhokpeoaapahcoaigkfnienliabeaang",
+      "name": "Disparô/Wa - Disparo no WhatsApp, CRM, Automações, Ferramentas para Venda",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -17579,6 +17998,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17776,6 +18196,7 @@
     },
     {
       "ext_id": "jkblcpmoooocmdcfjojdecccejlkicap",
+      "name": "MERLIN BOT",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -17783,6 +18204,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17803,6 +18225,7 @@
     },
     {
       "ext_id": "jkeogjcccehfccanacclmckcdgepkifo",
+      "name": "InterZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -17810,6 +18233,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17818,8 +18242,10 @@
     },
     {
       "ext_id": "jkeolmadidncndcbnajhaojepbolajag",
+      "name": "Lunabot - AI on any webpages",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17828,6 +18254,7 @@
     },
     {
       "ext_id": "jkflhidejcmhenikpjhidoofogahicjp",
+      "name": "RED Chat CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -17835,6 +18262,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17854,8 +18282,10 @@
     },
     {
       "ext_id": "jkmakgpojigahjdalffbkimpnpabelio",
+      "name": "Netflix Picture in Picture now for Prime &amp; D+ [QVI]",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -17923,8 +18353,10 @@
     },
     {
       "ext_id": "jlalnhjkfiogoeonamcnngdndjbneina",
+      "name": "AI Toolbox: Folders, Prompts, Advanced Search &amp; Export for AI Chats",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18123,8 +18555,10 @@
     },
     {
       "ext_id": "jmlgkeaofknfmnbpmlmadnfnfajdlehn",
+      "name": "AliExpress Deals Countdown - Flash Sale Timer",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18161,8 +18595,10 @@
     },
     {
       "ext_id": "jmpcodajbcpgkebjipbmjdoboehfiddd",
+      "name": "DeepSeek AI Chat",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18250,8 +18686,10 @@
     },
     {
       "ext_id": "jnmmbmkmbkcccpihjgnhjmhhkokfdnfe",
+      "name": "Classic Backgammon",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -18317,8 +18755,10 @@
     },
     {
       "ext_id": "johobikccpnmifjjpephegmfpipfbfme",
+      "name": "Amazon Stock Checker &amp; 999 Trick",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18553,8 +18993,10 @@
     },
     {
       "ext_id": "kblomapfkjidbbbdllmofkcakcenkmec",
+      "name": "﻿Mini Golf World",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -18563,8 +19005,10 @@
     },
     {
       "ext_id": "kbmindomjiejdikjaagfdbdfpnlanobi",
+      "name": "Gold Rush - Slot Machine",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -18573,8 +19017,10 @@
     },
     {
       "ext_id": "kbnkkecifeppobnemkielnpagifkobki",
+      "name": "Pirat Slot",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -18664,8 +19110,10 @@
     },
     {
       "ext_id": "kdgjiakonpbfmndaacfhamdoangincgp",
+      "name": "DiyTab - 图片下载器",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18716,12 +19164,14 @@
     },
     {
       "ext_id": "kdnnogfmhpppncphlnecbdhoggpmbkci",
+      "name": "Squid Game Cursor - Custom Korean Drama Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18831,8 +19281,10 @@
     },
     {
       "ext_id": "kfdopiiledmclnopmihkclnfgdiggjna",
+      "name": "Become Waifu",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -18881,12 +19333,14 @@
     },
     {
       "ext_id": "kfnphajojmcoapplfnocpegelkfjndom",
+      "name": "Country Flags Cursor - Custom Flag Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19113,8 +19567,10 @@
     },
     {
       "ext_id": "khoapclcikhbeaggmmfcnckcnhfniijj",
+      "name": "Web Bear Search",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19123,8 +19579,10 @@
     },
     {
       "ext_id": "khoigeopdelmjmimedipaoebcmkoljdg",
+      "name": "Ask AI",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19185,6 +19643,7 @@
     },
     {
       "ext_id": "kiobbadnbgllphgkigmkahaimkmamfln",
+      "name": "VUTTI CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -19192,6 +19651,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19319,8 +19779,10 @@
     },
     {
       "ext_id": "kjidkkncdchjnnfpclneimlcmghcfoon",
+      "name": "intentleads - Engagement based LinkedIn Leads PREVIEW",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19408,12 +19870,14 @@
     },
     {
       "ext_id": "kkchefmfekacdingcjkgiaggdafolhen",
+      "name": "Minecraft Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19473,8 +19937,10 @@
     },
     {
       "ext_id": "kknakidneabpfgepadgpkibalcnabnnh",
+      "name": "﻿3D Soccer Slot Machine",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -19493,6 +19959,7 @@
     },
     {
       "ext_id": "kknnggmipdieldidejjflfceicjpcgdk",
+      "name": "Organize-C Pro",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -19500,6 +19967,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19676,6 +20144,7 @@
     },
     {
       "ext_id": "kmipafdabbpmampkcconideakdacmaln",
+      "name": "BootComp",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -19683,6 +20152,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19701,6 +20171,7 @@
     },
     {
       "ext_id": "kmmibpooeblhmpbphojdncfdlfflecab",
+      "name": "WaContact",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -19708,6 +20179,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19797,12 +20269,14 @@
     },
     {
       "ext_id": "knomkjoeecgejmhchcpmpbdpfdphpgpo",
+      "name": "Poppy Playtime Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19811,8 +20285,10 @@
     },
     {
       "ext_id": "koecfhecfkmjkjplbmbclgacdclnnpei",
+      "name": "Token Rewards Claim",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19821,8 +20297,10 @@
     },
     {
       "ext_id": "kojhnafkiednagnljfgakalcbfbklbdk",
+      "name": "Kondo",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -19938,8 +20416,10 @@
     },
     {
       "ext_id": "kppfbknppimnoociaomjcdgkebdmenkh",
+      "name": "Amazon Price History Saver",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20015,12 +20495,14 @@
     },
     {
       "ext_id": "lalcmboamkljbdlgjfockddndpfoiojc",
+      "name": "One-Punch Man Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20164,12 +20646,14 @@
     },
     {
       "ext_id": "lcahlhmejfgofgednancmbfmflaoihld",
+      "name": "Jujutsu Kaisen Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20200,8 +20684,10 @@
     },
     {
       "ext_id": "lcijkepobdokkgmefebkiejhealgblle",
+      "name": "Caribbean Stud Poker",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -20261,6 +20747,7 @@
     },
     {
       "ext_id": "ldhkdnjdpdknckckaoafnaipmclhnfbf",
+      "name": "Salezap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -20268,6 +20755,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20314,8 +20802,10 @@
     },
     {
       "ext_id": "ldohbgcnonoffldimgdngkojkejibina",
+      "name": "塔塔网申神器",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20336,12 +20826,14 @@
     },
     {
       "ext_id": "ldonikoaoafdiccjpkpcgplphedemnma",
+      "name": "Pochacco Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20381,6 +20873,7 @@
     },
     {
       "ext_id": "lecapbnkojjbcmpgojanclnilcnemjpk",
+      "name": "SmartZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -20388,6 +20881,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20535,6 +21029,7 @@
     },
     {
       "ext_id": "lfenojckeamfnllggndghkmfhkheiimc",
+      "name": "UpSell",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -20542,6 +21037,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20837,6 +21333,7 @@
     },
     {
       "ext_id": "ligmikomohkaooecoochfknopalblanl",
+      "name": "Bull Lead - Automações e atendimento no WhatsApp para vendedores",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -20844,6 +21341,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -20889,8 +21387,10 @@
     },
     {
       "ext_id": "ljbgkfbiifhpgpipepnfefijldolkhlm",
+      "name": "Game Crypto Merge",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -20909,8 +21409,10 @@
     },
     {
       "ext_id": "ljcgnobemekghgobhlplpehijemdgcgo",
+      "name": "Amazon ASIN Lookup | 10Xprofit",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21401,8 +21903,10 @@
     },
     {
       "ext_id": "lmenhcepphonnfnjkaofobpamlfolgfl",
+      "name": "Black Script",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21441,12 +21945,14 @@
     },
     {
       "ext_id": "lmjdeimbphcbnfekpgblhlbhknpmaoij",
+      "name": "Hello Kitty Cursor - Custom Kawaii Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21465,12 +21971,14 @@
     },
     {
       "ext_id": "lmjocpjbilfamkogfpbecdhefcjffbhb",
+      "name": "Soccer Cursor - Custom Sports Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21510,12 +22018,14 @@
     },
     {
       "ext_id": "lmnmfkhppclolpdbdabpbhladegibpgi",
+      "name": "Demon Slayer Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21662,6 +22172,7 @@
     },
     {
       "ext_id": "logefefpibkofniajhdigjnpbmimjelg",
+      "name": "KENVIA - Transforme o seu WhatsApp Web numa plataforma de vendas",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -21669,6 +22180,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21689,8 +22201,10 @@
     },
     {
       "ext_id": "loiofaagnefbonjdjklhacdhfkolcfgi",
+      "name": "AliExpress Price Tracker - Price History &amp; Alerts",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21877,6 +22391,7 @@
     },
     {
       "ext_id": "mahgiheajijdifhnekeknnkfkjbfjkdh",
+      "name": "Acelere CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -21884,6 +22399,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -21986,12 +22502,14 @@
     },
     {
       "ext_id": "maookbdaoegaepgklgimmakbcfjdmbhf",
+      "name": "Peppa Pig Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22094,8 +22612,10 @@
     },
     {
       "ext_id": "mcaglpclodnaiimhicpjemhcinjfnjce",
+      "name": "AliExpress Quick Currency &amp; Price Converter",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22104,8 +22624,10 @@
     },
     {
       "ext_id": "mcaihdkeijgfhnlfcdehniplmaapadgb",
+      "name": "Walmart Search By Image",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22157,8 +22679,10 @@
     },
     {
       "ext_id": "mchacgmgddefeohkjobefhihbadocneh",
+      "name": "OurTab",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22496,8 +23020,10 @@
     },
     {
       "ext_id": "mflibpdjoodmoppignjhciadahapkoch",
+      "name": "VK Music - audio saver",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22635,12 +23161,14 @@
     },
     {
       "ext_id": "midamgpdhbehjnjchnegghbhnpkcljmd",
+      "name": "Chiikawa Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22670,12 +23198,14 @@
     },
     {
       "ext_id": "mifleipondphdoaampgmkndjjkfldmdb",
+      "name": "Super Mario Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22744,8 +23274,10 @@
     },
     {
       "ext_id": "mimplmibgdodhkjnclacjofjbgmhogce",
+      "name": "Session Export Tool",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22796,8 +23328,10 @@
     },
     {
       "ext_id": "mjcgfimemamogfmekphcfdehfkkbmldn",
+      "name": "Amazon Global Price Checker",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22858,8 +23392,10 @@
     },
     {
       "ext_id": "mkhdiephfhifcgpmkaaboknnbdpjlneg",
+      "name": "DeepSeek Assistant: AI Chat, Minibar, SidePanel &amp; Search",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22896,6 +23432,7 @@
     },
     {
       "ext_id": "mkjmckhlecedggnpbefkgehebkickghd",
+      "name": "ZAPARETO",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -22903,6 +23440,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22911,8 +23449,10 @@
     },
     {
       "ext_id": "mkkfklcadlnkhgapjeejemflhamcdjld",
+      "name": "Consensus - Reddit Comment Summarizer",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -22996,8 +23536,10 @@
     },
     {
       "ext_id": "mleflnbfifngdmiknggikhfmjjmioofi",
+      "name": "LookGood Live",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23006,8 +23548,10 @@
     },
     {
       "ext_id": "mleloepbohmmgjcfacngpffcappdcdni",
+      "name": "VMSender",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23099,8 +23643,10 @@
     },
     {
       "ext_id": "mmbkmjmlnhocfcnjmbchmflamalekbnb",
+      "name": "﻿﻿Penalty Kicks",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -23246,8 +23792,10 @@
     },
     {
       "ext_id": "mnacfoefejolpobogooghoclppjcgfcm",
+      "name": "Amazon Product Scraper | 10X",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23316,12 +23864,14 @@
     },
     {
       "ext_id": "mndeiclfmpndlbkklepkbjihkaccfcod",
+      "name": "The Simpsons Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23466,6 +24016,7 @@
     },
     {
       "ext_id": "moodoffpaogeijclgpdicfnidnmeeeoe",
+      "name": "ViaShopModa",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -23473,6 +24024,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23481,12 +24033,14 @@
     },
     {
       "ext_id": "mopjnoodlnbnkocfefcgnmnlbcmgekof",
+      "name": "Spiderman Cursor - Custom Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23549,8 +24103,10 @@
     },
     {
       "ext_id": "mpgaodghdhmeljgogbeagpbhgdbfofgb",
+      "name": "SHEIN Search By Image",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23559,12 +24115,14 @@
     },
     {
       "ext_id": "mpidnflfogjjkchbllplcpcdoifgnjjj",
+      "name": "Spy x Family Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23595,6 +24153,7 @@
     },
     {
       "ext_id": "mpmccehgdjojicnlcmmdoogohdamlfpp",
+      "name": "DigitaZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -23602,6 +24161,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -23631,8 +24191,10 @@
     },
     {
       "ext_id": "nabbdpjneieneepdfnmkdhooellilgho",
+      "name": "Website monitoring",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24063,6 +24625,7 @@
     },
     {
       "ext_id": "nddkllhdjjgopaibekmobibbmoedkdmj",
+      "name": "Vluw",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -24070,6 +24633,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24208,6 +24772,7 @@
     },
     {
       "ext_id": "nenopmledlfnfcgjdkdefhegeajjpfgf",
+      "name": "AmizApp",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -24215,6 +24780,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24287,6 +24853,7 @@
     },
     {
       "ext_id": "nfhbefcgpghdaaebjafocolpadkdedef",
+      "name": "WAPIN",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -24294,6 +24861,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24324,8 +24892,10 @@
     },
     {
       "ext_id": "nfijbcmjagdmmkchgicfdidblofopkdp",
+      "name": "Search with AI on Chrome™",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24334,8 +24904,10 @@
     },
     {
       "ext_id": "nfodepdbkedfahdadcglakjdmopkobon",
+      "name": "Amazon Prime Freevee Skipper: skip ads, intros &amp; more [QVI]",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24429,12 +25001,14 @@
     },
     {
       "ext_id": "ngiaafjblpmiejfgcnfcolhdccmaafjg",
+      "name": "Basketball Cursor - Custom Sports Game Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24454,6 +25028,7 @@
     },
     {
       "ext_id": "ngnffiapbonmlgijfnlcgbdomhgcmmna",
+      "name": "Botzom – Vendas, CRM e Chatbot para WhatsApp",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -24461,6 +25036,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24489,8 +25065,10 @@
     },
     {
       "ext_id": "nhilffccdbcjcnoopblecppbhalagpaf",
+      "name": "Amazon BSR Fast-View",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24558,12 +25136,14 @@
     },
     {
       "ext_id": "nichemncnkkplpkgpndnnedokokhoeam",
+      "name": "Pusheen Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24593,8 +25173,10 @@
     },
     {
       "ext_id": "nigamacoibifjohkmepefofohfedblgg",
+      "name": "Amazon Quick Brand Search",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24651,8 +25233,10 @@
     },
     {
       "ext_id": "nipfdfkjnidadibpbflijepbllfkokac",
+      "name": "Amazon Result Numbering",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24794,8 +25378,10 @@
     },
     {
       "ext_id": "njmhcidcdbaannpafjdljminaigdgolj",
+      "name": "Noise Cancelling App",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24834,6 +25420,7 @@
     },
     {
       "ext_id": "njpegidkheieeecaiaaihggmnhklccjn",
+      "name": "DragonChat",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -24841,6 +25428,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -24928,6 +25516,7 @@
     },
     {
       "ext_id": "nlbdmcikemaghcoeoblmlkdlhiggnhin",
+      "name": "CRM DE ELITE : CRM no whatsapp, Automações e Ferramentas para venda",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -24935,6 +25524,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25097,12 +25687,14 @@
     },
     {
       "ext_id": "nlppklcmgfgaploglaakimdlfgeinajj",
+      "name": "Blue Lock Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25203,12 +25795,14 @@
     },
     {
       "ext_id": "nmkpckdpiikfoenhfaognmajhpgpoobg",
+      "name": "Animal Crossing Cursor - Custom Nintendo Game Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25269,8 +25863,10 @@
     },
     {
       "ext_id": "nngjdplpkehilhcinpccdbkjaknkkifl",
+      "name": "Newsit: Hacker News and Reddit Links",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25289,8 +25885,10 @@
     },
     {
       "ext_id": "nnnkddnnlpamobajfibfdgfnbcnkgngh",
+      "name": "Infinity New Tab (Pro)",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25465,6 +26063,7 @@
     },
     {
       "ext_id": "npcbkljcefmdegcjjghdfgfmnkmfjlba",
+      "name": "LEEVO CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -25472,6 +26071,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25531,6 +26131,7 @@
     },
     {
       "ext_id": "npeoblgjndfpphhdjlanbjalbccifpom",
+      "name": "Mais Leads CRM",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -25538,6 +26139,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25546,6 +26148,7 @@
     },
     {
       "ext_id": "npfamfonpecnjjbhalhdahlokadlblbm",
+      "name": "Chatweb CRM : Transforme seu whatsapp em um sistema de vendas",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -25553,6 +26156,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25631,8 +26235,10 @@
     },
     {
       "ext_id": "nppjmiadmakeigiagilkfffplihgjlec",
+      "name": "BestBuy Search By Image",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -25739,12 +26345,14 @@
     },
     {
       "ext_id": "oalffknmmdipjphppkcnffnfefljelcm",
+      "name": "My Hero Academia Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -26235,8 +26843,10 @@
     },
     {
       "ext_id": "oeefjlikahigmlnplgijgeeecbpemhip",
+      "name": "Convert PDF to JPG",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -26439,12 +27049,14 @@
     },
     {
       "ext_id": "ofjldebeoclakifeeoidicojpinkllmc",
+      "name": "Hollow Knight Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -26623,8 +27235,10 @@
     },
     {
       "ext_id": "ogghnognjclkbpaeoophcgapbgmgdiok",
+      "name": "Tiktok Order Sync by HubFulFill",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -26653,6 +27267,7 @@
     },
     {
       "ext_id": "oghollmlfgpfdlailojlcpbbmjoeabhe",
+      "name": "MARKETING DE FITNESS",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -26660,6 +27275,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -26827,12 +27443,14 @@
     },
     {
       "ext_id": "oiogpbnonmepejhhmhgnmmpofkknomcf",
+      "name": "Spy x Family Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -26968,8 +27586,10 @@
     },
     {
       "ext_id": "ojnagfkemdilpdkjehfajjmcnaefhjhn",
+      "name": "Super Mario Bros Classic",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27000,6 +27620,7 @@
     },
     {
       "ext_id": "ojpoinccmndjnfhhkgcbjmkfahfmppee",
+      "name": "ZAPGYN",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -27007,6 +27628,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27052,8 +27674,10 @@
     },
     {
       "ext_id": "okepehobneenpbhiendcjcanjodhmcbj",
+      "name": "nbnhhsh - 能不能好好说话",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27083,6 +27707,7 @@
     },
     {
       "ext_id": "okhjgjpafhnjbndkojddaicngefobnjn",
+      "name": "Feel Up",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -27090,6 +27715,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27098,6 +27724,7 @@
     },
     {
       "ext_id": "okiccdcmkdhldgbclikganfldepocmmd",
+      "name": "Ninja Ads",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -27105,6 +27732,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27163,6 +27791,7 @@
     },
     {
       "ext_id": "okmklmkaficfbcebbggmjmphhipflhme",
+      "name": "IronZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -27170,6 +27799,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27238,8 +27868,10 @@
     },
     {
       "ext_id": "oliiideaalkijolilhhaibhbjfhbdcnm",
+      "name": "Link shortener",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27269,6 +27901,7 @@
     },
     {
       "ext_id": "olmbfmmlpodikepicechoekmiiejpmel",
+      "name": "WA BOOSTER",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -27276,6 +27909,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27398,12 +28032,14 @@
     },
     {
       "ext_id": "ondkeebbobdggpgmdnimdcnopmckcabp",
+      "name": "Five Nights at Freddy&#39;s Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27531,12 +28167,14 @@
     },
     {
       "ext_id": "oodhphlpepgoccemjgpedagbpfelcpdl",
+      "name": "Hunter x Hunter Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27835,12 +28473,14 @@
     },
     {
       "ext_id": "pahlnbfkogncdbkaeaamcmpmhjecicmh",
+      "name": "Capybara Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -27860,8 +28500,10 @@
     },
     {
       "ext_id": "pajkjnmeojmbapicmbpliphjmcekeaac",
+      "name": "Cyberhaven security extension",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28117,6 +28759,7 @@
     },
     {
       "ext_id": "pcjidgpofjkoaelajgfdecebigjiojcn",
+      "name": "WATHOR",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28124,6 +28767,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28159,6 +28803,7 @@
     },
     {
       "ext_id": "pckoggnahgjephjpcmfnhfolbmenkdjp",
+      "name": "SellUP",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28166,6 +28811,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28195,6 +28841,7 @@
     },
     {
       "ext_id": "pcpdnigabekdogbajcacpbkebdfmaapc",
+      "name": "ELITE",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28202,6 +28849,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28258,6 +28906,7 @@
     },
     {
       "ext_id": "pdckbaohagnmbkfjgobeaiiplolfckhm",
+      "name": "wa To you",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28265,6 +28914,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28283,8 +28933,10 @@
     },
     {
       "ext_id": "pdepablkdfgdadoleeghhajaapcbilio",
+      "name": "MR Vulnerability Widget for GitLab",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28293,6 +28945,7 @@
     },
     {
       "ext_id": "pdfegaocpmmmomhgodfipbfmbikdajfj",
+      "name": "WaPower",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28300,6 +28953,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28395,6 +29049,7 @@
     },
     {
       "ext_id": "pdlpnkplaofpdajmgegfnlifmdlejmfp",
+      "name": "Nextgo Zap: Seu Whatsapp Turbinado!",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28402,6 +29057,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28491,8 +29147,10 @@
     },
     {
       "ext_id": "peflgkmfmoijonfgcjdlpnnfdegnlaji",
+      "name": "﻿Video Poker Jacks or Better",
       "browser": "chrome",
       "date_added": "2026-05-17",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
@@ -28634,8 +29292,10 @@
     },
     {
       "ext_id": "pfgpfmdiepmhhhkpnciogjhccppbcfhk",
+      "name": "OmniFlow Sidebar",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28676,8 +29336,10 @@
     },
     {
       "ext_id": "pfpijacnpangmkfdpgodlbokpkhpkeka",
+      "name": "Tiktok Downloader",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28708,12 +29370,14 @@
     },
     {
       "ext_id": "pgbhmanighehdihhgcfodcecphdakkgn",
+      "name": "Naruto Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28762,8 +29426,10 @@
     },
     {
       "ext_id": "pgejmpeimhjncennkkddmdknpgfblbcl",
+      "name": "Camera Picture In Picture (PIP Overlay)",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28858,12 +29524,14 @@
     },
     {
       "ext_id": "pgmiigclfodaendfgenfbmcfoefaljda",
+      "name": "Attack on Titan Cursor - Custom Anime Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -28872,6 +29540,7 @@
     },
     {
       "ext_id": "pgnmegacljodjeioihhjlcajngphbagf",
+      "name": "EnZap",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -28879,6 +29548,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29033,6 +29703,7 @@
     },
     {
       "ext_id": "pihbjpjjgpejkbjmpijpmmolaehlbafc",
+      "name": "talkspeed",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -29040,6 +29711,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29180,12 +29852,14 @@
     },
     {
       "ext_id": "pjfjconkopcckeanlhklghfogkdhnegk",
+      "name": "Pusheen Cursor - Custom Kawaii Cursor for Chrome",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "browser-hijack"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29362,8 +30036,10 @@
     },
     {
       "ext_id": "pkkmmmmckhencoamaonbiidanpnhikbc",
+      "name": "Tetrys - Falling blocks",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29406,6 +30082,7 @@
     },
     {
       "ext_id": "plahbdekkijmgefopapakkhcogooghlk",
+      "name": "JJCA",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -29413,6 +30090,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29432,6 +30110,7 @@
     },
     {
       "ext_id": "pldfelebkfalpldhfbeagfgmmmelajlc",
+      "name": "Zapbase",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -29439,6 +30118,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29447,8 +30127,10 @@
     },
     {
       "ext_id": "pljbjcehnhcnofmkdbjolghdcjnmekia",
+      "name": "Bless",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29623,6 +30305,7 @@
     },
     {
       "ext_id": "pmkbdfddjmnceffcgdgfnenkngkkeheg",
+      "name": "WhatsTime CRM for WhatsApp™ Web",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -29630,6 +30313,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29638,12 +30322,14 @@
     },
     {
       "ext_id": "pmlcfgndjofkkpimdenhpkmdbmnbfend",
+      "name": "Sonic the Hedgehog Cursor ★ Custom Cursor for Chrome™",
       "browser": "chrome",
       "threat_types": [
         "adware",
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29795,8 +30481,10 @@
     },
     {
       "ext_id": "pndmbpnfolikhfnfnkmjkkpcgkmaibec",
+      "name": "AI Ad Generator",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29853,8 +30541,10 @@
     },
     {
       "ext_id": "pnmmfplemkekboaalbeeajfidkkepppl",
+      "name": "Safe ChatGPT Search",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -29863,8 +30553,10 @@
     },
     {
       "ext_id": "pnpchphmplpdimbllknjoiopmfphellj",
+      "name": "Amazon Ads Blocker",
       "browser": "chrome",
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
@@ -30087,6 +30779,7 @@
     },
     {
       "ext_id": "pppeaodmafhlepccbpnjhobmokplfkjb",
+      "name": "YouZapCRM - WhatsApp Web com poder de CRM, automações e muito mais!",
       "browser": "chrome",
       "threat_types": [
         "adware",
@@ -30094,6 +30787,7 @@
         "spyware"
       ],
       "date_added": "2026-05-18",
+      "still_active": true,
       "ownership_transfer": false,
       "source": "https://github.com/toborrm9/malicious_extension_sentry",
       "article": "https://github.com/toborrm9/malicious_extension_sentry",

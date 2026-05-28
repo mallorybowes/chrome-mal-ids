@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "1cccb622-ea9f-7533-674f-bd43ede7018b",
     "info": "[chrome-mal-ids] ReasonLabs cashback killer campaign — 3 malicious extension(s)",
-    "date": "2026-05-26",
+    "date": "2026-05-28",
     "threat_level_id": "2",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779831555",
+    "timestamp": "1779933694",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: netSave | Threat: adware,click-fraud,data-theft | ReasonLabs cashback killer campaign. Fake VPN extensions force-installed via registry by trojan hidden in pirated game torrents (GTA, Assassins Creed, Sims 4). Disabled 100+ cashback/coupon extensions",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — netSave",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: netWin | Threat: adware,click-fraud,data-theft | ReasonLabs cashback killer campaign. Fake VPN extensions force-installed via registry by trojan hidden in pirated game torrents (GTA, Assassins Creed, Sims 4). Disabled 100+ cashback/coupon extensions",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — netWin",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: netPlus (earlier variant) | Threat: adware,click-fraud,data-theft | ReasonLabs cashback killer campaign. Fake VPN extensions force-installed via registry by trojan hidden in pirated game torrents (GTA, Assassins Creed, Sims 4). Disabled 100+ cashback/coupon extensions",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — netPlus (earlier variant)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       }
     ]

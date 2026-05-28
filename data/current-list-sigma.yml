@@ -11,8 +11,8 @@ references:
     - https://github.com/mallorybowes/chrome-mal-ids
     - https://github.com/mallorybowes/chrome-mal-ids/blob/master/STATS.md
 author: Malicious Chrome Extension IOC Database (@mallorybowes)
-date: 2026-05-26
-modified: 2026-05-26
+date: 2026-05-28
+modified: 2026-05-28
 tags:
     - attack.collection
     - attack.t1176
@@ -559,8 +559,8 @@ references:
     - https://github.com/mallorybowes/chrome-mal-ids
     - https://github.com/mallorybowes/chrome-mal-ids/blob/master/STATS.md
 author: Malicious Chrome Extension IOC Database (@mallorybowes)
-date: 2026-05-26
-modified: 2026-05-26
+date: 2026-05-28
+modified: 2026-05-28
 tags:
     - attack.collection
     - attack.t1176
@@ -1107,8 +1107,8 @@ references:
     - https://github.com/mallorybowes/chrome-mal-ids
     - https://github.com/mallorybowes/chrome-mal-ids/blob/master/STATS.md
 author: Malicious Chrome Extension IOC Database (@mallorybowes)
-date: 2026-05-26
-modified: 2026-05-26
+date: 2026-05-28
+modified: 2026-05-28
 tags:
     - attack.collection
     - attack.t1176
@@ -1655,8 +1655,8 @@ references:
     - https://github.com/mallorybowes/chrome-mal-ids
     - https://github.com/mallorybowes/chrome-mal-ids/blob/master/STATS.md
 author: Malicious Chrome Extension IOC Database (@mallorybowes)
-date: 2026-05-26
-modified: 2026-05-26
+date: 2026-05-28
+modified: 2026-05-28
 tags:
     - attack.collection
     - attack.t1176
@@ -2203,8 +2203,8 @@ references:
     - https://github.com/mallorybowes/chrome-mal-ids
     - https://github.com/mallorybowes/chrome-mal-ids/blob/master/STATS.md
 author: Malicious Chrome Extension IOC Database (@mallorybowes)
-date: 2026-05-26
-modified: 2026-05-26
+date: 2026-05-28
+modified: 2026-05-28
 tags:
     - attack.collection
     - attack.t1176
@@ -2751,8 +2751,8 @@ references:
     - https://github.com/mallorybowes/chrome-mal-ids
     - https://github.com/mallorybowes/chrome-mal-ids/blob/master/STATS.md
 author: Malicious Chrome Extension IOC Database (@mallorybowes)
-date: 2026-05-26
-modified: 2026-05-26
+date: 2026-05-28
+modified: 2026-05-28
 tags:
     - attack.collection
     - attack.t1176

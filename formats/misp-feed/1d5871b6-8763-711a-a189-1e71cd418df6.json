@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "1d5871b6-8763-711a-a189-1e71cd418df6",
     "info": "[chrome-mal-ids] Pixatab new tab hijacking cluster — 3 malicious extension(s)",
-    "date": "2026-05-26",
+    "date": "2026-05-28",
     "threat_level_id": "2",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779831555",
+    "timestamp": "1779933694",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -36,10 +36,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/anjoapnmcdcndaagonoiindlklkpmnmh",
-        "comment": "Threat: adware,browser-hijack | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "comment": "Name: Brawl Stars Cursor - Custom Game Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -47,10 +47,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "anjoapnmcdcndaagonoiindlklkpmnmh",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Brawl Stars Cursor - Custom Game Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -58,10 +58,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/kfnphajojmcoapplfnocpegelkfjndom",
-        "comment": "Threat: adware,browser-hijack | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "comment": "Name: Country Flags Cursor - Custom Flag Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -69,10 +69,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "kfnphajojmcoapplfnocpegelkfjndom",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Country Flags Cursor - Custom Flag Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -80,10 +80,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mopjnoodlnbnkocfefcgnmnlbcmgekof",
-        "comment": "Threat: adware,browser-hijack | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "comment": "Name: Spiderman Cursor - Custom Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -91,10 +91,10 @@
         "type": "text",
         "category": "Payload delivery",
         "value": "mopjnoodlnbnkocfefcgnmnlbcmgekof",
-        "comment": "Chrome/Edge extension ID — name unknown",
+        "comment": "Chrome/Edge extension ID — Spiderman Cursor - Custom Cursor for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779831555",
+        "timestamp": "1779933694",
         "disable_correlation": false
       }
     ]
