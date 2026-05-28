@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779933694",
+    "timestamp": "1779934459",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -36,10 +36,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gbdjcgalliefpinpmggefbloehmmknca",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -127,7 +127,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -138,7 +138,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -146,10 +146,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/afdfpkhbdpioonfeknablodaejkklbdn",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -160,7 +160,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -168,10 +168,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/anflghppebdhjipndogapfagemgnlblh",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -182,7 +182,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -190,10 +190,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/bebmphofpgkhclocdbgomhnjcpelbenh",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -204,7 +204,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -212,10 +212,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/bmkgbgkneealfabgnjfeljaiegpginpl",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -226,7 +226,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -234,10 +234,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ccjlpblmgkncnnimcmbanbnhbggdpkie",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -248,7 +248,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -256,10 +256,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cclhgechkjghfaoebihpklmllnnlnbdb",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -270,7 +270,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -278,10 +278,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/cfegchignldpfnjpodhcklmgleaoanhi",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -292,7 +292,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -303,7 +303,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -314,7 +314,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -325,7 +325,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -336,7 +336,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -344,10 +344,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/coabfkgengacobjpmdlmmihhhfnhbjdm",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -358,7 +358,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -369,7 +369,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -380,7 +380,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -388,10 +388,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/djekgpcemgcnfkjldcclcpcjhemofcib",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -402,7 +402,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -410,10 +410,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dkbccihpiccbcheieabdbjikohfdfaje",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -424,7 +424,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -432,10 +432,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dlpimjmonhbmamocpboifndnnakgknbf",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -446,7 +446,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -457,7 +457,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -468,7 +468,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -476,10 +476,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dneifdhdmnmmlobjbimlkcnhkbidmlek",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -490,7 +490,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -498,10 +498,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/doiiaejbgndnnnomcdhefcbfnbbjfbib",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -512,7 +512,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -520,10 +520,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/dpfofggmkhdbfcciajfdphofclabnogo",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -534,7 +534,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -545,7 +545,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -556,7 +556,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -567,7 +567,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -578,7 +578,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -589,7 +589,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -600,7 +600,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -608,10 +608,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/edlifbnjlicfpckhgjhflgkeeibhhcii",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -622,7 +622,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -630,10 +630,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ehmneimbopigfgchjglgngamiccjkijh",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -644,7 +644,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -655,7 +655,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -666,7 +666,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -674,10 +674,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ejllkedmklophclpgonojjkaliafeilj",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -688,7 +688,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -699,7 +699,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -710,7 +710,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -721,7 +721,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -732,7 +732,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -743,7 +743,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -754,7 +754,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -765,7 +765,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -776,7 +776,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -787,7 +787,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -798,7 +798,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -809,7 +809,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -820,7 +820,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -828,10 +828,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fbjhgeaafhlbjiejehpjdnghinlcceak",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -842,7 +842,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -850,10 +850,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fedchalbmgfhdobblebblldiblbmpgdj",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -864,7 +864,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -872,10 +872,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/fobaamfiblkoobhjpiigemmdegbmpohd",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -886,7 +886,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -894,10 +894,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gceehiicnbpehbbdaloolaanlnddailm",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -908,7 +908,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -916,10 +916,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ggacghlcchiiejclfdajbpkbjfgjhfol",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -930,7 +930,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -938,10 +938,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gjjbmfigjpgnehjioicaalopaikcnheo",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -952,7 +952,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -960,10 +960,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/gpdfpljioapjogbnlpmganakfjcemifk",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -974,7 +974,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -985,7 +985,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -996,7 +996,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1007,7 +1007,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1018,7 +1018,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1026,10 +1026,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/hnfabcchmopgohnhkcojhocneefbnffg",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1040,7 +1040,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1051,7 +1051,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1062,7 +1062,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1073,7 +1073,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1084,7 +1084,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1092,10 +1092,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/icchadngbpkcegnabnabhkjkfkfflmpj",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1106,7 +1106,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1117,7 +1117,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1128,7 +1128,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1136,10 +1136,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ifdepgnnjpnbkcgempionjablajancjc",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1150,7 +1150,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1158,10 +1158,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ijejnggjjphlenbhmjhhgcdpehhacaal",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1172,7 +1172,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1180,10 +1180,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/iklgljbighkgbjoecoddejooldolenbj",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1194,7 +1194,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1202,10 +1202,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/imopknpgdihifjkjpmjaagcagkefddnb",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1216,7 +1216,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1227,7 +1227,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1238,7 +1238,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1246,10 +1246,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jdlkkmamiaikhfampledjnhhkbeifokk",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1260,7 +1260,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1271,7 +1271,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1282,7 +1282,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1290,10 +1290,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jiaopkfkampgnnkckajcbdgannoipcne",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1304,7 +1304,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1315,7 +1315,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1326,7 +1326,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1334,10 +1334,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jlbpahgopcmomkgegpbmopfodolajhbl",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1348,7 +1348,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1356,10 +1356,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/jpefmbpcbebpjpmelobfakahfdcgcmkl",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1370,7 +1370,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1381,7 +1381,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1392,7 +1392,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1403,7 +1403,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1414,7 +1414,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1422,10 +1422,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/laameccjpleogmfhilmffpdbiibgbekf",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1436,7 +1436,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1447,7 +1447,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1458,7 +1458,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1469,7 +1469,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1480,7 +1480,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1488,10 +1488,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ledkggjjapdgojgihnaploncccgiadhg",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1502,7 +1502,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1513,7 +1513,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1524,7 +1524,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1535,7 +1535,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1546,7 +1546,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1557,7 +1557,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1568,7 +1568,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1576,10 +1576,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/lknpbgnookklokdjomiildnlalffjmma",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1590,7 +1590,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1601,7 +1601,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1612,7 +1612,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1623,7 +1623,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1634,7 +1634,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1642,10 +1642,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/meffljleomgifbbcffejnmhjagncfpbd",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1656,7 +1656,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1664,10 +1664,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mejjgaogggabifjfjdbnobinfibaamla",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1678,7 +1678,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1689,7 +1689,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1700,7 +1700,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1708,10 +1708,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mkjjckchdfhjbpckippbnipkdnlidbeb",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1722,7 +1722,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1733,7 +1733,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1744,7 +1744,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1752,10 +1752,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mlkjjjmhjijlmafgjlpkiobpdocdbncj",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1766,7 +1766,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1777,7 +1777,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1788,7 +1788,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1796,10 +1796,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/mnlohknjofogcljbcknkakphddjpijak",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1810,7 +1810,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1821,7 +1821,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1832,7 +1832,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1843,7 +1843,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1854,7 +1854,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1862,10 +1862,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/nmigaijibiabddkkmjhlehchpmgbokfj",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1876,7 +1876,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1884,10 +1884,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/npdkkcjlmhcnnaoobfdjndibfkkhhdfn",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1898,7 +1898,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1906,10 +1906,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/npmjjkphdlmbeidbdbfefgedondknlaf",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1920,7 +1920,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1931,7 +1931,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1942,7 +1942,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1950,10 +1950,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/obdhcplpbliifflekgclobogbdliddjd",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1964,7 +1964,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1972,10 +1972,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ocginjipilabheemhfbedijlhajbcabh",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1986,7 +1986,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -1994,10 +1994,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/oepjogknopbbibcjcojmedaepolkghpb",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2008,7 +2008,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2016,10 +2016,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/ofpnikijgfhlmmjlpkfaifhhdonchhoi",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2030,7 +2030,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2041,7 +2041,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2052,7 +2052,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2060,10 +2060,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/okkffdhbfplmbjblhgapnchjinanmnij",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2074,7 +2074,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2085,7 +2085,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2096,7 +2096,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2104,10 +2104,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pegfdldddiilihjahcpdehhhfcbibipg",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2118,7 +2118,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2126,10 +2126,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/phfkifnjcmdcmljnnablahicoabkokbg",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2140,7 +2140,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2151,7 +2151,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2162,7 +2162,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2170,10 +2170,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/plmlopfeeobajiecodiggabcihohcnge",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2184,7 +2184,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2192,10 +2192,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pmilcmjbofinpnbnpanpdadijibcgifc",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2206,7 +2206,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2217,7 +2217,7 @@
         "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2228,7 +2228,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2236,10 +2236,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pnanegnllonoiklmmlegcaajoicfifcm",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2250,7 +2250,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2258,10 +2258,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pnlphjjfielecalmmjjdhjjninkbjdod",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2272,7 +2272,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2280,10 +2280,10 @@
         "type": "url",
         "category": "External analysis",
         "value": "https://chromewebstore.google.com/detail/pooaemmkohlphkekccfajnbcokjlbehk",
-        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2294,7 +2294,7 @@
         "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2305,7 +2305,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       },
       {
@@ -2316,7 +2316,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779933694",
+        "timestamp": "1779934459",
         "disable_correlation": false
       }
     ]

@@ -324,6 +324,11 @@
   .tag-xfer    { color: var(--teal);  border-color: rgba(78,205,196,0.3); background: rgba(78,205,196,0.08); }
   .tag-date    { color: var(--text3); border-color: var(--border); background: transparent; }
   .tag-unknown { color: var(--text3); border-color: var(--border); background: transparent; font-style: italic; }
+  .tag-tpciv-5 { color: #4ecdc4; border-color: rgba(78,205,196,0.4); background: rgba(78,205,196,0.08); }
+  .tag-tpciv-4 { color: var(--amber); border-color: rgba(245,158,96,0.4); background: rgba(245,158,96,0.08); }
+  .tag-tpciv-3 { color: var(--rose); border-color: rgba(244,137,154,0.4); background: rgba(244,137,154,0.08); }
+  .tag-tpciv-2 { color: var(--text3); border-color: var(--border); background: transparent; }
+  .tag-tpciv-1 { color: var(--rose2); border-color: rgba(212,96,122,0.4); background: rgba(212,96,122,0.08); }
 
   /* ── Expanded detail ── */
   .card-detail { display: none; padding: 14px 16px; border-top: 1px solid var(--border); background: rgba(0,0,0,0.25); }
@@ -750,6 +755,7 @@ async function loadData() {
       r._xfer        = r['OWNERSHIP-TRANSFER'] === '1';
       r._stub        = r['EXTID-NAME'].toUpperCase() === 'UNKNOWN';
       r._date        = r['DATE-DIS'] || '';
+      r._tpciv       = r['TPCI-VERIFY'] || '';
       r._searchBlob  = [
         r.EXTID, r['EXTID-NAME'], r._campaign,
         r['THREAT-TYPE'], r.NOTES, r.BROWSER,
@@ -918,11 +924,23 @@ function renderResults(query = '') {
     const isExp   = expandedId === id;
     const storeUrl = browser === 'edge' ? EDGE_URL(id) : STORE_URL(id);
 
+    const tpcivLabel = {
+      '5': 'TPCI-V 5A', '4': 'TPCI-V 4', '3': 'TPCI-V 3',
+      '2': 'TPCI-V 2',  '1': 'TPCI-V 1'
+    };
+    const tpcivClass = {
+      '5': 'tag-tpciv-5', '4': 'tag-tpciv-4', '3': 'tag-tpciv-3',
+      '2': 'tag-tpciv-2', '1': 'tag-tpciv-1'
+    };
+    const tpcivPill = row._tpciv && tpcivLabel[row._tpciv]
+      ? `<span class="tag ${tpcivClass[row._tpciv]}">${tpcivLabel[row._tpciv]}</span>` : '';
+
     const tags = [
       row['THREAT-TYPE'] && row['THREAT-TYPE'].toUpperCase() !== 'UNKNOWN'
         ? `<span class="tag tag-threat">${esc(row['THREAT-TYPE'].split(',')[0])}</span>` : '',
       row._active ? `<span class="tag tag-active">⚡ active</span>` : '',
       row._xfer   ? `<span class="tag tag-xfer">ownership ⟳</span>` : '',
+      tpcivPill,
       `<span class="tag tag-browser">${browser}</span>`,
       row._date   ? `<span class="tag tag-date">${row._date}</span>` : '',
     ].filter(Boolean).join('');
@@ -944,6 +962,8 @@ function renderResults(query = '') {
           <span class="detail-val">${esc(row['DATE-DIS'] || '—')}</span>
           <span class="detail-key">Still Active</span>
           <span class="detail-val">${row._active ? '⚡ Yes — still in store' : 'No'}</span>
+          <span class="detail-key">TPCI-V</span>
+          <span class="detail-val">${{'1':'Stage 1 — CRX active','2':'Stage 2/3 — Confirmed removed','4':'Stage 4 — Remediated','5':'Stage 5A — Static analysis confirmed'}[row._tpciv] || '—'}</span>
           <span class="detail-key">Ownership ⟳</span>
           <span class="detail-val">${row._xfer ? 'Yes — transferred before malicious update' : 'No'}</span>
           ${row.SOURCE ? `<span class="detail-key">Source</span>

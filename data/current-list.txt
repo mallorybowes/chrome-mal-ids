@@ -1,6 +1,6 @@
 # Malicious Chrome Extension IOC Database
 # https://github.com/mallorybowes/chrome-mal-ids
-# Generated: 2026-05-28 02:01 UTC
+# Generated: 2026-05-28 02:14 UTC
 # Total: 2525 extension IDs
 # License: CC BY 4.0 — attribution required for commercial use
 # Format: one Chrome/Edge extension ID per line (32 lowercase a-p chars)
