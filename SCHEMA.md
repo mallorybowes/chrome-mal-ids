@@ -22,7 +22,7 @@ Full field documentation for `current-list-meta.csv`.
 | `NOTES` | string | Plain-English summary of malicious behavior. Leads with campaign name where known |
 | `THREAT-TYPE` | string | Comma-separated threat type(s) (see below) |
 | `OWNERSHIP-TRANSFER` | integer | `1` if a legitimate extension was acquired then weaponized, `0` otherwise |
-| `BROWSER` | string | `chrome` or `edge` |
+| `BROWSER` | string | `chrome`, `edge`, or `both` |
 | `STILL-ACTIVE` | string | `1` active in store, `0` removed, `unknown` unverified |
 | `CONTRIB-TYPE` | string | `human` or `automated` |
 | `CONTRIB-HANDLE` | string | GitHub handle or tool name of contributor |
@@ -32,6 +32,11 @@ Full field documentation for `current-list-meta.csv`.
 | `TPCI-STORE-DEV` | string | Developer name as shown in store at time of TPCI verification |
 | `TPCI-STORE-DATE` | date | Date store name and developer were recorded (YYYY-MM-DD) |
 | `TPCI-IDENTITY` | string | Identity continuity result (see below) |
+| `TPCI-CRX-HASH` | string | SHA-256 hash of the CRX package analyzed during Stage 5A |
+| `TPCI-BEHAVIORAL` | string | Stage 5A risk level: `malicious`, `suspicious`, `elevated`, `clean`, or `unknown` |
+| `TPCI-BEHAVIORAL-DATE` | date | Date Stage 5A static analysis was performed (YYYY-MM-DD) |
+| `ENRICH-STATUS` | string | Enrichment pipeline status for stub entries (see below) |
+| `ENRICH-DATE` | date | Date enrichment was last attempted (YYYY-MM-DD) |
 
 ---
 
@@ -59,14 +64,46 @@ The Privacy Commons Institute (TPCI) using the TPCI-V protocol.
 | Value | Stage | Meaning |
 |-------|-------|---------|
 | `0` | — | Not yet verified by TPCI |
-| `1` | Stage 2+3 | TPCI verified: confirmed malicious **and active** in store |
-| `2` | Stage 2+3 | TPCI verified: confirmed malicious **and removed** from store |
-| `3` | Stage 2+3 | TPCI verified: indeterminate — CRX infrastructure recognizes ID, store listing status unclear |
+| `1` | Stage 2 | TPCI verified: CRX API confirms active — Chrome serving update packages |
+| `2` | Stage 2+3 | TPCI verified: confirmed removed from store (CRX malware-flagged, hard-purged, or Playwright confirmed removed) |
+| `3` | Stage 3 | TPCI verified: indeterminate by CRX API, confirmed **active** by Playwright headless browser |
 | `4` | Stage 4 | TPCI verified: formerly malicious, **developer-confirmed remediated** (supply chain victim) |
-| `5` | Stage 5 | TPCI verified: full behavioral analysis completed |
+| `5` | Stage 5A | TPCI verified: full static behavioral analysis completed |
 
 `TPCI-VERIFY-DATE` records the ISO date (YYYY-MM-DD) when verification was
 last performed. Store status changes over time — always check the date.
+
+**On the CRX API liveness problem:** 99.6% of extensions returning an indeterminate
+CRX API response (`status="noupdate"` without `_malware="true"`) are confirmed
+removed when verified by headless browser (Stage 3). TPCI-VERIFY=2 covers both
+CRX-confirmed and Playwright-confirmed removals. TPCI-VERIFY=3 is specifically
+reserved for the small number of extensions that were indeterminate by CRX API
+but confirmed active by Playwright.
+
+---
+
+## TPCI-BEHAVIORAL Values
+
+The `TPCI-BEHAVIORAL` field records the risk level assigned by Stage 5A static
+analysis of the extension's CRX package. Only populated for entries that have
+undergone Stage 5A analysis (`TPCI-VERIFY=5`).
+
+| Value | Meaning |
+|-------|---------|
+| `malicious` | Confirmed malicious patterns — risk score ≥100 or any critical finding |
+| `suspicious` | Multiple high-risk indicators — risk score ≥40 |
+| `elevated` | Concerning permissions or patterns — risk score ≥10 |
+| `clean` | No significant risk indicators — risk score <10 |
+| `unknown` | CRX package could not be downloaded for analysis |
+
+**Risk scoring:** Critical=100pts (known malicious C2 domain), High=30pts
+(broad host permissions, all-URL content scripts), Medium=10pts (obfuscation
+patterns, form harvesting, cookie access), Low=2pts. Thresholds are additive;
+any single critical finding (known malicious domain) results in `malicious`
+classification regardless of total score.
+
+`TPCI-CRX-HASH` contains the SHA-256 hash of the specific CRX package version
+analyzed. `TPCI-BEHAVIORAL-DATE` records when the analysis was performed.
 
 ---
 
@@ -90,6 +127,41 @@ infeasible for a different developer to obtain the same ID without the original
 developer's private key. Therefore any extension sharing an ID with a
 documented malicious extension is operated by the original developer or
 someone who obtained their signing key.
+
+---
+
+## ENRICH-STATUS Values
+
+The `ENRICH-STATUS` field tracks the enrichment pipeline state for stub entries
+(`EXTID-NAME=UNKNOWN`). Populated by `enrich_stubs.py`.
+
+| Value | Meaning |
+|-------|---------|
+| `pending` | Not yet attempted — queued for enrichment |
+| `searched` | Enrichment attempted — no name found in store or archives |
+| `verified` | Enrichment successful — name confirmed from store or archive source |
+| `exhausted` | Enrichment attempted and confirmed unresolvable — source article did not include extension names and archive lookup returned no results |
+
+`ENRICH-DATE` records the ISO date (YYYY-MM-DD) when enrichment was last
+attempted or completed.
+
+**On `exhausted` entries:** These are typically extensions from early-era IOC
+sources (2020–2021) where the original researcher published extension IDs without
+corresponding names, and no archive coverage exists for the Chrome Web Store
+pages. The extension IDs are confirmed malicious but names cannot be recovered
+through automated means. Manual investigation of the original source material
+may yield names in some cases.
+
+**Filtering by enrichment status:**
+```python
+import csv
+with open('current-list-meta.csv') as f:
+    rows = list(csv.DictReader(f))
+    # Only fully verified entries
+    verified = [r for r in rows if r['ENRICH-STATUS'] == 'verified']
+    # Exclude exhausted stubs
+    actionable = [r for r in rows if r['ENRICH-STATUS'] != 'exhausted']
+```
 
 ---
 
@@ -123,6 +195,8 @@ someone who obtained their signing key.
 | `ai-chat-scraper` | Harvests AI conversation data |
 | `fake-extension` | Impersonates a legitimate extension |
 | `ownership-transfer` | Legitimate extension acquired and weaponized |
+| `malvertising` | Delivers malicious advertisements |
+| `phishing` | Harvests credentials via fake UI |
 
 ---
 
@@ -134,9 +208,10 @@ someone who obtained their signing key.
 | `0` | Confirmed removed from store |
 | `unknown` | Status not yet verified |
 
-**Note:** Status reflects the last check date. The `TPCI-VERIFY-DATE` field
-indicates when TPCI last verified status. Extensions can be re-listed after
-removal — always check both fields together.
+**Note:** `STILL-ACTIVE` is synchronized with `TPCI-VERIFY` — entries with
+`TPCI-VERIFY=1` or `TPCI-VERIFY=3` have `STILL-ACTIVE=1`; entries with
+`TPCI-VERIFY=2` have `STILL-ACTIVE=0`. Always check `TPCI-VERIFY-DATE` for
+the currency of this status — extensions can be re-listed after removal.
 
 ---
 
@@ -152,7 +227,7 @@ for all removal states.
 | `codebase=` URL present | Active — Chrome serving updates | `1` |
 | `_malware="true"` + `noupdate` | Malware-flagged — record retained | `0` |
 | `error-unknownApplication` | Hard-purged — completely removed | `0` |
-| `noupdate`, no malware flag | Indeterminate — requires Stage 3 | `unknown` |
+| `noupdate`, no malware flag | Indeterminate — requires Stage 3 | see TPCI-VERIFY |
 
 **Key finding:** 99.6% of indeterminate CRX API responses correspond to
 hard-removed extensions when verified by headless browser (Stage 3).
@@ -164,21 +239,44 @@ making it an unreliable liveness indicator without corroboration.
 ## Stub Entries
 
 Entries with `EXTID-NAME = UNKNOWN` are stubs — the ID is confirmed malicious
-but metadata is pending enrichment. Find all stubs:
+but metadata is pending enrichment. Use `ENRICH-STATUS` to distinguish between
+entries that have never been attempted (`pending`), have been searched without
+result (`searched`), and are confirmed unresolvable (`exhausted`).
 
-```bash
-grep ",UNKNOWN," current-list-meta.csv
+```python
+import csv
+with open('current-list-meta.csv') as f:
+    rows = list(csv.DictReader(f))
+    stubs = [r for r in rows if r['EXTID-NAME'] == 'UNKNOWN']
+    pending   = [r for r in stubs if r['ENRICH-STATUS'] == 'pending']
+    searched  = [r for r in stubs if r['ENRICH-STATUS'] == 'searched']
+    exhausted = [r for r in stubs if r['ENRICH-STATUS'] == 'exhausted']
 ```
 
 ---
 
 ## Schema Changelog
 
+### May 2026 — v4 additions (enrichment tracking + Stage 5A fields)
+
+| Field | Notes |
+|-------|-------|
+| `TPCI-CRX-HASH` | SHA-256 hash of CRX package analyzed in Stage 5A |
+| `TPCI-BEHAVIORAL` | Stage 5A risk level classification |
+| `TPCI-BEHAVIORAL-DATE` | Date of Stage 5A analysis |
+| `ENRICH-STATUS` | Enrichment pipeline state: `pending`, `searched`, `verified`, `exhausted` |
+| `ENRICH-DATE` | Date enrichment was last attempted |
+
+Also in v4:
+- `TPCI-VERIFY=3` redefined as Playwright-confirmed **active** (previously documented as indeterminate)
+- `STILL-ACTIVE` now synchronized with `TPCI-VERIFY` automatically
+- `BROWSER` now includes `both` for cross-browser extensions
+
 ### May 2026 — v3 additions (TPCI-V protocol)
 
 | Field | Notes |
 |-------|-------|
-| `TPCI-VERIFY` | Extended to include value `4` (remediated) |
+| `TPCI-VERIFY` | Extended to include value `4` (remediated) and `5` (Stage 5A) |
 | `TPCI-VERIFY-DATE` | Date of last TPCI verification |
 | `TPCI-STORE-NAME` | Extension name at time of TPCI check |
 | `TPCI-STORE-DEV` | Developer name at time of TPCI check |
@@ -189,7 +287,7 @@ grep ",UNKNOWN," current-list-meta.csv
 
 | Field | Notes |
 |-------|-------|
-| `TPCI-VERIFY` | Initial values 0-3 |
+| `TPCI-VERIFY` | Initial values 0–3 |
 | `TPCI-VERIFY-DATE` | Initial implementation |
 
 ### May 2026 — v1 additions
@@ -201,7 +299,9 @@ grep ",UNKNOWN," current-list-meta.csv
 | `CONTRIB-TYPE` | `human` or `automated` |
 | `CONTRIB-HANDLE` | GitHub handle or tool name |
 
-### Migration guidance
+---
+
+## Migration guidance
 
 **Scripts using positional column indexing** — update to named headers.
 The CSV always has a header row; use `csv.DictReader` in Python or equivalent.
@@ -219,5 +319,5 @@ with open('current-list-meta.csv') as f:
 
 ---
 
-*See [README.md](README.md) for usage and import instructions.*
-*See [TPCI-V protocol](https://tpci.institute) for verification methodology.*
+*See [README.md](README.md) for usage and import instructions.*  
+*See [TPCI-V protocol specification](https://tpc.institute/research/tpci-v) for full verification methodology.*
