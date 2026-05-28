@@ -610,6 +610,30 @@
     </div>
 
     <div class="filter-section">
+      <div class="filter-label">TPCI-V Level <span class="filter-label-btns"><button class="filter-label-btn" onclick="checkAll('filter-tpciv')">all</button><button class="filter-label-btn" onclick="clearAll('filter-tpciv')">none</button></span></div>
+      <label class="filter-option">
+        <input type="checkbox" class="filter-tpciv" value="5" checked>
+        <span style="color:var(--teal)">TPCI-V 5A</span> — Static analysis
+        <span class="filter-count" id="cnt-tpciv-5">—</span>
+      </label>
+      <label class="filter-option">
+        <input type="checkbox" class="filter-tpciv" value="4" checked>
+        <span style="color:var(--amber)">TPCI-V 4</span> — Remediated
+        <span class="filter-count" id="cnt-tpciv-4">—</span>
+      </label>
+      <label class="filter-option">
+        <input type="checkbox" class="filter-tpciv" value="1" checked>
+        <span style="color:var(--rose2)">TPCI-V 1</span> — CRX active
+        <span class="filter-count" id="cnt-tpciv-1">—</span>
+      </label>
+      <label class="filter-option">
+        <input type="checkbox" class="filter-tpciv" value="2" checked>
+        <span style="color:var(--text3)">TPCI-V 2</span> — Confirmed removed
+        <span class="filter-count" id="cnt-tpciv-2">—</span>
+      </label>
+    </div>
+
+    <div class="filter-section">
       <div class="filter-label">Campaign <span class="filter-label-btns"><button class="filter-label-btn" onclick="checkAll('filter-campaign')">all</button><button class="filter-label-btn" onclick="clearAll('filter-campaign')">none</button></span></div>
       <div id="campaign-filters" style="max-height:300px;overflow-y:auto"></div>
     </div>
@@ -761,7 +785,8 @@ async function loadData() {
         r['THREAT-TYPE'], r.NOTES, r.BROWSER,
         r.SOURCE, r.ARTICLE, r['ADD-SOURCES'],
         r.CONTRIB, r['CONTRIB-METHOD'], r['CONTRIB-HANDLE'],
-        r['DATE-DIS'], r['DATE-ADD']
+        r['DATE-DIS'], r['DATE-ADD'],
+        'tpci-v-' + (r['TPCI-VERIFY'] || ''), r['TPCI-VERIFY'] || ''
       ].join(' ').toLowerCase();
     });
 
@@ -813,6 +838,17 @@ function buildFilters() {
         <span class="filter-count">${count}</span>
       </label>`).join('');
 
+  // TPCI-V counts
+  ['1','2','4','5'].forEach(v => {
+    const el = document.getElementById('cnt-tpciv-' + v);
+    if (el) el.textContent = allRows.filter(r => r._tpciv === v).length;
+  });
+
+  // Wire up TPCI-V filter changes
+  document.querySelectorAll('.filter-tpciv').forEach(el => {
+    el.addEventListener('change', applyFilters);
+  });
+
   // Browser counts
   document.getElementById('cnt-chrome').textContent =
     allRows.filter(r => (r.BROWSER||'chrome').toLowerCase() === 'chrome').length;
@@ -837,6 +873,7 @@ function applyFilters() {
   const browsers  = [...document.querySelectorAll('.filter-browser:checked')].map(e => e.value);
   const threats   = new Set([...document.querySelectorAll('.filter-threat:checked')].map(e => e.value));
   const campaigns = new Set([...document.querySelectorAll('.filter-campaign:checked')].map(e => e.value));
+  const tpcivLevels  = new Set([...document.querySelectorAll('.filter-tpciv:checked')].map(e => e.value));
   const activeOnly   = document.getElementById('filter-active').checked;
   const xferOnly     = document.getElementById('filter-xfer').checked;
   const stubsOnly    = document.getElementById('filter-stubs-only').checked;
@@ -849,6 +886,7 @@ function applyFilters() {
     if (browser === 'both') {
       if (!browsers.includes('chrome') && !browsers.includes('edge')) return false;
     } else if (!browsers.includes(browser)) return false;
+    if (tpcivLevels.size > 0 && r._tpciv && !tpcivLevels.has(r._tpciv)) return false;
     if (activeOnly && !r._active) return false;
     if (xferOnly && !r._xfer) return false;
     if (stubsOnly && !r._stub) return false;
