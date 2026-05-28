@@ -1,6 +1,6 @@
 # Malicious Chrome Extension IOC Database — Statistics
 
-> Auto-generated 2026-05-28 02:49 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
+> Auto-generated 2026-05-28 05:53 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
 
 ---
 

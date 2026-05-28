@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779936602",
+    "timestamp": "1779947635",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Blipshot: one click full page screenshots | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Blipshot: one click full page screenshots",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Emojis - Emoji Keyboard | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Emojis - Emoji Keyboard",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: WAToolkit | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — WAToolkit",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Name: Color Changer for YouTube | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Chrome/Edge extension ID — Color Changer for YouTube",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -127,7 +127,7 @@
         "comment": "Name: Video Effects for YouTube And Audio Enhancer | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -138,7 +138,7 @@
         "comment": "Chrome/Edge extension ID — Video Effects for YouTube And Audio Enhancer",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -149,7 +149,7 @@
         "comment": "Name: Themes for Chrome and YouTube Picture in Picture | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -160,7 +160,7 @@
         "comment": "Chrome/Edge extension ID — Themes for Chrome and YouTube Picture in Picture",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -171,7 +171,7 @@
         "comment": "Name: Mike Adblock fuer Chrome | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -182,7 +182,7 @@
         "comment": "Chrome/Edge extension ID — Mike Adblock fuer Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -193,7 +193,7 @@
         "comment": "Name: Page Refresh | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -204,7 +204,7 @@
         "comment": "Chrome/Edge extension ID — Page Refresh",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -215,7 +215,7 @@
         "comment": "Name: Wistia Video Downloader | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -226,7 +226,7 @@
         "comment": "Chrome/Edge extension ID — Wistia Video Downloader",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -237,7 +237,7 @@
         "comment": "Name: Super dark mode | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -248,7 +248,7 @@
         "comment": "Chrome/Edge extension ID — Super dark mode",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -259,7 +259,7 @@
         "comment": "Name: Emoji keyboard emojis for chrome | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -270,7 +270,7 @@
         "comment": "Chrome/Edge extension ID — Emoji keyboard emojis for chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -281,7 +281,7 @@
         "comment": "Name: Adblocker for Chrome - NoAds | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -292,7 +292,7 @@
         "comment": "Chrome/Edge extension ID — Adblocker for Chrome - NoAds",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -303,7 +303,7 @@
         "comment": "Name: Adblock for You | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -314,7 +314,7 @@
         "comment": "Chrome/Edge extension ID — Adblock for You",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -325,7 +325,7 @@
         "comment": "Name: Adblock for Chrome | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -336,7 +336,7 @@
         "comment": "Chrome/Edge extension ID — Adblock for Chrome",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -347,7 +347,7 @@
         "comment": "Name: Nimble Capture | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -358,7 +358,7 @@
         "comment": "Chrome/Edge extension ID — Nimble Capture",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -369,7 +369,7 @@
         "comment": "Name: KProxy | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -380,7 +380,7 @@
         "comment": "Chrome/Edge extension ID — KProxy",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -391,7 +391,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -402,7 +402,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       }
     ]

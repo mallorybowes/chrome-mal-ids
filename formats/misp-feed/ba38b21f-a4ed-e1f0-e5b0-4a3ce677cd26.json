@@ -7,7 +7,7 @@
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779936602",
+    "timestamp": "1779947635",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -127,7 +127,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       },
       {
@@ -138,7 +138,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779936602",
+        "timestamp": "1779947635",
         "disable_correlation": false
       }
     ]
