@@ -16,7 +16,7 @@ Produces two formats:
 The feed format creates one event per campaign for cleaner MISP organization.
 
 Usage:
-    python3 generate_misp.py [--csv PATH] [--out-dir PATH]
+    python3 generate_misp.py [--csv PATH] [--out-dir PATH] [--dry-run]
 
 Requirements:
     None — uses stdlib only (no PyMISP needed)
@@ -234,10 +234,10 @@ def build_event(event_uuid: str, title: str, rows: list[dict],
 
 # ── Single event export ────────────────────────────────────────────────────────
 
-def generate_misp_event(rows: list[dict], out_path: Path):
+def generate_misp_event(rows: list[dict], out_path: Path, dry_run: bool = False):
     """Single MISP event containing all IOCs — for manual import."""
-    total     = len(rows)
-    date      = now_misp()
+    total      = len(rows)
+    date       = now_misp()
     event_uuid = stable_uuid("chrome-mal-ids-master-event")
 
     all_attrs = []
@@ -271,14 +271,17 @@ def generate_misp_event(rows: list[dict], out_path: Path):
         }
     }
 
-    out_path.write_text(json.dumps(event, indent=2, ensure_ascii=False) + "\n",
-                        encoding="utf-8")
-    print(f"✓ misp-export.json → {total} extensions, {len(all_attrs)} attributes")
+    if dry_run:
+        print(f"[DRY RUN] misp-export.json would be written → {total} extensions, {len(all_attrs)} attributes")
+    else:
+        out_path.write_text(json.dumps(event, indent=2, ensure_ascii=False) + "\n",
+                            encoding="utf-8")
+        print(f"✓ misp-export.json → {total} extensions, {len(all_attrs)} attributes")
 
 
 # ── MISP feed format ───────────────────────────────────────────────────────────
 
-def generate_misp_feed(rows: list[dict], feed_dir: Path):
+def generate_misp_feed(rows: list[dict], feed_dir: Path, dry_run: bool = False):
     """
     MISP feed directory format.
     Creates one event per campaign + a manifest.json index.
@@ -311,11 +314,6 @@ def generate_misp_feed(rows: list[dict], feed_dir: Path):
             part_label = f" (part {chunk_idx+1} of {len(chunks)})" if len(chunks) > 1 else ""
             title      = f"[chrome-mal-ids] {campaign} — {len(chunk_rows)} malicious extension(s){part_label}"
 
-            event      = build_event(event_uuid, title, chunk_rows, threat_lvl, date)
-            event_file = feed_dir / f"{event_uuid}.json"
-            event_file.write_text(json.dumps(event, indent=2, ensure_ascii=False) + "\n",
-                                  encoding="utf-8")
-
             manifest[event_uuid] = {
                 "Orgc": {"uuid": ORG_UUID, "name": ORG_NAME},
                 "Tag":  [
@@ -331,6 +329,16 @@ def generate_misp_feed(rows: list[dict], feed_dir: Path):
                 "distribution":    "3",
             }
             event_count += 1
+
+            if not dry_run:
+                event      = build_event(event_uuid, title, chunk_rows, threat_lvl, date)
+                event_file = feed_dir / f"{event_uuid}.json"
+                event_file.write_text(json.dumps(event, indent=2, ensure_ascii=False) + "\n",
+                                      encoding="utf-8")
+
+    if dry_run:
+        print(f"[DRY RUN] misp-feed/ would be written → {event_count} events ({len(rows)} total extensions)")
+        return
 
     # Write manifest.json
     manifest_path = feed_dir / "manifest.json"
@@ -362,19 +370,24 @@ def main():
     )
     parser.add_argument("--csv",     type=Path, default=DEFAULT_CSV)
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Show what would be written without writing files")
     args = parser.parse_args()
 
     rows = load_csv(args.csv)
     print(f"Loaded {len(rows)} entries from {args.csv.name}")
 
     # Single event export
-    generate_misp_event(rows, args.out_dir / "misp-export.json")
+    generate_misp_event(rows, args.out_dir / "misp-export.json", args.dry_run)
 
     # Feed directory
-    generate_misp_feed(rows, args.out_dir / "misp-feed")
+    generate_misp_feed(rows, args.out_dir / "misp-feed", args.dry_run)
 
-    print(f"\nMISP formats written to {args.out_dir}")
-    print(f"""
+    if args.dry_run:
+        print(f"\n[DRY RUN] No files written to {args.out_dir}")
+    else:
+        print(f"\nMISP formats written to {args.out_dir}")
+        print(f"""
 Import options:
   Manual:  MISP → Events → Import → MISP JSON → select misp-export.json
   Feed:    MISP → Feeds → Add Feed:

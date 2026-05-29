@@ -41,10 +41,21 @@ except ImportError:
 # ── Config ────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR   = Path(__file__).parent
-DEFAULT_CSV  = SCRIPT_DIR.parent / "data" / "current-list-meta.csv"
-DEFAULT_OUT  = SCRIPT_DIR.parent / "formats" / "chrome-mal-ids-stix.json"
+# Check multiple possible locations for the CSV
+_locations   = [
+    SCRIPT_DIR / "data" / "current-list-meta.csv",   # server: /opt/chrome-mal-ids/repo/
+    SCRIPT_DIR / "current-list-meta.csv",             # dev: same dir as script
+    Path("/opt/chrome-mal-ids/repo/data/current-list-meta.csv"),  # absolute fallback
+]
+_repo_csv    = next((p for p in _locations if p.exists()), _locations[0])
+DEFAULT_CSV  = _repo_csv
+DEFAULT_OUT  = (
+    Path("/opt/chrome-mal-ids/repo/formats/chrome-mal-ids-stix.json")
+    if Path("/opt/chrome-mal-ids/repo/formats").exists()
+    else SCRIPT_DIR.parent / "formats" / "chrome-mal-ids-stix.json"
+)
 
-PROJECT_URL  = "https://github.com/mallorybowes/chrome-mal-ids"
+PROJECT_URL  = "https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids"
 STORE_URL    = "https://chromewebstore.google.com/detail/{ext_id}"
 EDGE_URL     = "https://microsoftedge.microsoft.com/addons/detail/{ext_id}"
 
@@ -105,18 +116,30 @@ def extract_campaign(notes: str, ext_name: str) -> str:
     return first[:80] if first else ext_name
 
 
-def load_csv(csv_path: Path) -> list[dict]:
-    """Load and validate the meta CSV."""
+def load_csv(csv_path: Path, verified_only: bool = True) -> list[dict]:
+    """Load and validate the meta CSV, filtering unverified delta imports."""
     if not csv_path.exists():
         sys.exit(f"CSV not found: {csv_path}")
-    rows = []
+    rows   = []
+    skipped = 0
     with open(csv_path, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
+        for row in csv.DictReader(f):
             ext_id = row.get("EXTID", "").strip().lower()
             if not ext_id or ext_id == "unknown":
                 continue
+            if verified_only:
+                method      = row.get("CONTRIB-METHOD", "").strip()
+                tpci_verify = row.get("TPCI-VERIFY", "0").strip()
+                confirm_mal = row.get("CONFIRM-MAL", "1").strip()
+                is_delta    = "Delta_Import" in method
+                is_verified = tpci_verify in ("1","2","3","4","5")
+                is_google   = confirm_mal in ("2","3")
+                if is_delta and not is_verified and not is_google:
+                    skipped += 1
+                    continue
             rows.append(row)
+    if verified_only and skipped:
+        print(f"  [filter] Excluded {skipped} unverified delta import entries")
     return rows
 
 
@@ -250,6 +273,8 @@ def main():
                         help="Output path for STIX bundle JSON")
     parser.add_argument("--pretty", action="store_true",
                         help="Pretty-print JSON output")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Show what would be written without writing files")
     args = parser.parse_args()
 
     print(f"Loading {args.csv}...")
@@ -329,23 +354,32 @@ def main():
     # Build bundle
     bundle = stix2.Bundle(objects=all_objects, allow_custom=True)
 
-    # Write output
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as f:
-        if args.pretty:
-            f.write(bundle.serialize(pretty=True))
-        else:
-            f.write(bundle.serialize())
+    if args.dry_run:
+        print(f"\n[DRY RUN] STIX 2.1 bundle would be written to {args.out}")
+        print(f"  {len(indicators)} indicators")
+        print(f"  {len(campaign_map)} malware/campaign objects")
+        print(f"  {len(relationships)} relationships")
+        print(f"  {len(all_objects)} total STIX objects")
+        if skipped:
+            print(f"  {skipped} entries skipped (see warnings above)")
+    else:
+        # Write output
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        with open(args.out, "w", encoding="utf-8") as f:
+            if args.pretty:
+                f.write(bundle.serialize(pretty=True))
+            else:
+                f.write(bundle.serialize())
 
-    print(f"\n✓ STIX 2.1 bundle written to {args.out}")
-    print(f"  {len(indicators)} indicators")
-    print(f"  {len(campaign_map)} malware/campaign objects")
-    print(f"  {len(relationships)} relationships")
-    print(f"  {len(all_objects)} total STIX objects")
-    if skipped:
-        print(f"  {skipped} entries skipped (see warnings above)")
-    print(f"\nImport into MISP: Events → Import → STIX 2.1 → select {args.out.name}")
-    print(f"Import into OpenCTI: Data → Import → {args.out.name}")
+        print(f"\n✓ STIX 2.1 bundle written to {args.out}")
+        print(f"  {len(indicators)} indicators")
+        print(f"  {len(campaign_map)} malware/campaign objects")
+        print(f"  {len(relationships)} relationships")
+        print(f"  {len(all_objects)} total STIX objects")
+        if skipped:
+            print(f"  {skipped} entries skipped (see warnings above)")
+        print(f"\nImport into MISP: Events → Import → STIX 2.1 → select {args.out.name}")
+        print(f"Import into OpenCTI: Data → Import → {args.out.name}")
 
 
 if __name__ == "__main__":

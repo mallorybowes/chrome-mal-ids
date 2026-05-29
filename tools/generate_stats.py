@@ -15,19 +15,23 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR  = Path(__file__).parent
-REPO_ROOT   = SCRIPT_DIR.parent
-DEFAULT_CSV = SCRIPT_DIR.parent / "data" / "current-list-meta.csv"
+_locations  = [
+    SCRIPT_DIR / "data" / "current-list-meta.csv",
+    SCRIPT_DIR / "current-list-meta.csv",
+    Path("/opt/chrome-mal-ids/repo/data/current-list-meta.csv"),
+]
+_repo_csv   = next((p for p in _locations if p.exists()), _locations[0])
+DEFAULT_CSV = _repo_csv
 DEFAULT_OUT = SCRIPT_DIR.parent / "STATS.md"
-PROJECT_URL = "https://github.com/mallorybowes/chrome-mal-ids"
+PROJECT_URL = "https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids"
 
 
 def find_sources_file() -> Path | None:
     """Find monitor_sources.json — check server path then local monitor dir."""
     candidates = [
         Path("/opt/chrome-mal-ids/monitor_sources.json"),          # server
-        REPO_ROOT / "monitor_sources.json",                        # repo root
         SCRIPT_DIR.parent / "monitor" / "monitor_sources.json",    # local laptop
-        SCRIPT_DIR / "monitor_sources.json",                       # fallback
+        SCRIPT_DIR / "monitor_sources.json",                       # repo root fallback
     ]
     for p in candidates:
         if p.exists():
@@ -35,12 +39,25 @@ def find_sources_file() -> Path | None:
     return None
 
 
-def load_csv(path: Path) -> list[dict]:
-    rows = []
+def load_csv(path: Path, verified_only: bool = False) -> list[dict]:
+    """Load CSV. Stats default to all entries; pass verified_only=True for filtered view."""
+    rows    = []
+    skipped = 0
     with open(path, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            if row.get("EXTID", "").strip().lower() not in ("", "unknown"):
-                rows.append(row)
+            if row.get("EXTID", "").strip().lower() in ("", "unknown"):
+                continue
+            if verified_only:
+                method      = row.get("CONTRIB-METHOD", "").strip()
+                tpci_verify = row.get("TPCI-VERIFY", "0").strip()
+                confirm_mal = row.get("CONFIRM-MAL", "1").strip()
+                is_delta    = "Delta_Import" in method
+                is_verified = tpci_verify in ("1","2","3","4","5")
+                is_google   = confirm_mal in ("2","3")
+                if is_delta and not is_verified and not is_google:
+                    skipped += 1
+                    continue
+            rows.append(row)
     return rows
 
 
@@ -58,8 +75,10 @@ def extract_campaign(notes: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
-    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--csv",     type=Path, default=DEFAULT_CSV)
+    parser.add_argument("--out",     type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Show what would be written without writing files")
     args = parser.parse_args()
 
     rows = load_csv(args.csv)
@@ -72,6 +91,7 @@ def main():
     still_active    = 0
     ownership_xfer  = 0
     stubs           = 0  # UNKNOWN name
+    unverified      = 0  # TPCI-VERIFY unset or 0
     dates           = []
 
     for row in rows:
@@ -97,6 +117,9 @@ def main():
             ownership_xfer += 1
         if row.get("EXTID-NAME", "").strip().upper() == "UNKNOWN":
             stubs += 1
+        tpci = row.get("TPCI-VERIFY", "").strip()
+        if not tpci or tpci == "0":
+            unverified += 1
 
         # Dates
         d = row.get("DATE-DIS", "").strip()
@@ -130,7 +153,8 @@ def main():
         f"| Unique campaigns | **{len(campaigns):,}** |",
         f"| Still active in store | **{still_active:,}** |",
         f"| Ownership transfer cases | **{ownership_xfer:,}** |",
-        f"| Stubs (ID confirmed, metadata pending) | **{stubs:,}** |",
+        f"| Unverified entries (TPCI-VERIFY unset) | **{unverified:,}** |",
+        f"| Unnamed entries (EXTID-NAME unknown) | **{stubs:,}** |",
         f"| Earliest discovery | **{oldest}** |",
         f"| Most recent discovery | **{newest}** |",
         "",
@@ -233,8 +257,15 @@ def main():
         "",
     ]
 
-    args.out.write_text("\n".join(lines), encoding="utf-8")
-    print(f"✓ STATS.md written → {total:,} extensions, {len(campaigns):,} campaigns")
+    if args.dry_run:
+        print(f"[DRY RUN] STATS.md would be written → {total:,} extensions, {len(campaigns):,} campaigns")
+        print(f"[DRY RUN] Output path: {args.out}")
+        print(f"[DRY RUN] First 20 lines preview:")
+        for line in lines[:20]:
+            print(f"  {line}")
+    else:
+        args.out.write_text("\n".join(lines), encoding="utf-8")
+        print(f"✓ STATS.md written → {total:,} extensions, {len(campaigns):,} campaigns")
 
 
 if __name__ == "__main__":
