@@ -2,12 +2,12 @@
   "Event": {
     "uuid": "d5393a96-6ed4-c70a-7701-b905effdce0f",
     "info": "[chrome-mal-ids] Socket April 2026 MaaS campaign — 45 malicious extension(s)",
-    "date": "2026-05-28",
+    "date": "2026-05-29",
     "threat_level_id": "1",
     "analysis": "2",
     "distribution": "3",
     "published": true,
-    "timestamp": "1779952431",
+    "timestamp": "1780086873",
     "Org": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -39,7 +39,7 @@
         "comment": "Name: Slot Machine The Fruits | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -50,7 +50,7 @@
         "comment": "Chrome/Edge extension ID — Slot Machine The Fruits",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -61,7 +61,7 @@
         "comment": "Name: Car Rush | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -72,7 +72,7 @@
         "comment": "Chrome/Edge extension ID — Car Rush",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -83,7 +83,7 @@
         "comment": "Name: Slot Machine Space Adventure | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -94,7 +94,7 @@
         "comment": "Chrome/Edge extension ID — Slot Machine Space Adventure",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -105,7 +105,7 @@
         "comment": "Name: Dice King – Classic Craps And Roll Game | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -116,7 +116,7 @@
         "comment": "Chrome/Edge extension ID — Dice King – Classic Craps And Roll Game",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -127,7 +127,7 @@
         "comment": "Name: Frogtastic | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -138,7 +138,7 @@
         "comment": "Chrome/Edge extension ID — Frogtastic",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -149,7 +149,7 @@
         "comment": "Name: Page Locker | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -160,7 +160,7 @@
         "comment": "Chrome/Edge extension ID — Page Locker",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -171,7 +171,7 @@
         "comment": "Name: Billiards Pro | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -182,7 +182,7 @@
         "comment": "Chrome/Edge extension ID — Billiards Pro",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -193,7 +193,7 @@
         "comment": "Name: Web Client for game Cricket Batter Challenge | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -204,7 +204,7 @@
         "comment": "Chrome/Edge extension ID — Web Client for game Cricket Batter Challenge",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -215,7 +215,7 @@
         "comment": "Name: 3D Roulette Casino Game | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -226,7 +226,7 @@
         "comment": "Chrome/Edge extension ID — 3D Roulette Casino Game",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -237,7 +237,7 @@
         "comment": "Name: Tanks Game | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -248,7 +248,7 @@
         "comment": "Chrome/Edge extension ID — Tanks Game",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -259,7 +259,7 @@
         "comment": "Name: Farm - Slot Machine | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -270,7 +270,7 @@
         "comment": "Chrome/Edge extension ID — Farm - Slot Machine",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -281,7 +281,7 @@
         "comment": "Name: Crazy Freekick | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -292,7 +292,7 @@
         "comment": "Chrome/Edge extension ID — Crazy Freekick",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -303,7 +303,7 @@
         "comment": "Name: Premium Horse Racing | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -314,7 +314,7 @@
         "comment": "Chrome/Edge extension ID — Premium Horse Racing",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -325,7 +325,7 @@
         "comment": "Name: Black Beard Slot Machine | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -336,7 +336,7 @@
         "comment": "Chrome/Edge extension ID — Black Beard Slot Machine",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -347,7 +347,7 @@
         "comment": "Name: Game SkySpeedster | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -358,7 +358,7 @@
         "comment": "Chrome/Edge extension ID — Game SkySpeedster",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -369,7 +369,7 @@
         "comment": "Name: Three Card Poker | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -380,7 +380,7 @@
         "comment": "Chrome/Edge extension ID — Three Card Poker",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -391,7 +391,7 @@
         "comment": "Name: Gold of Egypt - Slot Machine | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -402,7 +402,7 @@
         "comment": "Chrome/Edge extension ID — Gold of Egypt - Slot Machine",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -413,7 +413,7 @@
         "comment": "Name: Chrome Client for Downhill Ski - SideGame | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -424,7 +424,7 @@
         "comment": "Chrome/Edge extension ID — Chrome Client for Downhill Ski - SideGame",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -435,7 +435,7 @@
         "comment": "Name: Page Auto Refresh | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -446,7 +446,7 @@
         "comment": "Chrome/Edge extension ID — Page Auto Refresh",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -457,7 +457,7 @@
         "comment": "Name: Slot Car Racing | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -468,7 +468,7 @@
         "comment": "Chrome/Edge extension ID — Slot Car Racing",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -479,7 +479,7 @@
         "comment": "Name: Slot Arabian | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -490,7 +490,7 @@
         "comment": "Chrome/Edge extension ID — Slot Arabian",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -501,7 +501,7 @@
         "comment": "Name: Rail Maze Puzzle | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -512,7 +512,7 @@
         "comment": "Chrome/Edge extension ID — Rail Maze Puzzle",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -523,7 +523,7 @@
         "comment": "Name: Tarot Side Panel | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -534,7 +534,7 @@
         "comment": "Chrome/Edge extension ID — Tarot Side Panel",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -545,7 +545,7 @@
         "comment": "Name: Flicking Soccer | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -556,7 +556,7 @@
         "comment": "Chrome/Edge extension ID — Flicking Soccer",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -567,7 +567,7 @@
         "comment": "Name: Black Ninja - Slot Machine | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -578,7 +578,7 @@
         "comment": "Chrome/Edge extension ID — Black Ninja - Slot Machine",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -589,7 +589,7 @@
         "comment": "Name: Web Client for Telegram™ - Teleside | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -600,7 +600,7 @@
         "comment": "Chrome/Edge extension ID — Web Client for Telegram™ - Teleside",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -611,7 +611,7 @@
         "comment": "Name: Hidden Kitty Game | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -622,7 +622,7 @@
         "comment": "Chrome/Edge extension ID — Hidden Kitty Game",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -633,7 +633,7 @@
         "comment": "Name: Greyhound Racing – Dog Race Simulator | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -644,7 +644,7 @@
         "comment": "Chrome/Edge extension ID — Greyhound Racing – Dog Race Simulator",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -655,7 +655,7 @@
         "comment": "Name: Metal Calculator | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -666,7 +666,7 @@
         "comment": "Chrome/Edge extension ID — Metal Calculator",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -677,7 +677,7 @@
         "comment": "Name: Street Basketball | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -688,7 +688,7 @@
         "comment": "Chrome/Edge extension ID — Street Basketball",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -699,7 +699,7 @@
         "comment": "Name: Pyramid Solitaire | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -710,7 +710,7 @@
         "comment": "Chrome/Edge extension ID — Pyramid Solitaire",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -721,7 +721,7 @@
         "comment": "Name: InterAlt | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -732,7 +732,7 @@
         "comment": "Chrome/Edge extension ID — InterAlt",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -743,7 +743,7 @@
         "comment": "Name: Whack &#39;em All | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -754,7 +754,7 @@
         "comment": "Chrome/Edge extension ID — Whack &#39;em All",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -765,7 +765,7 @@
         "comment": "Name: Slot The Gold Pot | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -776,7 +776,7 @@
         "comment": "Chrome/Edge extension ID — Slot The Gold Pot",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -787,7 +787,7 @@
         "comment": "Name: Goalkeeper Challenge | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -798,7 +798,7 @@
         "comment": "Chrome/Edge extension ID — Goalkeeper Challenge",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -809,7 +809,7 @@
         "comment": "Name: Christmas Eve - Slot Machine | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -820,7 +820,7 @@
         "comment": "Chrome/Edge extension ID — Christmas Eve - Slot Machine",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -831,7 +831,7 @@
         "comment": "Name: Slot Machine Mr Chicken | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -842,7 +842,7 @@
         "comment": "Chrome/Edge extension ID — Slot Machine Mr Chicken",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -853,7 +853,7 @@
         "comment": "Name: Speed test for Chrome - wifi speed test | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -864,7 +864,7 @@
         "comment": "Chrome/Edge extension ID — Speed test for Chrome - wifi speed test",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -875,7 +875,7 @@
         "comment": "Name: Slot Machine Zeus Treasures | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -886,7 +886,7 @@
         "comment": "Chrome/Edge extension ID — Slot Machine Zeus Treasures",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -897,7 +897,7 @@
         "comment": "Name: Horse Racing | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -908,7 +908,7 @@
         "comment": "Chrome/Edge extension ID — Horse Racing",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -919,7 +919,7 @@
         "comment": "Name: Master Chess | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -930,7 +930,7 @@
         "comment": "Chrome/Edge extension ID — Master Chess",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -941,7 +941,7 @@
         "comment": "Name: MASTER CHECKERS | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -952,7 +952,7 @@
         "comment": "Chrome/Edge extension ID — MASTER CHECKERS",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -963,7 +963,7 @@
         "comment": "Name: Watercraft Rush | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -974,7 +974,7 @@
         "comment": "Chrome/Edge extension ID — Watercraft Rush",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -985,7 +985,7 @@
         "comment": "Name: BlackJack 3D | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -996,7 +996,7 @@
         "comment": "Chrome/Edge extension ID — BlackJack 3D",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -1007,7 +1007,7 @@
         "comment": "Name: High or Low Casino Game | Threat: credential-theft,data-theft,session-hijack | ⚡ Still active in store | Socket April 2026 MaaS campaign. C2 infrastructure at cloudapi[.]stream. Steals Google OAuth identity and session data. Part of 108-extension coordinated campaign identified by Socket Threat Research ",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -1018,7 +1018,7 @@
         "comment": "Chrome/Edge extension ID — High or Low Casino Game",
         "to_ids": true,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       },
       {
@@ -1029,7 +1029,7 @@
         "comment": "Research source / article",
         "to_ids": false,
         "distribution": 5,
-        "timestamp": "1779952431",
+        "timestamp": "1780086873",
         "disable_correlation": false
       }
     ]
