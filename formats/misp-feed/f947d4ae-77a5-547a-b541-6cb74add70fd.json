@@ -1,0 +1,102 @@
+{
+  "Event": {
+    "uuid": "f947d4ae-77a5-547a-b541-6cb74add70fd",
+    "info": "[chrome-mal-ids] AITOPIA impersonator campaign — 2 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "1e5b4faa-d5aa-5d9f-983d-029421c64b54",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fnmihdojmnkclgjpcoonokmkhjpjechg",
+        "comment": "Name: Chat GPT for Chrome with GPT-5 Claude Sonnet and DeepSeek AI | Threat: ai-chat-scraper,fake-extension,data-theft | ⚡ Still active in store | AITOPIA impersonator campaign (Prompt Poaching). Exfiltrated ChatGPT and DeepSeek conversations to C2 every 30 mins. Had Google Featured badge. Reported to Google Dec 29 2025. C2: deepaichats.com, cha",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5d249abf-539f-5bfe-9cde-16bc18df2d35",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fnmihdojmnkclgjpcoonokmkhjpjechg",
+        "comment": "Chrome/Edge extension ID — Chat GPT for Chrome with GPT-5 Claude Sonnet and DeepSeek AI",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "51b5d906-f3c7-553e-882f-857f514c9742",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/inhcgfpbfdjbjogdfjbclgolkmhnooop",
+        "comment": "Name: AI Sidebar with Deepseek ChatGPT Claude and more | Threat: ai-chat-scraper,fake-extension,data-theft | ⚡ Still active in store | AITOPIA impersonator campaign (Prompt Poaching). Exfiltrated ChatGPT and DeepSeek conversations to C2 every 30 mins. Had Google Featured badge. Reported to Google Dec 29 2025. C2: deepaichats.com, cha",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2ba1f89a-2f29-597a-b723-d3a2d6c73e92",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "inhcgfpbfdjbjogdfjbclgolkmhnooop",
+        "comment": "Chrome/Edge extension ID — AI Sidebar with Deepseek ChatGPT Claude and more",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c8946210-a9b4-5423-82c0-36cb8413b6f5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://thehackernews.com/2026/01/two-chrome-extensions-caught-stealing.html",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a4c4aec0-bcf9-5b77-a713-d5ddbbf1a0ea",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.ox.security/blog/malicious-chrome-extensions-steal-chatgpt-deepseek-conversations/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

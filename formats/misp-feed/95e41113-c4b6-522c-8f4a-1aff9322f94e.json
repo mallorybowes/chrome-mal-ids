@@ -1,0 +1,366 @@
+{
+  "Event": {
+    "uuid": "95e41113-c4b6-522c-8f4a-1aff9322f94e",
+    "info": "[chrome-mal-ids] ShadyPanda Phase 4 Edge spyware — 14 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "8f0c4cd2-4666-50b6-9d57-8a65b873b9da",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/bpelnogcookhocnaokfpoeinibimbeff",
+        "comment": "Name: WeTab / ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d05e9765-ff08-548d-9dbd-c9726e7cc3fa",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bpelnogcookhocnaokfpoeinibimbeff",
+        "comment": "Chrome/Edge extension ID — WeTab / ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4c3251ec-4567-5125-8117-659f44cc8699",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/enkihkfondbngohnmlefmobdgkpmejha",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "92654bfe-ba27-513f-bc2d-e9ca1ac0e2a0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "enkihkfondbngohnmlefmobdgkpmejha",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ae898236-cc49-58e9-9d82-aa0aa2de270f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/hajlmbnnniemimmaehcefkamdadpjlfa",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a4f25978-99c2-57b3-a2ae-8582db859d5e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hajlmbnnniemimmaehcefkamdadpjlfa",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "93397a1e-b185-50da-8878-80a770fc6100",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/aadnmeanpbokjjahcnikajejglihibpd",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cab3be9a-08d3-53c1-a283-53d999d15077",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "aadnmeanpbokjjahcnikajejglihibpd",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "93661473-aa25-5949-8630-5e317f752d91",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/ipnidmjhnoipibbinllilgeohohehabl",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fbc115e2-53d8-5b60-995c-860aa9c81ea7",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ipnidmjhnoipibbinllilgeohohehabl",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0b932d08-62f8-5ada-b601-b3b410455c43",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/fnnigcfbmghcefaboigkhfimeolhhbcp",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "757a84f9-1d88-50d7-8307-c73740571f31",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fnnigcfbmghcefaboigkhfimeolhhbcp",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "56b45ea6-bfe4-5138-b9dc-72e61a5e5673",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/nlcebdoehkdiojeahkofcfnolkleembf",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c7ad992f-03ef-52fd-83ca-972bfe198ce2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nlcebdoehkdiojeahkofcfnolkleembf",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6a4e9ce3-aa95-55f2-b35f-a7aa944951c4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/fhababnomjcnhmobbemagohkldaeicad",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c31c86af-0425-5960-9151-428765c7b2eb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fhababnomjcnhmobbemagohkldaeicad",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "257caf5b-c67f-5021-8060-7627a40c7e2a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/nokknhlkpdfppefncfkdebhgfpfilieo",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8e446869-35db-5321-8a09-5853be16164d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nokknhlkpdfppefncfkdebhgfpfilieo",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cc790c22-0e69-540b-b284-a1f0dbabf3bf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/ljmcneongnlaecabgneiippeacdoimaa",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "adb0e9b8-338e-594b-9afc-0c44d2470812",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ljmcneongnlaecabgneiippeacdoimaa",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "63651186-dead-518b-bd38-56a2a86259fa",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/onifebiiejdjncjpjnojlebibonmnhog",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1b8edf50-667a-52cc-a997-3100dba63d51",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "onifebiiejdjncjpjnojlebibonmnhog",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c3d4124a-5be5-5b28-87b1-d10d3513129b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/dbagndmcddecodlmnlcmhheicgkaglpk",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3612f6a0-016d-5e2d-ae8c-8d24f4ad0125",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dbagndmcddecodlmnlcmhheicgkaglpk",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "696f30f2-4053-59b6-8aaa-c170e30762d5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/fmgfcpjmmapcjlknncjgmbolgaecngfo",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e9780efd-0cf0-5ef0-ba9f-ee0dbbf0131b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fmgfcpjmmapcjlknncjgmbolgaecngfo",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9d4c8124-091f-567a-9441-b5f6200c1e63",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/kgmlodoegkmpfkbepkfhgeldido",
+        "comment": "Name: ShadyPanda Phase 4 spyware (Edge) | Threat: spyware,data-theft | ⚡ Still active in store | ShadyPanda Phase 4 Edge spyware. Publisher Starlab Technology. WeTab flagship has 3M installs. Collects every URL, search query, mouse click (pixel XY coords). Transmits to 17 domains (8 Baidu servers",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4436c372-4ecd-5a95-877f-f4fd40159c2f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kgmlodoegkmpfkbepkfhgeldido",
+        "comment": "Chrome/Edge extension ID — ShadyPanda Phase 4 spyware (Edge)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9c3f6e34-3ccb-5d7c-95bb-1465e4090590",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "eb76cbeb-3ef3-5f06-ba32-c52e6478744b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.malwarebytes.com/blog/news/2025/12/sleeper-browser-extensions-woke-up-as-spyware-on-4-million-devices",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

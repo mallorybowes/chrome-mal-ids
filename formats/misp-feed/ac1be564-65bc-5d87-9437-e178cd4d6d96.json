@@ -1,0 +1,410 @@
+{
+  "Event": {
+    "uuid": "ac1be564-65bc-5d87-9437-e178cd4d6d96",
+    "info": "[chrome-mal-ids] Krebs/Nguyen fake brand extension network — 16 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "aabbbd50-c47c-5ecc-9212-192c19556ebd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/odcfdbjimjkipbopcfaohmffnbmnbfhb",
+        "comment": "Name: DAZN: Live Sports Streaming (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2f827379-cf26-5865-91d8-261c69c0e9fe",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "odcfdbjimjkipbopcfaohmffnbmnbfhb",
+        "comment": "Chrome/Edge extension ID — DAZN: Live Sports Streaming (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a6008fb6-2015-5489-8a6b-9c13e387e3a2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mknnabcboiamlhlpigbiejjipofhhhmo",
+        "comment": "Name: Frameo (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e203499b-45c3-57b2-8d10-5596f38771fe",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mknnabcboiamlhlpigbiejjipofhhhmo",
+        "comment": "Chrome/Edge extension ID — Frameo (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f3d84981-6777-5f80-9fce-eba7d35a832f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cpmpipfpcgkoiedkehiobjidambkldfi",
+        "comment": "Name: HBO Max: Stream HBO TV (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "32d2706f-4474-57b0-8a0e-a41ab70984c6",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cpmpipfpcgkoiedkehiobjidambkldfi",
+        "comment": "Chrome/Edge extension ID — HBO Max: Stream HBO TV (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f62eaeba-6956-53dc-ab50-4233380ab113",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lgpaegdhfonaljikhochmeafcpomlphb",
+        "comment": "Name: IMVU (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "431a50ae-d495-57bc-8a73-4ae6538b800a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lgpaegdhfonaljikhochmeafcpomlphb",
+        "comment": "Chrome/Edge extension ID — IMVU (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "062bed26-4650-5d83-9d7b-28cc23ccfbfe",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/chdheiofhhmjhfmdefgjnbiakmfhpekh",
+        "comment": "Name: Screen Mirroring + for Roku (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "963d94d3-2acf-58c3-9b92-6244b3b39058",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "chdheiofhhmjhfmdefgjnbiakmfhpekh",
+        "comment": "Chrome/Edge extension ID — Screen Mirroring + for Roku (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b73746cf-17a4-5f74-a88e-8acbbd7b8bfb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hmmkhbiknngbgkecdjnhblikmjnkmfph",
+        "comment": "Name: CapCut 2021 (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c57b05d8-16b7-55da-836c-ed8578c93028",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hmmkhbiknngbgkecdjnhblikmjnkmfph",
+        "comment": "Chrome/Edge extension ID — CapCut 2021 (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ee58ced2-9454-536f-b1e6-fb4bac3de4e2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pndkaoeigpfhjkjblpmneppaffijeoof",
+        "comment": "Name: iArtBook Digital Painting (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "943034a4-0cd9-56ab-9e1b-d35263830bf1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pndkaoeigpfhjkjblpmneppaffijeoof",
+        "comment": "Chrome/Edge extension ID — iArtBook Digital Painting (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "89280dba-0e04-5f68-a47e-48fd7f723a3f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jpjljiibjkcgfgajdjhbfkocaoajnpjd",
+        "comment": "Name: CapCut (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "63e40e89-c99a-54e0-8f0d-5e0dfa08ec08",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jpjljiibjkcgfgajdjhbfkocaoajnpjd",
+        "comment": "Chrome/Edge extension ID — CapCut (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0f527dd6-7f79-5bac-b26b-8d3cbc0ba111",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ekjpgaienpbcajanmlakjlblacmmagli",
+        "comment": "Name: PhotoMath (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6fde3916-67ba-503c-8a3e-8178023ad0fa",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ekjpgaienpbcajanmlakjlblacmmagli",
+        "comment": "Chrome/Edge extension ID — PhotoMath (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "53ec2298-eb7b-52e4-862e-4520d1e599f5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/icliijcepcpkfcnhadpihncikapnlgck",
+        "comment": "Name: Web Video Cast Browser to TV (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b0f4014c-2582-5849-a256-7782692665a5",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "icliijcepcpkfcnhadpihncikapnlgck",
+        "comment": "Chrome/Edge extension ID — Web Video Cast Browser to TV (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f459fe71-d567-57c0-9a09-700c89ed7b73",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jmlinloieidngpommoobnifkbaodgihm",
+        "comment": "Name: iArtbook Digital Painting (fake variant) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2ca5c892-1bd2-5178-97c7-c5b0984458c2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jmlinloieidngpommoobnifkbaodgihm",
+        "comment": "Chrome/Edge extension ID — iArtbook Digital Painting (fake variant)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "71b4dbf1-7635-5d48-9538-f507137a293c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/docgaphalahenjbcblkiannmhfecligg",
+        "comment": "Name: Dollify (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e53d0fef-2fb5-55da-9312-0b7ab8ec7a6e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "docgaphalahenjbcblkiannmhfecligg",
+        "comment": "Chrome/Edge extension ID — Dollify (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "12e8b8c9-f893-59c5-9693-9d7eb7a0e7e6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cfpojnimgikehbalpifbfnofalkmeikm",
+        "comment": "Name: Microsoft Teams (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f867c1ff-4dae-5a22-91a8-353ee21c35ff",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cfpojnimgikehbalpifbfnofalkmeikm",
+        "comment": "Chrome/Edge extension ID — Microsoft Teams (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "931fa36f-ad22-5de5-98a9-656763fb245c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/chplplfgapdmojeidldanhlpgicoljai",
+        "comment": "Name: Oculus (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bbfd017c-f92a-5b5d-9091-a38fb020f524",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "chplplfgapdmojeidldanhlpgicoljai",
+        "comment": "Chrome/Edge extension ID — Oculus (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "db00b6b0-5a57-5647-9fa7-a8cebb1b358a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ahdijafdcpkcefendeaobodkfjcmphac",
+        "comment": "Name: Adobe Lightroom Photo Editor (fake) | Threat: phishing,fake-extension,credential-theft | ⚡ Still active in store | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "83a0299b-4754-54fa-a6d2-d7de11590d21",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ahdijafdcpkcefendeaobodkfjcmphac",
+        "comment": "Chrome/Edge extension ID — Adobe Lightroom Photo Editor (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "acf0dd4b-d000-5c30-9f6a-dd43d5a662a2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cafffncdbdopajhdpnfpohbneabfmjef",
+        "comment": "Name: CapCut professional video editor (fake) | Threat: phishing,fake-extension,credential-theft | ⚡ Still active in store | Krebs/Nguyen fake brand extension network. 45 extensions spoofing Adobe, Amazon, Facebook, HBO, Microsoft, Roku, Verizon. Prompted users for personal/financial data. Network of fake reviewers used to ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4fdc6bf7-6b79-5e1d-a440-6f53a2ccd58d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cafffncdbdopajhdpnfpohbneabfmjef",
+        "comment": "Chrome/Edge extension ID — CapCut professional video editor (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4b195f1b-bd9b-59fe-944b-64ec0eed58cb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://docs.google.com/spreadsheets/d/1CcFc4mgGA9Ping8RZIh6MH5XUUFXyYdJlvO-xRMda1Q/edit",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4627d431-3bb2-5155-9a67-6ae438624041",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://krebsonsecurity.com/2021/05/using-fake-reviews-to-find-dangerous-extensions/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "Event": {
+    "uuid": "a00a8a99-5151-5714-977c-7c00de971c08",
+    "info": "[chrome-mal-ids] Pixatab new tab hijacking cluster — 3 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "16b695e4-b52d-55d3-b2a4-bf9528f26255",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/anjoapnmcdcndaagonoiindlklkpmnmh",
+        "comment": "Name: Brawl Stars Cursor - Custom Game Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "169731ad-7c7e-525b-80c8-e21ae5d0f2ba",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "anjoapnmcdcndaagonoiindlklkpmnmh",
+        "comment": "Chrome/Edge extension ID — Brawl Stars Cursor - Custom Game Cursor for Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f6970067-64b6-532a-b99f-eba615000195",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kfnphajojmcoapplfnocpegelkfjndom",
+        "comment": "Name: Country Flags Cursor - Custom Flag Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4ca25cd3-56df-56a5-aaf6-e10f35f32dc2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kfnphajojmcoapplfnocpegelkfjndom",
+        "comment": "Chrome/Edge extension ID — Country Flags Cursor - Custom Flag Cursor for Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b4e421e2-123f-5802-a8b1-b30af5b239c6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mopjnoodlnbnkocfefcgnmnlbcmgekof",
+        "comment": "Name: Spiderman Cursor - Custom Cursor for Chrome | Threat: adware,browser-hijack | ⚡ Still active in store | Pixatab new tab hijacking cluster. Content scripts on all URLs, connects to pixatab[.]xyz/constructor/ for new tab replacement. Stage 5A confirmed. | Original note: Stub entry imported from malicious_",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d7db9e3f-89d8-55c7-93c8-b2159fa0ff77",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mopjnoodlnbnkocfefcgnmnlbcmgekof",
+        "comment": "Chrome/Edge extension ID — Spiderman Cursor - Custom Cursor for Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "46e36222-383b-5d15-8bb5-2b5408f33a77",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/toborrm9/malicious_extension_sentry",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

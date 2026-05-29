@@ -11,7 +11,7 @@ Produces two formats:
 2. misp-feed/ directory
    A MISP feed directory that MISP can poll automatically as a live threat feed.
    Configure via: MISP → Feeds → Add Feed → type: MISP feed
-   Feed URL: https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/misp-feed/
+   Feed URL: https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/formats/misp-feed/
 
 The feed format creates one event per campaign for cleaner MISP organization.
 
@@ -34,9 +34,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR   = Path(__file__).parent
-DEFAULT_CSV  = SCRIPT_DIR.parent / "data" / "current-list-meta.csv"
-DEFAULT_OUT  = SCRIPT_DIR.parent / "formats"
-PROJECT_URL  = "https://github.com/mallorybowes/chrome-mal-ids"
+# Check multiple possible locations for the CSV
+_locations   = [
+    SCRIPT_DIR / "data" / "current-list-meta.csv",   # server: /opt/chrome-mal-ids/repo/
+    SCRIPT_DIR / "current-list-meta.csv",             # dev: same dir as script
+    Path("/opt/chrome-mal-ids/repo/data/current-list-meta.csv"),  # absolute fallback
+]
+_repo_csv    = next((p for p in _locations if p.exists()), _locations[0])
+DEFAULT_CSV  = _repo_csv
+DEFAULT_OUT  = _repo_csv.parent.parent / "formats" if _repo_csv.exists() else SCRIPT_DIR
+PROJECT_URL  = "https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids"
 PROJECT_NAME = "Malicious Chrome Extension IOC Database"
 ORG_NAME     = "chrome-mal-ids"
 ORG_UUID     = "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d"  # stable org UUID
@@ -58,9 +65,9 @@ THREAT_LEVEL_MAP = {
 
 
 def stable_uuid(seed: str) -> str:
-    """Generate a stable UUID from a seed string for reproducible IDs."""
-    h = hashlib.md5(seed.encode()).hexdigest()
-    return str(uuid.UUID(h))
+    """Generate a stable RFC 4122 UUID5 from a seed string for reproducible IDs."""
+    # Use UUID5 with DNS namespace for RFC 4122 compliant stable UUIDs
+    return str(uuid.uuid5(uuid.NAMESPACE_DNS, f"chrome-mal-ids.tpc.institute/{seed}"))
 
 
 def now_misp() -> str:
@@ -92,13 +99,27 @@ def threat_level(threat_str: str) -> int:
     return 3
 
 
-def load_csv(path: Path) -> list[dict]:
-    rows = []
+def load_csv(path: Path, verified_only: bool = True) -> list[dict]:
+    rows    = []
+    skipped = 0
     with open(path, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             ext_id = row.get("EXTID", "").strip().lower()
-            if ext_id and ext_id != "unknown":
-                rows.append(row)
+            if not ext_id or ext_id == "unknown":
+                continue
+            if verified_only:
+                method      = row.get("CONTRIB-METHOD", "").strip()
+                tpci_verify = row.get("TPCI-VERIFY", "0").strip()
+                confirm_mal = row.get("CONFIRM-MAL", "1").strip()
+                is_delta    = "Delta_Import" in method
+                is_verified = tpci_verify in ("1","2","3","4","5")
+                is_google   = confirm_mal in ("2","3")
+                if is_delta and not is_verified and not is_google:
+                    skipped += 1
+                    continue
+            rows.append(row)
+    if verified_only and skipped:
+        print(f"  [filter] Excluded {skipped} unverified delta import entries")
     return rows
 
 
@@ -274,33 +295,42 @@ def generate_misp_feed(rows: list[dict], feed_dir: Path):
 
     manifest = {}
     event_count = 0
+    CHUNK_SIZE = 50  # max extensions per MISP event to stay under size limits
 
     for campaign, camp_rows in sorted(campaigns.items()):
-        event_uuid  = stable_uuid(f"feed-event-{campaign}")
         threat_lvl  = min(threat_level(r.get("THREAT-TYPE", "")) for r in camp_rows)
-        title       = f"[chrome-mal-ids] {campaign} — {len(camp_rows)} malicious extension(s)"
+        total       = len(camp_rows)
 
-        event       = build_event(event_uuid, title, camp_rows, threat_lvl, date)
-        event_file  = feed_dir / f"{event_uuid}.json"
-        event_file.write_text(json.dumps(event, indent=2, ensure_ascii=False) + "\n",
-                              encoding="utf-8")
+        # Split large campaigns into chunks to avoid MISP feed size limits
+        chunks = [camp_rows[i:i+CHUNK_SIZE] for i in range(0, total, CHUNK_SIZE)]
 
-        # Add to manifest
-        manifest[event_uuid] = {
-            "Orgc": {"uuid": ORG_UUID, "name": ORG_NAME},
-            "Tag":  [
-                {"name": "tlp:white"},
-                {"name": "chrome-mal-ids"},
-                {"name": campaign.lower().replace(" ", "-")},
-            ],
-            "info":            title,
-            "date":            date,
-            "analysis":        "2",
-            "threat_level_id": str(threat_lvl),
-            "timestamp":       str(now_ts()),
-            "distribution":    "3",
-        }
-        event_count += 1
+        for chunk_idx, chunk_rows in enumerate(chunks):
+            # Use stable UUID per chunk so re-runs don't create duplicates
+            suffix     = f"-part{chunk_idx+1}" if len(chunks) > 1 else ""
+            event_uuid = stable_uuid(f"feed-event-{campaign}{suffix}")
+            part_label = f" (part {chunk_idx+1} of {len(chunks)})" if len(chunks) > 1 else ""
+            title      = f"[chrome-mal-ids] {campaign} — {len(chunk_rows)} malicious extension(s){part_label}"
+
+            event      = build_event(event_uuid, title, chunk_rows, threat_lvl, date)
+            event_file = feed_dir / f"{event_uuid}.json"
+            event_file.write_text(json.dumps(event, indent=2, ensure_ascii=False) + "\n",
+                                  encoding="utf-8")
+
+            manifest[event_uuid] = {
+                "Orgc": {"uuid": ORG_UUID, "name": ORG_NAME},
+                "Tag":  [
+                    {"name": "tlp:white"},
+                    {"name": "chrome-mal-ids"},
+                    {"name": campaign.lower().replace(" ", "-")},
+                ],
+                "info":            title,
+                "date":            date,
+                "analysis":        "2",
+                "threat_level_id": str(threat_lvl),
+                "timestamp":       str(now_ts()),
+                "distribution":    "3",
+            }
+            event_count += 1
 
     # Write manifest.json
     manifest_path = feed_dir / "manifest.json"
@@ -321,7 +351,7 @@ def generate_misp_feed(rows: list[dict], feed_dir: Path):
 
     print(f"✓ misp-feed/ → {event_count} events ({len(rows)} total extensions)")
     print(f"  Configure feed URL in MISP:")
-    print(f"  {PROJECT_URL.replace('github.com', 'raw.githubusercontent.com')}/master/misp-feed/")
+    print(f"  {PROJECT_URL.replace('github.com', 'raw.githubusercontent.com')}/master/formats/misp-feed/")
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -350,7 +380,7 @@ Import options:
   Feed:    MISP → Feeds → Add Feed:
              Name:    Malicious Chrome Extension IOC Database
              Type:    MISP Feed
-             URL:     https://raw.githubusercontent.com/mallorybowes/chrome-mal-ids/master/misp-feed/
+             URL:     https://raw.githubusercontent.com/The-Privacy-Commons-Institute/chrome-mal-ids/master/formats/misp-feed/
              Input source: Network
              Distribution: Your organisation only (adjust as needed)
 """)

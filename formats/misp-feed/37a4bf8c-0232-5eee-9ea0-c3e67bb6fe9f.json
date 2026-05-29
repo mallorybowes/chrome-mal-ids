@@ -1,0 +1,344 @@
+{
+  "Event": {
+    "uuid": "37a4bf8c-0232-5eee-9ea0-c3e67bb6fe9f",
+    "info": "[chrome-mal-ids] Browser game extensions abusing broad host permissions — 13 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "6faa40c3-3d66-5359-80a3-4c41ae22cf56",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kgfeiebnfmmfpomhochmlfmdmjmfedfj",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | ⚡ Still active in store | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a9974e11-3399-517c-b686-4a2dd3bb6245",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kgfeiebnfmmfpomhochmlfmdmjmfedfj",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3cec799a-5992-571b-9acc-0942fa642e78",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pmlcjncilaaaemknfefmegedhcgelmee",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f14f3028-6b0c-5d85-bbab-6912bcaf6935",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pmlcjncilaaaemknfefmegedhcgelmee",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1afe85b8-d9cc-593a-b7de-54cdee389b5e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ohdgnoepeabcfdkboidmaedenahioohf",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2b4a0654-4e3b-5c6b-9aee-c85a837f0c57",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ohdgnoepeabcfdkboidmaedenahioohf",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0a18ff63-1fb7-5ff2-8069-c4a87cd1525f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/dnbipceilikdgjmeiagblfckeialaela",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "05fee953-3e79-58fb-b776-8f2f397c3228",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dnbipceilikdgjmeiagblfckeialaela",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bcb93f53-3c10-5443-a9db-675cd8ef1a71",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/aciipkgmbljbcokcnhjbjdhilpngemnj",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5b1b0682-1d70-5c37-8d05-6fd84fcef123",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "aciipkgmbljbcokcnhjbjdhilpngemnj",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "813b9275-3c0d-5e93-b478-43cbe3bdf3ad",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nlmjpeojbncdmlfkpppngdnolhfgiehn",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f8051b2d-13f3-5ddb-ab6a-de1e8dccc243",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nlmjpeojbncdmlfkpppngdnolhfgiehn",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "67aaa4ee-03ec-5251-ac1f-eaf65968d889",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/phjhbkdgnjaokligmkimgnlagccanodn",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "deaef6a1-4e50-5956-8fb2-12a6fefcb558",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "phjhbkdgnjaokligmkimgnlagccanodn",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8237b3ae-0cc7-5770-9a2a-7850d44c8292",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fkhpfgpmejefmjaeelgoopkcglgafedm",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c9cb5eb3-9b8c-5718-a663-250a7648525e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fkhpfgpmejefmjaeelgoopkcglgafedm",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d82102f1-fd5d-5b61-8504-35d471634920",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kekdpkbijjffmohdaonbpeeaiknhbkhj",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9f19f6b4-59bd-5d8c-b293-bcb7d19b1c74",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kekdpkbijjffmohdaonbpeeaiknhbkhj",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a721069c-2073-5540-9f6a-0641fafe75af",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mcmmiinopedfbaoongoclagidncaacbd",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0270d2ca-1289-5e52-a3e4-2f65e65f68ba",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mcmmiinopedfbaoongoclagidncaacbd",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "93f2d69d-36a6-5440-9c0f-fb497d51c058",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ndcokkmfmiaecmndbpohaogmpmchfpkk",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ca00bfce-8931-551d-8931-150e82b1208c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ndcokkmfmiaecmndbpohaogmpmchfpkk",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9f10ac5b-1e94-58d7-aaf6-cd3d3620f707",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cpmpjapeeidaikiiemnddfgfdfjjhgif",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1696364f-3fb1-5a33-9640-26e4cea8074e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cpmpjapeeidaikiiemnddfgfdfjjhgif",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4941ea73-2152-551e-a158-3f8a9531bd9c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ajefbooiifdkmgkpjkanmgbjbndfbfhg",
+        "comment": "Name: Browser game extension (malicious, name unconfirmed) | Threat: adware,data-theft | Browser game extensions abusing broad host permissions. Palant Jun 2023 series. Games used as cover to gain all-website access for data collection/affiliate fraud.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3a822518-b73c-5337-bfed-44d1eb9bbc92",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ajefbooiifdkmgkpjkanmgbjbndfbfhg",
+        "comment": "Chrome/Edge extension ID — Browser game extension (malicious, name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "73f6584a-80b1-5717-ac6c-a8ccda5a0c66",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://palant.info/2023/06/14/why-browser-extension-games-need-access-to-all-websites/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6c57786e-5ed0-5489-b2bd-bfe8a36443b0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-75m-installs-removed-from-web-store/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

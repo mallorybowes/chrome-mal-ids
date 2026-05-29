@@ -1,0 +1,366 @@
+{
+  "Event": {
+    "uuid": "34a5060a-9958-501e-8180-3455c9142213",
+    "info": "[chrome-mal-ids] Unknown Campaign — 11 malicious extension(s) (part 8 of 8)",
+    "date": "2026-05-29",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "d73689c7-3903-5dfc-a44c-328afd06613c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ojmbbkdflpfjdceflikpkbbmmbfagglg",
+        "comment": "Name: “Blue Messenger”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a1158f19-18eb-59a9-b6b6-fddf81a30bf0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ojmbbkdflpfjdceflikpkbbmmbfagglg",
+        "comment": "Chrome/Edge extension ID — “Blue Messenger”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "28b3eec9-c36f-50fd-9b4a-de5a4c316ae8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/chmaijbnjdnkjknoigffoohjhpejjppd",
+        "comment": "Name: “Emoji keyboard”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "779fc900-5423-531a-8385-172cd49fcb59",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "chmaijbnjdnkjknoigffoohjhpejjppd",
+        "comment": "Chrome/Edge extension ID — “Emoji keyboard”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dc97e6af-8160-5ee9-898d-a1618bbd5252",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jhcfnojahmdghhebdaoijngclknfkbjn",
+        "comment": "Name: “Green Messenger”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c6d133fd-c569-5bbb-8bda-001e74934a72",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jhcfnojahmdghhebdaoijngclknfkbjn",
+        "comment": "Chrome/Edge extension ID — “Green Messenger”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1eeabbeb-2ffc-5b4e-8f2b-bca596b271dd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/akdbogfpgohikflhccclloneidjkogog",
+        "comment": "Name: “Скачать фото и видео из Instagram”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c30d6433-8745-5eab-9a89-ab310fad8cb9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "akdbogfpgohikflhccclloneidjkogog",
+        "comment": "Chrome/Edge extension ID — “Скачать фото и видео из Instagram”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7e390505-5e55-5cef-a249-4dca5977188c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lgjogljbnbfjcaigalbhiagkboajmkkj",
+        "comment": "Name: “FORBES”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "74474ad2-9e20-5c53-b235-15d238ecf934",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lgjogljbnbfjcaigalbhiagkboajmkkj",
+        "comment": "Chrome/Edge extension ID — “FORBES”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "67b7418b-a446-543b-b63e-263b8fb9ad7f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/aemaecahdckfllfldhgimjhdgiaahean",
+        "comment": "Name: “Downloader for Instagram”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fa33408a-0946-5a6f-8ed2-151fa049cb1d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "aemaecahdckfllfldhgimjhdgiaahean",
+        "comment": "Chrome/Edge extension ID — “Downloader for Instagram”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1319a0ef-1f1d-5eac-a99c-74fec42ab385",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/klbibkeccnjlkjkiokjodocebajanakg",
+        "comment": "Name: “The Great Suspender”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c5983dbb-aaf6-5df6-83ff-c7fc6dfce329",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "klbibkeccnjlkjkiokjodocebajanakg",
+        "comment": "Chrome/Edge extension ID — “The Great Suspender”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6af61d55-cfda-58ec-84b6-4f32c0575df7",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fmfjhicbjecfchfmpelfnifijeigelme",
+        "comment": "Name: “Forcepoint Endpoint for Windows”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5b617dd1-ab60-5720-83e3-e623d32f07e0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fmfjhicbjecfchfmpelfnifijeigelme",
+        "comment": "Chrome/Edge extension ID — “Forcepoint Endpoint for Windows”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b6c08c41-3450-5db2-b7d2-b3cd628172fc",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/glgemekgfjppocilabhlcbngobillcgf",
+        "comment": "Extension ID: glgemekgfjppocilabhlcbngobillcgf",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d84868cd-8854-5d78-bf53-dabd2a65bd73",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "glgemekgfjppocilabhlcbngobillcgf",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e9ff0986-b59f-54e8-90d7-f68c9e2fa48d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ldbfffpdfgghehkkckifnjhoncdgjkib",
+        "comment": "Name: “Stylebot”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3a0a2a83-85a7-5884-ad10-08173862f9d7",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ldbfffpdfgghehkkckifnjhoncdgjkib",
+        "comment": "Chrome/Edge extension ID — “Stylebot”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bf0ffee7-e8a2-51b0-ba12-a227d5c2fd21",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mdnmhbnbebabimcjggckeoibchhckemm",
+        "comment": "Name: “frigate-light”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2947a488-261e-5f2f-9fa5-bf7beb16f93f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mdnmhbnbebabimcjggckeoibchhckemm",
+        "comment": "Chrome/Edge extension ID — “frigate-light”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "82a55eac-afda-5de6-8a54-8777086263d4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://decoded.avast.io/janvojtesek/backdoored-browser-extensions-hid-malicious-traffic-in-analytics-requests/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e3ac0053-c428-57d2-9c9d-525a19d30428",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://habr.com/en/company/yandex/blog/534586/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2ccc1c2d-76c9-547b-a50c-b969a8520ae2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://isc.sans.edu/forums/diary/Abusing+Google+Chrome+extension+syncing+for+data+exfiltration+and+CC/27066/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f7d07440-9697-506e-bb77-c28e3e3a77e2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://lifehacker.com/ditch-the-great-suspender-before-it-becomes-a-security-1845989664",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ea2ca87e-4460-5df1-977a-b6eecfeaf697",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/facebook-sues-makers-of-malicious-chrome-extensions-for-scraping-data/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5ded8717-a0a3-56a3-a6c2-f37076813e6a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/malicious-extension-abuses-chrome-sync-to-steal-users-data/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bb4bc53a-f5bf-563c-82c1-d99e8f0477f6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.kaspersky.com/blog/chrome-plugins-alert/38242/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "414d7caf-5967-5a23-9dbe-6b79161aaabd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.xda-developers.com/google-chrome-the-great-suspender-malware/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

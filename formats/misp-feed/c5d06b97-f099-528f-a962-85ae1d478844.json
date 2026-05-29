@@ -1,0 +1,223 @@
+{
+  "Event": {
+    "uuid": "c5d06b97-f099-528f-a962-85ae1d478844",
+    "info": "[chrome-mal-ids] Stage 5A static analysis confirmed malicious behavior — 8 malicious extension(s) (part 2 of 2)",
+    "date": "2026-05-29",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "6f7bb44a-0f77-5d78-ab52-41d041d58ec9",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nfodepdbkedfahdadcglakjdmopkobon",
+        "comment": "Name: Amazon Prime Freevee Skipper: skip ads, intros &amp; more [QVI] | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=42). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a4f82364-2641-5aa1-90d9-6032e03a85fb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nfodepdbkedfahdadcglakjdmopkobon",
+        "comment": "Chrome/Edge extension ID — Amazon Prime Freevee Skipper: skip ads, intros &amp; more [QVI]",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "aa4c0172-1847-5e6e-8e68-bdd5045e69be",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/njmhcidcdbaannpafjdljminaigdgolj",
+        "comment": "Name: Noise Cancelling App | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "507bf2dd-4346-5b19-9e1a-35d780bd98ad",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "njmhcidcdbaannpafjdljminaigdgolj",
+        "comment": "Chrome/Edge extension ID — Noise Cancelling App",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e8b6aafe-a8ad-5db7-841c-e19cc4ed4f62",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nngjdplpkehilhcinpccdbkjaknkkifl",
+        "comment": "Name: Newsit: Hacker News and Reddit Links | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3574d65f-404a-516f-8bc6-6a75a1367904",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nngjdplpkehilhcinpccdbkjaknkkifl",
+        "comment": "Chrome/Edge extension ID — Newsit: Hacker News and Reddit Links",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "03dbf533-e864-5d02-b51e-9a64135ffcad",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nnnkddnnlpamobajfibfdgfnbcnkgngh",
+        "comment": "Name: Infinity New Tab (Pro) | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=112). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0f4a88bb-36c9-5107-b3ce-4a41c1a3205f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nnnkddnnlpamobajfibfdgfnbcnkgngh",
+        "comment": "Chrome/Edge extension ID — Infinity New Tab (Pro)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a0114222-4947-53a3-9e35-2100dd3b64f3",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/okepehobneenpbhiendcjcanjodhmcbj",
+        "comment": "Name: nbnhhsh - 能不能好好说话 | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=52). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "706ccc9f-d08b-596b-b629-a0bd74fd51fe",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "okepehobneenpbhiendcjcanjodhmcbj",
+        "comment": "Chrome/Edge extension ID — nbnhhsh - 能不能好好说话",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d3a9b541-f66f-570b-9578-623e00307429",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pajkjnmeojmbapicmbpliphjmcekeaac",
+        "comment": "Name: Cyberhaven security extension | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=malicious, score=152). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "14dca762-d658-56a9-820f-54352e794d3b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pajkjnmeojmbapicmbpliphjmcekeaac",
+        "comment": "Chrome/Edge extension ID — Cyberhaven security extension",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6eaaa6f6-2ef1-5639-875a-e2fbf8f18b62",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pfpijacnpangmkfdpgodlbokpkhpkeka",
+        "comment": "Name: Tiktok Downloader | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=72). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e759c2da-3d4c-5021-b93f-b8c4ffd923e1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pfpijacnpangmkfdpgodlbokpkhpkeka",
+        "comment": "Chrome/Edge extension ID — Tiktok Downloader",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a782e8ad-665c-5fc0-b5a9-4892ccbd7422",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pljbjcehnhcnofmkdbjolghdcjnmekia",
+        "comment": "Name: Bless | ⚡ Still active in store | Stage 5A static analysis confirmed malicious behavior (risk_level=suspicious, score=92). Awaiting campaign attribution. | Original note: Stub entry imported from malicious_extension_sentry (MIT licens",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d6b92356-bb94-5326-91e5-d5b45cc45646",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pljbjcehnhcnofmkdbjolghdcjnmekia",
+        "comment": "Chrome/Edge extension ID — Bless",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f55627f4-9872-58db-b55c-e301e7f5b615",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/toborrm9/malicious_extension_sentry",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "Event": {
+    "uuid": "0c3469e6-e1d1-591f-9296-99342b575016",
+    "info": "[chrome-mal-ids] Two overlapping malicious extension clusters: Phoenix Invict — 20 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "41dab912-0669-54bf-a096-52efd353a4e6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/acbcnnccgmpbkoeblinmoadogmmgodoo",
+        "comment": "Name: Click & Pick | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f4ec4893-d5f0-543d-9add-20a4df630ecf",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "acbcnnccgmpbkoeblinmoadogmmgodoo",
+        "comment": "Chrome/Edge extension ID — Click & Pick",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c8c25f15-38da-5ccb-abf6-8024d0d74660",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/coebfgijooginjcfgmmgiibomdcjnomi",
+        "comment": "Name: AdBlock for Youtube: Skip-n-Watch | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "315253ef-ef19-59de-8c48-74e13c749dc9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "coebfgijooginjcfgmmgiibomdcjnomi",
+        "comment": "Chrome/Edge extension ID — AdBlock for Youtube: Skip-n-Watch",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e42dcf17-a33d-5281-a51b-c9449f872b22",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ekafoahfmdgaeefeeneiijbehnbocbij",
+        "comment": "Name: Dopni - Automatic Cashback Service | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0890c009-ce57-596d-afd5-eaa95f79e67c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ekafoahfmdgaeefeeneiijbehnbocbij",
+        "comment": "Chrome/Edge extension ID — Dopni - Automatic Cashback Service",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "664cbecd-28b9-52ae-8436-e060f5f41981",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/emnhnjiiloghpnekjifmoimflkdmjhgp",
+        "comment": "Name: SkipAds Plus | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3aaba6c3-ac01-5181-bb0f-4d9fcdad8e5d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "emnhnjiiloghpnekjifmoimflkdmjhgp",
+        "comment": "Chrome/Edge extension ID — SkipAds Plus",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9915e4a7-2bec-52c5-ba81-b84ebc916a61",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fmpgmcidlaojgncjlhjkhfbjchafcfoe",
+        "comment": "Name: 1-Click Color Picker: Instant Eyedropper (hex, rgb, hsl) | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "72038a1a-7681-5404-9c38-6fd0215cbe71",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fmpgmcidlaojgncjlhjkhfbjchafcfoe",
+        "comment": "Chrome/Edge extension ID — 1-Click Color Picker: Instant Eyedropper (hex, rgb, hsl)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8287e3fd-20b2-58d6-92b9-aa9a4e8c025f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gpibachbddnihfkbjcfggbejjgjdijeb",
+        "comment": "Name: Better Color Picker - pick any color in Chrome | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3054e355-9aef-5690-827c-6c915b55893a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gpibachbddnihfkbjcfggbejjgjdijeb",
+        "comment": "Chrome/Edge extension ID — Better Color Picker - pick any color in Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "83c0e3c7-71b1-5c73-909b-844b373dd944",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ibbkokjdcfjakihkpihlffljabiepdag",
+        "comment": "Name: Easy Dark Mode | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9be52b71-94b3-50b4-8f07-19a7a490b55c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ibbkokjdcfjakihkpihlffljabiepdag",
+        "comment": "Chrome/Edge extension ID — Easy Dark Mode",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b728c75c-6f8f-5cd3-935c-9e4f5f9cb775",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ieihbaicbgpebhkfebnfkdhkpdemljfb",
+        "comment": "Name: Manuals Viewer | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "21d2483e-1788-556c-a93f-08bfe7952e76",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ieihbaicbgpebhkfebnfkdhkpdemljfb",
+        "comment": "Chrome/Edge extension ID — Manuals Viewer",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fc32d47b-b8db-5c78-84b7-8ff9a4cc24fe",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ihfedmikeegmkebekpjflhnlmfbafbfe",
+        "comment": "Name: ScreenCapX - Full Page Screenshot | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9b65a5bb-c6dc-5be6-b3ac-862c716f65c8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ihfedmikeegmkebekpjflhnlmfbafbfe",
+        "comment": "Chrome/Edge extension ID — ScreenCapX - Full Page Screenshot",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "339b82b9-8841-500e-8b80-01a520628313",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lkalpedlpidbenfnnldoboegepndcddk",
+        "comment": "Name: Capture It - Easy Screenshot Tool (Full Page, Selected, Visible Area) | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5755db98-2db3-5d49-a625-e0959c42dfda",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lkalpedlpidbenfnnldoboegepndcddk",
+        "comment": "Chrome/Edge extension ID — Capture It - Easy Screenshot Tool (Full Page, Selected, Visible Area)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9262eb84-3634-5e95-abc4-bee5fd1482d4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nonajfcfdpeheinkafjiefpdhfalffof",
+        "comment": "Name: AdBlock - Ads and Youtube | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2f1ffbde-8d2f-5f01-9757-dd89f76f197f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nonajfcfdpeheinkafjiefpdhfalffof",
+        "comment": "Chrome/Edge extension ID — AdBlock - Ads and Youtube",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e9726516-51e0-55ae-9d95-65f82f998732",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ocbfgbpocngolfigkhfehckgeihdhgll",
+        "comment": "Name: Manual Finder 2024 | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9e03912b-30ca-546d-8ec2-0a6cf7080d1b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ocbfgbpocngolfigkhfehckgeihdhgll",
+        "comment": "Chrome/Edge extension ID — Manual Finder 2024",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5ca7b827-2cec-5fef-bfcd-6f0f20b84d97",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ojkoofedgcdebdnajjeodlooojdphnlj",
+        "comment": "Name: Volume Booster - Super Sound Booster | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "78d9a486-74b5-5f3c-a221-64cdf66ea12a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ojkoofedgcdebdnajjeodlooojdphnlj",
+        "comment": "Chrome/Edge extension ID — Volume Booster - Super Sound Booster",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4fd31864-c1af-5011-a0f8-bde9e0a4ab7f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pjlheckmodimboibhpdcgkpkbpjfhooe",
+        "comment": "Name: Font Expert: Identify Fonts from Images & Websites | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "da3b9b9e-2274-5b27-bae3-cabe280e524b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pjlheckmodimboibhpdcgkpkbpjfhooe",
+        "comment": "Chrome/Edge extension ID — Font Expert: Identify Fonts from Images & Websites",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ac57a46b-5c37-5b4e-a1da-57f06c959630",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ffejlioijcokmblckiijnjcmfidjppdn",
+        "comment": "Name: Auto Refresh Plus | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e9df39fc-7877-5937-90e6-1de9bd099cc0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ffejlioijcokmblckiijnjcmfidjppdn",
+        "comment": "Chrome/Edge extension ID — Auto Refresh Plus",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6243bf56-eb1e-58bb-a0b7-f0e9eb08f425",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fkjngjgmgbfelejhbjblhjkehchifpcj",
+        "comment": "Name: Smart Auto Refresh | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "787252db-991e-5544-9241-36707bad7684",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fkjngjgmgbfelejhbjblhjkehchifpcj",
+        "comment": "Chrome/Edge extension ID — Smart Auto Refresh",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "397c6e38-51f1-5991-bdb5-bd3cc32d56c6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hmbnhhcgiecenbbkgdoaoafjpeaboine",
+        "comment": "Name: Autoskip for Youtube™ Ads | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "94b46751-436a-5f73-9674-4a938ccab8dd",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hmbnhhcgiecenbbkgdoaoafjpeaboine",
+        "comment": "Chrome/Edge extension ID — Autoskip for Youtube™ Ads",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "41b73ca6-6f99-56d7-841b-6a7c021f621c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/iojpcjjdfhlcbgjnpngcmaojmlokmeii",
+        "comment": "Name: Smart Adblocker | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "044f8448-bfc4-5dd7-a11e-1d9ce3753dfa",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "iojpcjjdfhlcbgjnpngcmaojmlokmeii",
+        "comment": "Chrome/Edge extension ID — Smart Adblocker",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3a11fa86-aa01-5e51-94b6-7b54ec004b35",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jcbjcocinigpbgfpnhlpagidbmlngnnn",
+        "comment": "Name: Adblock for Browser | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | ⚡ Still active in store | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "83eb20bd-6bb7-5078-8614-f2e1aa9de89d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jcbjcocinigpbgfpnhlpagidbmlngnnn",
+        "comment": "Chrome/Edge extension ID — Adblock for Browser",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "28ddc00c-c50b-5e0c-aebf-f7e470434153",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/njjbfkooniaeodkimaidbpginjcmhmbm",
+        "comment": "Name: Free adblocker | Threat: spyware,adware,click-fraud,session-hijack,credential-theft,browser-hijack | Two overlapping malicious extension clusters: Phoenix Invicta extensions circumvent Manifest V3 remote code restrictions by downloading server-side configurations to inject HTML/JS into web pages, str",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f4226794-2c6f-5ab5-a320-86d9a0eba0c8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "njjbfkooniaeodkimaidbpginjcmhmbm",
+        "comment": "Chrome/Edge extension ID — Free adblocker",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9303c16a-1f28-56f8-9160-0ac3a69dee16",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

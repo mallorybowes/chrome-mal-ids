@@ -1,0 +1,124 @@
+{
+  "Event": {
+    "uuid": "d811c3a9-be89-5bf9-aced-da9d06f9862a",
+    "info": "[chrome-mal-ids] ReasonLabs cashback killer campaign — 3 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "cebfddd2-9b4d-5b92-9595-411a007e0712",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ipjbhjmcbgmdjfiichbgbmpmgonokpkb",
+        "comment": "Name: netSave | Threat: adware,click-fraud,data-theft | ReasonLabs cashback killer campaign. Fake VPN extensions force-installed via registry by trojan hidden in pirated game torrents (GTA, Assassins Creed, Sims 4). Disabled 100+ cashback/coupon extensions",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "acc7343c-19c2-566f-89fe-59b01658c231",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ipjbhjmcbgmdjfiichbgbmpmgonokpkb",
+        "comment": "Chrome/Edge extension ID — netSave",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a1e48a01-dae4-50d3-8b2d-e7f749dd68c9",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gandigjpilmchbomlpmfogigbjapofnc",
+        "comment": "Name: netWin | Threat: adware,click-fraud,data-theft | ReasonLabs cashback killer campaign. Fake VPN extensions force-installed via registry by trojan hidden in pirated game torrents (GTA, Assassins Creed, Sims 4). Disabled 100+ cashback/coupon extensions",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c5acc753-5021-55a7-8e1a-db2495e59739",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gandigjpilmchbomlpmfogigbjapofnc",
+        "comment": "Chrome/Edge extension ID — netWin",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d3b11185-5948-57f0-9149-10d984511428",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/chiiididmecdffakklhibjpjkbfiaeni",
+        "comment": "Name: netPlus (earlier variant) | Threat: adware,click-fraud,data-theft | ReasonLabs cashback killer campaign. Fake VPN extensions force-installed via registry by trojan hidden in pirated game torrents (GTA, Assassins Creed, Sims 4). Disabled 100+ cashback/coupon extensions",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6b864e60-b184-5b11-8328-f1a41ddb8cf1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "chiiididmecdffakklhibjpjkbfiaeni",
+        "comment": "Chrome/Edge extension ID — netPlus (earlier variant)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ecf54e8e-ceaf-5a54-a51f-ec396e18a904",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://reasonlabs.com/research/the-cashback-extension-killer",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7001d2e5-22b8-5b26-958e-847f93a7d466",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/fake-vpn-chrome-extensions-force-installed-15-million-times/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "Event": {
+    "uuid": "adaa64ac-674a-595d-bdad-b4a5a835c15e",
+    "info": "[chrome-mal-ids] Palant Jun 2023 affiliate fraud cluster — 3 malicious extension(s) (part 3 of 3)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "c16a85fb-cb9f-5ed1-b930-6ffc511936b7",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pnanegnllonoiklmmlegcaajoicfifcm",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "16170351-15ef-574a-a8b3-dab183d8b3a1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pnanegnllonoiklmmlegcaajoicfifcm",
+        "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "153cf74e-78da-5f99-93a8-e8eeacbecc6e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pnlphjjfielecalmmjjdhjjninkbjdod",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fd368c78-0045-54e5-afd6-779a03a53192",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pnlphjjfielecalmmjjdhjjninkbjdod",
+        "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "77bc878a-96ca-554c-b693-240eb5b50c0e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pooaemmkohlphkekccfajnbcokjlbehk",
+        "comment": "Name: Palant affiliate fraud cluster (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant Jun 2023 affiliate fraud cluster. 109 extensions, 62M users. Obfuscated code performing affiliate fraud — redirected users to affiliate-tagged URLs for 10k+ sites. Translator, downloader, and g",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c2680dd5-0dfd-59c2-b0f5-7fa03f2e9083",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pooaemmkohlphkekccfajnbcokjlbehk",
+        "comment": "Chrome/Edge extension ID — Palant affiliate fraud cluster (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "39525d37-0c13-506f-9fa0-43d8ce709dcf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://palant.info/2023/06/08/another-cluster-of-potentially-malicious-chrome-extensions/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6c783fb4-0cd5-5bea-a4e4-c1925fe44475",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-75m-installs-removed-from-web-store/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

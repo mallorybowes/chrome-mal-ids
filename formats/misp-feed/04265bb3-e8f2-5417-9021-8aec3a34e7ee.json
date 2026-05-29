@@ -1,0 +1,333 @@
+{
+  "Event": {
+    "uuid": "04265bb3-e8f2-5417-9021-8aec3a34e7ee",
+    "info": "[chrome-mal-ids] Source: https://github — 13 malicious extension(s) (part 2 of 2)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "644a54d6-56a6-5474-bd7b-69f71f623e67",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kbnkkecifeppobnemkielnpagifkobki",
+        "comment": "Name: Pirat Slot | ⚡ Still active in store | Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b0c17ae2-11fb-5cdc-a315-94717d4ecf8e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kbnkkecifeppobnemkielnpagifkobki",
+        "comment": "Chrome/Edge extension ID — Pirat Slot",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1de2bb2a-1a72-58dd-9499-7de6a498ccfe",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cnibdhllkgidlgmaoanhkemjeklneolk",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "222b9828-86b4-5f1b-aa12-17edade8f9df",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cnibdhllkgidlgmaoanhkemjeklneolk",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dc58ad11-9a7c-5a95-ab81-e990a02a0893",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ijpgccpmogehkjhdmomckpkfcpbjlmnj",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ec6a9785-fd68-5524-80d9-682e6cd28ad6",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ijpgccpmogehkjhdmomckpkfcpbjlmnj",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "674b0de3-ce5d-54bb-814d-c68c4f0d19db",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/phfkdailnomcbcknpdmokejhellbecjb",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "884d5b69-680c-5434-bce7-f925b572854e",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "phfkdailnomcbcknpdmokejhellbecjb",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "97849882-150d-5ac6-8ad5-390840201196",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ejlcbfmhjbkgohopdkijfgggbikgbacb",
+        "comment": "Name: American Roulette Royale | ⚡ Still active in store | Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9663dec8-122a-59a4-b9f0-f14536de6541",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ejlcbfmhjbkgohopdkijfgggbikgbacb",
+        "comment": "Chrome/Edge extension ID — American Roulette Royale",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2da2764d-e821-58f5-89ef-27fb6c016e02",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ogogpebnagniggbnkbpjioobomdbmdcj",
+        "comment": "Name: Text Translation | Threat: data-theft,spyware | Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8f41995f-3e88-5f52-bc85-4ebf2e5a3f35",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ogogpebnagniggbnkbpjioobomdbmdcj",
+        "comment": "Chrome/Edge extension ID — Text Translation",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "edb2f50a-fc63-54c0-b00e-90bbd60ecc4b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gfhcdakcnpahfdealajmhcapnhhablbp",
+        "comment": "Name: Battleship War | ⚡ Still active in store | Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "55a9e5b6-f493-589e-b756-c1433f50118a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gfhcdakcnpahfdealajmhcapnhhablbp",
+        "comment": "Chrome/Edge extension ID — Battleship War",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0f31f0f7-8d57-57ae-85a8-8fd09792aba1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mmbkmjmlnhocfcnjmbchmflamalekbnb",
+        "comment": "Name: Penalty Kicks | ⚡ Still active in store | Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "80e50c13-b671-54b8-bca5-a8b595273554",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mmbkmjmlnhocfcnjmbchmflamalekbnb",
+        "comment": "Chrome/Edge extension ID — Penalty Kicks",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5ed8106c-e225-5c86-b8c5-3eeb18259381",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gaafhblhbnkekenogcjniofhbicchlke",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "67ddfe3b-5fc8-50bd-97ad-66ec08163635",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gaafhblhbnkekenogcjniofhbicchlke",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7f069378-a986-56ff-8daf-766cdd0a28bb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lcijkepobdokkgmefebkiejhealgblle",
+        "comment": "Name: Caribbean Stud Poker | ⚡ Still active in store | Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a3d78aed-4106-5f1f-b022-6a2ab69a10cb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lcijkepobdokkgmefebkiejhealgblle",
+        "comment": "Chrome/Edge extension ID — Caribbean Stud Poker",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3e499457-0c52-527b-80bd-d9c2ca78dfaf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/dmaibhbbpmdihedidicfeigilkbobcog",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cc5330be-f898-5ba0-a70e-d0d7eece9c8f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dmaibhbbpmdihedidicfeigilkbobcog",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8e78904f-877e-5b8e-81e6-fa899fcfbc08",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/heljkmdknlfhiecpknceodpbokeipigo",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "62b009cf-0d01-5779-b47d-e7e3185337c1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "heljkmdknlfhiecpknceodpbokeipigo",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "40c2fadb-a3f5-58a3-b7a4-572eb607a530",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fmajpchoiahphjiligpmghnhmabolhoh",
+        "comment": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bdb3069b-2199-5ab2-af86-3a62e009ddab",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fmajpchoiahphjiligpmghnhmabolhoh",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b951463a-59f2-5f69-9a29-4e856957f61e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/chartingshow/crypto-firewall/issues/1554",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

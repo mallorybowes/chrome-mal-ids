@@ -1,0 +1,146 @@
+{
+  "Event": {
+    "uuid": "e888f92e-7c4f-525b-9a72-38d92e59249f",
+    "info": "[chrome-mal-ids] Palant cluster C000003 — distinct subcluster within Jun 2023 — 4 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "dac05269-e2a8-5179-81f9-d656d8173278",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fmlpbbognkocpajihchioognkmdeeldo",
+        "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6a1abce7-2a72-5a9c-8bf3-c03f7a4b3529",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fmlpbbognkocpajihchioognkmdeeldo",
+        "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "eb894272-912f-51fc-94d2-cb283283c61d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/goaebigflkhjjblmofhoggdhebgnielo",
+        "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "94a4e6f9-21bd-5bda-9ea4-9286a7ee62d6",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "goaebigflkhjjblmofhoggdhebgnielo",
+        "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c3c3f3c2-c2af-5a2f-b6de-00291044fada",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/igkkmokkmlbkkgdnkkancbonkbbmkioc",
+        "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2f2a15f9-62f7-5708-93a7-7c06c6c277d1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "igkkmokkmlbkkgdnkkancbonkbbmkioc",
+        "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "907e2c73-1e53-533f-b3bd-49de2d29f323",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lopnbnfpjmgpbppclhclehhgafnifija",
+        "comment": "Name: Palant cluster C000003 (name unconfirmed) | Threat: adware,click-fraud | ⚡ Still active in store | Palant cluster C000003 — distinct subcluster within Jun 2023 affiliate fraud campaign.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "193d9f3b-4056-5391-bca9-35c02e940749",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lopnbnfpjmgpbppclhclehhgafnifija",
+        "comment": "Chrome/Edge extension ID — Palant cluster C000003 (name unconfirmed)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "88e8de29-05fd-5179-b00d-ee90bae4fbd9",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://palant.info/2023/06/08/another-cluster-of-potentially-malicious-chrome-extensions/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "afa5140e-5ed3-541c-97c7-8575a8c3881e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-75m-installs-removed-from-web-store/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

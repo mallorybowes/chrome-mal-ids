@@ -1,0 +1,542 @@
+{
+  "Event": {
+    "uuid": "ea98343f-e052-528c-b22c-12ade31dcb4b",
+    "info": "[chrome-mal-ids] “These extensions have not all been confirmed to be maliciou — 22 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "3bf729bb-77c2-5362-993e-24240d7eeb4c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/acdfdofofabmipgcolilkfhnpoclgpdd",
+        "comment": "Name: “VDP:  Best Video Downloader” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d3bb4187-97fe-5789-a458-0213e13895e5",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "acdfdofofabmipgcolilkfhnpoclgpdd",
+        "comment": "Chrome/Edge extension ID — “VDP:  Best Video Downloader”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "058a9361-deeb-5910-b814-dd32a53fdb2e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/oobppndjaabcidladjeehddkgkccfcpn",
+        "comment": "Name: “Y2mate” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "573555bf-bf2e-5f7a-85bc-bcf2554fc1e1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "oobppndjaabcidladjeehddkgkccfcpn",
+        "comment": "Chrome/Edge extension ID — “Y2mate”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3627a9b9-94c6-5d67-9a6c-769dc0b18d88",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/aonedlchkbicmhepimiahfalheedjgbh",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0a540c16-6109-5110-bc8d-63303d792f5b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "aonedlchkbicmhepimiahfalheedjgbh",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5c2d19c6-f096-520e-8106-8cb1c162054f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/aoeacblfmdamdejeiaepojbhohhkmkjh",
+        "comment": "Name: “RadioGaGa” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "aa4116e5-5239-559e-ab6c-20be07d15bb7",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "aoeacblfmdamdejeiaepojbhohhkmkjh",
+        "comment": "Chrome/Edge extension ID — “RadioGaGa”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "99487a9a-ed9c-5a4d-8d9c-5491fdf63582",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eoeoincjhpflnpdaiemgbboknhkblome",
+        "comment": "Name: “Savematik” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "921f253c-8926-5b2d-8cb4-b414f4806de0",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eoeoincjhpflnpdaiemgbboknhkblome",
+        "comment": "Chrome/Edge extension ID — “Savematik”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f5626bb6-9f81-58a8-8a98-8b7e1a24396f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/onbkopaoemachfglhlpomhbpofepfpom",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ea563f92-871d-59b9-b1f8-5a6454f242a2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "onbkopaoemachfglhlpomhbpofepfpom",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c09b8081-a6fc-506a-9971-6350b5518623",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/inlgdellfblpplcogjfedlhjnpgafnia",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4086b0d8-b9b6-5d5a-af12-864cdcbfc598",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "inlgdellfblpplcogjfedlhjnpgafnia",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c8390d35-c76d-5931-9ebb-446a75b309f0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ejfajpmpabphhkcacijnhggimhelopfg",
+        "comment": "Name: “Stylebot” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fe139276-2f77-56c8-9baa-7ac03413738a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ejfajpmpabphhkcacijnhggimhelopfg",
+        "comment": "Chrome/Edge extension ID — “Stylebot”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8f32001e-5ce0-544f-9c34-b1d34124adcd",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pgjndpcilbcanlnhhjmhjalilcmoicjc",
+        "comment": "Name: “Coupons at Checkout” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a04a2fa5-50df-5848-b1bb-6b32f17db635",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pgjndpcilbcanlnhhjmhjalilcmoicjc",
+        "comment": "Chrome/Edge extension ID — “Coupons at Checkout”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9c6cac10-d032-5b86-82d2-3756208a53ac",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/napifgkjbjeodgmfjmgncljmnmdefpbf",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e2d90bec-6923-5d4e-9d5a-e134622a140b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "napifgkjbjeodgmfjmgncljmnmdefpbf",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "11bdc790-6a29-5fd3-823e-3ae0001f62f6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/klmjcelobglnhnbfpmlbgnoeippfhhil",
+        "comment": "Name: “Stylebot” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "efbe8c8b-2321-52bb-aa0e-4d477d62559d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "klmjcelobglnhnbfpmlbgnoeippfhhil",
+        "comment": "Chrome/Edge extension ID — “Stylebot”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4175a345-8ec9-5577-8585-c11cefdf74f8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mbacbcfdfaapbcnlnbmciiaakomhkbkb",
+        "comment": "Name: “friGate CDN” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b5f13ab1-45a6-5dad-b5c7-e331376e8143",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mbacbcfdfaapbcnlnbmciiaakomhkbkb",
+        "comment": "Chrome/Edge extension ID — “friGate CDN”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8fae2610-e1ed-583f-acd4-169517aee3af",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lfedlgnabjompjngkpddclhgcmeklana",
+        "comment": "Name: “SaveFrom.net helper” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0ea8d007-620f-5c1d-a3d9-ae08a758d22b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lfedlgnabjompjngkpddclhgcmeklana",
+        "comment": "Chrome/Edge extension ID — “SaveFrom.net helper”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8518d045-46b2-545f-8224-ec8cb05a62cf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mdpljndcmbeikfnlflcggaipgnhiedbl",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ffebc198-184a-5150-ac00-bcba136fbc13",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mdpljndcmbeikfnlflcggaipgnhiedbl",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "28abe6fa-1fd9-5f8b-bf64-d7f0c8e2bb24",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/npdpplbicnmpoigidfdjadamgfkilaak",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "86b21de3-713f-5393-8e45-7081dc808f41",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "npdpplbicnmpoigidfdjadamgfkilaak",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "435573fd-1ed6-5a6f-8c65-50c294d88ba2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ibehiiilehaakkhkigckfjfknboalpbe",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3e44b07b-9cef-5eb2-9a0b-1791564fc4c1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ibehiiilehaakkhkigckfjfknboalpbe",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3455d570-f3e7-57e2-b632-3244d1d0ba6f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lalpacfpfnobgdkbbpggecolckiffhoi",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "86713482-7c40-5f77-9550-1d3874769ed2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lalpacfpfnobgdkbbpggecolckiffhoi",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f096b156-84ba-5dc2-9353-1bbebc04f655",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hdbipekpdpggjaipompnomhccfemaljm",
+        "comment": "Name: “friGate3 proxy helper” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "36c6b2d2-d21e-5837-849c-f17c6de1da21",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hdbipekpdpggjaipompnomhccfemaljm",
+        "comment": "Chrome/Edge extension ID — “friGate3 proxy helper”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "67af82c2-f03d-5f8c-9c95-621df263f63f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gfjocjagfinihkkaahliainflifnlnfc",
+        "comment": "Name: “VK Music Downloader” | “These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "952a7254-27b1-5630-b969-003f0c64d39d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gfjocjagfinihkkaahliainflifnlnfc",
+        "comment": "Chrome/Edge extension ID — “VK Music Downloader”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a52e14de-8331-536b-8e8d-10b5e6eed655",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ickfamnaffmfjgecbbnhecdnmjknblic",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fd952cc3-17e3-5608-ae69-b7f8491cb4c9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ickfamnaffmfjgecbbnhecdnmjknblic",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d5d81b0c-9d8f-5f4f-b1ec-0edce05687a8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bmcnncbmipphlkdmgfbipbanmmfdamkd",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c13e3f3e-79b5-505e-9642-9591e45916b9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bmcnncbmipphlkdmgfbipbanmmfdamkd",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1cbc5b36-da95-54b8-b234-5783a1c4385a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/miejmllodobdobgjbeonandkjhnhpjbn",
+        "comment": "“These extensions have not all been confirmed to be malicious by other third-party researchers.  EXT-NAME was a best effort and could be wrong.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1feeffe6-366c-5de4-ab43-42487c5c7edc",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "miejmllodobdobgjbeonandkjhnhpjbn",
+        "comment": "Chrome/Edge extension ID — ",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ca97af50-573a-5f86-a05d-130394e36907",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://habr.com/en/company/yandex/blog/534586/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c24006a0-05b8-52e8-abeb-84433753332d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.kaspersky.com/blog/chrome-plugins-alert/38242/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

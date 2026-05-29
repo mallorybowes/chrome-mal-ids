@@ -1,0 +1,234 @@
+{
+  "Event": {
+    "uuid": "1cbc2555-ce22-501e-b78b-dfd52e4499c1",
+    "info": "[chrome-mal-ids] RedDirection / Koi Security Jul 2025 campaign — 8 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "54f61828-4ca7-52e9-aaee-b3acaa4b739a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/jjdajogomggcjifnjgkpghcijgkbcjdi",
+        "comment": "Name: Unlock TikTok | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "99521221-a528-5a69-8d77-72d9002b396f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jjdajogomggcjifnjgkpghcijgkbcjdi",
+        "comment": "Chrome/Edge extension ID — Unlock TikTok",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "aa4e3116-243e-5741-8a16-1597e63316e0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/mmcnmppeeghenglmidpmjkaiamcacmgm",
+        "comment": "Name: Volume Booster | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8d5fab21-cb1c-57bd-87c0-cff41d9c1dbd",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mmcnmppeeghenglmidpmjkaiamcacmgm",
+        "comment": "Chrome/Edge extension ID — Volume Booster",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "985222da-97f7-5d42-b97c-9881747dd54b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/ojdkklpgpacpicaobnhankbalkkgaafp",
+        "comment": "Name: Web Sound Equalizer | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "231cfc4a-d84a-5776-a482-40a483a201f3",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ojdkklpgpacpicaobnhankbalkkgaafp",
+        "comment": "Chrome/Edge extension ID — Web Sound Equalizer",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4a659aaf-53e1-517f-82a7-7753deb58d71",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/lodeighbngipjjedfelnboplhgediclp",
+        "comment": "Name: Header Value | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b94ec576-3734-5f93-9ddd-d30c5e81bb30",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lodeighbngipjjedfelnboplhgediclp",
+        "comment": "Chrome/Edge extension ID — Header Value",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "674a2839-83cf-59c0-8e04-0ed5925c41d3",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/hkjagicdaogfgdifaklcgajmgefjllmd",
+        "comment": "Name: Flash Player | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "308303f3-c15d-50bd-9165-80e9351834cd",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hkjagicdaogfgdifaklcgajmgefjllmd",
+        "comment": "Chrome/Edge extension ID — Flash Player",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6773ce62-c1e1-515c-9a06-39413c9fdc3f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/gflkbgebojohihfnnplhbdakoipdbpdm",
+        "comment": "Name: Youtube Unblocked | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "19b94aca-8845-5e78-b2f2-c846c7f0df96",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gflkbgebojohihfnnplhbdakoipdbpdm",
+        "comment": "Chrome/Edge extension ID — Youtube Unblocked",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ab86f0b3-4fd1-509a-8a1d-bab5793c5c16",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/kpilmncnoafddjpnbhepaiilgkdcieaf",
+        "comment": "Name: SearchGPT | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5afc8e4d-8ac3-5fbd-a667-7dfe3df1da47",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kpilmncnoafddjpnbhepaiilgkdcieaf",
+        "comment": "Chrome/Edge extension ID — SearchGPT",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e6a6af88-494c-508b-95a6-03c0d8cfca5b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://microsoftedge.microsoft.com/addons/detail/caibdnkmpnjhjdfnomfhijhmebigcelo",
+        "comment": "Name: Unlock Discord | Threat: browser-hijack,data-theft | RedDirection / Koi Security Jul 2025 campaign. Edge browser extensions. Sleeper agents that activate browser hijacking on each page navigation: capture URL, send to C2 with unique user ID, receive red",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "16ff879f-0c6a-580d-b601-8b9ff9e36016",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "caibdnkmpnjhjdfnomfhijhmebigcelo",
+        "comment": "Chrome/Edge extension ID — Unlock Discord",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "151b8805-5293-5dff-aedf-3b008f0546fb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://blog.koi.security/google-and-microsoft-trusted-them-2-3-million-users-installed-them-they-were-malware-fb4ed4f40ff5",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "035609ce-b086-5fe5-bc85-73078f3ad137",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.malwarebytes.com/blog/news/2025/07/millions-of-people-spied-on-by-malicious-browser-extensions-in-chrome-and-edge",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

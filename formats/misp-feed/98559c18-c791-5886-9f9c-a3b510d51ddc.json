@@ -1,0 +1,300 @@
+{
+  "Event": {
+    "uuid": "98559c18-c791-5886-9f9c-a3b510d51ddc",
+    "info": "[chrome-mal-ids] Krebs/Nguyen May 2021 fake brand extension network — 11 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "e26c105f-b6cf-58b5-8bef-ec5faf432f9c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/cadilgfilcmlmbekleigjmfhfkoceooo",
+        "comment": "Name: Adobe Lightroom (fake, variant 2) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "81c1b2e3-254c-5707-8906-b590e2334a58",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "cadilgfilcmlmbekleigjmfhfkoceooo",
+        "comment": "Chrome/Edge extension ID — Adobe Lightroom (fake, variant 2)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6a1d0f64-1c83-5c9e-b4b8-2dd4adaff8f4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kjjbepngcjggfigkpilafenaahlpdomg",
+        "comment": "Name: Microsoft Authenticator (fake, variant 2) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "61eb3fb6-ce46-5bec-b545-5126868306c8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kjjbepngcjggfigkpilafenaahlpdomg",
+        "comment": "Chrome/Edge extension ID — Microsoft Authenticator (fake, variant 2)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "95e5902b-5e53-5ea7-81f1-f0f821513b97",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/dclmmkinjdaochjinbhanlipdpmkdhfb",
+        "comment": "Name: Adobe Premiere Pro for Chrome (fake) | Threat: phishing,fake-extension,credential-theft | ⚡ Still active in store | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9991b7f1-ab02-5964-b4e1-0336b714eb8d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dclmmkinjdaochjinbhanlipdpmkdhfb",
+        "comment": "Chrome/Edge extension ID — Adobe Premiere Pro for Chrome (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8f3e2401-c34e-5a24-96f7-47f1f2b5e4f8",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mncelcekoimhncibjkhcoejhmgfjmanl",
+        "comment": "Name: HBO Max Stream TV & Movies (fake, variant 2) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0ca640cf-41be-546e-9a71-e00aefe0df9f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mncelcekoimhncibjkhcoejhmgfjmanl",
+        "comment": "Chrome/Edge extension ID — HBO Max Stream TV & Movies (fake, variant 2)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6b84c2f4-0375-516a-8334-ea40cff758cb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hbalpgnomjolafhoomdmangogcmggdni",
+        "comment": "Name: Ring (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d5089f40-863a-56ca-b183-48b93c31267c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hbalpgnomjolafhoomdmangogcmggdni",
+        "comment": "Chrome/Edge extension ID — Ring (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b6cd5832-c3fe-535f-86df-8f85f23e5200",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eadnohgkalgkbmhiehaonnjekbdfeldi",
+        "comment": "Name: Amazon Music Songs & Podcasts (fake) | Threat: phishing,fake-extension,credential-theft | ⚡ Still active in store | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1d826cba-1537-515b-911e-2ff4345dd7d9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eadnohgkalgkbmhiehaonnjekbdfeldi",
+        "comment": "Chrome/Edge extension ID — Amazon Music Songs & Podcasts (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "90c9b2b2-75b2-5893-ad22-0f3e91059fb2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/njmeabchibjdgopmacgnpjohlgheapkm",
+        "comment": "Name: Ultralight Photo Editor (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d39bef52-a940-5b2a-9cd2-075026d34ba1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "njmeabchibjdgopmacgnpjohlgheapkm",
+        "comment": "Chrome/Edge extension ID — Ultralight Photo Editor (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a306b228-7927-5a76-b085-576c0278e5f4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jiodaacchgkgkgnmgmbjoommaebhnkke",
+        "comment": "Name: Amino Communities and Chats (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a892f5ac-17e9-512e-875a-cd9075727bfb",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jiodaacchgkgkgnmgmbjoommaebhnkke",
+        "comment": "Chrome/Edge extension ID — Amino Communities and Chats (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fb870718-44f1-5862-a65b-54144a4c1bfc",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gfmechkhphhhoofplogbnnabckliedjc",
+        "comment": "Name: CBS Full Episodes & Live TV (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "55ac47c7-af5c-57bd-84a7-8108a3f0a3bc",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gfmechkhphhhoofplogbnnabckliedjc",
+        "comment": "Chrome/Edge extension ID — CBS Full Episodes & Live TV (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bc1c1ddf-5db1-54e8-8d36-f7e2c8f30dc6",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jnimfanjgmamoamlpfolknfooennpdef",
+        "comment": "Name: FITE Boxing Wrestling MMA (fake) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3934f971-8def-564b-be8f-8850f76da1bf",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jnimfanjgmamoamlpfolknfooennpdef",
+        "comment": "Chrome/Edge extension ID — FITE Boxing Wrestling MMA (fake)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "59a1ce13-d6a0-54bc-ae7d-e7520a383530",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lkafchaokchbenjfmjnbbnpafijgleib",
+        "comment": "Name: IMVU (fake, variant 2) | Threat: phishing,fake-extension,credential-theft | Krebs/Nguyen May 2021 fake brand extension network. 45 extensions spoofed Adobe, Amazon, CBS, FITE, HBO, IMVU, Microsoft, Ring, Roku. Prompted users for personal/financial data. Network of fake Google",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2b2fb654-650c-52ea-a876-9bd3308200b3",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lkafchaokchbenjfmjnbbnpafijgleib",
+        "comment": "Chrome/Edge extension ID — IMVU (fake, variant 2)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9d6048c1-3312-5357-a2ea-357b354d7ea2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://docs.google.com/spreadsheets/d/1CcFc4mgGA9Ping8RZIh6MH5XUUFXyYdJlvO-xRMda1Q/edit",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "300dde0e-40e7-5302-9dd5-076dc4dde059",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://krebsonsecurity.com/2021/05/using-fake-reviews-to-find-dangerous-extensions/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

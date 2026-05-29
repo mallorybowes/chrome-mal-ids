@@ -1,0 +1,102 @@
+{
+  "Event": {
+    "uuid": "6750f214-d7e9-58e4-bc30-9073e823d8fe",
+    "info": "[chrome-mal-ids] BiScience/Urban Cybersecurity AI chat harvesting — 2 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "706224e7-85a6-502a-890e-57fbd2c98805",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/eppiocemhmnlbhjplcgkofciiegomcon",
+        "comment": "Name: Urban VPN Proxy | Threat: ai-chat-scraper,data-theft | ⚡ Still active in store | BiScience/Urban Cybersecurity AI chat harvesting. v5.5.0 (July 9 2025) silently introduced harvesting of ChatGPT, Claude, Gemini, Copilot, Perplexity, DeepSeek, Grok, Meta AI conversations. Data sold ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2048f877-036f-5f31-90d8-70705e216d33",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "eppiocemhmnlbhjplcgkofciiegomcon",
+        "comment": "Chrome/Edge extension ID — Urban VPN Proxy",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "452712fc-225a-5d82-8dd1-8f75472620ab",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/feflcgofneboehfdeebcfglbodaceghj",
+        "comment": "Name: Urban Ad Blocker | Threat: ai-chat-scraper,data-theft | ⚡ Still active in store | BiScience/Urban Cybersecurity AI chat harvesting. v5.5.0 (July 9 2025) silently introduced harvesting of ChatGPT, Claude, Gemini, Copilot, Perplexity, DeepSeek, Grok, Meta AI conversations. Data sold ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "780dfccc-d52e-5273-af34-9aae94110b7b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "feflcgofneboehfdeebcfglbodaceghj",
+        "comment": "Chrome/Edge extension ID — Urban Ad Blocker",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fc92e435-cbda-5682-a29e-6a4962897a28",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://thehackernews.com/2025/12/featured-chrome-browser-extension.html",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "76a9cc01-3563-5490-89a6-3832b9a88c2e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

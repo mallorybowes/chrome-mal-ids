@@ -1,5 +1,5 @@
 {
-  "bf87a2e1-128e-ac0d-7680-c2cf52dbb601": {
+  "f947d4ae-77a5-547a-b541-6cb74add70fd": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -19,10 +19,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "bbb28e00-a4f1-db42-4f3d-4817c338876b": {
+  "6750f214-d7e9-58e4-bc30-9073e823d8fe": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -42,10 +42,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "8da8048b-806a-128e-81b3-58b44af5ab97": {
+  "37a4bf8c-0232-5eee-9ea0-c3e67bb6fe9f": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -65,10 +65,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "7e6dbd01-367e-d824-fe6d-a01777732b7d": {
+  "248ce935-7bbb-5d0d-9e0b-b9d14c99fb2e": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -88,10 +88,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "1f4a5a4d-ee4f-998b-9eaa-1abb56a885c2": {
+  "63fe5a73-3572-55ea-852d-25cffbad891b": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -107,14 +107,60 @@
         "name": "dbx-tecnologia-/-grupo-opt-whatsapp-automation-campaign"
       }
     ],
-    "info": "[chrome-mal-ids] DBX Tecnologia / Grupo OPT WhatsApp automation campaign — 125 malicious extension(s)",
+    "info": "[chrome-mal-ids] DBX Tecnologia / Grupo OPT WhatsApp automation campaign — 50 malicious extension(s) (part 1 of 3)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "82c0c6b4-5ece-2e3a-4cdb-86426a738e70": {
+  "56ddd672-ad4f-5328-89b6-d47c92013b28": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "dbx-tecnologia-/-grupo-opt-whatsapp-automation-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] DBX Tecnologia / Grupo OPT WhatsApp automation campaign — 50 malicious extension(s) (part 2 of 3)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "2",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "09fa464b-77de-579a-a4dc-0837bd8177fe": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "dbx-tecnologia-/-grupo-opt-whatsapp-automation-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] DBX Tecnologia / Grupo OPT WhatsApp automation campaign — 25 malicious extension(s) (part 3 of 3)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "2",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "4230d58a-67dc-5f7f-930e-4c44e41d1702": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -134,10 +180,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "19cab713-c56d-ee49-c82a-56098f5d2c80": {
+  "fef5a409-1213-569b-87c1-03888ef92e05": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -157,10 +203,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "0b956bfd-0ad3-dd22-6281-d817e5036f2f": {
+  "71d2345f-aa68-52cf-9551-19f4a7a4ad1b": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -180,10 +226,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "661f5d2f-c091-ac75-a4d2-61bb1e89e7ae": {
+  "98559c18-c791-5886-9f9c-a3b510d51ddc": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -203,10 +249,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "35155d0c-3cdd-cd6d-2d89-96efe795583b": {
+  "ac1be564-65bc-5d87-9437-e178cd4d6d96": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -226,10 +272,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "32f25ae3-066a-1ad6-80d0-fab3e26c0e10": {
+  "225c906e-8896-52e9-9592-4285af976341": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -249,10 +295,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "53a4b21b-97b1-a713-e1a6-e925c8c9f889": {
+  "e5fd28e6-cff1-5add-86c5-3e9d3e220baa": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -272,10 +318,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "a1fed8ac-8037-a0f5-0f4e-97c90b2ec965": {
+  "a489b389-d7aa-57a9-b332-58f4958c357c": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -291,14 +337,60 @@
         "name": "palant-jun-2023-affiliate-fraud-cluster"
       }
     ],
-    "info": "[chrome-mal-ids] Palant Jun 2023 affiliate fraud cluster — 103 malicious extension(s)",
+    "info": "[chrome-mal-ids] Palant Jun 2023 affiliate fraud cluster — 50 malicious extension(s) (part 1 of 3)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "ba38b21f-a4ed-e1f0-e5b0-4a3ce677cd26": {
+  "b9001079-0705-57fd-91d4-89e1a6d09267": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "palant-jun-2023-affiliate-fraud-cluster"
+      }
+    ],
+    "info": "[chrome-mal-ids] Palant Jun 2023 affiliate fraud cluster — 50 malicious extension(s) (part 2 of 3)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "2",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "adaa64ac-674a-595d-bdad-b4a5a835c15e": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "palant-jun-2023-affiliate-fraud-cluster"
+      }
+    ],
+    "info": "[chrome-mal-ids] Palant Jun 2023 affiliate fraud cluster — 3 malicious extension(s) (part 3 of 3)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "2",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "e888f92e-7c4f-525b-9a72-38d92e59249f": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -318,10 +410,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "84fc3db8-2218-2265-ee22-8ee69f62d970": {
+  "cc5af009-d18e-5ed8-a398-66409d5201ea": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -341,10 +433,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "dc5e7fb0-9dd6-9635-c0da-dadc33473cea": {
+  "8c29c498-dc1c-5d5a-95f3-694598ce8891": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -364,10 +456,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "1d5871b6-8763-711a-a189-1e71cd418df6": {
+  "a00a8a99-5151-5714-977c-7c00de971c08": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -387,10 +479,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "1cccb622-ea9f-7533-674f-bd43ede7018b": {
+  "d811c3a9-be89-5bf9-aced-da9d06f9862a": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -410,10 +502,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "a4c97918-0f57-1511-9849-f28767b875b1": {
+  "1cbc2555-ce22-501e-b78b-dfd52e4499c1": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -433,10 +525,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "d22a9d37-b82a-a263-2b7c-29e3dd0a6f04": {
+  "759aa6f4-e4fe-5935-8821-af44a5d51bfb": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -456,10 +548,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "10249741-d8df-30ba-a8c8-c36c16d921e8": {
+  "3f3ea128-2608-55f8-bd81-78a12a88706e": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -479,10 +571,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "24da72fa-1ad2-d46b-7011-dfd5dd9dda5d": {
+  "e1d6163d-5ae4-5438-b699-8549a529b86f": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -502,10 +594,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "7f548b1b-8137-6db8-80f1-ca5bc16626c3": {
+  "f754c651-0eac-56c5-8a1e-d2cd541a603c": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -525,10 +617,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "0d826780-a8a5-34b6-6f73-2384840131e9": {
+  "6c8b14cf-2988-5588-b411-faa40883ea8f": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -548,10 +640,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "f8b93dc7-8b29-3cd5-951f-86732ba9eab7": {
+  "95e41113-c4b6-522c-8f4a-1aff9322f94e": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -571,10 +663,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "d5393a96-6ed4-c70a-7701-b905effdce0f": {
+  "f357c599-f28f-58cf-9389-fa21bde6f443": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -594,10 +686,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "529e71c9-3396-2bc2-7382-30a7231c0af5": {
+  "84113999-81d2-5b2f-a388-94cd2eecaf14": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -613,14 +705,37 @@
         "name": "source:-https://github"
       }
     ],
-    "info": "[chrome-mal-ids] Source: https://github — 63 malicious extension(s)",
+    "info": "[chrome-mal-ids] Source: https://github — 50 malicious extension(s) (part 1 of 2)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "623f367d-b46d-9bbe-24df-abfcc23150a0": {
+  "04265bb3-e8f2-5417-9021-8aec3a34e7ee": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "source:-https://github"
+      }
+    ],
+    "info": "[chrome-mal-ids] Source: https://github — 13 malicious extension(s) (part 2 of 2)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "ebacc1ee-5a23-5d59-94a1-8a32831b2041": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -636,14 +751,37 @@
         "name": "stage-5a-static-analysis-confirmed-malicious-behavior"
       }
     ],
-    "info": "[chrome-mal-ids] Stage 5A static analysis confirmed malicious behavior — 58 malicious extension(s)",
+    "info": "[chrome-mal-ids] Stage 5A static analysis confirmed malicious behavior — 50 malicious extension(s) (part 1 of 2)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "5a0f4f4c-37a2-123a-9c4c-8f2983597dda": {
+  "c5d06b97-f099-528f-a962-85ae1d478844": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stage-5a-static-analysis-confirmed-malicious-behavior"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stage 5A static analysis confirmed malicious behavior — 8 malicious extension(s) (part 2 of 2)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "a461e2d8-1898-51e3-b883-ee3d886afc1e": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -663,10 +801,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "dc777e4c-c0cb-ad32-19a2-6a3347346259": {
+  "d12b820c-0e1f-5594-9ce2-1052abaa7d0e": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -682,14 +820,520 @@
         "name": "stub-entry-imported-from-malicious_extension_sentry"
       }
     ],
-    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 1149 malicious extension(s)",
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 1 of 23)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "800f30af-710a-e43c-c0de-879078a44207": {
+  "0b9d12ac-cfd8-5ac3-b8d1-f260898d5c3f": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 2 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "f86c8b70-9cde-5a13-a2dc-5199ace7642a": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 3 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "5b9d2dac-b329-5380-9ed4-32e5d2abd6df": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 4 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "c7eb934a-657f-569b-9bf2-7d6b498104b7": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 5 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "52d5244f-dbfe-59aa-9443-7e23dc99a9b5": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 6 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "87f40bc4-1721-5fc0-92cd-93c9a666404d": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 7 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "0e64b4af-7634-5d34-ba51-d2f55b816360": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 8 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "83f54981-56fd-5e3e-9ad5-14ca606cee89": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 9 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "600526ac-3441-516c-8c4e-45355988c420": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 10 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "6db88cc4-589e-53c0-b728-730dd28878b1": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 11 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "0d9910ab-ce10-516f-96a6-a483ce2742d5": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 12 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "08407746-4b22-5c06-846c-05a0a374cd50": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 13 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "a25dbb32-6563-5546-a7c4-8dba0a926dca": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 14 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "f3794f2f-215a-5bca-9b77-d8c635a075a9": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 15 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "fe3e3f5e-b1e5-5643-8025-0cab821f1d46": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 16 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "24882059-4c9c-53b8-bae5-d6a706891e5e": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 17 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "3fe42f87-8d21-585a-b0f3-e387af73c5a4": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 18 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "ca8897f0-fca6-5bf8-9304-0a098a9702d4": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 19 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "1410750b-ab52-54af-89f7-8dde0f320384": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 20 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "8fad3785-f274-51c7-9740-3587008d5b84": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 21 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "43a4ac4b-b2ff-5333-be58-62123b752707": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 50 malicious extension(s) (part 22 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "116c7a5d-f088-55a6-97bb-6d635bfbbbca": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "stub-entry-imported-from-malicious_extension_sentry"
+      }
+    ],
+    "info": "[chrome-mal-ids] Stub entry imported from malicious_extension_sentry — 49 malicious extension(s) (part 23 of 23)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "1",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "d67c082b-d4c9-5c09-a3d8-3b43ed25f6f6": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -709,10 +1353,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "4e4763b0-7cb3-5082-b57e-f263b7357e71": {
+  "0c3469e6-e1d1-591f-9296-99342b575016": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -732,10 +1376,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "fc984428-5926-3a42-b2eb-1bd2e98fe0fb": {
+  "14d81e68-c68b-5dd2-a7b3-6af53e7bdf58": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -755,10 +1399,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "c9030714-a793-333e-b5d1-1fcebeb8a236": {
+  "74a141c9-b58f-5144-b7da-e6644874bf7d": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -774,14 +1418,175 @@
         "name": "unknown-campaign"
       }
     ],
-    "info": "[chrome-mal-ids] Unknown Campaign — 361 malicious extension(s)",
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 1 of 8)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "a0e947ef-a28c-7b18-ced5-8993d191a950": {
+  "f8e63294-ab9f-5e02-bc31-ba132c7ba3a5": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 2 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "46f81c59-2719-5790-907f-997e6611b24f": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 3 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "b778369f-bf05-58fc-a5d6-d42d517dbed3": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 4 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "a93afb4e-f222-5b53-ad39-b63f242bcd86": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 5 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "1de1c28e-c779-5d09-9121-a96969950ff4": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 6 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "77d59413-d0b8-54f6-b0ec-c129eb469070": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 50 malicious extension(s) (part 7 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "34a5060a-9958-501e-8180-3455c9142213": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "unknown-campaign"
+      }
+    ],
+    "info": "[chrome-mal-ids] Unknown Campaign — 11 malicious extension(s) (part 8 of 8)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "4716c901-01a3-58c6-813c-5745f2376069": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -801,10 +1606,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "1",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "5d97debc-889b-212f-cc39-f143f0178986": {
+  "a117ef73-e6aa-55af-be43-9656a6b1c08c": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -824,10 +1629,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "4e19ecf2-d4b5-d7f3-e895-e0200ed64eed": {
+  "0efef94d-623f-5727-b098-9bc8958b844f": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -847,10 +1652,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "2",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "495c0e12-736d-1705-5790-cbf04d6f2357": {
+  "049f01a5-7e01-559b-83e8-3a67738bbbe1": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -870,10 +1675,10 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "2e1db569-50f5-1f0f-e9bf-212b1ac5f27f": {
+  "a5c23b5b-af75-5d16-b2c2-716b5fd6b872": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -889,14 +1694,106 @@
         "name": "“the-reporter-did-not-correlate-the-extid-→-extid-name"
       }
     ],
-    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 231 malicious extension(s)",
+    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 50 malicious extension(s) (part 1 of 5)",
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   },
-  "2916842a-ed32-9e84-c949-d7a7d27d5dc7": {
+  "3c1ef873-b538-5cb1-8658-5212df630067": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "“the-reporter-did-not-correlate-the-extid-→-extid-name"
+      }
+    ],
+    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 50 malicious extension(s) (part 2 of 5)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "a3a5a709-f8bb-5e59-bff9-ff58330cac39": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "“the-reporter-did-not-correlate-the-extid-→-extid-name"
+      }
+    ],
+    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 50 malicious extension(s) (part 3 of 5)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "d2fa1b10-010c-5cfa-b135-f7c7b07dba5d": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "“the-reporter-did-not-correlate-the-extid-→-extid-name"
+      }
+    ],
+    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 50 malicious extension(s) (part 4 of 5)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "02a9a808-5d6c-52a5-b9d9-9388593cd0ae": {
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white"
+      },
+      {
+        "name": "chrome-mal-ids"
+      },
+      {
+        "name": "“the-reporter-did-not-correlate-the-extid-→-extid-name"
+      }
+    ],
+    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 31 malicious extension(s) (part 5 of 5)",
+    "date": "2026-05-29",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "timestamp": "1780088051",
+    "distribution": "3"
+  },
+  "ea98343f-e052-528c-b22c-12ade31dcb4b": {
     "Orgc": {
       "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
       "name": "chrome-mal-ids"
@@ -916,7 +1813,7 @@
     "date": "2026-05-29",
     "analysis": "2",
     "threat_level_id": "3",
-    "timestamp": "1780087448",
+    "timestamp": "1780088051",
     "distribution": "3"
   }
 }

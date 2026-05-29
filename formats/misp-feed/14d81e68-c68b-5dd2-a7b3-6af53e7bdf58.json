@@ -1,0 +1,80 @@
+{
+  "Event": {
+    "uuid": "14d81e68-c68b-5dd2-a7b3-6af53e7bdf58",
+    "info": "[chrome-mal-ids] Unit 42 Feb 2026 AI-accelerated malicious extension campaign — 1 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "3e49b895-ab83-516c-8df9-50f554a1f8b0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/dkhpgbbhlnmjbkihoeniojpkggkabbbl",
+        "comment": "Name: AI Compare - Multi-AI one-click compare &amp; copy results | ⚡ Still active in store | Unit 42 Feb 2026 AI-accelerated malicious extension campaign. Name and specific behavior pending enrichment.",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ee18f96a-4b43-5b67-9593-d99abc442954",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "dkhpgbbhlnmjbkihoeniojpkggkabbbl",
+        "comment": "Chrome/Edge extension ID — AI Compare - Multi-AI one-click compare &amp; copy results",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "997c03e8-872d-5eb0-8f63-fdd407808941",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-02-20-%20AI-Accelerated%20Malicious%20Chrome%20Extension%20Campaigns.txt",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b412d2a4-8c64-5a54-ba5a-61aa608311ff",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

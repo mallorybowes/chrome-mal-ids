@@ -1,0 +1,69 @@
+{
+  "Event": {
+    "uuid": "049f01a5-7e01-559b-83e8-3a67738bbbe1",
+    "info": "[chrome-mal-ids] “The extension was ‘Offered by:  Extensions’ in the Chrome W — 1 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "7ed71fd9-18ab-5792-a3f3-9a9e6d3a8b89",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mabdjppmcjpjploliggpbonahnjjlgkf",
+        "comment": "Name: “Microsoft Authenticator” | “The extension was ‘Offered by:  Extensions’ in the Chrome Web Store and is the easy giveaway.”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c0ef5695-5d70-5d9d-9937-f5091e2aeaad",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mabdjppmcjpjploliggpbonahnjjlgkf",
+        "comment": "Chrome/Edge extension ID — “Microsoft Authenticator”",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d4adf862-ad3d-5425-8bb0-197e22ef8ba5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.ghacks.net/2021/05/18/dont-download-this-microsoft-authenticator-extension-for-chrome-it-is-fake/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

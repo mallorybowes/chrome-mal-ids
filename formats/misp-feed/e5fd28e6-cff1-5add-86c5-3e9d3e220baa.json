@@ -1,0 +1,146 @@
+{
+  "Event": {
+    "uuid": "e5fd28e6-cff1-5add-86c5-3e9d3e220baa",
+    "info": "[chrome-mal-ids] PCVARK malicious ad blocker cluster — 4 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "6b128fea-7a24-5bc4-8605-4472eb385b24",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kacljcbejojnapnmiifgckbafkojcncf",
+        "comment": "Name: Adblock Web (PCVARK) | Threat: adware,data-theft | PCVARK malicious ad blocker cluster. Company known for PUPs/scareware. Extensions collected browsing data without disclosure. 700k+ users each for active ones. BitSafe and Adblocker Unlimited removed ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3a0bd0fb-b664-59e9-a056-17eebfb86b97",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kacljcbejojnapnmiifgckbafkojcncf",
+        "comment": "Chrome/Edge extension ID — Adblock Web (PCVARK)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "722722ee-84b2-57cb-bbe1-24c195bea2c4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jhkhlgaomejplkanglolfpcmfknnomle",
+        "comment": "Name: Ad-Blocker (PCVARK) | Threat: adware,data-theft | ⚡ Still active in store | PCVARK malicious ad blocker cluster. Company known for PUPs/scareware. Extensions collected browsing data without disclosure. 700k+ users each for active ones. BitSafe and Adblocker Unlimited removed ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e766f514-368c-5bd4-843f-9a5e4424a7bf",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jhkhlgaomejplkanglolfpcmfknnomle",
+        "comment": "Chrome/Edge extension ID — Ad-Blocker (PCVARK)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c26fc961-cb62-5dfe-b37b-2344606f171d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nkmooloiipfcknccapehflmampkaniji",
+        "comment": "Name: BitSafe Adblocker (PCVARK) | Threat: adware,data-theft | PCVARK malicious ad blocker cluster. Company known for PUPs/scareware. Extensions collected browsing data without disclosure. 700k+ users each for active ones. BitSafe and Adblocker Unlimited removed ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d64e934e-38cb-5615-ae65-09b20745c2d7",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nkmooloiipfcknccapehflmampkaniji",
+        "comment": "Chrome/Edge extension ID — BitSafe Adblocker (PCVARK)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f4f2b6f0-7d27-5276-b1ee-1dd34199b21d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kgddnoifhgfdhcpbkkjdgokfnkkmdcen",
+        "comment": "Name: Adblocker Unlimited (PCVARK) | Threat: adware,data-theft | PCVARK malicious ad blocker cluster. Company known for PUPs/scareware. Extensions collected browsing data without disclosure. 700k+ users each for active ones. BitSafe and Adblocker Unlimited removed ",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "37a9c41c-51e8-58b9-ab8c-b911c310406b",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kgddnoifhgfdhcpbkkjdgokfnkkmdcen",
+        "comment": "Chrome/Edge extension ID — Adblocker Unlimited (PCVARK)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0340608b-b94d-5c48-965b-edcbf40f7111",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://palant.info/2023/06/05/introducing-pcvark-and-their-malicious-ad-blockers/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "2bc7f372-dd56-5f60-844d-d2569315040c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-75m-installs-removed-from-web-store/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

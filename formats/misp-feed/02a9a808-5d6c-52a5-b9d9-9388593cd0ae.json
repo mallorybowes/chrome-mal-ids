@@ -1,0 +1,729 @@
+{
+  "Event": {
+    "uuid": "02a9a808-5d6c-52a5-b9d9-9388593cd0ae",
+    "info": "[chrome-mal-ids] “The reporter did not correlate the EXTID → EXTID-NAME — 31 malicious extension(s) (part 5 of 5)",
+    "date": "2026-05-29",
+    "threat_level_id": "3",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "1a43dc9b-ab86-50cb-827f-9709a5cc3387",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ehlgimmlmmcocemjadeafmohiplmgmei",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ee3e979d-b6ff-5cf9-b1f2-e1992df10dbd",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ehlgimmlmmcocemjadeafmohiplmgmei",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1b061e24-3b47-520c-bad3-1254b575eb0e",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/epphnioigompfjaknnaokghgcncnjfbe",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cb4a76ce-74c7-5cb1-9f96-95f5ccdb4f05",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "epphnioigompfjaknnaokghgcncnjfbe",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "eaf4a81f-9985-54a6-8cfa-87b69216b300",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gbbpilgcdcmfppjkdociebhmcnbfbmod",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1c7c8e0b-26d0-58ad-9074-657334798a35",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gbbpilgcdcmfppjkdociebhmcnbfbmod",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5df3042b-6bff-54d5-9f08-95bd9d0b9ff4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/glmbceclkhkaebcadgmbcjihllcnpmjh",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6245de2f-f97b-54b7-8534-0bb3f8936af7",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "glmbceclkhkaebcadgmbcjihllcnpmjh",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1cd5be6f-0330-513d-ba1b-e175f98ae879",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gpffceikmehgifkjjginoibpceadefih",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "69e425e8-8e6f-5ffc-b587-85dfa251bc39",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gpffceikmehgifkjjginoibpceadefih",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8add65e8-444c-5a41-a82d-c0352a28e587",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/idnelecdpebmbpnmambnpcjogingdfco",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "52221fed-6f2d-5568-bc03-6a6d0768f766",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "idnelecdpebmbpnmambnpcjogingdfco",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b4677986-28cb-5bf3-a8ad-d5c1018b9fe0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ifceimlckdanenfkfoomccpcpemphlbg",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c7362739-0d27-5159-a12f-0c0b7f17307d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ifceimlckdanenfkfoomccpcpemphlbg",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1ac846da-e438-54d7-a640-fef2c97fcfcb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ifmkfoeijeemajoodjfoagpbejmmnkhm",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ed4e8a18-59e0-57a2-8d83-8c1d7a3c3794",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ifmkfoeijeemajoodjfoagpbejmmnkhm",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d2b1d11b-2211-5ea3-8949-7622411870e4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/igkljanmhbnhedgkmgpkcgpjmociceim",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "64e67ffa-e848-5a5c-9214-ca71ce43f045",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "igkljanmhbnhedgkmgpkcgpjmociceim",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e50a487a-aa13-571c-b5b3-da0f9877c0fc",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ijhakgidfnlallpobldpbhandllbeobg",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "df850f61-d8e1-5d80-ab03-7ca8c139fdf4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ijhakgidfnlallpobldpbhandllbeobg",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "cee840d2-0d6b-591b-a221-8785586e808d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ijohicfhndicpnmkaldafhbecijhdikd",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9480c2b4-7a16-519a-a0b7-ce6c38ebb332",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ijohicfhndicpnmkaldafhbecijhdikd",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "5049d67e-80a0-5b21-a06a-352fda34a833",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jbfponbaiamgjmfpfghcjjhddjdjdpna",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bd2fed0d-625c-5352-9c68-c2b03b87fc40",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jbfponbaiamgjmfpfghcjjhddjdjdpna",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ce53505d-03b0-5ca9-a7b7-0300d2909d31",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jfamimfejiccpbnghhjfcibhkgblmiml",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1fcde372-e00a-5636-9b86-c95387c221e3",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jfamimfejiccpbnghhjfcibhkgblmiml",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "307e79bc-65e9-58bd-95f6-b5a00c79b61f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jlaaidmjgpgfkhehcljmeckhlaibgaol",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9039b63c-a84c-5c89-8b0a-dba86a7d6462",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jlaaidmjgpgfkhehcljmeckhlaibgaol",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "70f4b03d-8e6b-56ac-8521-61ac505e137d",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/kjnmimfgphmcppjhombdhhegpjphpiol",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c36b3409-e64e-5b51-8295-70c9941f2cef",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "kjnmimfgphmcppjhombdhhegpjphpiol",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "4b14b512-9b2c-5e58-8c80-95ef5412bac1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/lfaahmcgahoalphllknbfcckggddoffj",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b131ab9f-2f77-57b8-869c-003545db8b6a",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "lfaahmcgahoalphllknbfcckggddoffj",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "27a5cd35-fa93-52ce-88d3-b4224815132a",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mcbcknmlpfkbpogpnfcimfgdmchchmmg",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "23cf9f5a-13a6-556d-96cb-313d31060026",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mcbcknmlpfkbpogpnfcimfgdmchchmmg",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e2339969-b81d-580d-9d44-03a6d937650b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mciddpldhpdpibckghnaoidpolnmighk",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "04db984c-6198-512f-8403-cd80303449c4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mciddpldhpdpibckghnaoidpolnmighk",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "40c14bc7-ad8d-5126-8115-d30d8e0c987f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mjbimaghobnkobfefccnnnjedoefbafl",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "02fc2643-30fb-5b38-a352-9fdaa0ad4cb9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mjbimaghobnkobfefccnnnjedoefbafl",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f87738c8-ea3d-5a1b-a7e1-096e3c5f64b1",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mnbhnjecaofgddbldmppbbdlokappkgk",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9b074b20-5582-5410-a156-eb9725b5c03d",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mnbhnjecaofgddbldmppbbdlokappkgk",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ae5685b6-7b45-5b21-a07c-c975adeaf7ca",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nicmhgecboifljcnbbjlajbpagmhcclp",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d0e2098f-a9bf-5287-89a2-ebb08613cc36",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nicmhgecboifljcnbbjlajbpagmhcclp",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a2004ad4-a08a-53f8-aa00-78ad9d7d0563",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/njhfmnfcoffkdjbgpannpgifnbgdihkl",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "8970c856-187b-545c-a42c-25b983fb729f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "njhfmnfcoffkdjbgpannpgifnbgdihkl",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dcbe1bbb-717b-54f5-b4db-b7dccf0c2df2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/noilkpnilphojpjaimfcnldblelgllaa",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d694ad21-ec92-5d45-a30f-89925b4e6695",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "noilkpnilphojpjaimfcnldblelgllaa",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c284887e-d7be-5795-a1d8-c7655acbaebb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/obcfoaeoidokjbaokikamaljjlpebofe",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "92020979-dd7f-5ac8-9009-81ee852ec16f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "obcfoaeoidokjbaokikamaljjlpebofe",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "391874e9-4cf0-53ac-8950-a81e4114df3f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/oejafikjmfmejaafjjkoeejjpdfkdkpc",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ca1745e6-af3f-5036-8489-eb192abb91b8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "oejafikjmfmejaafjjkoeejjpdfkdkpc",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0a697940-fcc2-5eb4-b9b4-53a7258feaa4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ogaclpidpghafcnbchgpbigfegdbdikj",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d0699811-f7d5-54fe-9f2e-4bedb805440c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ogaclpidpghafcnbchgpbigfegdbdikj",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "ec49dfc7-eb29-55c5-8224-2f46abdd27d5",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/opmelhjohnmenjibglddlpmbpbocohck",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "99589fc1-1146-5e64-af88-8fe1535f5a22",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "opmelhjohnmenjibglddlpmbpbocohck",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "71cc80a4-9ecd-5df6-94fe-b920b8d0b164",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pbilbjpkfbfbackdcejdmhdfgeldakkn",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a90b215f-7eb4-575e-bbc3-604f13d3d98f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pbilbjpkfbfbackdcejdmhdfgeldakkn",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f70cb82e-0ecd-5b7d-9f7e-43b05a636e4f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pcmdfnnipgpilomfclbnjpbdnmbcgjaf",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "37cdb7e4-4000-58d4-846e-17d946832472",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pcmdfnnipgpilomfclbnjpbdnmbcgjaf",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "1b569f7e-2273-5ce0-a729-e9ed0c866694",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/pedokobimilhjemibclahcelgedmkgei",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "eaf36acc-9bc6-548d-8858-e1df351df326",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "pedokobimilhjemibclahcelgedmkgei",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "67a85747-f2d6-5b92-abd2-3fecdf28c0cc",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/plnlhldekkpgnngfdbdhocnjfplgnekg",
+        "comment": "“The reporter did not correlate the EXTID → EXTID-NAME.  Have to check their post to confirm EXTID-NAME”",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "fc0f41d0-7371-5b6b-8b5e-167546276bc2",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "plnlhldekkpgnngfdbdhocnjfplgnekg",
+        "comment": "Chrome/Edge extension ID — name unknown",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "dfb3c420-165f-5673-a63d-4238b9d98c33",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://medium.com/mycrypto/discovering-fake-browser-extensions-that-target-users-of-ledger-trezor-mew-metamask-and-more-e281a2b80ff9",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

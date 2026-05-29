@@ -1,0 +1,80 @@
+{
+  "Event": {
+    "uuid": "fef5a409-1213-569b-87c1-03888ef92e05",
+    "info": "[chrome-mal-ids] Dormant Colors campaign — 1 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "bbc8514e-f12e-5c30-9c7f-54f73b6503c9",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/adpffjpbhgiofmjffgcnohaielbeekfk",
+        "comment": "Name: styleflex (Dormant Colors campaign) | Threat: adware,click-fraud,malvertising | Dormant Colors campaign (Guardio Labs). 30 color-themed extensions side-loaded malicious code post-install. Hijacked search results, injected affiliate links to 10,000+ sites. 1M+ installs combined. T",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "6d1dc2de-5fcd-5cca-be4d-0f7f255ff534",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "adpffjpbhgiofmjffgcnohaielbeekfk",
+        "comment": "Chrome/Edge extension ID — styleflex (Dormant Colors campaign)",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9187100e-9ec4-546e-89d7-84894ac37891",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://guard.io/labs/dormant-colors-live-campaign-with-over-1m-data-stealing-extensions-installed",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "842b8b2e-af76-5497-8b73-4451e2383d2c",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-1-million-installs-hijack-targets-browsers/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}

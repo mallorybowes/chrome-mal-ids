@@ -1,0 +1,410 @@
+{
+  "Event": {
+    "uuid": "71d2345f-aa68-52cf-9551-19f4a7a4ad1b",
+    "info": "[chrome-mal-ids] GitLab TamperedChef campaign — 16 malicious extension(s)",
+    "date": "2026-05-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "3",
+    "published": true,
+    "timestamp": "1780088051",
+    "Org": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Orgc": {
+      "uuid": "5e2e6e1a-4f8c-4b2a-9c1d-3a7f8e9b0c2d",
+      "name": "chrome-mal-ids"
+    },
+    "Tag": [
+      {
+        "name": "tlp:white",
+        "colour": "#ffffff"
+      },
+      {
+        "name": "chrome-mal-ids",
+        "colour": "#c41e35"
+      },
+      {
+        "name": "malicious-extension",
+        "colour": "#8b0000"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "2273bc40-e1b7-5ec8-bd92-092e2dbb5ff2",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/mdaboflcmhejfihjcbmdiebgfchigjcf",
+        "comment": "Name: Blipshot: one click full page screenshots | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a6bd597c-3692-520b-b21e-2b4aefbd4e7c",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "mdaboflcmhejfihjcbmdiebgfchigjcf",
+        "comment": "Chrome/Edge extension ID — Blipshot: one click full page screenshots",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "37c7f047-48d7-5602-8982-c32556b980e3",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gaoflciahikhligngeccdecgfjngejlh",
+        "comment": "Name: Emojis - Emoji Keyboard | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c3e2e2d2-11be-5a5d-98e6-eade00924246",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gaoflciahikhligngeccdecgfjngejlh",
+        "comment": "Chrome/Edge extension ID — Emojis - Emoji Keyboard",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "41aa3806-dcbd-54ec-ac3a-df4c728c805f",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fedimamkpgiemhacbdhkkaihgofncola",
+        "comment": "Name: WAToolkit | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3a300310-4c11-5c5e-876e-26aa87cd0073",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fedimamkpgiemhacbdhkkaihgofncola",
+        "comment": "Chrome/Edge extension ID — WAToolkit",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e84a4793-81fc-5fe7-b9ff-c423851617af",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jlhgcomgldfapimdboelilfcipigkgik",
+        "comment": "Name: Color Changer for YouTube | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a5408bc9-b8e6-5cb7-bf40-ac93a1e7cf49",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jlhgcomgldfapimdboelilfcipigkgik",
+        "comment": "Chrome/Edge extension ID — Color Changer for YouTube",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f2b2020c-bf21-5a51-9f1c-5fbffe3108cb",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/jdjldbengpgdcfkljfdmakdgmfpneldd",
+        "comment": "Name: Video Effects for YouTube And Audio Enhancer | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "3d3a8b73-5746-5e72-b609-9b4c0f6888a8",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "jdjldbengpgdcfkljfdmakdgmfpneldd",
+        "comment": "Chrome/Edge extension ID — Video Effects for YouTube And Audio Enhancer",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "39d1900d-6183-5b80-9f52-21a7257b8416",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/deljjimclpnhngmikaiiodgggdniaooh",
+        "comment": "Name: Themes for Chrome and YouTube Picture in Picture | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "9b789607-d0be-53a5-879a-5e3e6a37a1af",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "deljjimclpnhngmikaiiodgggdniaooh",
+        "comment": "Chrome/Edge extension ID — Themes for Chrome and YouTube Picture in Picture",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "c9431e0f-a66f-530a-83be-0fd6dba12658",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/giaoehhefkmchjbbdnahgeppblbdejmj",
+        "comment": "Name: Mike Adblock fuer Chrome | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b4ea5789-5f10-5ea9-8878-19c60252a528",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "giaoehhefkmchjbbdnahgeppblbdejmj",
+        "comment": "Chrome/Edge extension ID — Mike Adblock fuer Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e5d1519d-29bf-55f9-83b4-75f607f9f8da",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/hmooaemjmediafeacjplpbpenjnpcneg",
+        "comment": "Name: Page Refresh | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "0ffbdb64-6904-5cc3-8bcd-e30f33f9f155",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "hmooaemjmediafeacjplpbpenjnpcneg",
+        "comment": "Chrome/Edge extension ID — Page Refresh",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "05002fd8-ed60-56c2-9b09-98b4af476033",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/acbiaofoeebeinacmcknopaikmecdehl",
+        "comment": "Name: Wistia Video Downloader | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "f3c00285-e5f6-506e-9597-2641a6c252e4",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "acbiaofoeebeinacmcknopaikmecdehl",
+        "comment": "Chrome/Edge extension ID — Wistia Video Downloader",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "56580428-bf82-57db-922c-c7d1be8481d0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/nlgphodeccebbcnkgmokeegopgpnjfkc",
+        "comment": "Name: Super dark mode | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "bdec2445-3e6a-5d12-b2b0-9f3fa4e5dfee",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "nlgphodeccebbcnkgmokeegopgpnjfkc",
+        "comment": "Chrome/Edge extension ID — Super dark mode",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d94b4b07-6a31-5300-a913-6c206f8c8285",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/fbcgkphadgmbalmlklhbdagcicajenei",
+        "comment": "Name: Emoji keyboard emojis for chrome | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d705b161-5090-5c96-ab45-87364b20b49f",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "fbcgkphadgmbalmlklhbdagcicajenei",
+        "comment": "Chrome/Edge extension ID — Emoji keyboard emojis for chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "02ad3148-f85a-572b-af4b-9a8f24bd6e4b",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/alplpnakfeabeiebipdmaenpmbgknjce",
+        "comment": "Name: Adblocker for Chrome - NoAds | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "12a88a05-2689-5494-954e-d2129c37ad77",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "alplpnakfeabeiebipdmaenpmbgknjce",
+        "comment": "Chrome/Edge extension ID — Adblocker for Chrome - NoAds",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "77c2e0cc-7b66-55ea-a7bb-693d7655c6da",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/ogcaehilgakehloljjmajoempaflmdci",
+        "comment": "Name: Adblock for You | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "7630642c-4678-5593-b60d-4c7bbcecd9dd",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "ogcaehilgakehloljjmajoempaflmdci",
+        "comment": "Chrome/Edge extension ID — Adblock for You",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "e327c4b5-03d9-540a-b18b-e5682cfc7bc4",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/onomjaelhagjjojbkcafidnepbfkpnee",
+        "comment": "Name: Adblock for Chrome | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "92bc96c2-40b1-5f0d-b497-d778d8dbd6b9",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "onomjaelhagjjojbkcafidnepbfkpnee",
+        "comment": "Chrome/Edge extension ID — Adblock for Chrome",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b1a0ffeb-76da-553d-8a04-54628c8b0ff0",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/bpconcjcammlapcogcnnelfmaeghhagj",
+        "comment": "Name: Nimble Capture | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "b63a5170-6038-501e-b6ec-92101e389cc1",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "bpconcjcammlapcogcnnelfmaeghhagj",
+        "comment": "Chrome/Edge extension ID — Nimble Capture",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "a61713e0-4137-51fa-a9dc-58b6454bb800",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://chromewebstore.google.com/detail/gdocgbfmddcfnlnpmnghmjicjognhonm",
+        "comment": "Name: KProxy | Threat: adware,click-fraud,ownership-transfer | GitLab TamperedChef campaign. Threat actor assessed to have PURCHASED extensions from developers (ownership-transfer vector). Stripped CSP headers from first 2000 sites per session. Facilitated ad/SEO",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d66870b7-c726-560e-9feb-a863ad934089",
+        "type": "text",
+        "category": "Payload delivery",
+        "value": "gdocgbfmddcfnlnpmnghmjicjognhonm",
+        "comment": "Chrome/Edge extension ID — KProxy",
+        "to_ids": true,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "28a6d305-6fe9-5f16-a9cf-6567d5d018a7",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://cybersecuritynews.com/16-malicious-chrome-extensions/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      },
+      {
+        "uuid": "d68eb20e-3207-5521-8fea-2c96731e56cf",
+        "type": "url",
+        "category": "External analysis",
+        "value": "https://gitlab-com.gitlab.io/gl-security/security-tech-notes/threat-intelligence-tech-notes/malicious-browser-extensions-feb-2025/",
+        "comment": "Research source / article",
+        "to_ids": false,
+        "distribution": 5,
+        "timestamp": "1780088051",
+        "disable_correlation": false
+      }
+    ]
+  }
+}
