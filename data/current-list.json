@@ -2,8 +2,8 @@
   "meta": {
     "name": "Malicious Chrome Extension IOC Database",
     "url": "https://github.com/mallorybowes/chrome-mal-ids",
-    "generated": "2026-05-28T07:13:46.090500+00:00",
-    "total": 2525,
+    "generated": "2026-05-29T21:57:46.079261+00:00",
+    "total": 2532,
     "license": "CC BY 4.0",
     "attribution": "Data sourced from Malicious Chrome Extension IOC Database — https://github.com/mallorybowes/chrome-mal-ids"
   },
@@ -3771,6 +3771,16 @@
       "store_url": "https://chromewebstore.google.com/detail/caeneogdipddninidgnoamjaglmmlmoo"
     },
     {
+      "ext_id": "caeppcjbpjohbcpcpohjicfdcaglgabf",
+      "name": "Catch Cat Super Game",
+      "browser": "chrome",
+      "date_discovered": "2026-04-12",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/caeppcjbpjohbcpcpohjicfdcaglgabf"
+    },
+    {
       "ext_id": "cafbjepckpmnmlliiheacibehokblihc",
       "browser": "chrome",
       "date_added": "2026-05-18",
@@ -6547,6 +6557,16 @@
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
       "notes": "Stub entry imported from malicious_extension_sentry (MIT license). Source: https://github.com/toborrm9/malicious_extension_sentry — Name, campaign, threat type and date pending enrichment.",
       "store_url": "https://chromewebstore.google.com/detail/dhekojmaelacgbmbhfibfgaeinmfmaej"
+    },
+    {
+      "ext_id": "dhfpejbmiipgjeghceccgkamnmpkmign",
+      "name": "Tab Clear",
+      "browser": "chrome",
+      "date_discovered": "2026-05-29",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/dhfpejbmiipgjeghceccgkamnmpkmign"
     },
     {
       "ext_id": "dhgmdjkeagnhamkedcejighocjkkijli",
@@ -13461,6 +13481,16 @@
       "store_url": "https://chromewebstore.google.com/detail/gollbfedpcfodjgfjddbkfnkkfdedknn"
     },
     {
+      "ext_id": "gololdhijpcaicpllcjmlcfdhjfclolh",
+      "name": "Chat Gpt Translation",
+      "browser": "chrome",
+      "date_discovered": "2026-05-29",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/gololdhijpcaicpllcjmlcfdhjfclolh"
+    },
+    {
       "ext_id": "googojfbnbhbbnpfpdnffnklipgifngn",
       "browser": "chrome",
       "date_added": "2026-05-18",
@@ -14180,6 +14210,16 @@
       "article": "https://github.com/chartingshow/crypto-firewall/issues/1554",
       "notes": "Source: https://github.com/chartingshow/crypto-firewall/issues/1554 — metadata pending",
       "store_url": "https://chromewebstore.google.com/detail/heljkmdknlfhiecpknceodpbokeipigo"
+    },
+    {
+      "ext_id": "hemccdpfndbjdbheddegacchifgolnpg",
+      "name": "懒人自助托管",
+      "browser": "chrome",
+      "date_discovered": "2026-05-29",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/hemccdpfndbjdbheddegacchifgolnpg"
     },
     {
       "ext_id": "hfdpdgblphooommgcjdnnmhpglleaafj",
@@ -18424,6 +18464,16 @@
       "store_url": "https://chromewebstore.google.com/detail/jmbmildjdmppofnohldicmnkojfhggmb"
     },
     {
+      "ext_id": "jminnpalmlnicgodjhgijindkijibiil",
+      "name": "CốC CốC Search",
+      "browser": "chrome",
+      "date_discovered": "2026-04-21",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/jminnpalmlnicgodjhgijindkijibiil"
+    },
+    {
       "ext_id": "jmklaacdggogjblaiofpikjjhblhicop",
       "browser": "chrome",
       "date_added": "2026-05-18",
@@ -19999,6 +20049,16 @@
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
       "notes": "Stub entry imported from malicious_extension_sentry (MIT license). Source: https://github.com/toborrm9/malicious_extension_sentry — Name, campaign, threat type and date pending enrichment.",
       "store_url": "https://chromewebstore.google.com/detail/klopidoappccnidjpdnihpdecdkhafll"
+    },
+    {
+      "ext_id": "kmdlofehocppnlkpokdbiaalcelhedef",
+      "name": "Shortcut Assistant",
+      "browser": "chrome",
+      "date_discovered": "2026-05-29",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/kmdlofehocppnlkpokdbiaalcelhedef"
     },
     {
       "ext_id": "kmfiklhdkhidbmofjbgmpeaogglkndpe",
@@ -27965,6 +28025,16 @@
       "article": "https://github.com/toborrm9/malicious_extension_sentry",
       "notes": "Stub entry imported from malicious_extension_sentry (MIT license). Source: https://github.com/toborrm9/malicious_extension_sentry — Name, campaign, threat type and date pending enrichment.",
       "store_url": "https://chromewebstore.google.com/detail/onobgadjpjdkmghdbigpafcndbndjemj"
+    },
+    {
+      "ext_id": "onomhajljlbeneekipoigcehjngdajec",
+      "name": "Gitlab Diff Collapse All",
+      "browser": "chrome",
+      "date_discovered": "2026-05-29",
+      "date_added": "2026-05-29",
+      "source": "https://github.com/toborrm9/malicious_extension_sentry/commit/28c7149b9a406181aaa4f5921d6363318fcd5e27",
+      "notes": "Stub entry imported from toborrm9/malicious_extension_sentry. Source: Store Monitoring. Reason: Policy Violation.",
+      "store_url": "https://chromewebstore.google.com/detail/onomhajljlbeneekipoigcehjngdajec"
     },
     {
       "ext_id": "onomjaelhagjjojbkcafidnepbfkpnee",

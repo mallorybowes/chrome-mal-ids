@@ -1,7 +1,7 @@
 # Malicious Chrome Extension IOC Database
 # https://github.com/mallorybowes/chrome-mal-ids
-# Generated: 2026-05-28 07:13 UTC
-# Total: 2525 extension IDs
+# Generated: 2026-05-29 21:57 UTC
+# Total: 2532 extension IDs
 # License: CC BY 4.0 — attribution required for commercial use
 # Format: one Chrome/Edge extension ID per line (32 lowercase a-p chars)
 #
@@ -320,6 +320,7 @@ cackjmmgcmnkjnffabkabapdkofggpjl  # Gloss
 cadamhedkeaockcdjhgnhganjplekkae
 cadilgfilcmlmbekleigjmfhfkoceooo  # Adobe Lightroom (fake, variant 2) [phishing]
 caeneogdipddninidgnoamjaglmmlmoo  # Dandadan Cursor ★ Custom Cursor for Chrome™ [adware]
+caeppcjbpjohbcpcpohjicfdcaglgabf  # Catch Cat Super Game
 cafbjepckpmnmlliiheacibehokblihc
 cafffncdbdopajhdpnfpohbneabfmjef  # CapCut professional video editor (fake) [phishing]
 cahdpfhnokmnnjhoaoliabdbcbbokmgc  # DarkSpectre ShadyPanda expansion / Zoom Stealer (name unconfirmed) [spyware]
@@ -545,6 +546,7 @@ dhapijjokghecaageelopfpddbkbnokj
 dhbhgfiodedkhgocailljbhcfjhplibb  # "Super Cars Wallpaper HD Custom New Tab"
 dhcnonhheahlocjbbpkbammanpenpfop  # "Naruto Wallpaper HD Custom New Tab"
 dhekojmaelacgbmbhfibfgaeinmfmaej
+dhfpejbmiipgjeghceccgkamnmpkmign  # Tab Clear
 dhgmdjkeagnhamkedcejighocjkkijli  # "Cats & Dogs Wallpapers & Cats & Dogs Games"
 dhhmopcmpiadcgchhhldcpoeppcofdic
 dhjmmcjnajkpnbnbpagglbbfpbacoffm
@@ -1108,6 +1110,7 @@ goikoilmhcgfidolicnbgggdpckdcoam  # Amazon Character Count &amp; Seller Tools
 gokcmhknbfbkchaljcbjloaebnoblcnd
 golbngjhpfdobdopaebpdofbmhghfkpm
 gollbfedpcfodjgfjddbkfnkkfdedknn  # Master Engage [adware]
+gololdhijpcaicpllcjmlcfdhjfclolh  # Chat Gpt Translation
 googojfbnbhbbnpfpdnffnklipgifngn
 gpaaalbnkccgmmbkendiciheljgpdhob
 gpacldldkpfobgbdabaollodfoilfela  # Pokemon Cursor ★ Custom Cursor for Chrome™ [adware]
@@ -1170,6 +1173,7 @@ heehbfcijoikjphilbhaldjgoplpplok
 hegneaniplmfjcmohoclabblbahcbjoe  # Video Ad Blocker Plus
 hegpgapbnfiibpbkanjemgmdpmmlecbc
 heljkmdknlfhiecpknceodpbokeipigo
+hemccdpfndbjdbheddegacchifgolnpg  # 懒人自助托管
 hfdpdgblphooommgcjdnnmhpglleaafj
 hfeialplaojonefabmojhobdmghnjkmf
 hffnjemmnepkggdecfbgmfbmncponjco
@@ -1519,6 +1523,7 @@ jlolcgbicggpnaaljnflepfmnaaceeln
 jlpchojjamcikhgmedobmfodcefjmccn
 jmbegcegjknachdgnichfcnjilebcojn
 jmbmildjdmppofnohldicmnkojfhggmb
+jminnpalmlnicgodjhgijindkijibiil  # CốC CốC Search
 jmklaacdggogjblaiofpikjjhblhicop
 jmlbnlcodmikhdpbjjdemgaebjgmpooa  # "Hetalia Backgrounds HD Tab"
 jmlgkeaofknfmnbpmlmadnfnfajdlehn  # AliExpress Deals Countdown - Flash Sale Timer
@@ -1656,6 +1661,7 @@ kljbaedmklfnlgfmmbodnckafhllkjnd
 klmjcelobglnhnbfpmlbgnoeippfhhil  # “Stylebot”
 klnndcfpflikaeipgimmbhjhhhcegpoi
 klopidoappccnidjpdnihpdecdkhafll
+kmdlofehocppnlkpokdbiaalcelhedef  # Shortcut Assistant
 kmfiklhdkhidbmofjbgmpeaogglkndpe  # "Super Junior Wallpapers & Super Junior Games"
 kmiidcaojgeepjlccoalkdimgpfnbagj  # Tanks Game [credential-theft]
 kmipafdabbpmampkcconideakdacmaln  # BootComp [adware]
@@ -2312,6 +2318,7 @@ onkmeilaaocjinfdpkdlpmfhjekaahed
 onlofoccaenllpjmalbnilfacjmcfhfk
 onnmfhejbikffoenamcfglpjnmmbkdeg  # "Daredevil Wallpaper HD Custom New Tab"
 onobgadjpjdkmghdbigpafcndbndjemj
+onomhajljlbeneekipoigcehjngdajec  # Gitlab Diff Collapse All
 onomjaelhagjjojbkcafidnepbfkpnee  # Adblock for Chrome [adware]
 oobppndjaabcidladjeehddkgkccfcpn  # “Y2mate”
 oodhphlpepgoccemjgpedagbpfelcpdl  # Hunter x Hunter Cursor ★ Custom Cursor for Chrome™ [adware]

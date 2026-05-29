@@ -1,6 +1,6 @@
 # Malicious Chrome Extension IOC Database — Statistics
 
-> Auto-generated 2026-05-28 07:13 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
+> Auto-generated 2026-05-29 21:57 UTC · [Full list](https://github.com/mallorybowes/chrome-mal-ids)
 
 ---
 
@@ -8,13 +8,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Total malicious extensions | **2,525** |
-| Unique campaigns | **40** |
+| Total malicious extensions | **2,532** |
+| Unique campaigns | **41** |
 | Still active in store | **508** |
 | Ownership transfer cases | **34** |
 | Stubs (ID confirmed, metadata pending) | **1,360** |
 | Earliest discovery | **2017-08-17** |
-| Most recent discovery | **2026-04-13** |
+| Most recent discovery | **2026-05-29** |
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Browser | Extensions |
 |---------|-----------|
-| Chrome | 2,490 (98.6%) |
+| Chrome | 2,497 (98.6%) |
 | Edge | 22 (0.9%) |
 | Both | 13 (0.5%) |
 
@@ -32,8 +32,8 @@
 
 | Threat Type | Extensions |
 |-------------|-----------|
-| unknown | 1,896 (75.1%) |
-| adware | 424 (16.8%) |
+| unknown | 1,903 (75.2%) |
+| adware | 424 (16.7%) |
 | data-theft | 372 (14.7%) |
 | spyware | 247 (9.8%) |
 | click-fraud | 233 (9.2%) |
@@ -50,7 +50,7 @@
 
 ## Campaigns
 
-A total of **40** distinct campaigns are tracked.
+A total of **41** distinct campaigns are tracked.
 
 | Campaign | Extensions |
 |----------|-----------|
@@ -79,6 +79,7 @@ A total of **40** distinct campaigns are tracked.
 | Krebs/Nguyen May 2021 fake brand extension network | 11 |
 | adindex ad fraud campaign (Palant Feb 2025) | 10 |
 | RedDirection / Koi Security Jul 2025 campaign | 8 |
+| Stub entry imported from toborrm9/malicious_extension_sentry | 7 |
 | ShadyPanda Phase 3 RCE backdoor | 5 |
 | McAfee affiliate fraud campaign | 4 |
 | PCVARK malicious ad blocker cluster | 4 |
@@ -123,8 +124,9 @@ The following sources are monitored daily for new malicious extension reports:
 | [palant/malicious-extensions-list commits](https://api.github.com/repos/palant/malicious-extensions-list) | commits |
 | [chartingshow/crypto-firewall new issues](https://api.github.com/repos/chartingshow/crypto-firewall) | issues |
 | [axon-git/rapid-response commits](https://api.github.com/repos/axon-git/rapid-response) | commits |
+| [toborrm9/malicious_extension_sentry commits](https://api.github.com/repos/toborrm9/malicious_extension_sentry) | commits |
 
-*10 RSS feeds · 3 GitHub repos · edit via the review UI Sources tab*
+*10 RSS feeds · 4 GitHub repos · edit via the review UI Sources tab*
 
 ---
 
