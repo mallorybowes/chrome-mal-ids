@@ -3,7 +3,7 @@
 
 **Classification:** Public  
 **Date:** May 2026  
-**Authors:** The Privacy Commons Institute (tpc.institute)  
+**Authors:** Mallory Bowes Brown, Principal Researcher, The Privacy Commons Institute (tpc.institute)  
 **Status:** Stages 1–5A complete and operational; Stage 5B planned
 
 ---
