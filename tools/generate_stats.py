@@ -22,7 +22,7 @@ _locations  = [
 ]
 _repo_csv   = next((p for p in _locations if p.exists()), _locations[0])
 DEFAULT_CSV = _repo_csv
-DEFAULT_OUT = SCRIPT_DIR.parent / "STATS.md"
+DEFAULT_OUT = SCRIPT_DIR / "STATS.md"
 PROJECT_URL = "https://github.com/The-Privacy-Commons-Institute/chrome-mal-ids"
 
 
@@ -75,10 +75,8 @@ def extract_campaign(notes: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv",     type=Path, default=DEFAULT_CSV)
-    parser.add_argument("--out",     type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--dry-run", action="store_true",
-                        help="Show what would be written without writing files")
+    parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
+    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     args = parser.parse_args()
 
     rows = load_csv(args.csv)
@@ -91,7 +89,6 @@ def main():
     still_active    = 0
     ownership_xfer  = 0
     stubs           = 0  # UNKNOWN name
-    unverified      = 0  # TPCI-VERIFY unset or 0
     dates           = []
 
     for row in rows:
@@ -117,9 +114,6 @@ def main():
             ownership_xfer += 1
         if row.get("EXTID-NAME", "").strip().upper() == "UNKNOWN":
             stubs += 1
-        tpci = row.get("TPCI-VERIFY", "").strip()
-        if not tpci or tpci == "0":
-            unverified += 1
 
         # Dates
         d = row.get("DATE-DIS", "").strip()
@@ -151,10 +145,11 @@ def main():
         f"|--------|-------|",
         f"| Total malicious extensions | **{total:,}** |",
         f"| Unique campaigns | **{len(campaigns):,}** |",
-        f"| Still active in store | **{still_active:,}** |",
+        # NOTE: "Still active in store" count suppressed — under embargo until June 30 2026.
+        # Paper 1 ("Still There") is under 30-day coordinated disclosure with Google.
+        # Restore after publication:  f"| Still active in store | **{still_active:,}** |",
         f"| Ownership transfer cases | **{ownership_xfer:,}** |",
-        f"| Unverified entries (TPCI-VERIFY unset) | **{unverified:,}** |",
-        f"| Unnamed entries (EXTID-NAME unknown) | **{stubs:,}** |",
+        f"| Stubs (ID confirmed, metadata pending) | **{stubs:,}** |",
         f"| Earliest discovery | **{oldest}** |",
         f"| Most recent discovery | **{newest}** |",
         "",
@@ -257,15 +252,8 @@ def main():
         "",
     ]
 
-    if args.dry_run:
-        print(f"[DRY RUN] STATS.md would be written → {total:,} extensions, {len(campaigns):,} campaigns")
-        print(f"[DRY RUN] Output path: {args.out}")
-        print(f"[DRY RUN] First 20 lines preview:")
-        for line in lines[:20]:
-            print(f"  {line}")
-    else:
-        args.out.write_text("\n".join(lines), encoding="utf-8")
-        print(f"✓ STATS.md written → {total:,} extensions, {len(campaigns):,} campaigns")
+    args.out.write_text("\n".join(lines), encoding="utf-8")
+    print(f"✓ STATS.md written → {total:,} extensions, {len(campaigns):,} campaigns")
 
 
 if __name__ == "__main__":

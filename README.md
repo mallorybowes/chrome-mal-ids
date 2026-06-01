@@ -11,7 +11,7 @@
 
 > **⚠ Delta import verification in progress** — 1,535 entries sourced from a third-party delta import (`CONTRIB-METHOD=Delta_Import`) have undergone Stage 5A static analysis. 300 entries have been upgraded with campaign attribution and `TPCI-VERIFY=1` following confirmed behavioral evidence. 32 entries were found to be likely false positives and are excluded from distribution outputs. Verification is ongoing. See [Data Quality](#data-quality) and [CHANGELOG.md](CHANGELOG.md).
 
-> **🔬 Research forthcoming** — The Privacy Commons Institute is conducting original research on this dataset examining malicious extension persistence, removal rates following public disclosure, IOC database quality, and supply chain attack remediation patterns. Entries are being updated as research progresses. A paper documenting full methodology and findings is forthcoming at [tpc.institute](https://tpc.institute). Changes are tracked in [CHANGELOG.md](CHANGELOG.md). Consumers of this database may notice attribution, threat type, and verification fields being updated between releases — this reflects active research, not data instability.
+> **🔬 Research forthcoming** — The Privacy Commons Institute is conducting original research on this dataset examining malicious extension persistence, removal rates following public disclosure, IOC database quality, and supply chain attack remediation patterns. The first paper, *Still There*, is currently under a 30-day coordinated disclosure embargo with Google and is scheduled for publication on **June 30, 2026** at [tpc.institute](https://tpc.institute). Methodology and findings will be released at that time. Entries are being updated as research progresses; changes are tracked in [CHANGELOG.md](CHANGELOG.md). Consumers of this database may notice attribution, threat type, and verification fields being updated between releases — this reflects active research, not data instability.
 
 ---
 
@@ -267,7 +267,6 @@ if match:
 - **30+ campaigns** covered
 - **Chrome and Edge** extensions
 - **2020 – present** date range
-- **~21%** confirmed still active in Chrome Web Store (TPCI-V verified, May 2026)
 - Threat types include: spyware, data-theft, browser-hijack, credential-theft,
   click-fraud, session-hijack, cryptojacking, adware, ai-chat-scraper
 
@@ -285,12 +284,6 @@ All entries in this database are subject to ongoing verification using the
 | Stage 3 | Headless browser store verification | `TPCI-VERIFY`, `STILL-ACTIVE` |
 | Stage 4 | Identity continuity check | `TPCI-IDENTITY`, `TPCI-STORE-NAME` |
 | Stage 5 | Behavioral analysis (planned) | `TPCI-BEHAVIORAL` (future) |
-
-**Key findings from May 2026 verification sweep (2,525 entries):**
-- ~21% confirmed active in Chrome Web Store (Chrome serving update packages)
-- ~79% confirmed removed from store
-- 99.6% of ambiguous CRX API responses resolved as removed by Stage 3
-- Several extensions confirmed as remediated supply chain victims (`TPCI-IDENTITY=remediated`)
 
 Full methodology: [tpc.institute](https://tpc.institute)
 
